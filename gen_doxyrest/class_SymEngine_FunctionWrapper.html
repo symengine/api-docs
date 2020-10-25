@@ -1,1601 +1,170 @@
-
 <!DOCTYPE html>
-
-<html>
+<html >
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>class SymEngine::FunctionWrapper &#8212; Symengine API  documentation</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>class SymEngine::FunctionWrapper</title>
     
-  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
-
-    
-  <link rel="stylesheet"
-    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
-
-    
+      <link rel="stylesheet" href="../_static/pygments.css"/>
+      <link rel="stylesheet" href="../_static/theme-light.css"/>
+      <link rel="stylesheet" media="(prefers-contrast: high)" href="../_static/theme-light-hc.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="../_static/theme-dark.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: high)" href="../_static/theme-dark-hc.css"/>
       
-  <link rel="stylesheet"
-    href="../_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+        <link rel="stylesheet" media="print" href="../_static/theme-print.css"/>
+      
+      
+          <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/doxyrest-pygments.css" type="text/css" />
+      
+        
+        <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        
 
+        <!-- sphinx script_files -->
+          <script src="../_static/jquery.js"></script>
+          <script src="../_static/underscore.js"></script>
+          <script src="../_static/doctools.js"></script>
+          <script src="../_static/language_data.js"></script>
+          <script src="../_static/togglebutton.js"></script>
+          <script src="../_static/clipboard.min.js"></script>
+          <script src="../_static/copybutton.js"></script>
+          <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+          <script src="../_static/target-highlight.js"></script>
+          <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+          <script type="text/x-mathjax-config">MathJax.Hub.Config({"extensions": ["tex2jax.js"], "jax": ["input/TeX", "output/HTML-CSS"], "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+
+        <script src="../_static/sphinx_nervproject_theme.js" defer></script>
+      
     
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.bfb7730f9caf2ec0b46a44615585038c.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/doxyrest-pygments.css" />
-    
-  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
-
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
-    <script src="../_static/togglebutton.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/target-highlight.js"></script>
-    <script src="../_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"extensions": ["tex2jax.js"], "jax": ["input/TeX", "output/HTML-CSS"], "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="class SymEngine::GaloisField" href="class_SymEngine_GaloisField.html" />
-    <link rel="prev" title="class SymEngine::FunctionSymbol" href="class_SymEngine_FunctionSymbol.html" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
-
-
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+   
+  
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-    
 
-    <div class="container-xl">
-      <div class="row">
-          
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="../index.html">
-  
-  
-  <h1 class="site-logo" id="site-title">Symengine API  documentation</h1>
-  
-</a>
-</div>
+  <body>
+    <div id="app" class="theme-container"><header class="navbar">
+    <div id="header-identity" class="print-only">
+        <img id="navbar_logo" src="../_static/"/>
+        <div id="navbar_title">Symengine API</div>
+    </div>
 
-<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
-</form>
+  
+  <button class="sidebar-button">
+      <svg id="sidebar-button-svg" role="img" aria-labelledby="sidebar-button_label" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="sidebar-button_label">
+              Toggle sidebar
+          </title>
+          <use xlink:href="../_static/fa/solid.svg#bars"></use>
+      </svg>
+  </button>
 
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  <p class="caption">
- <span class="caption-text">
-  General index
- </span>
-</p>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active">
-  <a class="reference internal" href="global.html">
-   Global Namespace
+  <a href="../index.html" class="home-link">
+      <span class="site-name">Symengine API</span>
   </a>
-  <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="reference internal" href="namespace_SymEngine.html">
-     namespace SymEngine
-    </a>
-    <ul class="current">
-     <li class="toctree-l3">
-      <a class="reference internal" href="namespace_SymEngine_detail.html">
-       namespace SymEngine::detail
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="namespace_SymEngine_literals.html">
-       namespace SymEngine::literals
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="enum_SymEngine_EvalfDomain.html">
-       enum SymEngine::EvalfDomain
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="enum_SymEngine_TypeID.html">
-       enum SymEngine::TypeID
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="enum_SymEngine_tribool.html">
-       enum SymEngine::tribool
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_RCPBasicHash.html">
-       struct SymEngine::RCPBasicHash
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_RCPBasicKeyEq.html">
-       struct SymEngine::RCPBasicKeyEq
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_RCPBasicKeyLess.html">
-       struct SymEngine::RCPBasicKeyLess
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_RCPIntegerKeyLess.html">
-       struct SymEngine::RCPIntegerKeyLess
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_is_base_of_multiple.html">
-       template struct SymEngine::is_base_of_multiple
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_is_base_of_multiple-2.html">
-       template struct SymEngine::is_base_of_multiple&lt;Derived, First&gt;
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_remove_reference.html">
-       template struct SymEngine::remove_reference
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_remove_reference-2.html">
-       template struct SymEngine::remove_reference&lt;T&amp;&gt;
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_two_by_two_matrix.html">
-       struct SymEngine::two_by_two_matrix
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_SymEngine_vec_hash.html">
-       template struct SymEngine::vec_hash
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ACos.html">
-       class SymEngine::ACos
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ACosh.html">
-       class SymEngine::ACosh
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ACot.html">
-       class SymEngine::ACot
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ACoth.html">
-       class SymEngine::ACoth
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ACsc.html">
-       class SymEngine::ACsc
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ACsch.html">
-       class SymEngine::ACsch
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ASec.html">
-       class SymEngine::ASec
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ASech.html">
-       class SymEngine::ASech
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ASin.html">
-       class SymEngine::ASin
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ASinh.html">
-       class SymEngine::ASinh
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ATan.html">
-       class SymEngine::ATan
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ATan2.html">
-       class SymEngine::ATan2
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ATanh.html">
-       class SymEngine::ATanh
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Abs.html">
-       class SymEngine::Abs
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Add.html">
-       class SymEngine::Add
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_And.html">
-       class SymEngine::And
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_AtomsVisitor.html">
-       template class SymEngine::AtomsVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_BaseVisitor.html">
-       template class SymEngine::BaseVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Basic.html">
-       class SymEngine::Basic
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Beta.html">
-       class SymEngine::Beta
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Boolean.html">
-       class SymEngine::Boolean
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_BooleanAtom.html">
-       class SymEngine::BooleanAtom
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_CSRMatrix.html">
-       class SymEngine::CSRMatrix
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Ceiling.html">
-       class SymEngine::Ceiling
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_CoeffVisitor.html">
-       class SymEngine::CoeffVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Complement.html">
-       class SymEngine::Complement
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Complex.html">
-       class SymEngine::Complex
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ComplexBase.html">
-       class SymEngine::ComplexBase
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ComplexDouble.html">
-       class SymEngine::ComplexDouble
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ComplexMPC.html">
-       class SymEngine::ComplexMPC
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ConditionSet.html">
-       class SymEngine::ConditionSet
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Conjugate.html">
-       class SymEngine::Conjugate
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Constant.html">
-       class SymEngine::Constant
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Contains.html">
-       class SymEngine::Contains
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Cos.html">
-       class SymEngine::Cos
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Cosh.html">
-       class SymEngine::Cosh
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Cot.html">
-       class SymEngine::Cot
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Coth.html">
-       class SymEngine::Coth
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_CountOpsVisitor.html">
-       class SymEngine::CountOpsVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Csc.html">
-       class SymEngine::Csc
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Csch.html">
-       class SymEngine::Csch
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_DenseMatrix.html">
-       class SymEngine::DenseMatrix
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Derivative.html">
-       class SymEngine::Derivative
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_DiffVisitor.html">
-       class SymEngine::DiffVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Dirichlet_eta.html">
-       class SymEngine::Dirichlet_eta
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Dummy.html">
-       class SymEngine::Dummy
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EmptySet.html">
-       class SymEngine::EmptySet
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EnableRCPFromThis.html">
-       template class SymEngine::EnableRCPFromThis
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Equality.html">
-       class SymEngine::Equality
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Erf.html">
-       class SymEngine::Erf
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Erfc.html">
-       class SymEngine::Erfc
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvalComplexDoubleVisitor.html">
-       class SymEngine::EvalComplexDoubleVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvalDoubleVisitor.html">
-       template class SymEngine::EvalDoubleVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvalRealDoubleVisitor.html">
-       template class SymEngine::EvalRealDoubleVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvalRealDoubleVisitorFinal.html">
-       class SymEngine::EvalRealDoubleVisitorFinal
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvalRealDoubleVisitorPattern.html">
-       class SymEngine::EvalRealDoubleVisitorPattern
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvalVisitor.html">
-       class SymEngine::EvalVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Evaluate.html">
-       class SymEngine::Evaluate
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvaluateComplexDouble.html">
-       class SymEngine::EvaluateComplexDouble
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvaluateDouble.html">
-       template class SymEngine::EvaluateDouble
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvaluateInfty.html">
-       class SymEngine::EvaluateInfty
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvaluateNaN.html">
-       class SymEngine::EvaluateNaN
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_EvaluateRealDouble.html">
-       class SymEngine::EvaluateRealDouble
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ExpandVisitor.html">
-       class SymEngine::ExpandVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Expression.html">
-       class SymEngine::Expression
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_FiniteSet.html">
-       class SymEngine::FiniteSet
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Floor.html">
-       class SymEngine::Floor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_FreeSymbolsVisitor.html">
-       class SymEngine::FreeSymbolsVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_FuncArgTracker.html">
-       class SymEngine::FuncArgTracker
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Function.html">
-       class SymEngine::Function
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_FunctionSymbol.html">
-       class SymEngine::FunctionSymbol
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3 current active">
-      <a class="current reference internal" href="#">
-       class SymEngine::FunctionWrapper
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_GaloisField.html">
-       class SymEngine::GaloisField
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_GaloisFieldDict.html">
-       class SymEngine::GaloisFieldDict
-      </a>
+
+  <div class="links">
+    <div class="nav-links can-hide">
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           None
+        </span>
+      </summary>
       <ul>
-       <li class="toctree-l4">
-        <a class="reference internal" href="struct_SymEngine_GaloisFieldDict_DictLess.html">
-         struct SymEngine::GaloisFieldDict::DictLess
-        </a>
-        <ul class="simple">
-        </ul>
-       </li>
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Gamma.html">
-       class SymEngine::Gamma
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_HasSymbolVisitor.html">
-       class SymEngine::HasSymbolVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_HyperbolicBase.html">
-       class SymEngine::HyperbolicBase
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_HyperbolicFunction.html">
-       class SymEngine::HyperbolicFunction
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_IRBuilder.html">
-       class SymEngine::IRBuilder
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ImageSet.html">
-       class SymEngine::ImageSet
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Infty.html">
-       class SymEngine::Infty
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Integer.html">
-       class SymEngine::Integer
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Integers.html">
-       class SymEngine::Integers
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Interval.html">
-       class SymEngine::Interval
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_InverseHyperbolicFunction.html">
-       class SymEngine::InverseHyperbolicFunction
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_InverseTrigFunction.html">
-       class SymEngine::InverseTrigFunction
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_InvertComplexVisitor.html">
-       class SymEngine::InvertComplexVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_IsALinearArgTrigVisitor.html">
-       class SymEngine::IsALinearArgTrigVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_KroneckerDelta.html">
-       class SymEngine::KroneckerDelta
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LambdaComplexDoubleVisitor.html">
-       class SymEngine::LambdaComplexDoubleVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LambdaDoubleVisitor.html">
-       template class SymEngine::LambdaDoubleVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LambdaRealDoubleVisitor.html">
-       class SymEngine::LambdaRealDoubleVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LambertW.html">
-       class SymEngine::LambertW
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LessThan.html">
-       class SymEngine::LessThan
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LeviCivita.html">
-       class SymEngine::LeviCivita
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LocalStopVisitor.html">
-       class SymEngine::LocalStopVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Log.html">
-       class SymEngine::Log
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LogGamma.html">
-       class SymEngine::LogGamma
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_LowerGamma.html">
-       class SymEngine::LowerGamma
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_MSubsVisitor.html">
-       class SymEngine::MSubsVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_MatrixBase.html">
-       class SymEngine::MatrixBase
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Max.html">
-       class SymEngine::Max
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Min.html">
-       class SymEngine::Min
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Mul.html">
-       class SymEngine::Mul
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_MultiArgFunction.html">
-       class SymEngine::MultiArgFunction
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_NaN.html">
-       class SymEngine::NaN
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_NeedsSymbolicExpansionVisitor.html">
-       class SymEngine::NeedsSymbolicExpansionVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Not.html">
-       class SymEngine::Not
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Number.html">
-       class SymEngine::Number
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_NumberWrapper.html">
-       class SymEngine::NumberWrapper
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_NumerDenomVisitor.html">
-       class SymEngine::NumerDenomVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_OneArgFunction.html">
-       class SymEngine::OneArgFunction
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_OptsCSEVisitor.html">
-       class SymEngine::OptsCSEVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Or.html">
-       class SymEngine::Or
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Piecewise.html">
-       class SymEngine::Piecewise
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_PolyGamma.html">
-       class SymEngine::PolyGamma
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Pow.html">
-       class SymEngine::Pow
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Rational.html">
-       class SymEngine::Rational
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_RealDouble.html">
-       class SymEngine::RealDouble
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_RealImagVisitor.html">
-       class SymEngine::RealImagVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_RealMPFR.html">
-       class SymEngine::RealMPFR
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Reals.html">
-       class SymEngine::Reals
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_RebuildVisitor.html">
-       class SymEngine::RebuildVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Relational.html">
-       class SymEngine::Relational
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_RewriteAsExp.html">
-       class SymEngine::RewriteAsExp
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_SSubsVisitor.html">
-       class SymEngine::SSubsVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Sec.html">
-       class SymEngine::Sec
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Sech.html">
-       class SymEngine::Sech
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_SeriesBase.html">
-       template class SymEngine::SeriesBase
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_SeriesCoeffInterface.html">
-       class SymEngine::SeriesCoeffInterface
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_SeriesVisitor.html">
-       template class SymEngine::SeriesVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Set.html">
-       class SymEngine::Set
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Sieve.html">
-       class SymEngine::Sieve
-      </a>
-      <ul>
-       <li class="toctree-l4">
-        <a class="reference internal" href="class_SymEngine_Sieve_iterator.html">
-         class SymEngine::Sieve::iterator
-        </a>
-        <ul class="simple">
-        </ul>
-       </li>
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Sign.html">
-       class SymEngine::Sign
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Sin.html">
-       class SymEngine::Sin
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Sinh.html">
-       class SymEngine::Sinh
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_StopVisitor.html">
-       class SymEngine::StopVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_StrictLessThan.html">
-       class SymEngine::StrictLessThan
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Subs.html">
-       class SymEngine::Subs
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_SubsVisitor.html">
-       class SymEngine::SubsVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Symbol.html">
-       class SymEngine::Symbol
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Tan.html">
-       class SymEngine::Tan
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Tanh.html">
-       class SymEngine::Tanh
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_TransformVisitor.html">
-       class SymEngine::TransformVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_TrigBase.html">
-       class SymEngine::TrigBase
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_TrigFunction.html">
-       class SymEngine::TrigFunction
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Truncate.html">
-       class SymEngine::Truncate
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_TwoArgBasic.html">
-       template class SymEngine::TwoArgBasic
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Unequality.html">
-       class SymEngine::Unequality
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_UnevaluatedExpr.html">
-       class SymEngine::UnevaluatedExpr
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Union.html">
-       class SymEngine::Union
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_UnivariateSeries.html">
-       class SymEngine::UnivariateSeries
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_UniversalSet.html">
-       class SymEngine::UniversalSet
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_UpperGamma.html">
-       class SymEngine::UpperGamma
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Visitor.html">
-       class SymEngine::Visitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_XReplaceVisitor.html">
-       class SymEngine::XReplaceVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Xor.html">
-       class SymEngine::Xor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_ZeroVisitor.html">
-       class SymEngine::ZeroVisitor
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_Zeta.html">
-       class SymEngine::Zeta
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_fmpq_poly_wrapper.html">
-       class SymEngine::fmpq_poly_wrapper
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_fmpq_wrapper.html">
-       class SymEngine::fmpq_wrapper
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_fmpz_poly_factor_wrapper.html">
-       class SymEngine::fmpz_poly_factor_wrapper
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_fmpz_poly_wrapper.html">
-       class SymEngine::fmpz_poly_wrapper
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_fmpz_wrapper.html">
-       class SymEngine::fmpz_wrapper
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_mp_randstate.html">
-       class SymEngine::mp_randstate
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_mpq_view_flint.html">
-       class SymEngine::mpq_view_flint
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="class_SymEngine_mpz_view_flint.html">
-       class SymEngine::mpz_view_flint
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="namespace_std.html">
-     namespace std
-    </a>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="struct_std_hash.html">
-       template struct std::hash&lt;SymEngine::Basic&gt;
-      </a>
-      <ul class="simple">
-      </ul>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="enum_TypeID.html">
-     enum TypeID
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="enum_symengine_exceptions_t.html">
-     enum symengine_exceptions_t
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CDenseMatrix.html">
-     struct CDenseMatrix
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CLambdaRealDoubleVisitor.html">
-     struct CLambdaRealDoubleVisitor
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CMapBasicBasic.html">
-     struct CMapBasicBasic
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CRCPBasic.html">
-     struct CRCPBasic
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CRCPBasic_C.html">
-     struct CRCPBasic_C
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CSetBasic.html">
-     struct CSetBasic
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CSparseMatrix.html">
-     struct CSparseMatrix
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CVecBasic.html">
-     struct CVecBasic
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_CVectorInt.html">
-     struct CVectorInt
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="struct_dcomplex.html">
-     struct dcomplex
-    </a>
-    <ul class="simple">
-    </ul>
-   </li>
-  </ul>
- </li>
-</ul>
-
-</nav>
-
- <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
-</div>
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
         
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
+          <li class="nav-link">
+            <a href="global.html">
+                Global Namespace
+            </a>
+          </li>
         
-        <div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/gen_doxyrest/class_SymEngine_FunctionWrapper.rst.txt"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.rst</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-    
-</div>
-        <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        
-        <a class="issues-button"
-            href="https://github.com/symengine/api-docs/issues/new?title=Issue%20on%20page%20%2Fgen_doxyrest/class_SymEngine_FunctionWrapper.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
+      </ul>
+    </details>
+  </div>
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
-
-        <!-- Launch buttons -->
 
     </div>
+  </div>
+  
+</header>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
-        </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#overview">
-   Overview
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#inherited-members">
-     Inherited Members
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#detailed-documentation">
-   Detailed Documentation
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#methods">
-     Methods
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-        </nav>
-        
-    </div>
-</div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
-              <div>
+      
+      <table role="none" id="main_layout_table">
+        <thead>
+          <tr><th><div id="layout_header">
+          </div></th></tr>
+        </thead>
+        <tbody><tr><td>
+          <div id="appflex">
+            
+              <div class="sidebar" id="sidebar">
                 
+                <nav class="nav-links can-hide">
+                  
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           None
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="global.html">
+                Global Namespace
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+                  
+                </nav><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><nav class="sidebar-links">
+  
+    
+  
+</nav>
+              </div>
+            
+
+            <div class="page">
+                <nav class="body-header">
+  
+  
+  
+
+  <ul class="page-nav no-print">
+</ul>
+  
+</nav>
+                <main class="content">
+                  
   <div class="section" id="class-symengine-functionwrapper">
 <span id="doxid-class-sym-engine-1-1-function-wrapper"></span><span id="index-0"></span><h1>class SymEngine::FunctionWrapper<a class="headerlink" href="#class-symengine-functionwrapper" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
@@ -1674,39 +243,57 @@
 </div>
 </div>
 
-
-              </div>
-              
-        </div>
-    </div>
+  
+    <div class="section no-print">
+    
+      
     
     
-    <div class='prev-next-bottom'>
-        
-    <a class='left-prev' id="prev-link" href="class_SymEngine_FunctionSymbol.html" title="previous page">class SymEngine::FunctionSymbol</a>
-    <a class='right-next' id="next-link" href="class_SymEngine_GaloisField.html" title="next page">class SymEngine::GaloisField</a>
-
-    </div>
-    <footer class="footer mt-5 mt-md-0">
-    <div class="container">
-      <p>
-        
-          By SymEngine Development Team<br/>
-        
-            &copy; Copyright 1980, SymEngine Development Team.<br/>
-      </p>
-    </div>
-  </footer>
-</main>
-
-
-      </div>
-    </div>
-
     
-  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
+    </div>
+  
 
-
+                </main><ul class="page-nav no-print">
+</ul>
+            </div>
+          </div>
+        </td></tr></tbody>
+        <tfoot>
+          <tr><th><div id="layout_footer">
+          </div></th></tr>
+        </tfoot>
+      </table><footer class="footer" role="contentinfo">
+  
+    <p>
+    
+      &#169; Copyright 1980, SymEngine Development Team.
+    
+    </p>
+  
+  
+    <p>
+    
+    
+      Licensed under .
+    
+    
+    </p>
+  
+  
+    <p>
+  
+  
+  
+    Created using <a
+        href="http://sphinx-doc.org/">Sphinx</a> 3.2.1 with
+    <a href="https://www.nerv-project.eu">Nerv Project theme</a>
+    based on <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>
+    and <a href="https://ablog.readthedocs.io/">ABlog</a>.</p>
+  
+  <div class="pagecount"></div>
+</footer>
+    </div>
+    
     
   </body>
 </html>
