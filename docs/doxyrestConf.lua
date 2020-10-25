@@ -1,9 +1,18 @@
+-- Travis conditional
+testTravis = os.getenv("TRAVIS_BUILD_DIR")
+if (testTravis == nil)
+then
+  addDir = "./"
+else
+  addDir = testTravis
+end
+
 -- Specify input and output paths:
 
-OUTPUT_FILE = "docs/Sphinx/gen_doxyrest/index.rst"
-INPUT_FILE = "docs/Doxygen/gen_docs/xml/index.xml"
-FRAME_FILE = "docs/doxyrest/frame/cfamily/index.rst.in"
-FRAME_DIR_LIST = { "docs/doxyrest/frame/cfamily", "docs/doxyrest/frame/common" }
+OUTPUT_FILE = addDir .. "docs/Sphinx/gen_doxyrest/index.rst"
+INPUT_FILE = addDir .. "docs/Doxygen/gen_docs/xml/index.xml"
+FRAME_FILE = addDir .. "docs/doxyrest/frame/cfamily/index.rst.in"
+FRAME_DIR_LIST = {  addDir .. "docs/doxyrest/frame/cfamily",  addDir .."docs/doxyrest/frame/common" }
 
 -- Usually, Doxygen-based documentation has a main page (created with
 -- the \mainpage directive). If that's the case, force-include
