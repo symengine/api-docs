@@ -29,7 +29,7 @@ before_script:
 script:
   - conda env create -f symeapi.yml
   - conda activate symeapi
-  - rake api:mkDocs
+  - rake api:mkSphinx
 
 before_cache:
   - mkdir -p $HOME/nix.store
