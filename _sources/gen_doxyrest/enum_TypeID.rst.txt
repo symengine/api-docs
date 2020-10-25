@@ -1,0 +1,17 @@
+.. index:: pair: enum; TypeID
+.. _doxid-cwrapper_8h_1a183c40b2ba67065929d70b3987da4cc2:
+
+enum TypeID
+===========
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <cwrapper.h>
+
+	enum TypeID {
+	    :target:`SYMENGINE_TypeID_Count<doxid-cwrapper_8h_1a183c40b2ba67065929d70b3987da4cc2a1c873a606d0548ba86ae52a3d6503beb>`,
+	};
+

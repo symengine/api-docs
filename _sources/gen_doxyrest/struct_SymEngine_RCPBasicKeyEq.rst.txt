@@ -1,0 +1,45 @@
+.. index:: pair: struct; SymEngine::RCPBasicKeyEq
+.. _doxid-struct_sym_engine_1_1_r_c_p_basic_key_eq:
+
+struct SymEngine::RCPBasicKeyEq
+===============================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+Our comparison ``(==)`` :ref:`More...<details-struct_sym_engine_1_1_r_c_p_basic_key_eq>`
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <basic.h>
+	
+	struct RCPBasicKeyEq {
+		// methods
+	
+		bool :ref:`operator()<doxid-struct_sym_engine_1_1_r_c_p_basic_key_eq_1ab6c82bdc5d6dfdeaf2b30741bb963153>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& y) const;
+	};
+.. _details-struct_sym_engine_1_1_r_c_p_basic_key_eq:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+Our comparison ``(==)``
+
+Methods
+-------
+
+.. index:: pair: function; operator()
+.. _doxid-struct_sym_engine_1_1_r_c_p_basic_key_eq_1ab6c82bdc5d6dfdeaf2b30741bb963153:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	bool operator()(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& y) const
+
+Comparison Operator ``==``
+

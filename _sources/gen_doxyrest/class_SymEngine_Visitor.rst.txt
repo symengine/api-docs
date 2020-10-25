@@ -1,0 +1,23 @@
+.. index:: pair: class; SymEngine::Visitor
+.. _doxid-class_sym_engine_1_1_visitor:
+
+class SymEngine::Visitor
+========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <visitor.h>
+	
+	class Visitor {
+	public:
+		// construction
+	
+		virtual :target:`~Visitor<doxid-class_sym_engine_1_1_visitor_1a30548591c8baaf1b5438f6a4e7b9b9a8>`();
+	};

@@ -1,0 +1,1275 @@
+.. index:: pair: class; SymEngine::ComplexDouble
+.. _doxid-class_sym_engine_1_1_complex_double:
+
+class SymEngine::ComplexDouble
+==============================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+:ref:`Complex <doxid-class_sym_engine_1_1_complex>` Double Class to hold std::complex<double> values. :ref:`More...<details-class_sym_engine_1_1_complex_double>`
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <complex_double.h>
+	
+	class ComplexDouble: public :ref:`SymEngine::ComplexBase<doxid-class_sym_engine_1_1_complex_base>` {
+	public:
+		// fields
+	
+		std::complex<double> :target:`i<doxid-class_sym_engine_1_1_complex_double_1a7a7ae774f5f1b96c80612e47aafe2458>`;
+
+		// construction
+	
+		:ref:`ComplexDouble<doxid-class_sym_engine_1_1_complex_double_1ab266eab91999f0b146fc5604374c23dc>`(std::complex<double> i);
+
+		// methods
+	
+		virtual :ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_complex_double_1a03eca3da61b4aafe34176c5f9afe0c7a>`() const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_complex_double_1ac3de485c3fa8d2edf177c77fb35eddad>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_complex_double_1a8557bea161c8b08e3dfca78d717b338f>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`real_part<doxid-class_sym_engine_1_1_complex_double_1a93582b0ce4fa8e7417d5751b120a1210>`() const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`imaginary_part<doxid-class_sym_engine_1_1_complex_double_1a9bd8dd686b9efac47998ec3fb1d67735>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`conjugate<doxid-class_sym_engine_1_1_complex_double_1abdd6fede866f9ac845aeb69ae3111798>`() const;
+		virtual bool :ref:`is_positive<doxid-class_sym_engine_1_1_complex_double_1ad0cc7ac3e2894aa5bc924c14006ba591>`() const;
+		virtual bool :ref:`is_negative<doxid-class_sym_engine_1_1_complex_double_1a2b7b53827538bf60bcbc17c6c0c8267a>`() const;
+		virtual bool :ref:`is_complex<doxid-class_sym_engine_1_1_complex_double_1ab4cb3a2f9d79c6e929342000214af6b6>`() const;
+		std::complex<double> :ref:`as_complex_double<doxid-class_sym_engine_1_1_complex_double_1a4ac02a395db9de7c35f50d7eeb2f568e>`() const;
+		virtual bool :ref:`is_exact<doxid-class_sym_engine_1_1_complex_double_1ad71d01f84ad8006fab68b0248a743456>`() const;
+		virtual :ref:`Evaluate<doxid-class_sym_engine_1_1_evaluate>`& :ref:`get_eval<doxid-class_sym_engine_1_1_complex_double_1a0ceba751d6959f506b4daa378d7d604c>`() const;
+		virtual bool :ref:`is_zero<doxid-class_sym_engine_1_1_complex_double_1a3b040447faf4d4e1aa0347a5c661626f>`() const;
+		virtual bool :ref:`is_one<doxid-class_sym_engine_1_1_complex_double_1a5e7ba5c64947712a002ef4d38b36310f>`() const;
+		virtual bool :ref:`is_minus_one<doxid-class_sym_engine_1_1_complex_double_1af4954792cfe6c1283db41697ae2c2dae>`() const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`addcomp<doxid-class_sym_engine_1_1_complex_double_1a3153c20ea7bf9ddaf75674c706bbe880>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`addcomp<doxid-class_sym_engine_1_1_complex_double_1afc9042149a5eac0069fd83891088cfee>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`addcomp<doxid-class_sym_engine_1_1_complex_double_1a247aa6b54a1ef0f887b5fcae43d22acd>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`addcomp<doxid-class_sym_engine_1_1_complex_double_1a92148ab24ccc15a2ef4aa2476d866296>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`addcomp<doxid-class_sym_engine_1_1_complex_double_1a64966c35147e599455a619df4a5c13df>`(const ComplexDouble& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`add<doxid-class_sym_engine_1_1_complex_double_1adb4f4b3ad38f31054195d70888fa25c5>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`subcomp<doxid-class_sym_engine_1_1_complex_double_1a4d06051c5bdc23aa04928b6a84e4272b>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`subcomp<doxid-class_sym_engine_1_1_complex_double_1aadc2f1cf19de4f18b10888c87e385090>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`subcomp<doxid-class_sym_engine_1_1_complex_double_1a836c8372699027accd3f43b414f4ea64>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`subcomp<doxid-class_sym_engine_1_1_complex_double_1a03c028683dc28d35792c598b0b12765a>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`subcomp<doxid-class_sym_engine_1_1_complex_double_1a927ebcaa803a4aebef19736a4644cc76>`(const ComplexDouble& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`sub<doxid-class_sym_engine_1_1_complex_double_1a1699c3ea59618f528c902896abd53431>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rsubcomp<doxid-class_sym_engine_1_1_complex_double_1a9455dc6f51fe99e176372713fe7ffed3>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rsubcomp<doxid-class_sym_engine_1_1_complex_double_1a52973745d9a1cc7a725108225300977e>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rsubcomp<doxid-class_sym_engine_1_1_complex_double_1ac3f83d40c42d2e253eecf66a866b0e20>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rsubcomp<doxid-class_sym_engine_1_1_complex_double_1a37a1afce71c46611376f4049ace91d6a>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rsub<doxid-class_sym_engine_1_1_complex_double_1a46c8afd2f0519cb2a64f30cc342a8523>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mulcomp<doxid-class_sym_engine_1_1_complex_double_1a947ded42fa7f0a1a0d25e43a60ea0ac3>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mulcomp<doxid-class_sym_engine_1_1_complex_double_1af8243b7c2c23bd5e97a5569a226b1720>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mulcomp<doxid-class_sym_engine_1_1_complex_double_1aef2e9fac4479e709d4a313d3d5fb557f>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mulcomp<doxid-class_sym_engine_1_1_complex_double_1a3b7856d11236499ba7cbee26cbeb2b7d>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mulcomp<doxid-class_sym_engine_1_1_complex_double_1a3e765a1d34281e5834e45381e33cd418>`(const ComplexDouble& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mul<doxid-class_sym_engine_1_1_complex_double_1a91a4cc378fbd60c3cf5d7e8327e5ef68>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`divcomp<doxid-class_sym_engine_1_1_complex_double_1ae059d13bcc0185b63d1c9682d61d0d45>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`divcomp<doxid-class_sym_engine_1_1_complex_double_1ab5340e985d2358e6adced0658c5004c1>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`divcomp<doxid-class_sym_engine_1_1_complex_double_1ad7737f336e9ccf5acb25aa7e0ec62a9c>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`divcomp<doxid-class_sym_engine_1_1_complex_double_1ab571c0a7940f6109c8119ac9c98fecfd>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`divcomp<doxid-class_sym_engine_1_1_complex_double_1aa47b356e1db95276c31646b07e0c577e>`(const ComplexDouble& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`div<doxid-class_sym_engine_1_1_complex_double_1a622168920a51ad17d460ef568c9488fd>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rdivcomp<doxid-class_sym_engine_1_1_complex_double_1a66a547bcae5995977aee370098381444>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rdivcomp<doxid-class_sym_engine_1_1_complex_double_1a0a20d647475c2a9867e66ef4b4ab6b2b>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rdivcomp<doxid-class_sym_engine_1_1_complex_double_1a3c07eef51ebed2fb0eda9a19a2a2fba5>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rdivcomp<doxid-class_sym_engine_1_1_complex_double_1aadeaa555d9cada6676977c8a679481f5>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rdiv<doxid-class_sym_engine_1_1_complex_double_1a2ced21a9d235676a6074155644c5bfc0>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`powcomp<doxid-class_sym_engine_1_1_complex_double_1a4025ee9cb04246d09700e51c7bc25c42>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`powcomp<doxid-class_sym_engine_1_1_complex_double_1a9db072254479885e83164e8ff3ababcc>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`powcomp<doxid-class_sym_engine_1_1_complex_double_1a5dae1a5198933a1e0e2f2391ed9603a6>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`powcomp<doxid-class_sym_engine_1_1_complex_double_1abd89517450811ecb5196badf301ece82>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`powcomp<doxid-class_sym_engine_1_1_complex_double_1af56850cec553e8369f2dc1ac3c933965>`(const ComplexDouble& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`pow<doxid-class_sym_engine_1_1_complex_double_1af23dea5182eb087a400b70d02f350064>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rpowcomp<doxid-class_sym_engine_1_1_complex_double_1a80545f09ac543a485b35a9c73e69c3d9>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rpowcomp<doxid-class_sym_engine_1_1_complex_double_1a63011de49a42b138434af55f85ff56ca>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rpowcomp<doxid-class_sym_engine_1_1_complex_double_1a31fd92ab8fa24aa84e5c72b194b1040c>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rpowcomp<doxid-class_sym_engine_1_1_complex_double_1a81f5f89dfb7342e63ba68f861f2a4722>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rpow<doxid-class_sym_engine_1_1_complex_double_1a43bc6126840b01d606a29ae27da123cb>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// fields
+	
+		:ref:`TypeID<doxid-namespace_sym_engine_1a976db42c9dfad76ad2c95a6038cbc093>` :ref:`type_code_<doxid-class_sym_engine_1_1_basic_1afc3cac9dbdf56974a961c8b2cdb4dfea>`;
+
+		// methods
+	
+		RCP<T> :ref:`rcp_from_this<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aed6b2bd25fd3fd124a5e97427f8372f2>`();
+		RCP<const T> :ref:`rcp_from_this<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aefdd4958f591ee705b60ea92d661a775>`() const;
+	
+		template <class T2>
+		RCP<const T2> :ref:`rcp_from_this_cast<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1a122635053dc63f074487aa3ba0df13a1>`() const;
+	
+		unsigned int :ref:`use_count<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1acbea1ba6881779f17a5b81c0fd0eb2d2>`() const;
+		:ref:`TypeID<doxid-namespace_sym_engine_1a976db42c9dfad76ad2c95a6038cbc093>` :ref:`get_type_code<doxid-class_sym_engine_1_1_basic_1a3837186572bf82a499cf81259d945804>`() const;
+		:ref:`Basic<doxid-class_sym_engine_1_1_basic>`& :ref:`operator=<doxid-class_sym_engine_1_1_basic_1a8ddc236758a9cdd0fafadad57bfa4b09>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`&);
+		:ref:`Basic<doxid-class_sym_engine_1_1_basic>`& :ref:`operator=<doxid-class_sym_engine_1_1_basic_1af04d269a2434302330e05a94238527a2>`(:ref:`Basic<doxid-class_sym_engine_1_1_basic>`&&);
+		virtual :ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_basic_1ac950eca7e8403248252115bcba2e3ab1>`() const = 0;
+		:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`hash<doxid-class_sym_engine_1_1_basic_1af71e629c952b7390d72f2d4b24694b62>`() const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_basic_1ac6a957e2006026f74c08ae6795f5ff7f>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const = 0;
+		bool :ref:`__neq__<doxid-class_sym_engine_1_1_basic_1a3a3e923c9078ac82e01e453e80fa2134>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		int :ref:`__cmp__<doxid-class_sym_engine_1_1_basic_1adb2def25bca4104f085ae99c57af5ab3>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_basic_1af03cfca16a93aaa0aff2382cc2b5087f>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const = 0;
+		std::string :ref:`__str__<doxid-class_sym_engine_1_1_basic_1a905153d35107acc23b37e04e1b430420>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`subs<doxid-class_sym_engine_1_1_basic_1a7a502ee14598f873fefff54fac433d48>`(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_dict) const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`xreplace<doxid-class_sym_engine_1_1_basic_1a2a7d7c5de904a663634679523c9a5348>`(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_dict) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`expand_as_exp<doxid-class_sym_engine_1_1_basic_1a6423cc8431a87cbb88e010887904b274>`() const;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_basic_1a6544293931047d6d9097e81f7d306cae>`() const = 0;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`diff<doxid-class_sym_engine_1_1_basic_1ad4e255f317caaaf57acabff9f6161b65>`(const RCP<const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`>& x, bool cache = true) const;
+		virtual bool :ref:`is_zero<doxid-class_sym_engine_1_1_number_1ae917a11d6a9c078a779a86c2e5a1b547>`() const = 0;
+		virtual bool :ref:`is_one<doxid-class_sym_engine_1_1_number_1a2b793da7385a260ce4007e2af44d3de3>`() const = 0;
+		virtual bool :ref:`is_minus_one<doxid-class_sym_engine_1_1_number_1aeaf95ae61754c341cac4467f1d7011a7>`() const = 0;
+		virtual bool :ref:`is_negative<doxid-class_sym_engine_1_1_number_1a648c569350bce74ac1b8f6efc344971f>`() const = 0;
+		virtual bool :ref:`is_positive<doxid-class_sym_engine_1_1_number_1abdc51eafcb71b60bcad71eb89a8f79d0>`() const = 0;
+		virtual bool :ref:`is_complex<doxid-class_sym_engine_1_1_number_1a30f5893257d8f91fbe92d821dc4094f8>`() const = 0;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`conjugate<doxid-class_sym_engine_1_1_number_1aa63348fe91ef4ca5e1cd66e7947dd553>`() const;
+		virtual bool :ref:`is_exact<doxid-class_sym_engine_1_1_number_1a3aafc16ff2afe30f9c21d551248ec0c0>`() const;
+		bool :ref:`is_exact_zero<doxid-class_sym_engine_1_1_number_1a8001d70a87176a33b92861fbd46dce51>`() const;
+		virtual :ref:`Evaluate<doxid-class_sym_engine_1_1_evaluate>`& :ref:`get_eval<doxid-class_sym_engine_1_1_number_1a1109902b92095c26562a6a53e367ec6e>`() const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`add<doxid-class_sym_engine_1_1_number_1a557e5884de4dabb96f68c20b97abbbe7>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const = 0;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`sub<doxid-class_sym_engine_1_1_number_1add7faf85931fc31190cb5434f7efb9a0>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rsub<doxid-class_sym_engine_1_1_number_1a715f82af951f17db954f3eaa2f69984b>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mul<doxid-class_sym_engine_1_1_number_1a12380b3f77995ca02d6712906b0ffdf4>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const = 0;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`div<doxid-class_sym_engine_1_1_number_1ac953b8fa68f5ecbb5f7f43ceccf50c15>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rdiv<doxid-class_sym_engine_1_1_number_1a9c17bed6eaf7698c91a640c186e7f867>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`pow<doxid-class_sym_engine_1_1_number_1a58bdc90b6e70916fe90bcad312670623>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const = 0;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rpow<doxid-class_sym_engine_1_1_number_1aff0deb08b64a4710ebf11793132b72ae>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const = 0;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_number_1ae7bd5cd19b89ff042088c1ecec21460b>`() const;
+		virtual bool :ref:`is_perfect_power<doxid-class_sym_engine_1_1_number_1a5e9609f3bcb7297c3c6f22abe3a1e128>`(bool is_expected = false) const;
+		virtual bool :ref:`nth_root<doxid-class_sym_engine_1_1_number_1ac0b9ee179d987ac976282202b0024f3e>`(const Ptr<RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`>>&, unsigned long n) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`real_part<doxid-class_sym_engine_1_1_complex_base_1a758ef961de225ef169637238c76a84dd>`() const = 0;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`imaginary_part<doxid-class_sym_engine_1_1_complex_base_1a6b2ed0affc4247d9eb29ca63edebc361>`() const = 0;
+		bool :ref:`is_re_zero<doxid-class_sym_engine_1_1_complex_base_1a9510234666404812f819e34ef938198a>`() const;
+
+.. _details-class_sym_engine_1_1_complex_double:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+:ref:`Complex <doxid-class_sym_engine_1_1_complex>` Double Class to hold std::complex<double> values.
+
+Construction
+------------
+
+.. index:: pair: function; ComplexDouble
+.. _doxid-class_sym_engine_1_1_complex_double_1ab266eab91999f0b146fc5604374c23dc:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	ComplexDouble(std::complex<double> i)
+
+Constructor of :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>` class.
+
+Methods
+-------
+
+.. index:: pair: function; __hash__
+.. _doxid-class_sym_engine_1_1_complex_double_1a03eca3da61b4aafe34176c5f9afe0c7a:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual :ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` __hash__() const
+
+
+
+.. rubric:: Returns:
+
+size of the hash
+
+.. index:: pair: function; __eq__
+.. _doxid-class_sym_engine_1_1_complex_double_1ac3de485c3fa8d2edf177c77fb35eddad:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool __eq__(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const
+
+:ref:`Equality <doxid-class_sym_engine_1_1_equality>` comparator
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- o
+
+		- - Object to be compared with
+
+
+
+.. rubric:: Returns:
+
+whether the 2 objects are equal
+
+.. index:: pair: function; compare
+.. _doxid-class_sym_engine_1_1_complex_double_1a8557bea161c8b08e3dfca78d717b338f:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual int compare(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const
+
+Returns -1, 0, 1 for ``this < o, this == o, this > o``. This method is used when you want to sort things like ``x+y+z`` into canonical order. This function assumes that ``o`` is the same type as ``this``. Use ``__cmp__`` if you want general comparison.
+
+.. index:: pair: function; real_part
+.. _doxid-class_sym_engine_1_1_complex_double_1a93582b0ce4fa8e7417d5751b120a1210:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> real_part() const
+
+Get the real part of the complex number.
+
+.. index:: pair: function; imaginary_part
+.. _doxid-class_sym_engine_1_1_complex_double_1a9bd8dd686b9efac47998ec3fb1d67735:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> imaginary_part() const
+
+Get the imaginary part of the complex number.
+
+.. index:: pair: function; conjugate
+.. _doxid-class_sym_engine_1_1_complex_double_1abdd6fede866f9ac845aeb69ae3111798:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> conjugate() const
+
+Get the conjugate of the complex number.
+
+.. index:: pair: function; is_positive
+.. _doxid-class_sym_engine_1_1_complex_double_1ad0cc7ac3e2894aa5bc924c14006ba591:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool is_positive() const
+
+
+
+.. rubric:: Returns:
+
+``false``
+
+.. index:: pair: function; is_negative
+.. _doxid-class_sym_engine_1_1_complex_double_1a2b7b53827538bf60bcbc17c6c0c8267a:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool is_negative() const
+
+
+
+.. rubric:: Returns:
+
+``false``
+
+.. index:: pair: function; is_complex
+.. _doxid-class_sym_engine_1_1_complex_double_1ab4cb3a2f9d79c6e929342000214af6b6:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool is_complex() const
+
+
+
+.. rubric:: Returns:
+
+``true``
+
+.. index:: pair: function; as_complex_double
+.. _doxid-class_sym_engine_1_1_complex_double_1a4ac02a395db9de7c35f50d7eeb2f568e:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	std::complex<double> as_complex_double() const
+
+
+
+.. rubric:: Returns:
+
+self as a double
+
+.. index:: pair: function; is_exact
+.. _doxid-class_sym_engine_1_1_complex_double_1ad71d01f84ad8006fab68b0248a743456:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool is_exact() const
+
+
+
+.. rubric:: Returns:
+
+``false``
+
+.. index:: pair: function; get_eval
+.. _doxid-class_sym_engine_1_1_complex_double_1a0ceba751d6959f506b4daa378d7d604c:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual :ref:`Evaluate<doxid-class_sym_engine_1_1_evaluate>`& get_eval() const
+
+Get ``:ref:`Evaluate <doxid-class_sym_engine_1_1_evaluate>``` singleton to evaluate numerically.
+
+.. index:: pair: function; is_zero
+.. _doxid-class_sym_engine_1_1_complex_double_1a3b040447faf4d4e1aa0347a5c661626f:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool is_zero() const
+
+
+
+.. rubric:: Returns:
+
+``true`` if equal to ``0``
+
+.. index:: pair: function; is_one
+.. _doxid-class_sym_engine_1_1_complex_double_1a5e7ba5c64947712a002ef4d38b36310f:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool is_one() const
+
+
+
+.. rubric:: Returns:
+
+``false``
+
+.. index:: pair: function; is_minus_one
+.. _doxid-class_sym_engine_1_1_complex_double_1af4954792cfe6c1283db41697ae2c2dae:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool is_minus_one() const
+
+
+
+.. rubric:: Returns:
+
+``false``
+
+.. index:: pair: function; addcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a3153c20ea7bf9ddaf75674c706bbe880:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> addcomp(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const
+
+:ref:`Add <doxid-class_sym_engine_1_1_add>` ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Integer <doxid-class_sym_engine_1_1_integer>`
+
+.. index:: pair: function; addcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1afc9042149a5eac0069fd83891088cfee:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> addcomp(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const
+
+:ref:`Add <doxid-class_sym_engine_1_1_add>` ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Rational <doxid-class_sym_engine_1_1_rational>`
+
+.. index:: pair: function; addcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a247aa6b54a1ef0f887b5fcae43d22acd:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> addcomp(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const
+
+:ref:`Add <doxid-class_sym_engine_1_1_add>` ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Complex <doxid-class_sym_engine_1_1_complex>`
+
+.. index:: pair: function; addcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a92148ab24ccc15a2ef4aa2476d866296:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> addcomp(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const
+
+:ref:`Add <doxid-class_sym_engine_1_1_add>` ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`RealDouble <doxid-class_sym_engine_1_1_real_double>`
+
+.. index:: pair: function; addcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a64966c35147e599455a619df4a5c13df:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> addcomp(const ComplexDouble& other) const
+
+:ref:`Add <doxid-class_sym_engine_1_1_add>` ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+.. index:: pair: function; add
+.. _doxid-class_sym_engine_1_1_complex_double_1adb4f4b3ad38f31054195d70888fa25c5:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> add(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const
+
+Converts the param ``other`` appropriately and then calls ``addcomp``
+
+.. index:: pair: function; subcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a4d06051c5bdc23aa04928b6a84e4272b:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> subcomp(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Integer <doxid-class_sym_engine_1_1_integer>`
+
+.. index:: pair: function; subcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1aadc2f1cf19de4f18b10888c87e385090:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> subcomp(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Rational <doxid-class_sym_engine_1_1_rational>`
+
+.. index:: pair: function; subcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a836c8372699027accd3f43b414f4ea64:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> subcomp(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Complex <doxid-class_sym_engine_1_1_complex>`
+
+.. index:: pair: function; subcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a03c028683dc28d35792c598b0b12765a:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> subcomp(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`RealDouble <doxid-class_sym_engine_1_1_real_double>`
+
+.. index:: pair: function; subcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a927ebcaa803a4aebef19736a4644cc76:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> subcomp(const ComplexDouble& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+.. index:: pair: function; sub
+.. _doxid-class_sym_engine_1_1_complex_double_1a1699c3ea59618f528c902896abd53431:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> sub(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const
+
+Converts the param ``other`` appropriately and then calls ``subcomp``
+
+.. index:: pair: function; rsubcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a9455dc6f51fe99e176372713fe7ffed3:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rsubcomp(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Integer <doxid-class_sym_engine_1_1_integer>`
+
+.. index:: pair: function; rsubcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a52973745d9a1cc7a725108225300977e:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rsubcomp(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Rational <doxid-class_sym_engine_1_1_rational>`
+
+.. index:: pair: function; rsubcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1ac3f83d40c42d2e253eecf66a866b0e20:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rsubcomp(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Complex <doxid-class_sym_engine_1_1_complex>`
+
+.. index:: pair: function; rsubcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a37a1afce71c46611376f4049ace91d6a:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rsubcomp(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const
+
+Subtract ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`RealDouble <doxid-class_sym_engine_1_1_real_double>`
+
+.. index:: pair: function; rsub
+.. _doxid-class_sym_engine_1_1_complex_double_1a46c8afd2f0519cb2a64f30cc342a8523:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rsub(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const
+
+Converts the param ``other`` appropriately and then calls ``subcomp``
+
+.. index:: pair: function; mulcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a947ded42fa7f0a1a0d25e43a60ea0ac3:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> mulcomp(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const
+
+Multiply ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Integer <doxid-class_sym_engine_1_1_integer>`
+
+.. index:: pair: function; mulcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1af8243b7c2c23bd5e97a5569a226b1720:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> mulcomp(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const
+
+Multiply ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Rational <doxid-class_sym_engine_1_1_rational>`
+
+.. index:: pair: function; mulcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1aef2e9fac4479e709d4a313d3d5fb557f:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> mulcomp(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const
+
+Multiply ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Complex <doxid-class_sym_engine_1_1_complex>`
+
+.. index:: pair: function; mulcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a3b7856d11236499ba7cbee26cbeb2b7d:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> mulcomp(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const
+
+Multiply ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`RealDouble <doxid-class_sym_engine_1_1_real_double>`
+
+.. index:: pair: function; mulcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a3e765a1d34281e5834e45381e33cd418:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> mulcomp(const ComplexDouble& other) const
+
+Multiply ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+.. index:: pair: function; mul
+.. _doxid-class_sym_engine_1_1_complex_double_1a91a4cc378fbd60c3cf5d7e8327e5ef68:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> mul(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const
+
+Converts the param ``other`` appropriately and then calls ``mulcomp``
+
+.. index:: pair: function; divcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1ae059d13bcc0185b63d1c9682d61d0d45:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> divcomp(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Integer <doxid-class_sym_engine_1_1_integer>`
+
+.. index:: pair: function; divcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1ab5340e985d2358e6adced0658c5004c1:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> divcomp(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Rational <doxid-class_sym_engine_1_1_rational>`
+
+.. index:: pair: function; divcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1ad7737f336e9ccf5acb25aa7e0ec62a9c:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> divcomp(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Complex <doxid-class_sym_engine_1_1_complex>`
+
+.. index:: pair: function; divcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1ab571c0a7940f6109c8119ac9c98fecfd:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> divcomp(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`RealDouble <doxid-class_sym_engine_1_1_real_double>`
+
+.. index:: pair: function; divcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1aa47b356e1db95276c31646b07e0c577e:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> divcomp(const ComplexDouble& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+.. index:: pair: function; div
+.. _doxid-class_sym_engine_1_1_complex_double_1a622168920a51ad17d460ef568c9488fd:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> div(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const
+
+Converts the param ``other`` appropriately and then calls ``divcomp``
+
+.. index:: pair: function; rdivcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a66a547bcae5995977aee370098381444:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rdivcomp(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Integer <doxid-class_sym_engine_1_1_integer>`
+
+.. index:: pair: function; rdivcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a0a20d647475c2a9867e66ef4b4ab6b2b:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rdivcomp(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Rational <doxid-class_sym_engine_1_1_rational>`
+
+.. index:: pair: function; rdivcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a3c07eef51ebed2fb0eda9a19a2a2fba5:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rdivcomp(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Complex <doxid-class_sym_engine_1_1_complex>`
+
+.. index:: pair: function; rdivcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1aadeaa555d9cada6676977c8a679481f5:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rdivcomp(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const
+
+Divide ComplexDoubles
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`RealDouble <doxid-class_sym_engine_1_1_real_double>`
+
+.. index:: pair: function; rdiv
+.. _doxid-class_sym_engine_1_1_complex_double_1a2ced21a9d235676a6074155644c5bfc0:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rdiv(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const
+
+Converts the param ``other`` appropriately and then calls ``divcomp``
+
+.. index:: pair: function; powcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a4025ee9cb04246d09700e51c7bc25c42:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> powcomp(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const
+
+Raise :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>` to power ``other``
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Integer <doxid-class_sym_engine_1_1_integer>`
+
+.. index:: pair: function; powcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a9db072254479885e83164e8ff3ababcc:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> powcomp(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const
+
+Raise :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>` to power ``other``
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Rational <doxid-class_sym_engine_1_1_rational>`
+
+.. index:: pair: function; powcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a5dae1a5198933a1e0e2f2391ed9603a6:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> powcomp(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const
+
+Raise :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>` to power ``other``
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Complex <doxid-class_sym_engine_1_1_complex>`
+
+.. index:: pair: function; powcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1abd89517450811ecb5196badf301ece82:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> powcomp(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const
+
+Raise :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>` to power ``other``
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`RealDouble <doxid-class_sym_engine_1_1_real_double>`
+
+.. index:: pair: function; powcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1af56850cec553e8369f2dc1ac3c933965:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> powcomp(const ComplexDouble& other) const
+
+Raise :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>` to power ``other``
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+.. index:: pair: function; pow
+.. _doxid-class_sym_engine_1_1_complex_double_1af23dea5182eb087a400b70d02f350064:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> pow(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const
+
+Converts the param ``other`` appropriately and then calls ``powcomp``
+
+.. index:: pair: function; rpowcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a80545f09ac543a485b35a9c73e69c3d9:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rpowcomp(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& other) const
+
+Raise ``other`` to power :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Integer <doxid-class_sym_engine_1_1_integer>`
+
+.. index:: pair: function; rpowcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a63011de49a42b138434af55f85ff56ca:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rpowcomp(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& other) const
+
+Raise ``other`` to power :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Rational <doxid-class_sym_engine_1_1_rational>`
+
+.. index:: pair: function; rpowcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a31fd92ab8fa24aa84e5c72b194b1040c:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rpowcomp(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& other) const
+
+Raise ``other`` to power :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`Complex <doxid-class_sym_engine_1_1_complex>`
+
+.. index:: pair: function; rpowcomp
+.. _doxid-class_sym_engine_1_1_complex_double_1a81f5f89dfb7342e63ba68f861f2a4722:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rpowcomp(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& other) const
+
+Raise ``other`` to power :ref:`ComplexDouble <doxid-class_sym_engine_1_1_complex_double>`
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- other
+
+		- of type :ref:`RealDouble <doxid-class_sym_engine_1_1_real_double>`
+
+.. index:: pair: function; rpow
+.. _doxid-class_sym_engine_1_1_complex_double_1a43bc6126840b01d606a29ae27da123cb:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> rpow(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const
+
+Converts the param ``other`` appropriately and then calls ``powcomp``
+

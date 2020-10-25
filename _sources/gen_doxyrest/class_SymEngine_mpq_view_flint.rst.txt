@@ -1,0 +1,28 @@
+.. index:: pair: class; SymEngine::mpq_view_flint
+.. _doxid-class_sym_engine_1_1mpq__view__flint:
+
+class SymEngine::mpq_view_flint
+===============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <flint_wrapper.h>
+	
+	class mpq_view_flint {
+	public:
+		// construction
+	
+		:target:`mpq_view_flint<doxid-class_sym_engine_1_1mpq__view__flint_1a5aae33e0690b331b6ce32e553bfb5d49>`(const :ref:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper>`& i);
+		:target:`~mpq_view_flint<doxid-class_sym_engine_1_1mpq__view__flint_1a3440c166d0eb525f92e9798600bb0f94>`();
+
+		// methods
+	
+		:target:`operator mpq_srcptr<doxid-class_sym_engine_1_1mpq__view__flint_1ac27a023cc7d0fbde5f2c3687e5c40137>`() const;
+	};

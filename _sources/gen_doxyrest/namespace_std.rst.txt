@@ -1,0 +1,26 @@
+.. index:: pair: namespace; std
+.. _doxid-namespacestd:
+
+namespace std
+=============
+
+.. toctree::
+	:hidden:
+
+	struct_std_hash.rst
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	namespace std {
+
+	// structs
+
+	template <>
+	struct :ref:`hash<SymEngine::Basic><doxid-structstd_1_1hash_3_01_sym_engine_1_1_basic_01_4>`;
+
+	} // namespace std

@@ -1,0 +1,18 @@
+.. index:: pair: class; SymEngine::IRBuilder
+.. _doxid-class_sym_engine_1_1_i_r_builder:
+
+class SymEngine::IRBuilder
+==========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	class IRBuilder: public llvm::IRBuilder<> {
+	};

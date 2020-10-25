@@ -1,0 +1,23 @@
+.. index:: pair: struct; SymEngine::is_base_of_multiple
+.. _doxid-struct_sym_engine_1_1is__base__of__multiple:
+
+template struct SymEngine::is_base_of_multiple
+==============================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <visitor.h>
+	
+	template <typename Derived, typename First, typename... Rest>
+	struct is_base_of_multiple {
+		// fields
+	
+		static const bool :target:`value<doxid-struct_sym_engine_1_1is__base__of__multiple_1a11886c7eae65242cfc3695fec1d339b2>` = std::is_base_of<First, Derived>::value                               or is_base_of_multiple<Derived, Rest...>::value;
+	};

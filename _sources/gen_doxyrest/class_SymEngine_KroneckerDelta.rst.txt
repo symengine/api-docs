@@ -1,0 +1,123 @@
+.. index:: pair: class; SymEngine::KroneckerDelta
+.. _doxid-class_sym_engine_1_1_kronecker_delta:
+
+class SymEngine::KroneckerDelta
+===============================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <functions.h>
+	
+	class KroneckerDelta: public :ref:`SymEngine::TwoArgBasic<doxid-class_sym_engine_1_1_two_arg_basic>` {
+	public:
+		// construction
+	
+		:ref:`KroneckerDelta<doxid-class_sym_engine_1_1_kronecker_delta_1ae71aa1798cdbb66ca8a7f83a166af402>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& i, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& j);
+
+		// methods
+	
+		bool :ref:`is_canonical<doxid-class_sym_engine_1_1_kronecker_delta_1a242965b06c819c6329bcfc0778dbfbeb>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& i, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& j) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_kronecker_delta_1a25716c16b8dd850b3b9892370691f7ae>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_kronecker_delta_1a32e28455dfcaea4bff726e1778577931>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b);
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_kronecker_delta_1adae96736c20c332cba47e3adcfd8b8b6>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b);
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// methods
+	
+		:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_two_arg_basic_1a1da58a053c6f23dd65a6f40291dc6128>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg1<doxid-class_sym_engine_1_1_two_arg_basic_1a3cfad66a68d323125fd12ea18afbb516>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg2<doxid-class_sym_engine_1_1_two_arg_basic_1a6d04c4b92c824e1afca902619a9f0a09>`() const;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_two_arg_basic_1aef40db5fb895450b2a5c75727d55d16d>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1a07a4fa1616bc3633ab921279923edae3>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const = 0;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1adae96736c20c332cba47e3adcfd8b8b6>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b) const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_two_arg_basic_1ae383659bbb601f6181b79e6c4dda9c66>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_two_arg_basic_1a88bf8e58ca08bf0db1dbfe8ee940101d>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+
+.. _details-class_sym_engine_1_1_kronecker_delta:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Construction
+------------
+
+.. index:: pair: function; KroneckerDelta
+.. _doxid-class_sym_engine_1_1_kronecker_delta_1ae71aa1798cdbb66ca8a7f83a166af402:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	KroneckerDelta(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& i, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& j)
+
+:ref:`KroneckerDelta <doxid-class_sym_engine_1_1_kronecker_delta>` Constructor.
+
+Methods
+-------
+
+.. index:: pair: function; is_canonical
+.. _doxid-class_sym_engine_1_1_kronecker_delta_1a242965b06c819c6329bcfc0778dbfbeb:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	bool is_canonical(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& i, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& j) const
+
+
+
+.. rubric:: Returns:
+
+``true`` if canonical
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_kronecker_delta_1a25716c16b8dd850b3b9892370691f7ae:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const
+
+
+
+.. rubric:: Returns:
+
+canonicalized ``:ref:`KroneckerDelta <doxid-class_sym_engine_1_1_kronecker_delta>```
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_kronecker_delta_1a32e28455dfcaea4bff726e1778577931:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b)
+
+The discrete, or Kronecker, delta function. A function that takes in two integers ``i`` and ``j``. It returns ``0`` if ``i`` and ``j`` are not equal or it returns ``1`` if ``i`` and ``j`` are equal. `http://en.wikipedia.org/wiki/Kronecker_delta <http://en.wikipedia.org/wiki/Kronecker_delta>`__
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_kronecker_delta_1adae96736c20c332cba47e3adcfd8b8b6:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b)
+
+The discrete, or Kronecker, delta function. A function that takes in two integers ``i`` and ``j``. It returns ``0`` if ``i`` and ``j`` are not equal or it returns ``1`` if ``i`` and ``j`` are equal. `http://en.wikipedia.org/wiki/Kronecker_delta <http://en.wikipedia.org/wiki/Kronecker_delta>`__
+

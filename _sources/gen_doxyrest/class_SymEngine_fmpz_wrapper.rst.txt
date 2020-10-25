@@ -1,0 +1,54 @@
+.. index:: pair: class; SymEngine::fmpz_wrapper
+.. _doxid-class_sym_engine_1_1fmpz__wrapper:
+
+class SymEngine::fmpz_wrapper
+=============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <flint_wrapper.h>
+	
+	class fmpz_wrapper {
+	public:
+		// construction
+	
+		template <typename T, typename std::enable_if<std::is_integral<T>::value&&std::is_signed<T>::value, int>::type = 0>
+		:target:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper_1a9cd19b867e2842bb3d60d55d63b2097b>`(const T i);
+	
+		:target:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper_1aaad0dd62357088252cf5baacddcc4af3>`();
+		:target:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper_1a638176f41b5b67921a0372ea18a8826c>`(const mpz_t m);
+		:target:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper_1a5a8173be7c4f57be317bbc080d82fad8>`(const fmpz_t m);
+		:target:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper_1ad5a2d41f136133d5255f26c7deac05b5>`(const std::string& s, unsigned base = 10);
+		:target:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper_1a3111760a3095c891f806b745ea82a5c4>`(const fmpz_wrapper& other);
+		:target:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper_1a88b0f37392828f732bcb1af9f634b0e9>`(fmpz_wrapper&& other);
+		:target:`~fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper_1a05fb5c13930ea1db7ead5b54cf0a75e6>`();
+
+		// methods
+	
+		fmpz_wrapper& :target:`operator=<doxid-class_sym_engine_1_1fmpz__wrapper_1ae2d8d9da1ec6fd04ec38525477d89c76>`(const fmpz_wrapper& other);
+		fmpz_wrapper& :target:`operator=<doxid-class_sym_engine_1_1fmpz__wrapper_1aeba7d03f730543ac13f04f8b0adf5c22>`(fmpz_wrapper&& other);
+		fmpz* :target:`get_fmpz_t<doxid-class_sym_engine_1_1fmpz__wrapper_1ad7540dc8885fd066324d9ca8c203dbfc>`();
+		const fmpz* :target:`get_fmpz_t<doxid-class_sym_engine_1_1fmpz__wrapper_1aac8f32aa40beee4a36a6be14acee05af>`() const;
+		fmpz_wrapper :target:`operator+=<doxid-class_sym_engine_1_1fmpz__wrapper_1ad1ea6c956e977fd873f12722d9a0b23a>`(const fmpz_wrapper& a);
+		fmpz_wrapper :target:`operator-=<doxid-class_sym_engine_1_1fmpz__wrapper_1aadca11a13a07e56c3084fd5fde4fa887>`(const fmpz_wrapper& a);
+		fmpz_wrapper :target:`operator-<doxid-class_sym_engine_1_1fmpz__wrapper_1a7fcf13780b661f5d1efd566fc7b94a87>`() const;
+		fmpz_wrapper :target:`operator*=<doxid-class_sym_engine_1_1fmpz__wrapper_1a91cfe37fcaa07c3984c1a1b8c02d087c>`(const fmpz_wrapper& a);
+		fmpz_wrapper :target:`operator/=<doxid-class_sym_engine_1_1fmpz__wrapper_1a84168915e7a60b2d285d259b3e6fdaed>`(const fmpz_wrapper& a);
+		fmpz_wrapper :target:`operator%=<doxid-class_sym_engine_1_1fmpz__wrapper_1a89393bacdc96fba37af3fc8daf592251>`(const fmpz_wrapper& a);
+		fmpz_wrapper :target:`operator++<doxid-class_sym_engine_1_1fmpz__wrapper_1a20633d92783fff0726490b63669e2da0>`();
+		fmpz_wrapper :target:`operator++<doxid-class_sym_engine_1_1fmpz__wrapper_1ab458030c84e6bb26ea9fcc28fce5bb86>`(int);
+		fmpz_wrapper :target:`operator--<doxid-class_sym_engine_1_1fmpz__wrapper_1a0b8e6c817f22c8d40b78caa2a94a623b>`();
+		fmpz_wrapper :target:`operator--<doxid-class_sym_engine_1_1fmpz__wrapper_1a6b3f256925bf909a70f608f302a72a7d>`(int);
+		fmpz_wrapper :target:`operator<<=<doxid-class_sym_engine_1_1fmpz__wrapper_1ab792fba347d0d7077e62c22c37d0f9de>`(unsigned long u);
+		fmpz_wrapper :target:`operator<<<doxid-class_sym_engine_1_1fmpz__wrapper_1a69c29725ab90dcbc3afb5190f71abcf2>`(unsigned long u) const;
+		fmpz_wrapper :target:`operator>>=<doxid-class_sym_engine_1_1fmpz__wrapper_1a705d2bdf43b60d599d73c762c33888f3>`(unsigned long u);
+		fmpz_wrapper :target:`operator>><doxid-class_sym_engine_1_1fmpz__wrapper_1a8f1f55a22ccbe7edf2ed2ca32ad06c1d>`(unsigned long u) const;
+		fmpz_wrapper :target:`root<doxid-class_sym_engine_1_1fmpz__wrapper_1ae349723d3f0d30a3cfe105f7b771d86b>`(unsigned int n) const;
+	};

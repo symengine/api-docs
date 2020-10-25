@@ -1,0 +1,31 @@
+.. index:: pair: class; SymEngine::FreeSymbolsVisitor
+.. _doxid-class_sym_engine_1_1_free_symbols_visitor:
+
+class SymEngine::FreeSymbolsVisitor
+===================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	class FreeSymbolsVisitor: public :ref:`SymEngine::BaseVisitor<doxid-class_sym_engine_1_1_base_visitor>` {
+	public:
+		// fields
+	
+		:ref:`set_basic<doxid-namespace_sym_engine_1a1fa620e6bcd71963ab13f25687d23b63>` :target:`s<doxid-class_sym_engine_1_1_free_symbols_visitor_1a02b15e839b60af92405df4a24ae84762>`;
+		:ref:`uset_basic<doxid-namespace_sym_engine_1aa8c4cc3cd3757f451a526b35110e149c>` :target:`v<doxid-class_sym_engine_1_1_free_symbols_visitor_1a9234d045af13d7f970565d5215e22efc>`;
+
+		// methods
+	
+		void :target:`bvisit<doxid-class_sym_engine_1_1_free_symbols_visitor_1a1a5cc6cb21d77d0017e15b1f441b97dc>`(const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_free_symbols_visitor_1a6604b9351e18bad2b1cb63580abd1445>`(const :ref:`Subs<doxid-class_sym_engine_1_1_subs>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_free_symbols_visitor_1ae2da0d985f6e2c2994408555d99f5772>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& x);
+		:ref:`set_basic<doxid-namespace_sym_engine_1a1fa620e6bcd71963ab13f25687d23b63>` :target:`apply<doxid-class_sym_engine_1_1_free_symbols_visitor_1a90a51dab2ffc260491e4973747c77146>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& b);
+		:ref:`set_basic<doxid-namespace_sym_engine_1a1fa620e6bcd71963ab13f25687d23b63>` :target:`apply<doxid-class_sym_engine_1_1_free_symbols_visitor_1a95ea4250bcdc7a41472e6fa8482591b8>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& m);
+	};

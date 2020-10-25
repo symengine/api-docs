@@ -1,0 +1,131 @@
+.. index:: pair: class; SymEngine::ATan2
+.. _doxid-class_sym_engine_1_1_a_tan2:
+
+class SymEngine::ATan2
+======================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <functions.h>
+	
+	class ATan2: public :ref:`SymEngine::TwoArgBasic<doxid-class_sym_engine_1_1_two_arg_basic>` {
+	public:
+		// construction
+	
+		:ref:`ATan2<doxid-class_sym_engine_1_1_a_tan2_1a70edcb86917de5053687e686738c555d>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& num, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& den);
+
+		// methods
+	
+		bool :ref:`is_canonical<doxid-class_sym_engine_1_1_a_tan2_1a30092fa945cf63d820ccec0530c9e030>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& num, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& den) const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_num<doxid-class_sym_engine_1_1_a_tan2_1abd5d6f86ee8e4f04a23c025492224e19>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_den<doxid-class_sym_engine_1_1_a_tan2_1a783421816e8d6e1594252c3a9e29042e>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_a_tan2_1a384a2bfa60fed5f55cc8aacd08de5a04>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const;
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// methods
+	
+		:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_two_arg_basic_1a1da58a053c6f23dd65a6f40291dc6128>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg1<doxid-class_sym_engine_1_1_two_arg_basic_1a3cfad66a68d323125fd12ea18afbb516>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg2<doxid-class_sym_engine_1_1_two_arg_basic_1a6d04c4b92c824e1afca902619a9f0a09>`() const;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_two_arg_basic_1aef40db5fb895450b2a5c75727d55d16d>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1a07a4fa1616bc3633ab921279923edae3>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const = 0;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1adae96736c20c332cba47e3adcfd8b8b6>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b) const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_two_arg_basic_1ae383659bbb601f6181b79e6c4dda9c66>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_two_arg_basic_1a88bf8e58ca08bf0db1dbfe8ee940101d>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+
+.. _details-class_sym_engine_1_1_a_tan2:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Construction
+------------
+
+.. index:: pair: function; ATan2
+.. _doxid-class_sym_engine_1_1_a_tan2_1a70edcb86917de5053687e686738c555d:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	ATan2(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& num, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& den)
+
+:ref:`ATan2 <doxid-class_sym_engine_1_1_a_tan2>` Constructor.
+
+Methods
+-------
+
+.. index:: pair: function; is_canonical
+.. _doxid-class_sym_engine_1_1_a_tan2_1a30092fa945cf63d820ccec0530c9e030:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	bool is_canonical(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& num, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& den) const
+
+
+
+.. rubric:: Returns:
+
+``true`` if canonical
+
+.. index:: pair: function; get_num
+.. _doxid-class_sym_engine_1_1_a_tan2_1abd5d6f86ee8e4f04a23c025492224e19:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> get_num() const
+
+
+
+.. rubric:: Returns:
+
+``y`` in ``atan2(y, x)``
+
+.. index:: pair: function; get_den
+.. _doxid-class_sym_engine_1_1_a_tan2_1a783421816e8d6e1594252c3a9e29042e:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> get_den() const
+
+
+
+.. rubric:: Returns:
+
+``x`` in ``atan2(y, x)``
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_a_tan2_1a384a2bfa60fed5f55cc8aacd08de5a04:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const
+
+
+
+.. rubric:: Returns:
+
+canonicalized ``atan2``
+

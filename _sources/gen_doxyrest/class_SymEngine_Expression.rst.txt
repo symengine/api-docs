@@ -1,0 +1,311 @@
+.. index:: pair: class; SymEngine::Expression
+.. _doxid-class_sym_engine_1_1_expression:
+
+class SymEngine::Expression
+===========================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <expression.h>
+	
+	class Expression {
+	public:
+		// construction
+	
+		:ref:`Expression<doxid-class_sym_engine_1_1_expression_1aea4a1840ff3c11a8ad81d188eac41a0a>`();
+	
+		template <class T>
+		:ref:`Expression<doxid-class_sym_engine_1_1_expression_1a1fbb141ebc8a0f5536f98cdf381a1078>`(T n, typename std::enable_if<std::is_integral<T>::value>::type* = nullptr);
+	
+		template <class T>
+		:ref:`Expression<doxid-class_sym_engine_1_1_expression_1a01c7016ccd03a98e52ef981c3435097f>`(T n, typename std::enable_if<std::is_floating_point<T>::value>::type* = nullptr);
+	
+		template <class T>
+		:ref:`Expression<doxid-class_sym_engine_1_1_expression_1af614630575cdc22392406c7070627924>`(std::complex<T> n, typename std::enable_if<std::is_floating_point<T>::value>::type* = nullptr);
+	
+		:target:`Expression<doxid-class_sym_engine_1_1_expression_1a0999bc6aedfbe44ec3fe7a5d38d22017>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& n);
+		:target:`Expression<doxid-class_sym_engine_1_1_expression_1ae414bf52c75cd65a483e2d6e44d76489>`(const :ref:`rational_class<doxid-namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614>`& n);
+		:target:`Expression<doxid-class_sym_engine_1_1_expression_1aead93299094047115a245abaebb74eea>`(RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>&& o);
+		:target:`Expression<doxid-class_sym_engine_1_1_expression_1aa21695c202b0cb36c012bc3c316a7378>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& o);
+		:target:`Expression<doxid-class_sym_engine_1_1_expression_1a9cf1e27937bb9bfa0a25ccdcb4308dea>`(const std::string& s);
+		:ref:`Expression<doxid-class_sym_engine_1_1_expression_1a0f8c7218c0888c7916eb841d6bfff82e>`(const Expression&);
+		:ref:`Expression<doxid-class_sym_engine_1_1_expression_1adb183e8d3372b8aa16f1b2f8e90cefb8>`(Expression&& other);
+		virtual :ref:`~Expression<doxid-class_sym_engine_1_1_expression_1aa392048f432062e1042ca72965e24463>`();
+
+		// methods
+	
+		Expression& :ref:`operator=<doxid-class_sym_engine_1_1_expression_1ac01f38ce95e06c00716d0d9e7b4943c6>`(const Expression&);
+		Expression& :ref:`operator=<doxid-class_sym_engine_1_1_expression_1a882cd7cf3c57d233ca5589aae93a4888>`(Expression&& other);
+		Expression& :ref:`operator+=<doxid-class_sym_engine_1_1_expression_1aecbdb675934bc8d45e82744f839259af>`(const Expression& other);
+		Expression& :target:`operator+=<doxid-class_sym_engine_1_1_expression_1ae7b5fa2861ebfdffa381f69b1ba6207e>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& other);
+		:target:`operator const RCP< const Basic > &<doxid-class_sym_engine_1_1_expression_1ab9bd25b8c7ebeac2a1fb226115bcf81e>`() const;
+		Expression :ref:`diff<doxid-class_sym_engine_1_1_expression_1a3fcc52914e60a0ef2df442b2f170bdb0>`(const RCP<const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`>& x, bool cache = true) const;
+		Expression :ref:`diff<doxid-class_sym_engine_1_1_expression_1a99092662b5eb9f2b5d9e3e1ff262c718>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x, bool cache = true) const;
+		Expression :ref:`subs<doxid-class_sym_engine_1_1_expression_1a706914d92af7503a26dc47203dfb0c25>`(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_map) const;
+	
+		template <typename T, typename = typename std::enable_if<std::is_arithmetic<T>::value>::type>
+		:ref:`operator T<doxid-class_sym_engine_1_1_expression_1a57643e96bb47fcd94b6981470719fe1c>`() const;
+	
+		template <typename T, typename = typename std::enable_if<std::is_arithmetic<T>::value>::type>
+		:ref:`operator std::complex< T ><doxid-class_sym_engine_1_1_expression_1a364944f6645accc2f01de5d133fc7e79>`() const;
+	
+		:target:`operator const Basic &<doxid-class_sym_engine_1_1_expression_1abc75c8f35bf2d8b9fa083e0292744396>`() const;
+		Expression :ref:`operator-<doxid-class_sym_engine_1_1_expression_1ad0f40ba6e2e4b15de85993a83add232a>`() const;
+		Expression& :ref:`operator-=<doxid-class_sym_engine_1_1_expression_1a0546be08cfac0a7bc9f199b023e57023>`(const Expression& other);
+		Expression& :target:`operator-=<doxid-class_sym_engine_1_1_expression_1a6fcf0f930305c1499c36b2bdb24f84b3>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& other);
+		Expression& :ref:`operator*=<doxid-class_sym_engine_1_1_expression_1ac6ffedfc938ffd7e772e7a99b2c97a6e>`(const Expression& other);
+		Expression& :target:`operator*=<doxid-class_sym_engine_1_1_expression_1ad22a12678acad4dda04b82b13bbfab0c>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& other);
+		Expression& :ref:`operator/=<doxid-class_sym_engine_1_1_expression_1a9f426e5897d3d4cbca35a1ee45c66121>`(const Expression& other);
+		Expression& :target:`operator/=<doxid-class_sym_engine_1_1_expression_1a1d6dc87d3125d9be4839a050248a5137>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& other);
+		bool :ref:`operator==<doxid-class_sym_engine_1_1_expression_1ab965e27cea2aecb2cb2dc49add8ab3ca>`(const Expression& other) const;
+		bool :target:`operator==<doxid-class_sym_engine_1_1_expression_1a88f5c41e0fe5276825f4c54a8f2249dc>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& other) const;
+		bool :ref:`operator!=<doxid-class_sym_engine_1_1_expression_1afb894754bd4fb00730298354852c56ac>`(const Expression& other) const;
+		bool :target:`operator!=<doxid-class_sym_engine_1_1_expression_1a401202aefcbd029fa7428bc5a35a41b5>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& other) const;
+		const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& :ref:`get_basic<doxid-class_sym_engine_1_1_expression_1a74b07ac2a42e18c318f71d7825af9504>`() const;
+	};
+.. _details-class_sym_engine_1_1_expression:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Construction
+------------
+
+.. index:: pair: function; Expression
+.. _doxid-class_sym_engine_1_1_expression_1aea4a1840ff3c11a8ad81d188eac41a0a:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression()
+
+Plain constructor of :ref:`Expression <doxid-class_sym_engine_1_1_expression>`.
+
+.. index:: pair: function; Expression
+.. _doxid-class_sym_engine_1_1_expression_1a1fbb141ebc8a0f5536f98cdf381a1078:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	template <class T>
+	Expression(T n, typename std::enable_if<std::is_integral<T>::value>::type* = nullptr)
+
+Construct :ref:`Expression <doxid-class_sym_engine_1_1_expression>` from integral types.
+
+.. index:: pair: function; Expression
+.. _doxid-class_sym_engine_1_1_expression_1a01c7016ccd03a98e52ef981c3435097f:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	template <class T>
+	Expression(T n, typename std::enable_if<std::is_floating_point<T>::value>::type* = nullptr)
+
+Construct :ref:`Expression <doxid-class_sym_engine_1_1_expression>` from floating point types.
+
+.. index:: pair: function; Expression
+.. _doxid-class_sym_engine_1_1_expression_1af614630575cdc22392406c7070627924:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	template <class T>
+	Expression(std::complex<T> n, typename std::enable_if<std::is_floating_point<T>::value>::type* = nullptr)
+
+Construct :ref:`Expression <doxid-class_sym_engine_1_1_expression>` from std::complex<> types.
+
+.. index:: pair: function; Expression
+.. _doxid-class_sym_engine_1_1_expression_1a0f8c7218c0888c7916eb841d6bfff82e:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression(const Expression&)
+
+Construct :ref:`Expression <doxid-class_sym_engine_1_1_expression>` from :ref:`Expression <doxid-class_sym_engine_1_1_expression>`.
+
+.. index:: pair: function; Expression
+.. _doxid-class_sym_engine_1_1_expression_1adb183e8d3372b8aa16f1b2f8e90cefb8:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression(Expression&& other)
+
+Construct :ref:`Expression <doxid-class_sym_engine_1_1_expression>` from reference to :ref:`Expression <doxid-class_sym_engine_1_1_expression>`.
+
+.. _doxid-class_sym_engine_1_1_expression_1aa392048f432062e1042ca72965e24463:
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual ~Expression()
+
+Destructor of :ref:`Expression <doxid-class_sym_engine_1_1_expression>`.
+
+Methods
+-------
+
+.. index:: pair: function; operator=
+.. _doxid-class_sym_engine_1_1_expression_1ac01f38ce95e06c00716d0d9e7b4943c6:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression& operator=(const Expression&)
+
+Overload assignment operator.
+
+.. index:: pair: function; operator=
+.. _doxid-class_sym_engine_1_1_expression_1a882cd7cf3c57d233ca5589aae93a4888:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression& operator=(Expression&& other)
+
+Overload assignment operator for reference.
+
+.. index:: pair: function; operator+=
+.. _doxid-class_sym_engine_1_1_expression_1aecbdb675934bc8d45e82744f839259af:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression& operator+=(const Expression& other)
+
+Overload addition and assignment(+=)
+
+.. index:: pair: function; diff
+.. _doxid-class_sym_engine_1_1_expression_1a3fcc52914e60a0ef2df442b2f170bdb0:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression diff(const RCP<const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`>& x, bool cache = true) const
+
+Differentiation.
+
+.. index:: pair: function; diff
+.. _doxid-class_sym_engine_1_1_expression_1a99092662b5eb9f2b5d9e3e1ff262c718:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression diff(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x, bool cache = true) const
+
+Differentiation.
+
+.. index:: pair: function; subs
+.. _doxid-class_sym_engine_1_1_expression_1a706914d92af7503a26dc47203dfb0c25:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression subs(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_map) const
+
+Substitution.
+
+.. index:: pair: function; operator T
+.. _doxid-class_sym_engine_1_1_expression_1a57643e96bb47fcd94b6981470719fe1c:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	template <typename T, typename = typename std::enable_if<std::is_arithmetic<T>::value>::type>
+	operator T() const
+
+Evaluation to a floating point type.
+
+.. index:: pair: function; operator std::complex< T >
+.. _doxid-class_sym_engine_1_1_expression_1a364944f6645accc2f01de5d133fc7e79:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	template <typename T, typename = typename std::enable_if<std::is_arithmetic<T>::value>::type>
+	operator std::complex< T >() const
+
+Evaluation to a complex floating point type.
+
+.. index:: pair: function; operator-
+.. _doxid-class_sym_engine_1_1_expression_1ad0f40ba6e2e4b15de85993a83add232a:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression operator-() const
+
+Overload unary negative.
+
+.. index:: pair: function; operator-=
+.. _doxid-class_sym_engine_1_1_expression_1a0546be08cfac0a7bc9f199b023e57023:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression& operator-=(const Expression& other)
+
+Overload subtraction and assignment(-=)
+
+.. index:: pair: function; operator*=
+.. _doxid-class_sym_engine_1_1_expression_1ac6ffedfc938ffd7e772e7a99b2c97a6e:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression& operator*=(const Expression& other)
+
+Overload multiplication and assignment (\*=)
+
+.. index:: pair: function; operator/=
+.. _doxid-class_sym_engine_1_1_expression_1a9f426e5897d3d4cbca35a1ee45c66121:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Expression& operator/=(const Expression& other)
+
+Overload Division and assignment (/=)
+
+.. index:: pair: function; operator==
+.. _doxid-class_sym_engine_1_1_expression_1ab965e27cea2aecb2cb2dc49add8ab3ca:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	bool operator==(const Expression& other) const
+
+Overload check equality (==)
+
+.. index:: pair: function; operator!=
+.. _doxid-class_sym_engine_1_1_expression_1afb894754bd4fb00730298354852c56ac:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	bool operator!=(const Expression& other) const
+
+Overload check not equal (!=)
+
+.. index:: pair: function; get_basic
+.. _doxid-class_sym_engine_1_1_expression_1a74b07ac2a42e18c318f71d7825af9504:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& get_basic() const
+
+Method to get :ref:`Basic <doxid-class_sym_engine_1_1_basic>` from :ref:`Expression <doxid-class_sym_engine_1_1_expression>`.
+

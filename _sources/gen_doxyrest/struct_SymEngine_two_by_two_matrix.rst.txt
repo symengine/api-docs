@@ -1,0 +1,33 @@
+.. index:: pair: struct; SymEngine::two_by_two_matrix
+.. _doxid-struct_sym_engine_1_1two__by__two__matrix:
+
+struct SymEngine::two_by_two_matrix
+===================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	struct two_by_two_matrix {
+		// fields
+	
+		:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` :target:`data<doxid-struct_sym_engine_1_1two__by__two__matrix_1a6ba9e0c25c46fe2004c5d232c73fdbff>`[2][2];
+
+		// construction
+	
+		:target:`two_by_two_matrix<doxid-struct_sym_engine_1_1two__by__two__matrix_1aab1af9e8cddfdcb731053ddac6fe6c20>`(:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` a, :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` b, :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` c, :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` d);
+		:target:`two_by_two_matrix<doxid-struct_sym_engine_1_1two__by__two__matrix_1a37e87b69004f34a23f75c9ec1d591ed7>`();
+
+		// methods
+	
+		two_by_two_matrix& :target:`operator=<doxid-struct_sym_engine_1_1two__by__two__matrix_1aabffba09f2bd1578b297b389b206a0cd>`(const two_by_two_matrix& other);
+		two_by_two_matrix :target:`operator*<doxid-struct_sym_engine_1_1two__by__two__matrix_1a0f4f0ddf3811ece6f37d1ae2226ea87f>`(const two_by_two_matrix& other);
+		two_by_two_matrix :target:`pow<doxid-struct_sym_engine_1_1two__by__two__matrix_1a10c0bf4ed8cd3c3e748ba2893b3d14a4>`(unsigned long n);
+		static two_by_two_matrix :target:`identity<doxid-struct_sym_engine_1_1two__by__two__matrix_1ac0f3ca9ba1343911108bc793ec3a618d>`();
+	};

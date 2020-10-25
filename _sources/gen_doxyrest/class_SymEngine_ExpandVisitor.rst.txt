@@ -1,0 +1,35 @@
+.. index:: pair: class; SymEngine::ExpandVisitor
+.. _doxid-class_sym_engine_1_1_expand_visitor:
+
+class SymEngine::ExpandVisitor
+==============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	class ExpandVisitor: public :ref:`SymEngine::BaseVisitor<doxid-class_sym_engine_1_1_base_visitor>` {
+	public:
+		// construction
+	
+		:target:`ExpandVisitor<doxid-class_sym_engine_1_1_expand_visitor_1ae1ae3011f7e45dae60c274dcb35d6943>`(bool deep_ = true);
+
+		// methods
+	
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`apply<doxid-class_sym_engine_1_1_expand_visitor_1a3cce054ab937132b8bec7762158c10f7>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& b);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_expand_visitor_1abc07f7e5bd298aa4fd38af91a699d5dd>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_expand_visitor_1a076327d0c36ca2c6a27165d174435807>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_expand_visitor_1ac4e109f3b1308495581a911a99146fae>`(const :ref:`Add<doxid-class_sym_engine_1_1_add>`& self);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_expand_visitor_1a4811fd12d725baa1bb26a786449f19df>`(const :ref:`Mul<doxid-class_sym_engine_1_1_mul>`& self);
+		void :target:`mul_expand_two<doxid-class_sym_engine_1_1_expand_visitor_1ad88292e576b2a9c0447caf3ff2e69591>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b);
+		void :target:`square_expand<doxid-class_sym_engine_1_1_expand_visitor_1afb336429b1d819859966df17054c990a>`(:ref:`umap_basic_num<doxid-namespace_sym_engine_1ab37a0fc09c189e2d50880c64ebc5137e>`& base_dict);
+		void :target:`pow_expand<doxid-class_sym_engine_1_1_expand_visitor_1a1feeba98dc7fecc65ab1bd136768914b>`(:ref:`umap_basic_num<doxid-namespace_sym_engine_1ab37a0fc09c189e2d50880c64ebc5137e>`& base_dict, unsigned n);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_expand_visitor_1aab760862b122cb33ea93f6b3e2295297>`(const :ref:`Pow<doxid-class_sym_engine_1_1_pow>`& self);
+		void :target:`_coef_dict_add_term<doxid-class_sym_engine_1_1_expand_visitor_1adb28bce8dbc815733690d508ddd974d2>`(const RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`>& c, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& term);
+	};

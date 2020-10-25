@@ -1,0 +1,60 @@
+.. index:: pair: class; SymEngine::LambdaComplexDoubleVisitor
+.. _doxid-class_sym_engine_1_1_lambda_complex_double_visitor:
+
+class SymEngine::LambdaComplexDoubleVisitor
+===========================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <lambda_double.h>
+	
+	class LambdaComplexDoubleVisitor: public :ref:`SymEngine::BaseVisitor<doxid-class_sym_engine_1_1_base_visitor>` {
+	public:
+		// methods
+	
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a2eb5beb3c4c29fdc460a2b68be5308b0>`(const :ref:`Complex<doxid-class_sym_engine_1_1_complex>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1aa05989e940eb52814f4fae16945d3250>`(const :ref:`ComplexDouble<doxid-class_sym_engine_1_1_complex_double>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a27a5b4c6e8fb3a0b5a98f980d7845b73>`(const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a3ad088124333264826c182185f7cc5d1>`(const :ref:`Integer<doxid-class_sym_engine_1_1_integer>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1afa5572d98f874647eddfd3284590b4dd>`(const :ref:`Rational<doxid-class_sym_engine_1_1_rational>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a5ca3c82a0fc450c197c79fbc02ed1203>`(const :ref:`RealDouble<doxid-class_sym_engine_1_1_real_double>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a02c3c377ebc38d525571d5bf3da0f3f9>`(const :ref:`Add<doxid-class_sym_engine_1_1_add>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a335ca976c99260443c18efc3fd108b99>`(const :ref:`Mul<doxid-class_sym_engine_1_1_mul>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a1198dd2a471913d8726fc65c9b8147c4>`(const :ref:`Pow<doxid-class_sym_engine_1_1_pow>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1ace3facc3d7bb87f02dedd5a003a4c3a1>`(const :ref:`Sin<doxid-class_sym_engine_1_1_sin>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1acc858127c4b253f8396916f4761f2ed4>`(const :ref:`Cos<doxid-class_sym_engine_1_1_cos>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1afd1f24b04924fa08de71567228ca35e7>`(const :ref:`Tan<doxid-class_sym_engine_1_1_tan>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1ab9d3d1556deed2804438a9a6a4dfdd40>`(const :ref:`Log<doxid-class_sym_engine_1_1_log>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a3deb9f7c0bb39dac191662d9f1e0ceac>`(const :ref:`Cot<doxid-class_sym_engine_1_1_cot>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a28b5de43d7413ec20fc175d894196e1d>`(const :ref:`Csc<doxid-class_sym_engine_1_1_csc>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a78c3290a1ddaffbd01c951a72d8dcc74>`(const :ref:`Sec<doxid-class_sym_engine_1_1_sec>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a8aa9865bd844637926e5cf6d858dd0a3>`(const :ref:`ASin<doxid-class_sym_engine_1_1_a_sin>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1aee51cb0a6e54de139b58acabfa504424>`(const :ref:`ACos<doxid-class_sym_engine_1_1_a_cos>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1ab5f6cfdc64bba3e9b79ab813f126d6fc>`(const :ref:`ASec<doxid-class_sym_engine_1_1_a_sec>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1ace6d4a639ebeef27751ad8ea51a67ea9>`(const :ref:`ACsc<doxid-class_sym_engine_1_1_a_csc>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a9031dd6e948d07fffbb29e525a148d8e>`(const :ref:`ATan<doxid-class_sym_engine_1_1_a_tan>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1aee3e82418a1e2816f2d2161ce294c537>`(const :ref:`ACot<doxid-class_sym_engine_1_1_a_cot>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a4a2511e117c59e2e06c7e2e148979d06>`(const :ref:`Sinh<doxid-class_sym_engine_1_1_sinh>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1ad9e4c208b1c955504d9cf9389ab96217>`(const :ref:`Csch<doxid-class_sym_engine_1_1_csch>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a9f47754ea401fbc45843b4e632c2c262>`(const :ref:`Cosh<doxid-class_sym_engine_1_1_cosh>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1aa5e5eebdd635b3daeb98a9a31ef17316>`(const :ref:`Sech<doxid-class_sym_engine_1_1_sech>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a51c4bb72229c253ddb968ec7e1a7bfad>`(const :ref:`Tanh<doxid-class_sym_engine_1_1_tanh>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1ac33b67e5372b0983e7ce2760d59e1b14>`(const :ref:`Coth<doxid-class_sym_engine_1_1_coth>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a6f504a3af172d9de79615dd399cf0948>`(const :ref:`ASinh<doxid-class_sym_engine_1_1_a_sinh>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1aa59568aae748b361764cf5840d15cfb2>`(const :ref:`ACsch<doxid-class_sym_engine_1_1_a_csch>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a44c61fd8c3eed770730dd4d43ebe5376>`(const :ref:`ACosh<doxid-class_sym_engine_1_1_a_cosh>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1ada78d133986f5b856f07f8c80047b28f>`(const :ref:`ATanh<doxid-class_sym_engine_1_1_a_tanh>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a72a61319f1fbb693c936321b48f2b160>`(const :ref:`ACoth<doxid-class_sym_engine_1_1_a_coth>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a0c257f93f74c31dd867e2e3313f6f75f>`(const :ref:`ASech<doxid-class_sym_engine_1_1_a_sech>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a8907baccb0764cb797bc94a0dacf61d7>`(const :ref:`Constant<doxid-class_sym_engine_1_1_constant>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a056faeb2bbdeb46fbe83e73f1864bda7>`(const :ref:`Abs<doxid-class_sym_engine_1_1_abs>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a2553c8b9587497fc769ee580a093f109>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`&);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_lambda_complex_double_visitor_1a696926c81e8e98de495c4dfb8d64bdae>`(const :ref:`UnevaluatedExpr<doxid-class_sym_engine_1_1_unevaluated_expr>`& x);
+	};

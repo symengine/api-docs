@@ -1,0 +1,139 @@
+.. index:: pair: class; SymEngine::Beta
+.. _doxid-class_sym_engine_1_1_beta:
+
+class SymEngine::Beta
+=====================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <functions.h>
+	
+	class Beta: public :ref:`SymEngine::TwoArgBasic<doxid-class_sym_engine_1_1_two_arg_basic>` {
+	public:
+		// construction
+	
+		:ref:`Beta<doxid-class_sym_engine_1_1_beta_1ad7d016e8aa10dd37db3e2b405fcb7b80>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& y);
+
+		// methods
+	
+		bool :ref:`is_canonical<doxid-class_sym_engine_1_1_beta_1abd2331ab6543b11402c1f0e1f628d97d>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& s, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x);
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`rewrite_as_gamma<doxid-class_sym_engine_1_1_beta_1aeceafc01d8dde1c468649402eae4a8d4>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_beta_1ac3f5ea62d8896ab0022ac206d9bae8e2>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_beta_1a32e28455dfcaea4bff726e1778577931>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b);
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_beta_1adae96736c20c332cba47e3adcfd8b8b6>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b);
+		static RCP<const Beta> :ref:`from_two_basic<doxid-class_sym_engine_1_1_beta_1a27bfefe14997c297127fc4d7cabb7444>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& y);
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// methods
+	
+		:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_two_arg_basic_1a1da58a053c6f23dd65a6f40291dc6128>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg1<doxid-class_sym_engine_1_1_two_arg_basic_1a3cfad66a68d323125fd12ea18afbb516>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg2<doxid-class_sym_engine_1_1_two_arg_basic_1a6d04c4b92c824e1afca902619a9f0a09>`() const;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_two_arg_basic_1aef40db5fb895450b2a5c75727d55d16d>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1a07a4fa1616bc3633ab921279923edae3>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const = 0;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1adae96736c20c332cba47e3adcfd8b8b6>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b) const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_two_arg_basic_1ae383659bbb601f6181b79e6c4dda9c66>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_two_arg_basic_1a88bf8e58ca08bf0db1dbfe8ee940101d>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+
+.. _details-class_sym_engine_1_1_beta:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Construction
+------------
+
+.. index:: pair: function; Beta
+.. _doxid-class_sym_engine_1_1_beta_1ad7d016e8aa10dd37db3e2b405fcb7b80:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Beta(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& y)
+
+:ref:`Beta <doxid-class_sym_engine_1_1_beta>` Constructor.
+
+Methods
+-------
+
+.. index:: pair: function; is_canonical
+.. _doxid-class_sym_engine_1_1_beta_1abd2331ab6543b11402c1f0e1f628d97d:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	bool is_canonical(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& s, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x)
+
+
+
+.. rubric:: Returns:
+
+``true`` if canonical
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_beta_1ac3f5ea62d8896ab0022ac206d9bae8e2:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const
+
+
+
+.. rubric:: Returns:
+
+canonicalized ``:ref:`Beta <doxid-class_sym_engine_1_1_beta>```
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_beta_1a32e28455dfcaea4bff726e1778577931:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b)
+
+The beta function, also called the Euler integral of the first kind, is a special function defined by
+
+.. math:: \Beta(x, y) := \int^{1}\_{0} t^{x-1} (1-t)^{y-1} \mathrm{d}t.
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_beta_1adae96736c20c332cba47e3adcfd8b8b6:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b)
+
+The beta function, also called the Euler integral of the first kind, is a special function defined by
+
+.. math:: \Beta(x, y) := \int^{1}\_{0} t^{x-1} (1-t)^{y-1} \mathrm{d}t.
+
+.. index:: pair: function; from_two_basic
+.. _doxid-class_sym_engine_1_1_beta_1a27bfefe14997c297127fc4d7cabb7444:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	static RCP<const Beta> from_two_basic(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& x, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& y)
+
+return ``:ref:`Beta <doxid-class_sym_engine_1_1_beta>``` with ordered arguments
+

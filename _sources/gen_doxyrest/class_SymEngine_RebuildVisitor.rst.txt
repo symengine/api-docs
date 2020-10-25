@@ -1,0 +1,42 @@
+.. index:: pair: class; SymEngine::RebuildVisitor
+.. _doxid-class_sym_engine_1_1_rebuild_visitor:
+
+class SymEngine::RebuildVisitor
+===============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	class RebuildVisitor: public :ref:`SymEngine::BaseVisitor<doxid-class_sym_engine_1_1_base_visitor>` {
+	public:
+		// fields
+	
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`result_<doxid-class_sym_engine_1_1_rebuild_visitor_1a1260f9484f67470b67d768f44e8d1120>`;
+
+		// construction
+	
+		:target:`RebuildVisitor<doxid-class_sym_engine_1_1_rebuild_visitor_1a5801a9493aca71c8fb659fb7c71eb0a0>`(:ref:`umap_basic_basic<doxid-namespace_sym_engine_1a0c689777bfdf46ba18b4faae696f5fb7>`& subs_, :ref:`umap_basic_basic<doxid-namespace_sym_engine_1a0c689777bfdf46ba18b4faae696f5fb7>`& opt_subs_, :ref:`set_basic<doxid-namespace_sym_engine_1a1fa620e6bcd71963ab13f25687d23b63>`& to_eliminate_, :ref:`set_basic<doxid-namespace_sym_engine_1a1fa620e6bcd71963ab13f25687d23b63>`& excluded_symbols_, :ref:`vec_pair<doxid-namespace_sym_engine_1a8c28ada5624c06c11e387e41755a1d8a>`& replacements_);
+
+		// methods
+	
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`apply<doxid-class_sym_engine_1_1_rebuild_visitor_1a6ebdc46e9460b78c0b98726aceddebec>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& orig_expr);
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`next_symbol<doxid-class_sym_engine_1_1_rebuild_visitor_1a427fb7704edaa9787743b8080e39f238>`();
+		void :target:`bvisit<doxid-class_sym_engine_1_1_rebuild_visitor_1a3e534be20403a73ab6d0e6601e3b0d65>`(const :ref:`FunctionSymbol<doxid-class_sym_engine_1_1_function_symbol>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_rebuild_visitor_1ab7c3f3487ee50fbfded6513d29e07c44>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_rebuild_visitor_1ac818ed66dbd0557179be0e25a9e77e41>`(const :ref:`Add<doxid-class_sym_engine_1_1_add>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_rebuild_visitor_1ad5100f8b5ebe8e3985266c4e2c4dc4f9>`(const :ref:`Mul<doxid-class_sym_engine_1_1_mul>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_rebuild_visitor_1afe9b8854fb456d7dd30d1146defb11ba>`(const :ref:`Pow<doxid-class_sym_engine_1_1_pow>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_rebuild_visitor_1a39c35db9c5a881d59084cd8dad942df7>`(const :ref:`OneArgFunction<doxid-class_sym_engine_1_1_one_arg_function>`& x);
+	
+		template <class T>
+		void :target:`bvisit<doxid-class_sym_engine_1_1_rebuild_visitor_1a528f208a4a8114f1808f8514e7ad4548>`(const :ref:`TwoArgBasic<doxid-class_sym_engine_1_1_two_arg_basic>`<T>& x);
+	
+		void :target:`bvisit<doxid-class_sym_engine_1_1_rebuild_visitor_1aa5ebd4dabb78bfb20e28d56312fde048>`(const :ref:`MultiArgFunction<doxid-class_sym_engine_1_1_multi_arg_function>`& x);
+	};

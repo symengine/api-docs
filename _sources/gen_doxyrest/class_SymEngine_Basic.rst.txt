@@ -1,0 +1,269 @@
+.. index:: pair: class; SymEngine::Basic
+.. _doxid-class_sym_engine_1_1_basic:
+
+class SymEngine::Basic
+======================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+Classes like :ref:`Add <doxid-class_sym_engine_1_1_add>`, :ref:`Mul <doxid-class_sym_engine_1_1_mul>`, :ref:`Pow <doxid-class_sym_engine_1_1_pow>` are initialized through their constructor using their internal representation. :ref:`More...<details-class_sym_engine_1_1_basic>`
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <basic.h>
+	
+	class Basic: public :ref:`SymEngine::EnableRCPFromThis<doxid-class_sym_engine_1_1_enable_r_c_p_from_this>` {
+	public:
+		// fields
+	
+		:ref:`TypeID<doxid-namespace_sym_engine_1a976db42c9dfad76ad2c95a6038cbc093>` :target:`type_code_<doxid-class_sym_engine_1_1_basic_1afc3cac9dbdf56974a961c8b2cdb4dfea>`;
+
+		// construction
+	
+		:ref:`Basic<doxid-class_sym_engine_1_1_basic_1a5ad84ef8e2cdf821ad633a260021beec>`();
+		:ref:`Basic<doxid-class_sym_engine_1_1_basic_1ac2ed55d3a63b0f4141d34b1f80a0a695>`(const Basic&);
+		:ref:`Basic<doxid-class_sym_engine_1_1_basic_1a568e22a0ddccf57a179e3221debd7aca>`(Basic&&);
+		virtual :target:`~Basic<doxid-class_sym_engine_1_1_basic_1afc5718e0fd25f368f2683f9f7a63d750>`();
+
+		// methods
+	
+		:ref:`TypeID<doxid-namespace_sym_engine_1a976db42c9dfad76ad2c95a6038cbc093>` :target:`get_type_code<doxid-class_sym_engine_1_1_basic_1a3837186572bf82a499cf81259d945804>`() const;
+		Basic& :ref:`operator=<doxid-class_sym_engine_1_1_basic_1a8ddc236758a9cdd0fafadad57bfa4b09>`(const Basic&);
+		Basic& :ref:`operator=<doxid-class_sym_engine_1_1_basic_1af04d269a2434302330e05a94238527a2>`(Basic&&);
+		virtual :ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_basic_1ac950eca7e8403248252115bcba2e3ab1>`() const = 0;
+		:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`hash<doxid-class_sym_engine_1_1_basic_1af71e629c952b7390d72f2d4b24694b62>`() const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_basic_1ac6a957e2006026f74c08ae6795f5ff7f>`(const Basic& o) const = 0;
+		bool :ref:`__neq__<doxid-class_sym_engine_1_1_basic_1a3a3e923c9078ac82e01e453e80fa2134>`(const Basic& o) const;
+		int :ref:`__cmp__<doxid-class_sym_engine_1_1_basic_1adb2def25bca4104f085ae99c57af5ab3>`(const Basic& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_basic_1af03cfca16a93aaa0aff2382cc2b5087f>`(const Basic& o) const = 0;
+		std::string :ref:`__str__<doxid-class_sym_engine_1_1_basic_1a905153d35107acc23b37e04e1b430420>`() const;
+		RCP<const Basic> :ref:`subs<doxid-class_sym_engine_1_1_basic_1a7a502ee14598f873fefff54fac433d48>`(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_dict) const;
+		RCP<const Basic> :target:`xreplace<doxid-class_sym_engine_1_1_basic_1a2a7d7c5de904a663634679523c9a5348>`(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_dict) const;
+		virtual RCP<const Basic> :ref:`expand_as_exp<doxid-class_sym_engine_1_1_basic_1a6423cc8431a87cbb88e010887904b274>`() const;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_basic_1a6544293931047d6d9097e81f7d306cae>`() const = 0;
+		RCP<const Basic> :target:`diff<doxid-class_sym_engine_1_1_basic_1ad4e255f317caaaf57acabff9f6161b65>`(const RCP<const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`>& x, bool cache = true) const;
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// methods
+	
+		RCP<T> :ref:`rcp_from_this<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aed6b2bd25fd3fd124a5e97427f8372f2>`();
+		RCP<const T> :ref:`rcp_from_this<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aefdd4958f591ee705b60ea92d661a775>`() const;
+	
+		template <class T2>
+		RCP<const T2> :ref:`rcp_from_this_cast<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1a122635053dc63f074487aa3ba0df13a1>`() const;
+	
+		unsigned int :ref:`use_count<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1acbea1ba6881779f17a5b81c0fd0eb2d2>`() const;
+
+.. _details-class_sym_engine_1_1_basic:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+Classes like :ref:`Add <doxid-class_sym_engine_1_1_add>`, :ref:`Mul <doxid-class_sym_engine_1_1_mul>`, :ref:`Pow <doxid-class_sym_engine_1_1_pow>` are initialized through their constructor using their internal representation. :ref:`Add <doxid-class_sym_engine_1_1_add>`, :ref:`Mul <doxid-class_sym_engine_1_1_mul>` have a 'coeff' and 'dict', while :ref:`Pow <doxid-class_sym_engine_1_1_pow>` has 'base' and 'exp'. There are restrictions on what 'coeff' and 'dict' can be (for example 'coeff' cannot be zero in :ref:`Mul <doxid-class_sym_engine_1_1_mul>`, and if :ref:`Mul <doxid-class_sym_engine_1_1_mul>` is used inside :ref:`Add <doxid-class_sym_engine_1_1_add>`, then :ref:`Mul <doxid-class_sym_engine_1_1_mul>` 's coeff must be one, etc.). All these restrictions are checked when WITH_SYMENGINE_ASSERT is enabled inside the constructors using the is_canonical() method. That way, you don't have to worry about creating :ref:`Add <doxid-class_sym_engine_1_1_add>` / :ref:`Mul <doxid-class_sym_engine_1_1_mul>` / :ref:`Pow <doxid-class_sym_engine_1_1_pow>` with wrong arguments, as it will be caught by the tests. In the Release mode no checks are done, so you can construct :ref:`Add <doxid-class_sym_engine_1_1_add>` / :ref:`Mul <doxid-class_sym_engine_1_1_mul>` / :ref:`Pow <doxid-class_sym_engine_1_1_pow>` very quickly. The idea is that depending on the algorithm, you sometimes know that things are already canonical, so you simply pass it directly to the constructors of the :ref:`Basic <doxid-class_sym_engine_1_1_basic>` classes and you avoid expensive type checking and canonicalization. At the same time, you need to make sure that tests are still running with WITH_SYMENGINE_ASSERT enabled, so that the :ref:`Basic <doxid-class_sym_engine_1_1_basic>` classes are never in an inconsistent state.
+
+Summary: always try to construct the expressions :ref:`Add <doxid-class_sym_engine_1_1_add>` / :ref:`Mul <doxid-class_sym_engine_1_1_mul>` / :ref:`Pow <doxid-class_sym_engine_1_1_pow>` directly using their constructors and all the knowledge that you have for the given algorithm, that way things will be very fast. If you want slower but simpler code, you can use the :ref:`add() <doxid-namespace_sym_engine_1ab7ffb6840e5963dbdcff5d457068c42b>`, :ref:`mul() <doxid-namespace_sym_engine_1a896396e3101c37df65e7a2b46fc7cadd>`, :ref:`pow() <doxid-namespace_sym_engine_1a4986c6feb6b56fe61080472b36458aa9>` functions that peform general and possibly slow canonicalization first.
+
+Any :ref:`Basic <doxid-class_sym_engine_1_1_basic>` class can be used in a "dictionary", due to the methods:
+
+.. code-block:: cpp
+
+	__hash__()
+	__eq__(o)
+
+Subclasses must implement these.
+
+Construction
+------------
+
+.. index:: pair: function; Basic
+.. _doxid-class_sym_engine_1_1_basic_1a5ad84ef8e2cdf821ad633a260021beec:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Basic()
+
+Constructor.
+
+.. index:: pair: function; Basic
+.. _doxid-class_sym_engine_1_1_basic_1ac2ed55d3a63b0f4141d34b1f80a0a695:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Basic(const Basic&)
+
+Delete the copy constructor and assignment.
+
+.. index:: pair: function; Basic
+.. _doxid-class_sym_engine_1_1_basic_1a568e22a0ddccf57a179e3221debd7aca:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Basic(Basic&&)
+
+Delete the move constructor and assignment.
+
+Methods
+-------
+
+.. index:: pair: function; operator=
+.. _doxid-class_sym_engine_1_1_basic_1a8ddc236758a9cdd0fafadad57bfa4b09:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Basic& operator=(const Basic&)
+
+Assignment operator in continuation with above.
+
+.. index:: pair: function; operator=
+.. _doxid-class_sym_engine_1_1_basic_1af04d269a2434302330e05a94238527a2:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Basic& operator=(Basic&&)
+
+Assignment operator in continuation with above.
+
+.. index:: pair: function; __hash__
+.. _doxid-class_sym_engine_1_1_basic_1ac950eca7e8403248252115bcba2e3ab1:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual :ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` __hash__() const = 0
+
+Calculates the hash of the given :ref:`SymEngine <doxid-namespace_sym_engine>` class. Use :ref:`Basic.hash() <doxid-class_sym_engine_1_1_basic_1af71e629c952b7390d72f2d4b24694b62>` which gives a cached version of the hash.
+
+
+
+.. rubric:: Returns:
+
+64-bit integer value for the hash
+
+.. index:: pair: function; hash
+.. _doxid-class_sym_engine_1_1_basic_1af71e629c952b7390d72f2d4b24694b62:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` hash() const
+
+Returns the hash of the :ref:`SymEngine <doxid-namespace_sym_engine>` class: This method caches the value
+
+Use ``std::hash`` to get the hash. Example:
+
+.. code-block:: cpp
+
+	RCP<const Symbol> x = symbol("x");
+	std::hash<Basic> hash_fn;
+	std::cout << hash_fn(*x);
+
+
+
+.. rubric:: Returns:
+
+64-bit integer value for the hash
+
+.. index:: pair: function; __eq__
+.. _doxid-class_sym_engine_1_1_basic_1ac6a957e2006026f74c08ae6795f5ff7f:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual bool __eq__(const Basic& o) const = 0
+
+true if ``this`` is equal to ``o``. Deprecated: Use :ref:`eq(const Basic &a, const Basic &b) <doxid-namespace_sym_engine_1a2861dd1747fa1416cd6ef023ef08fca5>` non-member method
+
+.. index:: pair: function; __neq__
+.. _doxid-class_sym_engine_1_1_basic_1a3a3e923c9078ac82e01e453e80fa2134:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	bool __neq__(const Basic& o) const
+
+true if ``this`` is not equal to ``o``.
+
+
+
+.. rubric:: Returns:
+
+true if not equal
+
+.. index:: pair: function; __cmp__
+.. _doxid-class_sym_engine_1_1_basic_1adb2def25bca4104f085ae99c57af5ab3:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	int __cmp__(const Basic& o) const
+
+Comparison operator.
+
+.. index:: pair: function; compare
+.. _doxid-class_sym_engine_1_1_basic_1af03cfca16a93aaa0aff2382cc2b5087f:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual int compare(const Basic& o) const = 0
+
+Returns -1, 0, 1 for ``this < o, this == o, this > o``. This method is used when you want to sort things like ``x+y+z`` into canonical order. This function assumes that ``o`` is the same type as ``this``. Use ``__cmp__`` if you want general comparison.
+
+.. index:: pair: function; __str__
+.. _doxid-class_sym_engine_1_1_basic_1a905153d35107acc23b37e04e1b430420:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	std::string __str__() const
+
+Returns string representation of ``self``.
+
+.. index:: pair: function; subs
+.. _doxid-class_sym_engine_1_1_basic_1a7a502ee14598f873fefff54fac433d48:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const Basic> subs(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_dict) const
+
+Substitutes 'subs_dict' into 'self'.
+
+.. index:: pair: function; expand_as_exp
+.. _doxid-class_sym_engine_1_1_basic_1a6423cc8431a87cbb88e010887904b274:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const Basic> expand_as_exp() const
+
+expands the special function in terms of exp function
+
+.. index:: pair: function; get_args
+.. _doxid-class_sym_engine_1_1_basic_1a6544293931047d6d9097e81f7d306cae:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` get_args() const = 0
+
+Returns the list of arguments.
+

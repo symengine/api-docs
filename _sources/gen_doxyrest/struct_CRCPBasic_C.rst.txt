@@ -1,0 +1,24 @@
+.. index:: pair: struct; CRCPBasic_C
+.. _doxid-struct_c_r_c_p_basic___c:
+
+struct CRCPBasic_C
+==================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <cwrapper.h>
+	
+	struct CRCPBasic_C {
+		// fields
+	
+		void* :target:`data<doxid-struct_c_r_c_p_basic___c_1a20b2439b74a67e108af9768fecb0faaa>`;
+		void* :target:`teuchos_handle<doxid-struct_c_r_c_p_basic___c_1a114e16734f53c11a56e144860ac28f88>`;
+		int :target:`teuchos_strength<doxid-struct_c_r_c_p_basic___c_1a80a9ffc94a3e308b32214cb583893df1>`;
+	};

@@ -1,0 +1,45 @@
+.. index:: pair: struct; SymEngine::RCPBasicHash
+.. _doxid-struct_sym_engine_1_1_r_c_p_basic_hash:
+
+struct SymEngine::RCPBasicHash
+==============================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+Our hash: :ref:`More...<details-struct_sym_engine_1_1_r_c_p_basic_hash>`
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <basic.h>
+	
+	struct RCPBasicHash {
+		// methods
+	
+		size_t :ref:`operator()<doxid-struct_sym_engine_1_1_r_c_p_basic_hash_1a04e5bd2de033b1277bb3f45baca25320>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& k) const;
+	};
+.. _details-struct_sym_engine_1_1_r_c_p_basic_hash:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+Our hash:
+
+Methods
+-------
+
+.. index:: pair: function; operator()
+.. _doxid-struct_sym_engine_1_1_r_c_p_basic_hash_1a04e5bd2de033b1277bb3f45baca25320:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	size_t operator()(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& k) const
+
+Returns the hashed value.
+

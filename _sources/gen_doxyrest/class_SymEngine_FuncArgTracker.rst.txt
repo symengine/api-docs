@@ -1,0 +1,43 @@
+.. index:: pair: class; SymEngine::FuncArgTracker
+.. _doxid-class_sym_engine_1_1_func_arg_tracker:
+
+class SymEngine::FuncArgTracker
+===============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	class FuncArgTracker {
+	public:
+		// fields
+	
+		std::unordered_map<RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>, unsigned, :ref:`RCPBasicHash<doxid-struct_sym_engine_1_1_r_c_p_basic_hash>`, :ref:`RCPBasicKeyEq<doxid-struct_sym_engine_1_1_r_c_p_basic_key_eq>`> :target:`value_numbers<doxid-class_sym_engine_1_1_func_arg_tracker_1af99d4e793c336ce0c215918126ad7fdc>`;
+		:ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :target:`value_number_to_value<doxid-class_sym_engine_1_1_func_arg_tracker_1a9772a3a1ecf3947dcf4939201e878f27>`;
+		std::vector<std::set<unsigned>> :target:`arg_to_funcset<doxid-class_sym_engine_1_1_func_arg_tracker_1a520a28e52b6c7db7b6ca7ad1fecdddbc>`;
+		std::vector<std::set<unsigned>> :target:`func_to_argset<doxid-class_sym_engine_1_1_func_arg_tracker_1a129cfd22ada269ee64c7f5d5471842b3>`;
+
+		// construction
+	
+		:target:`FuncArgTracker<doxid-class_sym_engine_1_1_func_arg_tracker_1ab1c6880678bc1a90a52517527d4d4e6f>`(const std::vector<std::pair<RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>, :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`>>& funcs);
+
+		// methods
+	
+		template <typename Container>
+		:ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :target:`get_args_in_value_order<doxid-class_sym_engine_1_1_func_arg_tracker_1a35ef043504cb3738ad726d632d05cd14>`(Container& argset);
+	
+		unsigned :target:`get_or_add_value_number<doxid-class_sym_engine_1_1_func_arg_tracker_1a66b69064a970062efdfe121dbd119005>`(RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> value);
+		void :target:`stop_arg_tracking<doxid-class_sym_engine_1_1_func_arg_tracker_1a62c7ab2692d74040c53939fa1a17ce7c>`(unsigned func_i);
+		std::map<unsigned, unsigned> :target:`get_common_arg_candidates<doxid-class_sym_engine_1_1_func_arg_tracker_1afcf5bde1cf3ba977e8cdf15340f9ea85>`(std::set<unsigned>& argset, unsigned min_func_i);
+	
+		template <typename Container1, typename Container2>
+		std::vector<unsigned> :target:`get_subset_candidates<doxid-class_sym_engine_1_1_func_arg_tracker_1a1b23a6083c2781bf3cb00e847335d3ba>`(const Container1& argset, const Container2& restrict_to_funcset);
+	
+		void :target:`update_func_argset<doxid-class_sym_engine_1_1_func_arg_tracker_1ac0a33261eb4da7a4348691d02bd9233b>`(unsigned func_i, const std::vector<unsigned>& new_args);
+	};

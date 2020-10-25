@@ -1,0 +1,23 @@
+.. index:: pair: namespace; SymEngine::literals
+.. _doxid-namespace_sym_engine_1_1literals:
+
+namespace SymEngine::literals
+=============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	namespace literals {
+
+	// global functions
+
+	:ref:`rational_class<doxid-namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614>` :target:`operator""_q<doxid-namespace_sym_engine_1_1literals_1a620898fede3e2e0c8194ddb9a91cafa5>`(const char* str);
+
+	} // namespace literals

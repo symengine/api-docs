@@ -1,0 +1,98 @@
+.. index:: pair: class; SymEngine::GaloisFieldDict
+.. _doxid-class_sym_engine_1_1_galois_field_dict:
+
+class SymEngine::GaloisFieldDict
+================================
+
+.. toctree::
+	:hidden:
+
+	struct_SymEngine_GaloisFieldDict_DictLess.rst
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <fields.h>
+	
+	class GaloisFieldDict {
+	public:
+		// structs
+	
+		struct :ref:`DictLess<doxid-struct_sym_engine_1_1_galois_field_dict_1_1_dict_less>`;
+
+		// fields
+	
+		std::vector<:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`> :target:`dict_<doxid-class_sym_engine_1_1_galois_field_dict_1a3202180e3cc1736d8f04b44061ad7ab4>`;
+		:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` :target:`modulo_<doxid-class_sym_engine_1_1_galois_field_dict_1aca81d7e4ecf43cd097636434f7f8e135>`;
+
+		// construction
+	
+		:target:`GaloisFieldDict<doxid-class_sym_engine_1_1_galois_field_dict_1a6ff423ec63ed13d4571ee3d7a25b3b05>`();
+		:target:`GaloisFieldDict<doxid-class_sym_engine_1_1_galois_field_dict_1abcb3cc0967df8e244804a81966c58914>`(GaloisFieldDict&& other);
+		:target:`GaloisFieldDict<doxid-class_sym_engine_1_1_galois_field_dict_1aa62658513fd159505c3391c19e911ae7>`(const int& i, const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& mod);
+		:target:`GaloisFieldDict<doxid-class_sym_engine_1_1_galois_field_dict_1a6c27f33d91553f12ee2beea36a44e9a8>`(const :ref:`map_uint_mpz<doxid-namespace_sym_engine_1ad8114dbc1c3064b4439ee6c7dbe32384>`& p, const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& mod);
+		:target:`GaloisFieldDict<doxid-class_sym_engine_1_1_galois_field_dict_1a0ac6010396ed1e5017691631c306876c>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& i, const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& mod);
+		:target:`GaloisFieldDict<doxid-class_sym_engine_1_1_galois_field_dict_1a813542461c86a566c96c9281b72e797f>`(const GaloisFieldDict&);
+		:target:`~GaloisFieldDict<doxid-class_sym_engine_1_1_galois_field_dict_1a955b5d07fc306f68909e59b81db93c46>`();
+
+		// methods
+	
+		GaloisFieldDict& :target:`operator=<doxid-class_sym_engine_1_1_galois_field_dict_1a720fa7de6c9cfb6fd7b7ea5c3231fa1d>`(const GaloisFieldDict&);
+		void :target:`gf_div<doxid-class_sym_engine_1_1_galois_field_dict_1a89f2f4051ed0272003a9aab46b69c901>`(const GaloisFieldDict& o, const Ptr<GaloisFieldDict>& quo, const Ptr<GaloisFieldDict>& rem) const;
+		GaloisFieldDict :target:`gf_lshift<doxid-class_sym_engine_1_1_galois_field_dict_1a126842ce50523154a80d82b3e9922b38>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` n) const;
+		void :target:`gf_rshift<doxid-class_sym_engine_1_1_galois_field_dict_1ae3bf5f6b1c64dac86d121fe0ba307c16>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` n, const Ptr<GaloisFieldDict>& quo, const Ptr<GaloisFieldDict>& rem) const;
+		GaloisFieldDict :target:`gf_sqr<doxid-class_sym_engine_1_1_galois_field_dict_1a7bd37f32f08852b62cf412cde4e48ad1>`() const;
+		GaloisFieldDict :target:`gf_pow<doxid-class_sym_engine_1_1_galois_field_dict_1ab95b751ae4ce21628f3dd2a6c51c197a>`(const unsigned long n) const;
+		void :target:`gf_monic<doxid-class_sym_engine_1_1_galois_field_dict_1a7e021853e58aed7efbe85b4590a98f7a>`(:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& res, const Ptr<GaloisFieldDict>& monic) const;
+		GaloisFieldDict :target:`gf_gcd<doxid-class_sym_engine_1_1_galois_field_dict_1a06726fbc73ef924eab757f3a4ecf4014>`(const GaloisFieldDict& o) const;
+		GaloisFieldDict :target:`gf_lcm<doxid-class_sym_engine_1_1_galois_field_dict_1a6576c7374975140078220ed389c15fa2>`(const GaloisFieldDict& o) const;
+		GaloisFieldDict :target:`gf_diff<doxid-class_sym_engine_1_1_galois_field_dict_1a330cf682d372c9073e65749a13219518>`() const;
+		:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` :target:`gf_eval<doxid-class_sym_engine_1_1_galois_field_dict_1a42a53d598b8e4430c3bebf394b117153>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& a) const;
+		:ref:`vec_integer_class<doxid-namespace_sym_engine_1a6a6944aaf971949e22591955f8aae621>` :target:`gf_multi_eval<doxid-class_sym_engine_1_1_galois_field_dict_1a3011a6e5873f69a106bbb564cfeb2d2b>`(const :ref:`vec_integer_class<doxid-namespace_sym_engine_1a6a6944aaf971949e22591955f8aae621>`& v) const;
+		bool :target:`gf_is_sqf<doxid-class_sym_engine_1_1_galois_field_dict_1abf795d309ec8c166b4de1069d296ef54>`() const;
+		std::vector<std::pair<GaloisFieldDict, unsigned>> :target:`gf_sqf_list<doxid-class_sym_engine_1_1_galois_field_dict_1a6f95720425ff1b5b43f579c80390c350>`() const;
+		GaloisFieldDict :target:`gf_sqf_part<doxid-class_sym_engine_1_1_galois_field_dict_1a7b0a065133ec8c6db888f014a32ace08>`() const;
+		GaloisFieldDict :target:`gf_compose_mod<doxid-class_sym_engine_1_1_galois_field_dict_1ab99aece9e24291c56eac2abfb46fedc4>`(const GaloisFieldDict& g, const GaloisFieldDict& h) const;
+		std::vector<GaloisFieldDict> :target:`gf_frobenius_monomial_base<doxid-class_sym_engine_1_1_galois_field_dict_1a11e269afc37e09818333dd979783633f>`() const;
+		GaloisFieldDict :target:`gf_pow_mod<doxid-class_sym_engine_1_1_galois_field_dict_1a3b80078070c1837170a028f0c9230a81>`(const GaloisFieldDict& f, const unsigned long& n) const;
+		GaloisFieldDict :target:`gf_frobenius_map<doxid-class_sym_engine_1_1_galois_field_dict_1a74b1ea9de202a50f3b7282bbf5c7fa99>`(const GaloisFieldDict& g, const std::vector<GaloisFieldDict>& b) const;
+		std::pair<GaloisFieldDict, GaloisFieldDict> :target:`gf_trace_map<doxid-class_sym_engine_1_1_galois_field_dict_1addf3d4c4829e8e1a48806e0260bf3505>`(const GaloisFieldDict& a, const GaloisFieldDict& b, const GaloisFieldDict& c, const unsigned long& n) const;
+		GaloisFieldDict :target:`_gf_trace_map<doxid-class_sym_engine_1_1_galois_field_dict_1af25da917d161cd19f33cbb60fa9ceb74>`(const GaloisFieldDict& f, const unsigned long& n, const std::vector<GaloisFieldDict>& b) const;
+		std::vector<std::pair<GaloisFieldDict, unsigned>> :target:`gf_ddf_zassenhaus<doxid-class_sym_engine_1_1_galois_field_dict_1a70302ec9a8df5eb362993dbe378eb2f7>`() const;
+		GaloisFieldDict :target:`_gf_pow_pnm1d2<doxid-class_sym_engine_1_1_galois_field_dict_1a1dbfb4df7b0514f78df04df1dc585a4f>`(const GaloisFieldDict& f, const unsigned& n, const std::vector<GaloisFieldDict>& b) const;
+		GaloisFieldDict :target:`gf_random<doxid-class_sym_engine_1_1_galois_field_dict_1a9a1d49daa22cdb1f6967f92ab3185c26>`(const unsigned int& n_val, :ref:`mp_randstate<doxid-class_sym_engine_1_1mp__randstate>`& state) const;
+		std::set<GaloisFieldDict, :ref:`DictLess<doxid-struct_sym_engine_1_1_galois_field_dict_1_1_dict_less>`> :target:`gf_edf_zassenhaus<doxid-class_sym_engine_1_1_galois_field_dict_1aa8a4715e1f090baa9445da48a2398fde>`(const unsigned& n) const;
+		std::vector<std::pair<GaloisFieldDict, unsigned>> :target:`gf_ddf_shoup<doxid-class_sym_engine_1_1_galois_field_dict_1a11d320a9be0def386d8eb75867df4ae1>`() const;
+		std::set<GaloisFieldDict, :ref:`DictLess<doxid-struct_sym_engine_1_1_galois_field_dict_1_1_dict_less>`> :target:`gf_edf_shoup<doxid-class_sym_engine_1_1_galois_field_dict_1a9d150a2d5c11817285b54d55387b0027>`(const unsigned& n) const;
+		std::set<GaloisFieldDict, :ref:`DictLess<doxid-struct_sym_engine_1_1_galois_field_dict_1_1_dict_less>`> :target:`gf_zassenhaus<doxid-class_sym_engine_1_1_galois_field_dict_1a6e02ee3daf04dc07bd4cc393f0d92f66>`() const;
+		std::set<GaloisFieldDict, :ref:`DictLess<doxid-struct_sym_engine_1_1_galois_field_dict_1_1_dict_less>`> :target:`gf_shoup<doxid-class_sym_engine_1_1_galois_field_dict_1a084dbaed723546e2dfcab142e9a9dccf>`() const;
+		std::pair<:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`, std::set<std::pair<GaloisFieldDict, unsigned>, :ref:`DictLess<doxid-struct_sym_engine_1_1_galois_field_dict_1_1_dict_less>`>> :target:`gf_factor<doxid-class_sym_engine_1_1_galois_field_dict_1a0fd5879df34d83c4ace43b3d476397ba>`() const;
+		GaloisFieldDict& :target:`operator=<doxid-class_sym_engine_1_1_galois_field_dict_1a874ccae72b53c9c6ad10ff74eeb646fa>`(GaloisFieldDict&& other);
+		GaloisFieldDict& :target:`operator+=<doxid-class_sym_engine_1_1_galois_field_dict_1a27ebd7c0547f1ad3ef38a9a3e07a1d69>`(const GaloisFieldDict& other);
+		GaloisFieldDict& :target:`operator+=<doxid-class_sym_engine_1_1_galois_field_dict_1a051643d9a4f782266bba6500d525a39f>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& other);
+		GaloisFieldDict :target:`operator-<doxid-class_sym_engine_1_1_galois_field_dict_1a700d39488ae959fd6230b3fa9c374fae>`() const;
+		GaloisFieldDict& :target:`negate<doxid-class_sym_engine_1_1_galois_field_dict_1afcf852d74d06f0e16e9b3bfac5037dd9>`();
+		GaloisFieldDict& :target:`operator-=<doxid-class_sym_engine_1_1_galois_field_dict_1a6ff1a0558d3076fc563abc4cdd4beb15>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& other);
+		GaloisFieldDict& :target:`operator-=<doxid-class_sym_engine_1_1_galois_field_dict_1a4797cd7f98637690a75694d55cff40ee>`(const GaloisFieldDict& other);
+		GaloisFieldDict& :target:`operator*=<doxid-class_sym_engine_1_1_galois_field_dict_1a6d9c2a23db3408e6fc9752cc6af98d4c>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& other);
+		GaloisFieldDict& :target:`operator*=<doxid-class_sym_engine_1_1_galois_field_dict_1a055688ae06b292e7f00cb17d4080109d>`(const GaloisFieldDict& other);
+		GaloisFieldDict& :target:`operator/=<doxid-class_sym_engine_1_1_galois_field_dict_1a0ede4034ba099c071853aef9e0c12558>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& other);
+		GaloisFieldDict& :target:`operator/=<doxid-class_sym_engine_1_1_galois_field_dict_1a47506489faf95d66640474844d614aee>`(const GaloisFieldDict& other);
+		GaloisFieldDict& :target:`operator%=<doxid-class_sym_engine_1_1_galois_field_dict_1ae7a6e348a6cbc3a58cf3fe9d50d344d7>`(const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& other);
+		GaloisFieldDict& :target:`operator%=<doxid-class_sym_engine_1_1_galois_field_dict_1ac1cfcc70781cce77d1ad2ade517b03de>`(const GaloisFieldDict& other);
+		bool :target:`operator==<doxid-class_sym_engine_1_1_galois_field_dict_1ac7d0210c2f66fcadd2ed324420fb0dc3>`(const GaloisFieldDict& other) const;
+		bool :target:`operator!=<doxid-class_sym_engine_1_1_galois_field_dict_1ad8063c26ccf1ed987bc19bcea2e40170>`(const GaloisFieldDict& other) const;
+		size_t :target:`size<doxid-class_sym_engine_1_1_galois_field_dict_1a56fd65b398d4531a8ab122693aa81a67>`() const;
+		bool :target:`empty<doxid-class_sym_engine_1_1_galois_field_dict_1ac12e48c9d506f86e1ce29a386b842778>`() const;
+		unsigned :target:`degree<doxid-class_sym_engine_1_1_galois_field_dict_1ad17005c7a545fb4f0a6d2c41f1cfd4e8>`() const;
+		const std::vector<:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`>& :target:`get_dict<doxid-class_sym_engine_1_1_galois_field_dict_1a139b215015b67f096dd5f0131a7a41dc>`() const;
+		void :target:`gf_istrip<doxid-class_sym_engine_1_1_galois_field_dict_1adb7d7ace7c619b0a39ebda7a70d17001>`();
+		bool :target:`is_one<doxid-class_sym_engine_1_1_galois_field_dict_1acbd7c872fe3755094fa37a2e592d3a03>`() const;
+		:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>` :target:`get_coeff<doxid-class_sym_engine_1_1_galois_field_dict_1a0978042970e79cafdbf7d7fafdebe1cb>`(unsigned int x) const;
+		static GaloisFieldDict :target:`from_vec<doxid-class_sym_engine_1_1_galois_field_dict_1ac83033bb800e533ba18c6b60e6abf9c8>`(const std::vector<:ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`>& v, const :ref:`integer_class<doxid-namespace_sym_engine_1afb6cfb442813d33bbbe66d6b42d181ef>`& modulo);
+		static GaloisFieldDict :target:`mul<doxid-class_sym_engine_1_1_galois_field_dict_1ae33273b2b944d08d24196b345b274f21>`(const GaloisFieldDict& a, const GaloisFieldDict& b);
+		static GaloisFieldDict :target:`pow<doxid-class_sym_engine_1_1_galois_field_dict_1a006881df23c793aca1e59245c636287c>`(const GaloisFieldDict& a, unsigned int p);
+	};

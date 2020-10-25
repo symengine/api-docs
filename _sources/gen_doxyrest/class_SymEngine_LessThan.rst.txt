@@ -1,0 +1,84 @@
+.. index:: pair: class; SymEngine::LessThan
+.. _doxid-class_sym_engine_1_1_less_than:
+
+class SymEngine::LessThan
+=========================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <logic.h>
+	
+	class LessThan: public :ref:`SymEngine::Relational<doxid-class_sym_engine_1_1_relational>` {
+	public:
+		// construction
+	
+		:ref:`LessThan<doxid-class_sym_engine_1_1_less_than_1acf864d56479253b8e01665403e61ad72>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& lhs, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& rhs);
+
+		// methods
+	
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_less_than_1a4c9653fb480cdcd380a20d91bcdd3992>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const;
+		virtual RCP<const :ref:`Boolean<doxid-class_sym_engine_1_1_boolean>`> :target:`logical_not<doxid-class_sym_engine_1_1_less_than_1ad328f68146173e167afa2ce5efec73c0>`() const;
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// methods
+	
+		:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_two_arg_basic_1a1da58a053c6f23dd65a6f40291dc6128>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg1<doxid-class_sym_engine_1_1_two_arg_basic_1a3cfad66a68d323125fd12ea18afbb516>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg2<doxid-class_sym_engine_1_1_two_arg_basic_1a6d04c4b92c824e1afca902619a9f0a09>`() const;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_two_arg_basic_1aef40db5fb895450b2a5c75727d55d16d>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1a07a4fa1616bc3633ab921279923edae3>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const = 0;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1adae96736c20c332cba47e3adcfd8b8b6>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b) const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_two_arg_basic_1ae383659bbb601f6181b79e6c4dda9c66>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_two_arg_basic_1a88bf8e58ca08bf0db1dbfe8ee940101d>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual bool :ref:`is_canonical<doxid-class_sym_engine_1_1_relational_1a9500bbe5b6a5fa4af011a60361c7f6e4>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& lhs, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& rhs) const;
+
+.. _details-class_sym_engine_1_1_less_than:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Construction
+------------
+
+.. index:: pair: function; LessThan
+.. _doxid-class_sym_engine_1_1_less_than_1acf864d56479253b8e01665403e61ad72:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	LessThan(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& lhs, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& rhs)
+
+Class for operator ``<=``.
+
+Methods
+-------
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_less_than_1a4c9653fb480cdcd380a20d91bcdd3992:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const
+
+Method to construct classes with canonicalization.
+

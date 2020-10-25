@@ -1,0 +1,212 @@
+.. index:: pair: class; SymEngine::UnivariateSeries
+.. _doxid-class_sym_engine_1_1_univariate_series:
+
+class SymEngine::UnivariateSeries
+=================================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+:ref:`UnivariateSeries <doxid-class_sym_engine_1_1_univariate_series>` Class. :ref:`More...<details-class_sym_engine_1_1_univariate_series>`
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <series_generic.h>
+	
+	class UnivariateSeries: public :ref:`SymEngine::SeriesBase<doxid-class_sym_engine_1_1_series_base>` {
+	public:
+		// construction
+	
+		:target:`UnivariateSeries<doxid-class_sym_engine_1_1_univariate_series_1a8e4daa54caff28ca6f2e2d2d30e2c151>`(const UExprDict& sp, const std::string varname, const unsigned degree);
+
+		// methods
+	
+		virtual :ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_univariate_series_1aee41250e1dc7958049f58c3772f7e509>`() const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_univariate_series_1a6ac87c7f429eb0b8b2106a221e99601b>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		bool :target:`operator==<doxid-class_sym_engine_1_1_univariate_series_1ae0fc94a318d8eb183cc5810d9a99f54a>`(const UnivariateSeries& u) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`as_basic<doxid-class_sym_engine_1_1_univariate_series_1a50973de2d3553832473524c1ce50a025>`() const;
+		virtual :ref:`umap_int_basic<doxid-namespace_sym_engine_1a946f9005aa0ba2e414b184734c18e859>` :target:`as_dict<doxid-class_sym_engine_1_1_univariate_series_1a2c5781d2301bb9ec447398e95174f7f7>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`get_coeff<doxid-class_sym_engine_1_1_univariate_series_1a1f8b347f15004a2b2356223109a072f9>`(int deg) const;
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :target:`pow<doxid-class_sym_engine_1_1_univariate_series_1af47864c1b83ae960d7a802c092ad47f7>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other);
+		RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :target:`mul<doxid-class_sym_engine_1_1_univariate_series_1add4eb6159cabeb052931818ca1bf9571>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other);
+		static RCP<const UnivariateSeries> :target:`create<doxid-class_sym_engine_1_1_univariate_series_1acd15f51a23f1aa7022ac9d021cfdebf5>`(const RCP<const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`>& var, const unsigned int& prec, const UExprDict& s);
+		static RCP<const UnivariateSeries> :target:`series<doxid-class_sym_engine_1_1_univariate_series_1a5c12d4e60dcf279fce0acb513a944d57>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& t, const std::string& x, unsigned int prec);
+		static UExprDict :target:`var<doxid-class_sym_engine_1_1_univariate_series_1a825ed94b1b3e5d0def9a3c76a890a0d7>`(const std::string& s);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`convert<doxid-class_sym_engine_1_1_univariate_series_1a35c4dbae6cff3ec2a11d86b44d94e24e>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& x);
+		static int :target:`ldegree<doxid-class_sym_engine_1_1_univariate_series_1ae2b2d081648945cf0fff292d19bc8d9b>`(const UExprDict& s);
+		static UExprDict :target:`mul<doxid-class_sym_engine_1_1_univariate_series_1a13c46d1a8f0c5ae2acaccac11fbdfa66>`(const UExprDict& s, const UExprDict& r, unsigned prec);
+		static UExprDict :target:`pow<doxid-class_sym_engine_1_1_univariate_series_1ab2ff916b1fe4e972aedd4f0c5f5ee929>`(const UExprDict& s, int n, unsigned prec);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`find_cf<doxid-class_sym_engine_1_1_univariate_series_1a3f17539de61d1f67cdf5ed90df80b332>`(const UExprDict& s, const UExprDict& var, int deg);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`root<doxid-class_sym_engine_1_1_univariate_series_1a0d51fd1eea00fa897932fe0c6571e42e>`(:ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c, unsigned n);
+		static UExprDict :target:`diff<doxid-class_sym_engine_1_1_univariate_series_1a889495552b69c530f3192303817855b7>`(const UExprDict& s, const UExprDict& var);
+		static UExprDict :target:`integrate<doxid-class_sym_engine_1_1_univariate_series_1abf84019896ef5f7aa9b77c8bc5367fa9>`(const UExprDict& s, const UExprDict& var);
+		static UExprDict :target:`subs<doxid-class_sym_engine_1_1_univariate_series_1a16e21a0538ae95eeedeac2074c2b3b8e>`(const UExprDict& s, const UExprDict& var, const UExprDict& r, unsigned prec);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`sin<doxid-class_sym_engine_1_1_univariate_series_1a4bb704318728db00f2e9441f626a7478>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`cos<doxid-class_sym_engine_1_1_univariate_series_1aa541cc8be16d5dd50043bc624085bd07>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`tan<doxid-class_sym_engine_1_1_univariate_series_1a99030ac3310ac081c5e78268e60256d2>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`asin<doxid-class_sym_engine_1_1_univariate_series_1aad0c1eacce45c34fee10a78123cbf6ad>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`acos<doxid-class_sym_engine_1_1_univariate_series_1aa8e3559a26571de0f9734621637e8dc6>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`atan<doxid-class_sym_engine_1_1_univariate_series_1a00b51cf4d2b9f062d87317916bd2d987>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`sinh<doxid-class_sym_engine_1_1_univariate_series_1a7cb836c72668a4488bf74478933b5a1e>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`cosh<doxid-class_sym_engine_1_1_univariate_series_1ab0317f8456b9aea0999e9a8eb7bc1c0a>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`tanh<doxid-class_sym_engine_1_1_univariate_series_1aee9dc6fa4b1d350926eaa02b2b2e468d>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`asinh<doxid-class_sym_engine_1_1_univariate_series_1a6244752fb8baad3783f9b51f430f2062>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`acosh<doxid-class_sym_engine_1_1_univariate_series_1a7cb8b31ff1b153e732f393f7be424894>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`atanh<doxid-class_sym_engine_1_1_univariate_series_1aac2b3d9a878acde17260f404ebc09542>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`exp<doxid-class_sym_engine_1_1_univariate_series_1a8c7ca11539ee398df97317907ef8cf0b>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+		static :ref:`Expression<doxid-class_sym_engine_1_1_expression>` :target:`log<doxid-class_sym_engine_1_1_univariate_series_1aea5ef015a2d4fce466c7f1796bba471e>`(const :ref:`Expression<doxid-class_sym_engine_1_1_expression>`& c);
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// fields
+	
+		:ref:`TypeID<doxid-namespace_sym_engine_1a976db42c9dfad76ad2c95a6038cbc093>` :ref:`type_code_<doxid-class_sym_engine_1_1_basic_1afc3cac9dbdf56974a961c8b2cdb4dfea>`;
+
+		// methods
+	
+		RCP<T> :ref:`rcp_from_this<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aed6b2bd25fd3fd124a5e97427f8372f2>`();
+		RCP<const T> :ref:`rcp_from_this<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aefdd4958f591ee705b60ea92d661a775>`() const;
+	
+		template <class T2>
+		RCP<const T2> :ref:`rcp_from_this_cast<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1a122635053dc63f074487aa3ba0df13a1>`() const;
+	
+		unsigned int :ref:`use_count<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1acbea1ba6881779f17a5b81c0fd0eb2d2>`() const;
+		:ref:`TypeID<doxid-namespace_sym_engine_1a976db42c9dfad76ad2c95a6038cbc093>` :ref:`get_type_code<doxid-class_sym_engine_1_1_basic_1a3837186572bf82a499cf81259d945804>`() const;
+		:ref:`Basic<doxid-class_sym_engine_1_1_basic>`& :ref:`operator=<doxid-class_sym_engine_1_1_basic_1a8ddc236758a9cdd0fafadad57bfa4b09>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`&);
+		:ref:`Basic<doxid-class_sym_engine_1_1_basic>`& :ref:`operator=<doxid-class_sym_engine_1_1_basic_1af04d269a2434302330e05a94238527a2>`(:ref:`Basic<doxid-class_sym_engine_1_1_basic>`&&);
+		virtual :ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_basic_1ac950eca7e8403248252115bcba2e3ab1>`() const = 0;
+		:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`hash<doxid-class_sym_engine_1_1_basic_1af71e629c952b7390d72f2d4b24694b62>`() const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_basic_1ac6a957e2006026f74c08ae6795f5ff7f>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const = 0;
+		bool :ref:`__neq__<doxid-class_sym_engine_1_1_basic_1a3a3e923c9078ac82e01e453e80fa2134>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		int :ref:`__cmp__<doxid-class_sym_engine_1_1_basic_1adb2def25bca4104f085ae99c57af5ab3>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_basic_1af03cfca16a93aaa0aff2382cc2b5087f>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const = 0;
+		std::string :ref:`__str__<doxid-class_sym_engine_1_1_basic_1a905153d35107acc23b37e04e1b430420>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`subs<doxid-class_sym_engine_1_1_basic_1a7a502ee14598f873fefff54fac433d48>`(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_dict) const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`xreplace<doxid-class_sym_engine_1_1_basic_1a2a7d7c5de904a663634679523c9a5348>`(const :ref:`map_basic_basic<doxid-namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53>`& subs_dict) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`expand_as_exp<doxid-class_sym_engine_1_1_basic_1a6423cc8431a87cbb88e010887904b274>`() const;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_basic_1a6544293931047d6d9097e81f7d306cae>`() const = 0;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`diff<doxid-class_sym_engine_1_1_basic_1ad4e255f317caaaf57acabff9f6161b65>`(const RCP<const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`>& x, bool cache = true) const;
+		virtual bool :ref:`is_zero<doxid-class_sym_engine_1_1_number_1ae917a11d6a9c078a779a86c2e5a1b547>`() const = 0;
+		virtual bool :ref:`is_one<doxid-class_sym_engine_1_1_number_1a2b793da7385a260ce4007e2af44d3de3>`() const = 0;
+		virtual bool :ref:`is_minus_one<doxid-class_sym_engine_1_1_number_1aeaf95ae61754c341cac4467f1d7011a7>`() const = 0;
+		virtual bool :ref:`is_negative<doxid-class_sym_engine_1_1_number_1a648c569350bce74ac1b8f6efc344971f>`() const = 0;
+		virtual bool :ref:`is_positive<doxid-class_sym_engine_1_1_number_1abdc51eafcb71b60bcad71eb89a8f79d0>`() const = 0;
+		virtual bool :ref:`is_complex<doxid-class_sym_engine_1_1_number_1a30f5893257d8f91fbe92d821dc4094f8>`() const = 0;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`conjugate<doxid-class_sym_engine_1_1_number_1aa63348fe91ef4ca5e1cd66e7947dd553>`() const;
+		virtual bool :ref:`is_exact<doxid-class_sym_engine_1_1_number_1a3aafc16ff2afe30f9c21d551248ec0c0>`() const;
+		bool :ref:`is_exact_zero<doxid-class_sym_engine_1_1_number_1a8001d70a87176a33b92861fbd46dce51>`() const;
+		virtual :ref:`Evaluate<doxid-class_sym_engine_1_1_evaluate>`& :ref:`get_eval<doxid-class_sym_engine_1_1_number_1a1109902b92095c26562a6a53e367ec6e>`() const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`add<doxid-class_sym_engine_1_1_number_1a557e5884de4dabb96f68c20b97abbbe7>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const = 0;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`sub<doxid-class_sym_engine_1_1_number_1add7faf85931fc31190cb5434f7efb9a0>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rsub<doxid-class_sym_engine_1_1_number_1a715f82af951f17db954f3eaa2f69984b>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mul<doxid-class_sym_engine_1_1_number_1a12380b3f77995ca02d6712906b0ffdf4>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const = 0;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`div<doxid-class_sym_engine_1_1_number_1ac953b8fa68f5ecbb5f7f43ceccf50c15>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rdiv<doxid-class_sym_engine_1_1_number_1a9c17bed6eaf7698c91a640c186e7f867>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`pow<doxid-class_sym_engine_1_1_number_1a58bdc90b6e70916fe90bcad312670623>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const = 0;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rpow<doxid-class_sym_engine_1_1_number_1aff0deb08b64a4710ebf11793132b72ae>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const = 0;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_number_1ae7bd5cd19b89ff042088c1ecec21460b>`() const;
+		virtual bool :ref:`is_perfect_power<doxid-class_sym_engine_1_1_number_1a5e9609f3bcb7297c3c6f22abe3a1e128>`(bool is_expected = false) const;
+		virtual bool :ref:`nth_root<doxid-class_sym_engine_1_1_number_1ac0b9ee179d987ac976282202b0024f3e>`(const Ptr<RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`>>&, unsigned long n) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`as_basic<doxid-class_sym_engine_1_1_series_coeff_interface_1a314d5b049eb41a2da83d0d7d5872e7d1>`() const = 0;
+		virtual :ref:`umap_int_basic<doxid-namespace_sym_engine_1a946f9005aa0ba2e414b184734c18e859>` :ref:`as_dict<doxid-class_sym_engine_1_1_series_coeff_interface_1a27ac3d3197bcf5caf6f50bf302087132>`() const = 0;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_coeff<doxid-class_sym_engine_1_1_series_coeff_interface_1a78434dad13e73ddf1cacb862e2fcf1ed>`(int) const = 0;
+		virtual unsigned :ref:`get_degree<doxid-class_sym_engine_1_1_series_coeff_interface_1a2f82a9945c76494929be92d6fa059ec3>`() const = 0;
+		virtual const std::string& :ref:`get_var<doxid-class_sym_engine_1_1_series_coeff_interface_1a1cf46ac4f5de806170bb84cfe10104c8>`() const = 0;
+		virtual unsigned :ref:`get_degree<doxid-class_sym_engine_1_1_series_base_1a32c645f0f1709efa0c5c05eabbd5d664>`() const;
+		virtual const std::string& :ref:`get_var<doxid-class_sym_engine_1_1_series_base_1ac8a3ee2ee26e47bf5bf1673554cea339>`() const;
+		const Poly& :ref:`get_poly<doxid-class_sym_engine_1_1_series_base_1affd175374cf7f815c9d3b2171ed044d2>`() const;
+		virtual bool :ref:`is_zero<doxid-class_sym_engine_1_1_series_base_1a91b392123907de64a1ddbe3db61e906c>`() const;
+		virtual bool :ref:`is_one<doxid-class_sym_engine_1_1_series_base_1afb8d592efc98c3aba356bdd56aa6747f>`() const;
+		virtual bool :ref:`is_minus_one<doxid-class_sym_engine_1_1_series_base_1a65d43bc35883b5ab71c2e1995d4bbfe6>`() const;
+		virtual bool :ref:`is_negative<doxid-class_sym_engine_1_1_series_base_1a77de73de25e90bf4761fde6a124833de>`() const;
+		virtual bool :ref:`is_positive<doxid-class_sym_engine_1_1_series_base_1a7b141ef4f2a1c4676e88503eb49918a2>`() const;
+		virtual bool :ref:`is_complex<doxid-class_sym_engine_1_1_series_base_1ab195a7fac9068875a3dce08a936051f1>`() const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_series_base_1a011c1df4cccff2b57c52061edff599e6>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`add<doxid-class_sym_engine_1_1_series_base_1aa8cd59b6f47f16980495f1ab67acc2d2>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`mul<doxid-class_sym_engine_1_1_series_base_1add4eb6159cabeb052931818ca1bf9571>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`pow<doxid-class_sym_engine_1_1_series_base_1af47864c1b83ae960d7a802c092ad47f7>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		virtual RCP<const :ref:`Number<doxid-class_sym_engine_1_1_number>`> :ref:`rpow<doxid-class_sym_engine_1_1_series_base_1a405e291c2a9944373498407f2b1fd005>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& other) const;
+		static const std::list<unsigned int>& :ref:`step_list<doxid-class_sym_engine_1_1_series_base_1ae3f315bbdffa33ebc1acf2a28652a05d>`(unsigned int prec);
+		static Poly :ref:`series_invert<doxid-class_sym_engine_1_1_series_base_1a27e00f0e452b81a4e9301c6e961a3991>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_reverse<doxid-class_sym_engine_1_1_series_base_1a72b3ee1406587571b8204e35fe90ffa2>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_nthroot<doxid-class_sym_engine_1_1_series_base_1a5777e03bcf3a07cc93f3fcc97158d362>`(const Poly& s, int n, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_atan<doxid-class_sym_engine_1_1_series_base_1a68b5b47c647a1bd91eff3d8714558f4c>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_tan<doxid-class_sym_engine_1_1_series_base_1a8d5a6a51bca9df6988ec31af4e314279>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_cot<doxid-class_sym_engine_1_1_series_base_1ae9272898f01f2d8e6cea95a057febddc>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`_series_sin<doxid-class_sym_engine_1_1_series_base_1a14c24f0dbbabe37f30bd27212df76ea3>`(const Poly& s, unsigned int prec);
+		static Poly :ref:`series_sin<doxid-class_sym_engine_1_1_series_base_1a09547d13f48abd570ac9b8b078d14682>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_csc<doxid-class_sym_engine_1_1_series_base_1ac027ddb76b74061f2c20652a4f04dfd0>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_asin<doxid-class_sym_engine_1_1_series_base_1a057020f0f6eca55fbf9d4af11362fbca>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_acos<doxid-class_sym_engine_1_1_series_base_1a9b761a105bf394e08b1f808c2c553f62>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`_series_cos<doxid-class_sym_engine_1_1_series_base_1a85057a8e353dc114f41e74b061dc7e76>`(const Poly& s, unsigned int prec);
+		static Poly :ref:`series_cos<doxid-class_sym_engine_1_1_series_base_1a58e214c4928bf4122ef38cac76792f0d>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_sec<doxid-class_sym_engine_1_1_series_base_1ada95d00e3303426d0380f6b5bb9ccce6>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_log<doxid-class_sym_engine_1_1_series_base_1ac5cec2cd3a25548f07131fef12865939>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_exp<doxid-class_sym_engine_1_1_series_base_1ac3a615df9a5edbc70fa26543023873be>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_lambertw<doxid-class_sym_engine_1_1_series_base_1a8bcd09de2d65506c73fa3a10792fbc5e>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_sinh<doxid-class_sym_engine_1_1_series_base_1a5ba20f35e428747c8621ea16d8e78a10>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_cosh<doxid-class_sym_engine_1_1_series_base_1a54c0567bab88b4bae5439cbb47988884>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_atanh<doxid-class_sym_engine_1_1_series_base_1adb141277eba1b0d4b22381dfba899204>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_asinh<doxid-class_sym_engine_1_1_series_base_1acc7cca86bee09aaa92a2157636d3b7a2>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Poly :ref:`series_tanh<doxid-class_sym_engine_1_1_series_base_1ae2b99a4e878ee891ed9ceded2ed7194d>`(const Poly& s, const Poly& var, unsigned int prec);
+		static Coeff :ref:`sin<doxid-class_sym_engine_1_1_series_base_1ac5f9556c8c493bc11d7f9b28f44381b6>`(const Coeff& c);
+		static Coeff :ref:`cos<doxid-class_sym_engine_1_1_series_base_1a626b454f8cb1e400ad4114d4376df836>`(const Coeff& c);
+		static Coeff :ref:`tan<doxid-class_sym_engine_1_1_series_base_1ac0e79eacd129be0836228390c3160474>`(const Coeff& c);
+		static Coeff :ref:`asin<doxid-class_sym_engine_1_1_series_base_1afe0301d00577c9c83ae0bf6b53d1b097>`(const Coeff& c);
+		static Coeff :ref:`acos<doxid-class_sym_engine_1_1_series_base_1a1b609a5709edb9a71a95c2c48cd567cf>`(const Coeff& c);
+		static Coeff :ref:`atan<doxid-class_sym_engine_1_1_series_base_1a017d7f96344c9f9c847be82cc337e637>`(const Coeff& c);
+		static Coeff :ref:`sinh<doxid-class_sym_engine_1_1_series_base_1a3542cf0c6bfcdbbe31fc6931dc9f7253>`(const Coeff& c);
+		static Coeff :ref:`cosh<doxid-class_sym_engine_1_1_series_base_1af737a5c486c23117f3a0b5335f9bdb5d>`(const Coeff& c);
+		static Coeff :ref:`tanh<doxid-class_sym_engine_1_1_series_base_1aeb7b1dae9ec2d256799be1356107d660>`(const Coeff& c);
+		static Coeff :ref:`asinh<doxid-class_sym_engine_1_1_series_base_1a19552723d8582dddd7048746a2885226>`(const Coeff& c);
+		static Coeff :ref:`atanh<doxid-class_sym_engine_1_1_series_base_1ae310d74b412246fe696dd8dac97f18b8>`(const Coeff& c);
+		static Coeff :ref:`exp<doxid-class_sym_engine_1_1_series_base_1accdefef67303c01b8228a9689c8e7c09>`(const Coeff& c);
+		static Coeff :ref:`log<doxid-class_sym_engine_1_1_series_base_1ada469a6050a1fad3987351dfb4ae784c>`(const Coeff& c);
+
+.. _details-class_sym_engine_1_1_univariate_series:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+:ref:`UnivariateSeries <doxid-class_sym_engine_1_1_univariate_series>` Class.
+
+Methods
+-------
+
+.. index:: pair: function; __hash__
+.. _doxid-class_sym_engine_1_1_univariate_series_1aee41250e1dc7958049f58c3772f7e509:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual :ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` __hash__() const
+
+Calculates the hash of the given :ref:`SymEngine <doxid-namespace_sym_engine>` class. Use :ref:`Basic.hash() <doxid-class_sym_engine_1_1_basic_1af71e629c952b7390d72f2d4b24694b62>` which gives a cached version of the hash.
+
+
+
+.. rubric:: Returns:
+
+64-bit integer value for the hash
+
+.. index:: pair: function; compare
+.. _doxid-class_sym_engine_1_1_univariate_series_1a6ac87c7f429eb0b8b2106a221e99601b:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual int compare(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const
+
+Returns -1, 0, 1 for ``this < o, this == o, this > o``. This method is used when you want to sort things like ``x+y+z`` into canonical order. This function assumes that ``o`` is the same type as ``this``. Use ``__cmp__`` if you want general comparison.
+

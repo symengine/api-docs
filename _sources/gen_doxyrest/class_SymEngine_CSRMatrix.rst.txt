@@ -1,0 +1,103 @@
+.. index:: pair: class; SymEngine::CSRMatrix
+.. _doxid-class_sym_engine_1_1_c_s_r_matrix:
+
+class SymEngine::CSRMatrix
+==========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <matrix.h>
+	
+	class CSRMatrix: public :ref:`SymEngine::MatrixBase<doxid-class_sym_engine_1_1_matrix_base>` {
+	public:
+		// construction
+	
+		:target:`CSRMatrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1a8485ddca78eeb633afa70b029b18562d>`();
+		:target:`CSRMatrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1ae1a3baaee49477fea8f0d99dfee1b644>`(unsigned row, unsigned col);
+		:target:`CSRMatrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1aaf1fd5c8302f520c041cc9fd4c16dbea>`(unsigned row, unsigned col, const std::vector<unsigned>& p, const std::vector<unsigned>& j, const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& x);
+		:target:`CSRMatrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1afc017fbe6de2b8469689e1fef49e7af7>`(unsigned row, unsigned col, std::vector<unsigned>&& p, std::vector<unsigned>&& j, :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`&& x);
+		:target:`CSRMatrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1a9bc50c781fdbe2abf8e596fc7e448703>`(const CSRMatrix&);
+
+		// methods
+	
+		CSRMatrix& :target:`operator=<doxid-class_sym_engine_1_1_c_s_r_matrix_1a399747474db8797d02383a1946df3d88>`(CSRMatrix&& other);
+		std::tuple<std::vector<unsigned>, std::vector<unsigned>, :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`> :target:`as_vectors<doxid-class_sym_engine_1_1_c_s_r_matrix_1a996c0a87508bb58750570e59c3fd24cf>`() const;
+		bool :target:`is_canonical<doxid-class_sym_engine_1_1_c_s_r_matrix_1a286525ce711ef3a04340d54d0e6cb896>`() const;
+		virtual bool :target:`eq<doxid-class_sym_engine_1_1_c_s_r_matrix_1a30fc8160d493e8b8e9c700022fa47f17>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& other) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`get<doxid-class_sym_engine_1_1_c_s_r_matrix_1a89289b4723ba561e0cca84e1ed9baad6>`(unsigned i, unsigned j) const;
+		virtual void :target:`set<doxid-class_sym_engine_1_1_c_s_r_matrix_1a94a07dc9fc2e42c81f9744c6d9418637>`(unsigned i, unsigned j, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& e);
+		virtual unsigned :target:`nrows<doxid-class_sym_engine_1_1_c_s_r_matrix_1a1cdb9f18cc143cba248e195d57c2d52e>`() const;
+		virtual unsigned :target:`ncols<doxid-class_sym_engine_1_1_c_s_r_matrix_1a580353ab3af4bb73adc2081336186caa>`() const;
+		virtual unsigned :target:`rank<doxid-class_sym_engine_1_1_c_s_r_matrix_1a5dd056d979655a4769c2f80f42c92109>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`det<doxid-class_sym_engine_1_1_c_s_r_matrix_1ad9f9b1fb7179f1c2f7aac058f7c8c2a3>`() const;
+		virtual void :target:`inv<doxid-class_sym_engine_1_1_c_s_r_matrix_1ae7efc0722454c660029cfeb3ceaa84b5>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		virtual void :target:`add_matrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1aca5d9e8d468446089d13f8fe646b421d>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& other, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		virtual void :target:`mul_matrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1a51e7c3791d4e7a409d2d46e27d82c420>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& other, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		virtual void :target:`elementwise_mul_matrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1aaa66fd96eaab11aa97b48681e1646344>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& other, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		virtual void :target:`add_scalar<doxid-class_sym_engine_1_1_c_s_r_matrix_1a2ef38d3c8b104c4ec66480a74ab931e4>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& k, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		virtual void :target:`mul_scalar<doxid-class_sym_engine_1_1_c_s_r_matrix_1a94babe451d5e65b0c86c89b676ac1bab>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& k, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		virtual void :target:`conjugate<doxid-class_sym_engine_1_1_c_s_r_matrix_1aafc6b9461cdd0140e5a3f6cd4f893965>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		virtual void :target:`transpose<doxid-class_sym_engine_1_1_c_s_r_matrix_1aacd736aa330f66fb2d058bb3190b9eca>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		CSRMatrix :target:`transpose<doxid-class_sym_engine_1_1_c_s_r_matrix_1a7fbbbc0d509503b3e15e75fdac608c68>`(bool conjugate = false) const;
+		virtual void :target:`conjugate_transpose<doxid-class_sym_engine_1_1_c_s_r_matrix_1ad91629f75918c02cfa576f83031d5f13>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const;
+		virtual void :target:`submatrix<doxid-class_sym_engine_1_1_c_s_r_matrix_1a800e5a6f4223bd37a071c9057ff6a8f4>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result, unsigned row_start, unsigned col_start, unsigned row_end, unsigned col_end, unsigned row_step = 1, unsigned col_step = 1) const;
+		virtual void :target:`LU<doxid-class_sym_engine_1_1_c_s_r_matrix_1aa1af2c13f2101c67a63908da362b5456>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& L, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& U) const;
+		virtual void :target:`LDL<doxid-class_sym_engine_1_1_c_s_r_matrix_1a61f18b3b860eff8112327a3c553245e2>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& L, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& D) const;
+		virtual void :target:`LU_solve<doxid-class_sym_engine_1_1_c_s_r_matrix_1a900916da082645e076c8653ffe190e05>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& b, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& x) const;
+		virtual void :target:`FFLU<doxid-class_sym_engine_1_1_c_s_r_matrix_1a3fa9c5c75adacad62d4c980f8d3915f8>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& LU) const;
+		virtual void :target:`FFLDU<doxid-class_sym_engine_1_1_c_s_r_matrix_1a64c66a9b6c0ffe9a060e729425127e6b>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& L, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& D, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& U) const;
+		virtual void :target:`QR<doxid-class_sym_engine_1_1_c_s_r_matrix_1aa534a57628ac0596da5d7030a2987f51>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& Q, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& R) const;
+		virtual void :target:`cholesky<doxid-class_sym_engine_1_1_c_s_r_matrix_1aba451d3c6f7e947d96ae05d9530ace34>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& L) const;
+		static void :target:`csr_sum_duplicates<doxid-class_sym_engine_1_1_c_s_r_matrix_1a323050e4528fd71bddf11aee6de00e31>`(std::vector<unsigned>& p_, std::vector<unsigned>& j_, :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& x_, unsigned row_);
+		static void :target:`csr_sort_indices<doxid-class_sym_engine_1_1_c_s_r_matrix_1a066b1944855409e2e54e3a4d8512643f>`(std::vector<unsigned>& p_, std::vector<unsigned>& j_, :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& x_, unsigned row_);
+		static bool :target:`csr_has_sorted_indices<doxid-class_sym_engine_1_1_c_s_r_matrix_1acdab0693994f133d9c750c410549c388>`(const std::vector<unsigned>& p_, const std::vector<unsigned>& j_, unsigned row_);
+		static bool :target:`csr_has_duplicates<doxid-class_sym_engine_1_1_c_s_r_matrix_1a5a6b377638dab739e84008dffb6cae6a>`(const std::vector<unsigned>& p_, const std::vector<unsigned>& j_, unsigned row_);
+		static bool :target:`csr_has_canonical_format<doxid-class_sym_engine_1_1_c_s_r_matrix_1a2b4f9226c8d7fa58766f1a9ea4bc4e49>`(const std::vector<unsigned>& p_, const std::vector<unsigned>& j_, unsigned row_);
+		static CSRMatrix :target:`from_coo<doxid-class_sym_engine_1_1_c_s_r_matrix_1aaea5900963d6a68c49a6dbbe04877796>`(unsigned row, unsigned col, const std::vector<unsigned>& i, const std::vector<unsigned>& j, const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& x);
+		static CSRMatrix :target:`jacobian<doxid-class_sym_engine_1_1_c_s_r_matrix_1a667e7013a7ec1fc6b98bcf2f4e4b9da7>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& exprs, const :ref:`vec_sym<doxid-namespace_sym_engine_1a9fdbd1736332521ea806566039581542>`& x, bool diff_cache = true);
+		static CSRMatrix :target:`jacobian<doxid-class_sym_engine_1_1_c_s_r_matrix_1a86772d4c12b7f36932c401513ff1d1cc>`(const :ref:`DenseMatrix<doxid-class_sym_engine_1_1_dense_matrix>`& A, const :ref:`DenseMatrix<doxid-class_sym_engine_1_1_dense_matrix>`& x, bool diff_cache = true);
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// methods
+	
+		bool :ref:`is_square<doxid-class_sym_engine_1_1_matrix_base_1a74679db66bee65923b631f0b1b55d037>`() const;
+		virtual unsigned :ref:`nrows<doxid-class_sym_engine_1_1_matrix_base_1a826775bc79c571cab8f8b682c6d08b4c>`() const = 0;
+		virtual unsigned :ref:`ncols<doxid-class_sym_engine_1_1_matrix_base_1a9d25f7a869319efef591cab5f41f682c>`() const = 0;
+		virtual bool :ref:`eq<doxid-class_sym_engine_1_1_matrix_base_1a78cd79e6c797cf1bf85bceffff1f159a>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& other) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get<doxid-class_sym_engine_1_1_matrix_base_1ab4b579ff463e1f26595851d218efbd1a>`(unsigned i, unsigned j) const = 0;
+		virtual void :ref:`set<doxid-class_sym_engine_1_1_matrix_base_1a1b63c6651cc23d051099a377b03da0b1>`(unsigned i, unsigned j, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& e) = 0;
+		virtual std::string :ref:`__str__<doxid-class_sym_engine_1_1_matrix_base_1ad7139e2f8df001cf11c2576153c18de5>`() const;
+		virtual unsigned :ref:`rank<doxid-class_sym_engine_1_1_matrix_base_1a98e7680efd9f11beb72157efa36c0a80>`() const = 0;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`det<doxid-class_sym_engine_1_1_matrix_base_1a954bb849bd0af56c50eaa17c734ac85e>`() const = 0;
+		virtual void :ref:`inv<doxid-class_sym_engine_1_1_matrix_base_1a1c756789209b18009cc76ba38c4bbaa8>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`add_matrix<doxid-class_sym_engine_1_1_matrix_base_1a6057733771ebfbbbcc4f8e2a230a935d>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& other, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`mul_matrix<doxid-class_sym_engine_1_1_matrix_base_1a54d9c836c785e0b1d851760fe80dbb33>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& other, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`elementwise_mul_matrix<doxid-class_sym_engine_1_1_matrix_base_1a0bdbf158d0eb1b6834878190d6bd4975>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& other, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`add_scalar<doxid-class_sym_engine_1_1_matrix_base_1a258223c012638959902462c9a1ffe2de>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& k, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`mul_scalar<doxid-class_sym_engine_1_1_matrix_base_1ac1bcaec0781ad6c0a478965e9cd6d0aa>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& k, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`conjugate<doxid-class_sym_engine_1_1_matrix_base_1a22e7261f405f63b3cb2f917d45cc7010>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`transpose<doxid-class_sym_engine_1_1_matrix_base_1a7612197d16276f65bbe4d7785ea239b5>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`conjugate_transpose<doxid-class_sym_engine_1_1_matrix_base_1a302e53aad13cfa840587370ef1a2b57a>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result) const = 0;
+		virtual void :ref:`submatrix<doxid-class_sym_engine_1_1_matrix_base_1a553b4e0aa9fa1667e4fe8f09b99c4d6d>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& result, unsigned row_start, unsigned col_start, unsigned row_end, unsigned col_end, unsigned row_step = 1, unsigned col_step = 1) const = 0;
+		virtual void :ref:`LU<doxid-class_sym_engine_1_1_matrix_base_1a78cbabc07b0c368f0cc8fce794bae878>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& L, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& U) const = 0;
+		virtual void :ref:`LDL<doxid-class_sym_engine_1_1_matrix_base_1a81df797fb3dc139f810935380c807ea8>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& L, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& D) const = 0;
+		virtual void :ref:`FFLU<doxid-class_sym_engine_1_1_matrix_base_1ad4b7ec094ae4e49339244b44a3f9f1fc>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& LU) const = 0;
+		virtual void :ref:`FFLDU<doxid-class_sym_engine_1_1_matrix_base_1afd6873feb5be0e5d91a17d50522cadc6>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& L, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& D, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& U) const = 0;
+		virtual void :ref:`QR<doxid-class_sym_engine_1_1_matrix_base_1acd6ea70ef3ad54be314d9ed3fb1f290b>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& Q, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& R) const = 0;
+		virtual void :ref:`cholesky<doxid-class_sym_engine_1_1_matrix_base_1ad792a725cb14637896d79455f57bfc97>`(:ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& L) const = 0;
+		virtual void :ref:`LU_solve<doxid-class_sym_engine_1_1_matrix_base_1a543651559a83c514be9f6306ed105203>`(const :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& b, :ref:`MatrixBase<doxid-class_sym_engine_1_1_matrix_base>`& x) const = 0;
+

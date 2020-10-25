@@ -1,0 +1,23 @@
+.. index:: pair: struct; dcomplex
+.. _doxid-structdcomplex:
+
+struct dcomplex
+===============
+
+.. toctree::
+	:hidden:
+
+Struct to hold the real and imaginary parts of std::complex<double> extracted from basic
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <cwrapper.h>
+	
+	struct dcomplex {
+		// fields
+	
+		double :target:`real<doxid-structdcomplex_1ae0811c7cf1d276c7d92703efe3446409>`;
+		double :target:`imag<doxid-structdcomplex_1ae219264a0f5e0f4780bae72d2952453f>`;
+	};

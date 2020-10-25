@@ -1,0 +1,23 @@
+.. index:: pair: class; SymEngine::StopVisitor
+.. _doxid-class_sym_engine_1_1_stop_visitor:
+
+class SymEngine::StopVisitor
+============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <visitor.h>
+	
+	class StopVisitor: public :ref:`SymEngine::Visitor<doxid-class_sym_engine_1_1_visitor>` {
+	public:
+		// fields
+	
+		bool :target:`stop_<doxid-class_sym_engine_1_1_stop_visitor_1a43afadcd4401c4c002a1e4cd38313e4b>`;
+	};

@@ -1,0 +1,35 @@
+.. index:: pair: class; SymEngine::CountOpsVisitor
+.. _doxid-class_sym_engine_1_1_count_ops_visitor:
+
+class SymEngine::CountOpsVisitor
+================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <visitor.h>
+	
+	class CountOpsVisitor: public :ref:`SymEngine::BaseVisitor<doxid-class_sym_engine_1_1_base_visitor>` {
+	public:
+		// fields
+	
+		unsigned :target:`count<doxid-class_sym_engine_1_1_count_ops_visitor_1a789d8f1c74cba18ab2f9ec18822dcd18>` = 0;
+
+		// methods
+	
+		void :target:`apply<doxid-class_sym_engine_1_1_count_ops_visitor_1a00391c7677d6ab335def1260260a22d3>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& b);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_count_ops_visitor_1a8b8e4e072b64534a7582c0a30da9ae29>`(const :ref:`Mul<doxid-class_sym_engine_1_1_mul>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_count_ops_visitor_1a02425ada79ec24b2f85e4e2bb24c23b7>`(const :ref:`Add<doxid-class_sym_engine_1_1_add>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_count_ops_visitor_1a536aa913bc75631d249c1712d37ac0b8>`(const :ref:`Pow<doxid-class_sym_engine_1_1_pow>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_count_ops_visitor_1a63d77eeb6e06a0269d4552ea9cd49bec>`(const :ref:`Number<doxid-class_sym_engine_1_1_number>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_count_ops_visitor_1a17cebcb5bbc6e7c847293e3d9a23a350>`(const :ref:`ComplexBase<doxid-class_sym_engine_1_1_complex_base>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_count_ops_visitor_1a3a3883c212b845f0c682ed21adaa3f4a>`(const :ref:`Symbol<doxid-class_sym_engine_1_1_symbol>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_count_ops_visitor_1a285e82978e57cf9eec86c0b9f35dcdd2>`(const :ref:`Constant<doxid-class_sym_engine_1_1_constant>`& x);
+		void :target:`bvisit<doxid-class_sym_engine_1_1_count_ops_visitor_1abeaa2242d65b340558eb123398352931>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& x);
+	};

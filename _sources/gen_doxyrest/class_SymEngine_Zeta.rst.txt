@@ -1,0 +1,154 @@
+.. index:: pair: class; SymEngine::Zeta
+.. _doxid-class_sym_engine_1_1_zeta:
+
+class SymEngine::Zeta
+=====================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <functions.h>
+	
+	class Zeta: public :ref:`SymEngine::TwoArgBasic<doxid-class_sym_engine_1_1_two_arg_basic>` {
+	public:
+		// construction
+	
+		:ref:`Zeta<doxid-class_sym_engine_1_1_zeta_1a27d1b9177b75f6a99204388e9ff199bb>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& s, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a);
+		:ref:`Zeta<doxid-class_sym_engine_1_1_zeta_1ae0d5eed97b31857d8f085e5bf6806f4e>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& s);
+
+		// methods
+	
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_s<doxid-class_sym_engine_1_1_zeta_1a7ad99b79e5322eb548cb67106f1c5b9e>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_a<doxid-class_sym_engine_1_1_zeta_1a33fa10be45f1e67056b0f62da20151b1>`() const;
+		bool :ref:`is_canonical<doxid-class_sym_engine_1_1_zeta_1a3b1fefab3e45f4d10eaadbf0f7db8673>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& s, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_zeta_1aa44b9f4f06becbf36d3efe12f4e64ed7>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_zeta_1a32e28455dfcaea4bff726e1778577931>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b);
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`create<doxid-class_sym_engine_1_1_zeta_1adae96736c20c332cba47e3adcfd8b8b6>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b);
+	};
+
+Inherited Members
+-----------------
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-inherited-code-block
+
+	public:
+		// methods
+	
+		:ref:`hash_t<doxid-namespace_sym_engine_1a455620f815334592057d7966d62d5de6>` :ref:`__hash__<doxid-class_sym_engine_1_1_two_arg_basic_1a1da58a053c6f23dd65a6f40291dc6128>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg1<doxid-class_sym_engine_1_1_two_arg_basic_1a3cfad66a68d323125fd12ea18afbb516>`() const;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`get_arg2<doxid-class_sym_engine_1_1_two_arg_basic_1a6d04c4b92c824e1afca902619a9f0a09>`() const;
+		virtual :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>` :ref:`get_args<doxid-class_sym_engine_1_1_two_arg_basic_1aef40db5fb895450b2a5c75727d55d16d>`() const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1a07a4fa1616bc3633ab921279923edae3>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const = 0;
+		RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :ref:`create<doxid-class_sym_engine_1_1_two_arg_basic_1adae96736c20c332cba47e3adcfd8b8b6>`(const :ref:`vec_basic<doxid-namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1>`& b) const;
+		virtual bool :ref:`__eq__<doxid-class_sym_engine_1_1_two_arg_basic_1ae383659bbb601f6181b79e6c4dda9c66>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+		virtual int :ref:`compare<doxid-class_sym_engine_1_1_two_arg_basic_1a88bf8e58ca08bf0db1dbfe8ee940101d>`(const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`& o) const;
+
+.. _details-class_sym_engine_1_1_zeta:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Construction
+------------
+
+.. index:: pair: function; Zeta
+.. _doxid-class_sym_engine_1_1_zeta_1a27d1b9177b75f6a99204388e9ff199bb:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Zeta(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& s, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a)
+
+:ref:`Zeta <doxid-class_sym_engine_1_1_zeta>` Constructor.
+
+.. index:: pair: function; Zeta
+.. _doxid-class_sym_engine_1_1_zeta_1ae0d5eed97b31857d8f085e5bf6806f4e:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	Zeta(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& s)
+
+:ref:`Zeta <doxid-class_sym_engine_1_1_zeta>` Constructor.
+
+Methods
+-------
+
+.. index:: pair: function; get_s
+.. _doxid-class_sym_engine_1_1_zeta_1a7ad99b79e5322eb548cb67106f1c5b9e:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> get_s() const
+
+
+
+.. rubric:: Returns:
+
+``s_``
+
+.. index:: pair: function; get_a
+.. _doxid-class_sym_engine_1_1_zeta_1a33fa10be45f1e67056b0f62da20151b1:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> get_a() const
+
+
+
+.. rubric:: Returns:
+
+``a_``
+
+.. index:: pair: function; is_canonical
+.. _doxid-class_sym_engine_1_1_zeta_1a3b1fefab3e45f4d10eaadbf0f7db8673:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	bool is_canonical(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& s, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a) const
+
+
+
+.. rubric:: Returns:
+
+``true`` if canonical
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_zeta_1aa44b9f4f06becbf36d3efe12f4e64ed7:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b) const
+
+
+
+.. rubric:: Returns:
+
+canonicalized ``zeta``
+
+.. index:: pair: function; create
+.. _doxid-class_sym_engine_1_1_zeta_1a32e28455dfcaea4bff726e1778577931:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> create(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& a, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& b)
+
+Method to construct classes with canonicalization.
+

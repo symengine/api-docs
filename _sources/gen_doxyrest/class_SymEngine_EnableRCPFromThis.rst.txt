@@ -1,0 +1,74 @@
+.. index:: pair: class; SymEngine::EnableRCPFromThis
+.. _doxid-class_sym_engine_1_1_enable_r_c_p_from_this:
+
+template class SymEngine::EnableRCPFromThis
+===========================================
+
+.. toctree::
+	:hidden:
+
+Overview
+~~~~~~~~
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <symengine_rcp.h>
+	
+	template <class T>
+	class EnableRCPFromThis {
+	public:
+		// methods
+	
+		RCP<T> :ref:`rcp_from_this<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aed6b2bd25fd3fd124a5e97427f8372f2>`();
+		RCP<const T> :ref:`rcp_from_this<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aefdd4958f591ee705b60ea92d661a775>`() const;
+	
+		template <class T2>
+		RCP<const T2> :ref:`rcp_from_this_cast<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1a122635053dc63f074487aa3ba0df13a1>`() const;
+	
+		unsigned int :target:`use_count<doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1acbea1ba6881779f17a5b81c0fd0eb2d2>`() const;
+	};
+.. _details-class_sym_engine_1_1_enable_r_c_p_from_this:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Methods
+-------
+
+.. index:: pair: function; rcp_from_this
+.. _doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aed6b2bd25fd3fd124a5e97427f8372f2:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<T> rcp_from_this()
+
+Get RCP<T> pointer to self (it will cast the pointer to T)
+
+.. index:: pair: function; rcp_from_this
+.. _doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1aefdd4958f591ee705b60ea92d661a775:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	RCP<const T> rcp_from_this() const
+
+Get RCP<const T> pointer to self (it will cast the pointer to const T)
+
+.. index:: pair: function; rcp_from_this_cast
+.. _doxid-class_sym_engine_1_1_enable_r_c_p_from_this_1a122635053dc63f074487aa3ba0df13a1:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	template <class T2>
+	RCP<const T2> rcp_from_this_cast() const
+
+Get RCP<T2> pointer to self (it will cast the pointer to T2)
+

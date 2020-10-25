@@ -1,0 +1,52 @@
+.. index:: pair: class; SymEngine::MatrixBase
+.. _doxid-class_sym_engine_1_1_matrix_base:
+
+class SymEngine::MatrixBase
+===========================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <matrix.h>
+	
+	class MatrixBase {
+	public:
+		// construction
+	
+		virtual :target:`~MatrixBase<doxid-class_sym_engine_1_1_matrix_base_1a99d9de5bad9579397fc0f6c956b5d91f>`();
+
+		// methods
+	
+		bool :target:`is_square<doxid-class_sym_engine_1_1_matrix_base_1a74679db66bee65923b631f0b1b55d037>`() const;
+		virtual unsigned :target:`nrows<doxid-class_sym_engine_1_1_matrix_base_1a826775bc79c571cab8f8b682c6d08b4c>`() const = 0;
+		virtual unsigned :target:`ncols<doxid-class_sym_engine_1_1_matrix_base_1a9d25f7a869319efef591cab5f41f682c>`() const = 0;
+		virtual bool :target:`eq<doxid-class_sym_engine_1_1_matrix_base_1a78cd79e6c797cf1bf85bceffff1f159a>`(const MatrixBase& other) const;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`get<doxid-class_sym_engine_1_1_matrix_base_1ab4b579ff463e1f26595851d218efbd1a>`(unsigned i, unsigned j) const = 0;
+		virtual void :target:`set<doxid-class_sym_engine_1_1_matrix_base_1a1b63c6651cc23d051099a377b03da0b1>`(unsigned i, unsigned j, const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& e) = 0;
+		virtual std::string :target:`__str__<doxid-class_sym_engine_1_1_matrix_base_1ad7139e2f8df001cf11c2576153c18de5>`() const;
+		virtual unsigned :target:`rank<doxid-class_sym_engine_1_1_matrix_base_1a98e7680efd9f11beb72157efa36c0a80>`() const = 0;
+		virtual RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`> :target:`det<doxid-class_sym_engine_1_1_matrix_base_1a954bb849bd0af56c50eaa17c734ac85e>`() const = 0;
+		virtual void :target:`inv<doxid-class_sym_engine_1_1_matrix_base_1a1c756789209b18009cc76ba38c4bbaa8>`(MatrixBase& result) const = 0;
+		virtual void :target:`add_matrix<doxid-class_sym_engine_1_1_matrix_base_1a6057733771ebfbbbcc4f8e2a230a935d>`(const MatrixBase& other, MatrixBase& result) const = 0;
+		virtual void :target:`mul_matrix<doxid-class_sym_engine_1_1_matrix_base_1a54d9c836c785e0b1d851760fe80dbb33>`(const MatrixBase& other, MatrixBase& result) const = 0;
+		virtual void :target:`elementwise_mul_matrix<doxid-class_sym_engine_1_1_matrix_base_1a0bdbf158d0eb1b6834878190d6bd4975>`(const MatrixBase& other, MatrixBase& result) const = 0;
+		virtual void :target:`add_scalar<doxid-class_sym_engine_1_1_matrix_base_1a258223c012638959902462c9a1ffe2de>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& k, MatrixBase& result) const = 0;
+		virtual void :target:`mul_scalar<doxid-class_sym_engine_1_1_matrix_base_1ac1bcaec0781ad6c0a478965e9cd6d0aa>`(const RCP<const :ref:`Basic<doxid-class_sym_engine_1_1_basic>`>& k, MatrixBase& result) const = 0;
+		virtual void :target:`conjugate<doxid-class_sym_engine_1_1_matrix_base_1a22e7261f405f63b3cb2f917d45cc7010>`(MatrixBase& result) const = 0;
+		virtual void :target:`transpose<doxid-class_sym_engine_1_1_matrix_base_1a7612197d16276f65bbe4d7785ea239b5>`(MatrixBase& result) const = 0;
+		virtual void :target:`conjugate_transpose<doxid-class_sym_engine_1_1_matrix_base_1a302e53aad13cfa840587370ef1a2b57a>`(MatrixBase& result) const = 0;
+		virtual void :target:`submatrix<doxid-class_sym_engine_1_1_matrix_base_1a553b4e0aa9fa1667e4fe8f09b99c4d6d>`(MatrixBase& result, unsigned row_start, unsigned col_start, unsigned row_end, unsigned col_end, unsigned row_step = 1, unsigned col_step = 1) const = 0;
+		virtual void :target:`LU<doxid-class_sym_engine_1_1_matrix_base_1a78cbabc07b0c368f0cc8fce794bae878>`(MatrixBase& L, MatrixBase& U) const = 0;
+		virtual void :target:`LDL<doxid-class_sym_engine_1_1_matrix_base_1a81df797fb3dc139f810935380c807ea8>`(MatrixBase& L, MatrixBase& D) const = 0;
+		virtual void :target:`FFLU<doxid-class_sym_engine_1_1_matrix_base_1ad4b7ec094ae4e49339244b44a3f9f1fc>`(MatrixBase& LU) const = 0;
+		virtual void :target:`FFLDU<doxid-class_sym_engine_1_1_matrix_base_1afd6873feb5be0e5d91a17d50522cadc6>`(MatrixBase& L, MatrixBase& D, MatrixBase& U) const = 0;
+		virtual void :target:`QR<doxid-class_sym_engine_1_1_matrix_base_1acd6ea70ef3ad54be314d9ed3fb1f290b>`(MatrixBase& Q, MatrixBase& R) const = 0;
+		virtual void :target:`cholesky<doxid-class_sym_engine_1_1_matrix_base_1ad792a725cb14637896d79455f57bfc97>`(MatrixBase& L) const = 0;
+		virtual void :target:`LU_solve<doxid-class_sym_engine_1_1_matrix_base_1a543651559a83c514be9f6306ed105203>`(const MatrixBase& b, MatrixBase& x) const = 0;
+	};

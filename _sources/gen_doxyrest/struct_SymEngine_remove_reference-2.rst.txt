@@ -1,0 +1,23 @@
+.. index:: pair: struct; SymEngine::remove_reference<T&>
+.. _doxid-struct_sym_engine_1_1remove__reference_3_01_t_01_6_01_4:
+
+template struct SymEngine::remove_reference<T&>
+===============================================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <symengine_casts.h>
+	
+	template <typename T>
+	struct remove_reference<T&> {
+		// typedefs
+	
+		typedef T :target:`type<doxid-struct_sym_engine_1_1remove__reference_3_01_t_01_6_01_4_1acf92a6a15986d05a421de9aa87adbfbd>`;
+	};

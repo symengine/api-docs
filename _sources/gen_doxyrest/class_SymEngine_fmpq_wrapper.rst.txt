@@ -1,0 +1,60 @@
+.. index:: pair: class; SymEngine::fmpq_wrapper
+.. _doxid-class_sym_engine_1_1fmpq__wrapper:
+
+class SymEngine::fmpq_wrapper
+=============================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <flint_wrapper.h>
+	
+	class fmpq_wrapper {
+	public:
+		// construction
+	
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1ab7112f26869a4de6937e198b02b897a7>`();
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1a782d484abcccedb8f6c596a76b0e32b6>`(const mpz_t m);
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1ab2b5f10f0c9b8c9b925467ab337d0108>`(const fmpz_t m);
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1a9cef84f538312d5d20642377504c779d>`(const mpq_t m);
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1a0107d59397c072e2243c05d140d55008>`(const fmpq_t m);
+	
+		template <typename T, typename std::enable_if<std::is_integral<T>::value&&std::is_signed<T>::value, int>::type = 0>
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1a38105679da131581df519d2ebb680a6a>`(const T i);
+	
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1ac64ed3518e5f63a037779020a712ed94>`(const :ref:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper>`& n, const :ref:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper>`& d = 1);
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1a3170bd8a1c909480dbb11e3ff17d68d3>`(const fmpq_wrapper& other);
+		:target:`fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1aed85e9e719b42ef01d4da889e0ebe3b1>`(fmpq_wrapper&& other);
+		:target:`~fmpq_wrapper<doxid-class_sym_engine_1_1fmpq__wrapper_1a0e91944940f3feba47bda1d191d4289c>`();
+
+		// methods
+	
+		fmpq* :target:`get_fmpq_t<doxid-class_sym_engine_1_1fmpq__wrapper_1a2d2bd31978e899bf6d3c1e53be0f125c>`();
+		const fmpq* :target:`get_fmpq_t<doxid-class_sym_engine_1_1fmpq__wrapper_1a180a3efccead60a83821c62d9657ed0d>`() const;
+		fmpq_wrapper& :target:`operator=<doxid-class_sym_engine_1_1fmpq__wrapper_1aa0e96c8b768dfa1e8466186c1536351e>`(const fmpq_wrapper& other);
+		fmpq_wrapper& :target:`operator=<doxid-class_sym_engine_1_1fmpq__wrapper_1ac2245e33f5304f79bd4f205a17017b20>`(fmpq_wrapper&& other);
+		void :target:`canonicalise<doxid-class_sym_engine_1_1fmpq__wrapper_1a3fc548a7e4551bd86f8944764f153bca>`();
+		const :ref:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper>`& :target:`get_den<doxid-class_sym_engine_1_1fmpq__wrapper_1a944fa71d1431eafdede3ce6d8cd28392>`() const;
+		const :ref:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper>`& :target:`get_num<doxid-class_sym_engine_1_1fmpq__wrapper_1a294b717e4a801e37c7c210fa8e1abaa6>`() const;
+		:ref:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper>`& :target:`get_den<doxid-class_sym_engine_1_1fmpq__wrapper_1a6856e594a16e609174d590d3bdd4219f>`();
+		:ref:`fmpz_wrapper<doxid-class_sym_engine_1_1fmpz__wrapper>`& :target:`get_num<doxid-class_sym_engine_1_1fmpq__wrapper_1a9b609cfc5dbae1bb6e6974bec4d80a42>`();
+		fmpq_wrapper :target:`operator+=<doxid-class_sym_engine_1_1fmpq__wrapper_1a65ec8de86e81790e0a554ab33cd61d59>`(const fmpq_wrapper& a);
+		fmpq_wrapper :target:`operator-=<doxid-class_sym_engine_1_1fmpq__wrapper_1aba192c3b7ea454b537d363c32ce0a8e2>`(const fmpq_wrapper& a);
+		fmpq_wrapper :target:`operator-<doxid-class_sym_engine_1_1fmpq__wrapper_1aedcae9f431a6b55fcb9387a7b78fb9e1>`() const;
+		fmpq_wrapper :target:`operator*=<doxid-class_sym_engine_1_1fmpq__wrapper_1aae2ea8b8e842e2a509d2e3de8e5194ff>`(const fmpq_wrapper& a);
+		fmpq_wrapper :target:`operator/=<doxid-class_sym_engine_1_1fmpq__wrapper_1aba4f5d1060709625096f259dc1d0cd0c>`(const fmpq_wrapper& a);
+		bool :target:`operator==<doxid-class_sym_engine_1_1fmpq__wrapper_1a499afd67126140343b069dd1d4169223>`(const fmpq_wrapper& other) const;
+		bool :target:`operator!=<doxid-class_sym_engine_1_1fmpq__wrapper_1a80a53e3c82dfe5a7ab15f27ab0613339>`(const fmpq_wrapper& other) const;
+		bool :target:`operator<<doxid-class_sym_engine_1_1fmpq__wrapper_1a52e8c0f5f54fecc02718202cd03f6ae1>`(const fmpq_wrapper& other) const;
+		bool :target:`operator<=<doxid-class_sym_engine_1_1fmpq__wrapper_1a80c972b0a004599f6f9f82afccf28e48>`(const fmpq_wrapper& other) const;
+		bool :target:`operator><doxid-class_sym_engine_1_1fmpq__wrapper_1accbb6a699daf8ea724e89ec9cbf3779e>`(const fmpq_wrapper& other) const;
+		bool :target:`operator>=<doxid-class_sym_engine_1_1fmpq__wrapper_1adc03cd1341c7414169f6b1ca3f7c3ba4>`(const fmpq_wrapper& other) const;
+		bool :target:`is_zero<doxid-class_sym_engine_1_1fmpq__wrapper_1af1060b2939914ccd8f5e1e2dc2ce72f3>`() const;
+		bool :target:`is_one<doxid-class_sym_engine_1_1fmpq__wrapper_1a5746b4482a11965017ffa8cb5344941d>`() const;
+	};

@@ -1,0 +1,65 @@
+.. index:: pair: class; SymEngine::Sieve
+.. _doxid-class_sym_engine_1_1_sieve:
+
+class SymEngine::Sieve
+======================
+
+.. toctree::
+	:hidden:
+
+	class_SymEngine_Sieve_iterator.rst
+
+Overview
+~~~~~~~~
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <ntheory.h>
+	
+	class Sieve {
+	public:
+		// classes
+	
+		class :ref:`iterator<doxid-class_sym_engine_1_1_sieve_1_1iterator>`;
+
+		// methods
+	
+		static void :ref:`generate_primes<doxid-class_sym_engine_1_1_sieve_1a0d2a47d29dda15aa0e061c9b69cb1d3d>`(std::vector<unsigned>& primes, unsigned limit);
+		static void :target:`clear<doxid-class_sym_engine_1_1_sieve_1a00bce5d8c34689376bdf9323148d2356>`();
+		static void :target:`set_sieve_size<doxid-class_sym_engine_1_1_sieve_1aadd112e04b428b57596e6af0a27c4b9b>`(unsigned size);
+		static void :target:`set_clear<doxid-class_sym_engine_1_1_sieve_1a5f9195794f4704d92bfbe37947c7aae6>`(bool clear);
+	};
+.. _details-class_sym_engine_1_1_sieve:
+
+Detailed Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Methods
+-------
+
+.. index:: pair: function; generate_primes
+.. _doxid-class_sym_engine_1_1_sieve_1a0d2a47d29dda15aa0e061c9b69cb1d3d:
+
+.. ref-code-block:: cpp
+	:class: doxyrest-title-code-block
+
+	static void generate_primes(std::vector<unsigned>& primes, unsigned limit)
+
+
+
+.. rubric:: Parameters:
+
+.. list-table::
+	:widths: 20 80
+
+	*
+		- primes
+
+		- holds all primes up to the ``limit`` (including).
+
