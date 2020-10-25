@@ -1,0 +1,49 @@
+# Adapted from https://raw.githubusercontent.com/kaushalmodi/ox-hugo/master/.travis.yml
+language: nix
+
+before_install:
+  - sudo mkdir -p /etc/nix
+  - echo "substituters = https://cache.nixos.org/ file://$HOME/nix.store" | sudo tee -a /etc/nix/nix.conf > /dev/null
+  - echo 'require-sigs = false' | sudo tee -a /etc/nix/nix.conf > /dev/null
+
+install:
+  - bundle
+  # We do this conditionally because it saves us some downloading if the
+  # version is the same.
+  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
+    wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
+    else
+    wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+    fi
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - source "$HOME/miniconda/etc/profile.d/conda.sh"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  # Useful for debugging any issues with conda
+  - conda info -a
+
+before_script:
+  - sudo mkdir -p /etc/nix && echo 'sandbox = true' | sudo tee /etc/nix/nix.conf
+
+script:
+  - conda env create -f symeapi.yml
+  - conda activate symeapi
+  - rake api:mkDocs
+
+before_cache:
+  - mkdir -p $HOME/nix.store
+  - nix copy --to file://$HOME/nix.store -f shell.nix buildInputs
+
+cache:
+  nix: true
+  directories:
+    - /home/travis/build/symengine/api-docs/.tmp/
+    - $HOME/nix.store
+
+deploy:
+  provider: pages
+  local_dir: ./public/
+  skip_cleanup: true
+  github_token: $GH_TOKEN # Set in the settings page of your repository, as a secure variable
+  keep_history: true
