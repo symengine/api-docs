@@ -29,6 +29,8 @@ before_script:
 script:
   - conda env create -f symeapi.yml
   - conda activate symeapi
+  - rake api:mkDoxy
+  - rake api:mkDoxyRest
   - rake api:mkSphinx
 
 before_cache:
