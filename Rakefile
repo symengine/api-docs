@@ -84,7 +84,7 @@ namespace "api" do
   end
 
   desc "Build doxyrest API"
-  task :mkDoxyRest, [:builder, :runner] => "mkDoxy" do |task, args|
+  task :mkDoxyRest, [:builder, :runner] => "api:mkDoxy" do |task, args|
     args.with_defaults(:builder => "html", :runner => "system")
     Dir.chdir(to = CWD)
     if args.runner == "system"
@@ -115,7 +115,7 @@ namespace "api" do
   end
 
   desc "Build Sphinx API docs"
-  task :mkSphinx, [:builder, :runner] => ["mkDoxyRest"] do |task, args|
+  task :mkSphinx, [:builder, :runner] => ["api:mkDoxyRest"] do |task, args|
     args.with_defaults(:builder => "html", :runner => "system")
     if args.runner == "system"
       sh "conda run sphinx-build #{SPHINXAPI} #{OUTAPI} -b #{args.builder}"
@@ -132,7 +132,7 @@ namespace "api" do
   end
 
   desc "Build API Coverage"
-  task :mkDocCover, [:runner] => ["mkDoxy"] do |task, args|
+  task :mkDocCover, [:runner] => ["api:mkDoxy"] do |task, args|
     args.with_defaults(:runner => "system")
     if args.runner == "system"
       sh "conda run python3 -m coverxygen --xml-dir #{DOXXML} --src-dir #{SYMESRC} --output #{DOCCOV}"
@@ -144,7 +144,7 @@ namespace "api" do
   end
 
   desc "Build HTML Coverage Report"
-  task :mkDocCovHTML, [:runner] => ["mkDocCover"] do |t, args|
+  task :mkDocCovHTML, [:runner] => ["api:mkDocCover"] do |t, args|
     args.with_defaults(:runner => "system")
     if args.runner == "system"
       sh "genhtml --no-function-coverage --no-branch-coverage #{DOCCOV} -o #{OUTCOV}"
