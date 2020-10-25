@@ -29,7 +29,8 @@ before_script:
 script:
   - conda env create -f symeapi.yml
   - conda activate symeapi
-  - rake api:mkDocs
+  - cat /home/travis/build/symengine/api-docs/docs/doxyrestConf.lua
+  # - rake api:mkDocs
 
 before_cache:
   - mkdir -p $HOME/nix.store
