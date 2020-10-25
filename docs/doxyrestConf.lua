@@ -4,7 +4,7 @@ if (testTravis == nil)
 then
   addDir = "./"
 else
-  addDir = testTravis
+  addDir = testTravis .. "/"
 end
 
 -- Specify input and output paths:
