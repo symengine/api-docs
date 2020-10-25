@@ -119,8 +119,8 @@ exclude_patterns += ['page_index.rst']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'nervproject'
-# html_theme = 'pyramid'
+# html_theme = 'nervproject'
+html_theme = 'pyramid'
 # html_theme = 'sphinx_book_theme'
 # -- Sphinx Book Theme Settings
 html_theme_options = {
