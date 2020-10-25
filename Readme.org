@@ -1,0 +1,16 @@
+* About
+This is the API documentation site for Symengine. This includes
+bindings as well. 
+
+#+begin_quote
+This *is automated* 
+#+end_quote
+
+Contributions to this repository are to be in the form of updating the
+API docs in each of the Symengine projects.
+
+Note that contributions to the *wiki* should be made in the separate
+repository.
+
+* License
+Currently licensed under the flimsiest of licenses, the CC BY 4.0
