@@ -94,9 +94,9 @@ namespace "api" do
         begin
           puts "System has no doxyrest, trying nix"
           sh "nix-shell #{NIXSHELL} --run 'doxyrest -c #{DOXLUA}'"
-        # rescue
-        #   puts "Falling back to conda"
-        #   sh "conda run doxyrest -c #{DOXLUA}"
+        rescue
+          puts "Falling back to conda"
+          sh "conda run doxyrest -c #{DOXLUA}"
         end
       else
         raise ExecException.new
@@ -105,9 +105,9 @@ namespace "api" do
       begin
         puts "System has no doxyrest, trying nix"
         sh "nix-shell #{NIXSHELL} --run 'doxyrest -c #{DOXLUA}'"
-      rescue
-        puts "Falling back to conda"
-        sh "conda run doxyrest -c #{DOXLUA}"
+      # rescue
+      #   puts "Falling back to conda"
+      #   sh "conda run doxyrest -c #{DOXLUA}"
       end
     else
       raise RunnerException.new
