@@ -14,6 +14,11 @@ INPUT_FILE = addDir .. "docs/Doxygen/gen_docs/xml/index.xml"
 FRAME_FILE = addDir .. "docs/doxyrest/frame/cfamily/index.rst.in"
 FRAME_DIR_LIST = {  addDir .. "docs/doxyrest/frame/cfamily",  addDir .."docs/doxyrest/frame/common" }
 
+print(INPUT_FILE)
+print(OUTPUT_FILE)
+print(FRAME_DIR_LIST[1])
+print(FRAME_DIR_LIST[2])
+
 -- Usually, Doxygen-based documentation has a main page (created with
 -- the \mainpage directive). If that's the case, force-include
 -- the contents of 'page_index.rst' into 'index.rst':
