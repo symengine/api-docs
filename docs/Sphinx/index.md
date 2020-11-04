@@ -2,7 +2,7 @@
 
 ```{toctree}
 :caption: General index
-:maxdepth: 1
+:maxdepth: 2
 
-gen_doxyrest/index
+api/library_root
 ```

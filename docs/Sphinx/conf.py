@@ -31,8 +31,8 @@ master_doc = "index"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    # 'breathe',
-    # 'exhale',
+    'breathe',
+    'exhale',
     'myst_nb',
     "sphinx_copybutton",
     "sphinx_togglebutton",
@@ -85,23 +85,23 @@ jupyter_execute_notebooks = "cache"
 
 # -- Exhale configuration ---------------------------------------------------
 # Setup the breathe extension
-# breathe_projects = {
-#     "Symengine XML": "./../../Doxygen/gen_docs/xml"
-# }
-# breathe_default_project = "Symengine XML"
+breathe_projects = {
+    "Symengine XML": "./../Doxygen/gen_docs/xml"
+}
+breathe_default_project = "Symengine XML"
 
 #  # Setup the exhale extension
-# exhale_args = {
-#     # These arguments are required
-#     "containmentFolder":     "./api",
-#     "rootFileName":          "library_root.rst",
-#     "rootFileTitle":         "Library API",
-#     "doxygenStripFromPath":  "..",
-#     # Suggested optional arguments
-#     "createTreeView":        True,
-#     # TIP: if using the sphinx-bootstrap-theme, you need
-#     # "treeViewIsBootstrap": True,
-# }
+exhale_args = {
+    # These arguments are required
+    "containmentFolder":     "./api",
+    "rootFileName":          "library_root.rst",
+    "rootFileTitle":         "Library API",
+    "doxygenStripFromPath":  "..",
+    # Suggested optional arguments
+    "createTreeView":        True,
+    # TIP: if using the sphinx-bootstrap-theme, you need
+    # "treeViewIsBootstrap": True,
+}
 
 # Tell sphinx what the primary language being documented is.
 primary_domain = 'cpp'
@@ -110,18 +110,17 @@ primary_domain = 'cpp'
 highlight_language = 'cpp'
 
 # -- Doxyrest Settings -------------------------------------------------
-sys.path.insert(1, os.path.abspath('../doxyrest/sphinx'))
-extensions += ['doxyrest', 'cpplexer']
-exclude_patterns += ['page_index.rst']
+# sys.path.insert(1, os.path.abspath('../doxyrest/sphinx'))
+# extensions += ['doxyrest', 'cpplexer']
+# exclude_patterns += ['page_index.rst']
 
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# html_theme = 'nervproject'
-html_theme = 'pyramid'
-# html_theme = 'sphinx_book_theme'
+html_theme = 'nervproject'
+# html_theme = 'pyramid'
 # -- Sphinx Book Theme Settings
 html_theme_options = {
     "repository_url": "https://github.com/symengine/api-docs",
