@@ -1110,6 +1110,17 @@ lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest"]
 
 [[package]]
+name = "sphinxemoji"
+version = "0.1.8"
+description = "An extension to use emoji codes in your Sphinx documentation"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+sphinx = ">=1.8"
+
+[[package]]
 name = "sqlalchemy"
 version = "1.3.20"
 description = "Database Abstraction Library"
@@ -1230,7 +1241,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "520dc62e482449d3dfa818399dd30ce66d38cd9f37223854334c6c238294c3db"
+content-hash = "79ea9c2359bb1793f92285da6b6483c00ee798fb9858d8cbdc2f36183d00c9f4"
 
 [metadata.files]
 alabaster = [
@@ -1751,6 +1762,9 @@ sphinxcontrib-qthelp = [
 sphinxcontrib-serializinghtml = [
     {file = "sphinxcontrib-serializinghtml-1.1.4.tar.gz", hash = "sha256:eaa0eccc86e982a9b939b2b82d12cc5d013385ba5eadcc7e4fed23f4405f77bc"},
     {file = "sphinxcontrib_serializinghtml-1.1.4-py2.py3-none-any.whl", hash = "sha256:f242a81d423f59617a8e5cf16f5d4d74e28ee9a66f9e5b637a18082991db5a9a"},
+]
+sphinxemoji = [
+    {file = "sphinxemoji-0.1.8.tar.gz", hash = "sha256:3da5d1e33c0bc4fa9506420f02b73234868d10a1b243ee15ae2111f118a43f72"},
 ]
 sqlalchemy = [
     {file = "SQLAlchemy-1.3.20-cp27-cp27m-macosx_10_14_x86_64.whl", hash = "sha256:bad73f9888d30f9e1d57ac8829f8a12091bdee4949b91db279569774a866a18e"},

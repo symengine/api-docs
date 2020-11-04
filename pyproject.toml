@@ -14,6 +14,7 @@ coverxygen = "^1.5.0"
 sphinx-copybutton = "^0.3.0"
 sphinx-togglebutton = "^0.2.2"
 sphinxcontrib-bibtex = "^1.0.0"
+sphinx-nervproject-theme = "^2.0.2"
 
 [tool.poetry.dev-dependencies]
 
