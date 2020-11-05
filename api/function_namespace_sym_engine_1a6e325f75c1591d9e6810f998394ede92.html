@@ -1,169 +1,150 @@
+
 <!DOCTYPE html>
-<html >
+
+<html>
   <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <title>Function SymEngine::idivnum</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function SymEngine::idivnum &#8212; Symengine API  documentation</title>
     
-      <link rel="stylesheet" href="../_static/pygments.css"/>
-      <link rel="stylesheet" href="../_static/theme-light.css"/>
-      <link rel="stylesheet" media="(prefers-contrast: high)" href="../_static/theme-light-hc.css"/>
-      <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="../_static/theme-dark.css"/>
-      <link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: high)" href="../_static/theme-dark-hc.css"/>
-      
-        <link rel="stylesheet" media="print" href="../_static/theme-print.css"/>
-      
-      
-          <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
-          <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
-          <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
-          <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
-      
-        
-        <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.b3fa5b9aeac04ae33e0073fadc1130d8.css" rel="stylesheet" />
 
-        <!-- sphinx script_files -->
-          <script src="../_static/jquery.js"></script>
-          <script src="../_static/underscore.js"></script>
-          <script src="../_static/doctools.js"></script>
-          <script src="../_static/language_data.js"></script>
-          <script src="../_static/togglebutton.js"></script>
-          <script src="../_static/clipboard.min.js"></script>
-          <script src="../_static/copybutton.js"></script>
-          <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
-          <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
-          <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-
-        <script src="../_static/sphinx_nervproject_theme.js" defer></script>
-      
     
-  <link rel="index" title="Index" href="../genindex.html" />
-  <link rel="search" title="Search" href="../search.html" />
-   
-  
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.2e394030c035d5864108.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Function SymEngine::imageset" href="function_namespace_sym_engine_1a06b7b3e4580d3fc5229b21dbdfe30068.html" />
+    <link rel="prev" title="Function SymEngine::iaddnum" href="function_namespace_sym_engine_1aa81eb1f248002d58420f2f3d8a538533.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
   </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
+<div class="container-xl">
 
-  <body>
-    <div id="app" class="theme-container"><header class="navbar">
-    <div id="header-identity" class="print-only">
-        <img id="navbar_logo" src="../_static/"/>
-        <div id="navbar_title">Symengine API</div>
-    </div>
-
-  
-  <button class="sidebar-button">
-      <svg id="sidebar-button-svg" role="img" aria-labelledby="sidebar-button_label" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <title id="sidebar-button_label">
-              Toggle sidebar
-          </title>
-          <use xlink:href="../_static/fa/solid.svg#bars"></use>
-      </svg>
-  </button>
-
-  <a href="../index.html" class="home-link">
-      <span class="site-name">Symengine API</span>
-  </a>
-
-  <div class="links">
-    <div class="nav-links can-hide">
-
-  <div class="nav-item nav-dropdown-menu">
-    <details>
-      <summary>
-        <span
-           class="nav-link ">
-           typedefs
-        </span>
-      </summary>
-      <ul>
+    <a class="navbar-brand" href="../index.html">
+    
+      <p class="title">Symengine API</p>
+    
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
+      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
         
-          <li class="nav-link">
-            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
-                Typedef SymEngine::vec_uint
-            </a>
-          </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="library_root.html">Library API</a>
+        </li>
+        
         
       </ul>
-    </details>
-  </div>
 
-
-
-    </div>
-  </div>
-  
-</header>
 
       
-      <table role="none" id="main_layout_table">
-        <thead>
-          <tr><th><div id="layout_header">
-          </div></th></tr>
-        </thead>
-        <tbody><tr><td>
-          <div id="appflex">
-            
-              <div class="sidebar" id="sidebar">
-                
-                <nav class="nav-links can-hide">
-                  
 
-  <div class="nav-item nav-dropdown-menu">
-    <details>
-      <summary>
-        <span
-           class="nav-link ">
-           typedefs
-        </span>
-      </summary>
-      <ul>
+      <ul class="navbar-nav">
         
-          <li class="nav-link">
-            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
-                Typedef SymEngine::vec_uint
-            </a>
-          </li>
         
       </ul>
-    </details>
-  </div>
-
-
-
-                  
-                </nav><div id="searchbox" class="searchbox" role="search">
-  <div class="caption"><span class="caption-text">Quick search</span>
-    <div class="searchformwrapper">
-      <form class="search" action="../search.html" method="get">
-        <input type="text" name="q" />
-        <input type="submit" value="Search" />
-        <input type="hidden" name="check_keywords" value="yes" />
-        <input type="hidden" name="area" value="default" />
-      </form>
     </div>
-  </div>
-</div><nav class="sidebar-links">
-  
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+
+    <div class="bd-toc-item active">
     
   
-</nav>
-              </div>
+    <ul class="nav bd-sidenav">
+        
+        
+        
+      </ul>
+  
+  </nav>
+            </div>
             
+          
 
-            <div class="page">
-                <nav class="body-header">
-  
-  
-  
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+              
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
-  <ul class="page-nav no-print">
-</ul>
-  
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#function-documentation" class="nav-link">Function Documentation</a>
+        </li>
+    
+    </ul>
 </nav>
-                <main class="content">
-                  
+
+
+              
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
   <div class="section" id="function-symengine-idivnum">
 <span id="exhale-function-namespace-sym-engine-1a6e325f75c1591d9e6810f998394ede92"></span><h1>Function SymEngine::idivnum<a class="headerlink" href="#function-symengine-idivnum" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
@@ -179,57 +160,34 @@
 </div>
 </div>
 
-  
-    <div class="section no-print">
-    
-      
-    
-    
-    
-    </div>
-  
 
-                </main><ul class="page-nav no-print">
-</ul>
-            </div>
-          </div>
-        </td></tr></tbody>
-        <tfoot>
-          <tr><th><div id="layout_footer">
-          </div></th></tr>
-        </tfoot>
-      </table><footer class="footer" role="contentinfo">
-  
-    <p>
-    
-      &#169; Copyright 2020, SymEngine Development Team.
-    
-    </p>
-  
-  
-    <p>
-    
-    
-      Licensed under .
-    
-    
-    </p>
-  
-  
-    <p>
-  
-  
-  
-    Created using <a
-        href="http://sphinx-doc.org/">Sphinx</a> 3.3.0 with
-    <a href="https://www.nerv-project.eu">Nerv Project theme</a>
-    based on <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>
-    and <a href="https://ablog.readthedocs.io/">ABlog</a>.</p>
-  
-  <div class="pagecount"></div>
-</footer>
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='left-prev' id="prev-link" href="function_namespace_sym_engine_1aa81eb1f248002d58420f2f3d8a538533.html" title="previous page">Function SymEngine::iaddnum</a>
+    <a class='right-next' id="next-link" href="function_namespace_sym_engine_1a06b7b3e4580d3fc5229b21dbdfe30068.html" title="next page">Function SymEngine::imageset</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
     </div>
+
     
-    
+  <script src="../_static/js/index.2e394030c035d5864108.js"></script>
+
+
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2020, SymEngine Development Team.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.3.0.<br/>
+    </p>
+  </div>
+</footer>
   </body>
 </html>

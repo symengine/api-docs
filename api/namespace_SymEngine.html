@@ -1,169 +1,170 @@
+
 <!DOCTYPE html>
-<html >
+
+<html>
   <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <title>Namespace SymEngine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namespace SymEngine &#8212; Symengine API  documentation</title>
     
-      <link rel="stylesheet" href="../_static/pygments.css"/>
-      <link rel="stylesheet" href="../_static/theme-light.css"/>
-      <link rel="stylesheet" media="(prefers-contrast: high)" href="../_static/theme-light-hc.css"/>
-      <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="../_static/theme-dark.css"/>
-      <link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: high)" href="../_static/theme-dark-hc.css"/>
-      
-        <link rel="stylesheet" media="print" href="../_static/theme-print.css"/>
-      
-      
-          <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
-          <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
-          <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
-          <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
-      
-        
-        <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.b3fa5b9aeac04ae33e0073fadc1130d8.css" rel="stylesheet" />
 
-        <!-- sphinx script_files -->
-          <script src="../_static/jquery.js"></script>
-          <script src="../_static/underscore.js"></script>
-          <script src="../_static/doctools.js"></script>
-          <script src="../_static/language_data.js"></script>
-          <script src="../_static/togglebutton.js"></script>
-          <script src="../_static/clipboard.min.js"></script>
-          <script src="../_static/copybutton.js"></script>
-          <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
-          <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
-          <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-
-        <script src="../_static/sphinx_nervproject_theme.js" defer></script>
-      
     
-  <link rel="index" title="Index" href="../genindex.html" />
-  <link rel="search" title="Search" href="../search.html" />
-   
-  
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.2e394030c035d5864108.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Namespace SymEngine::@0" href="namespace_SymEngine__%400.html" />
+    <link rel="prev" title="Namespace std" href="namespace_std.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
   </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
+<div class="container-xl">
 
-  <body>
-    <div id="app" class="theme-container"><header class="navbar">
-    <div id="header-identity" class="print-only">
-        <img id="navbar_logo" src="../_static/"/>
-        <div id="navbar_title">Symengine API</div>
-    </div>
-
-  
-  <button class="sidebar-button">
-      <svg id="sidebar-button-svg" role="img" aria-labelledby="sidebar-button_label" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <title id="sidebar-button_label">
-              Toggle sidebar
-          </title>
-          <use xlink:href="../_static/fa/solid.svg#bars"></use>
-      </svg>
-  </button>
-
-  <a href="../index.html" class="home-link">
-      <span class="site-name">Symengine API</span>
-  </a>
-
-  <div class="links">
-    <div class="nav-links can-hide">
-
-  <div class="nav-item nav-dropdown-menu">
-    <details>
-      <summary>
-        <span
-           class="nav-link ">
-           typedefs
-        </span>
-      </summary>
-      <ul>
+    <a class="navbar-brand" href="../index.html">
+    
+      <p class="title">Symengine API</p>
+    
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
+      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
         
-          <li class="nav-link">
-            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
-                Typedef SymEngine::vec_uint
-            </a>
-          </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="library_root.html">Library API</a>
+        </li>
+        
         
       </ul>
-    </details>
-  </div>
 
-
-
-    </div>
-  </div>
-  
-</header>
 
       
-      <table role="none" id="main_layout_table">
-        <thead>
-          <tr><th><div id="layout_header">
-          </div></th></tr>
-        </thead>
-        <tbody><tr><td>
-          <div id="appflex">
-            
-              <div class="sidebar" id="sidebar">
-                
-                <nav class="nav-links can-hide">
-                  
 
-  <div class="nav-item nav-dropdown-menu">
-    <details>
-      <summary>
-        <span
-           class="nav-link ">
-           typedefs
-        </span>
-      </summary>
-      <ul>
+      <ul class="navbar-nav">
         
-          <li class="nav-link">
-            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
-                Typedef SymEngine::vec_uint
-            </a>
-          </li>
         
       </ul>
-    </details>
-  </div>
-
-
-
-                  
-                </nav><div id="searchbox" class="searchbox" role="search">
-  <div class="caption"><span class="caption-text">Quick search</span>
-    <div class="searchformwrapper">
-      <form class="search" action="../search.html" method="get">
-        <input type="text" name="q" />
-        <input type="submit" value="Search" />
-        <input type="hidden" name="check_keywords" value="yes" />
-        <input type="hidden" name="area" value="default" />
-      </form>
     </div>
-  </div>
-</div><nav class="sidebar-links">
-  
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+
+    <div class="bd-toc-item active">
     
   
-</nav>
-              </div>
+    <ul class="nav bd-sidenav">
+        
+        
+        
+      </ul>
+  
+  </nav>
+            </div>
             
+          
 
-            <div class="page">
-                <nav class="body-header">
-  
-  
-  
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+              
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
-  <ul class="page-nav no-print">
-</ul>
-  
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#namespaces" class="nav-link">Namespaces</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#classes" class="nav-link">Classes</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#enums" class="nav-link">Enums</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#functions" class="nav-link">Functions</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#typedefs" class="nav-link">Typedefs</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#variables" class="nav-link">Variables</a>
+        </li>
+    
+    </ul>
 </nav>
-                <main class="content">
-                  
+
+
+              
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
   <div class="section" id="namespace-symengine">
 <span id="id1"></span><h1>Namespace SymEngine<a class="headerlink" href="#namespace-symengine" title="Permalink to this headline">¶</a></h1>
 <p>Main namespace for <a class="reference internal" href="#namespace-symengine"><span class="std std-ref">Namespace SymEngine</span></a> package.</p>
@@ -469,14 +470,14 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad24e5e2a40b4adec2f412671f39042d8.html#exhale-function-namespace-sym-engine-1ad24e5e2a40b4adec2f412671f39042d8"><span class="std std-ref">Function SymEngine::dot</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1add2a40ae73e73c8028f2bad9e58a93d0.html#exhale-function-namespace-sym-engine-1add2a40ae73e73c8028f2bad9e58a93d0"><span class="std std-ref">Template Function SymEngine::down_cast(From *)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ac3d55aa0350c355c655976ff4e986606.html#exhale-function-namespace-sym-engine-1ac3d55aa0350c355c655976ff4e986606"><span class="std std-ref">Template Function SymEngine::down_cast(From&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a6907d6b16813f4436d225f07a2eeaed7.html#exhale-function-namespace-sym-engine-1a6907d6b16813f4436d225f07a2eeaed7"><span class="std std-ref">Function SymEngine::dummy(const std::string&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a16ba61741eca9629bbc565bd1ba5ee77.html#exhale-function-namespace-sym-engine-1a16ba61741eca9629bbc565bd1ba5ee77"><span class="std std-ref">Function SymEngine::dummy()</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a6907d6b16813f4436d225f07a2eeaed7.html#exhale-function-namespace-sym-engine-1a6907d6b16813f4436d225f07a2eeaed7"><span class="std std-ref">Function SymEngine::dummy(const std::string&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a7241cd5422fa4ea4d7d2f8fa13c7c8a4.html#exhale-function-namespace-sym-engine-1a7241cd5422fa4ea4d7d2f8fa13c7c8a4"><span class="std std-ref">Function SymEngine::eigen_values</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1adf49c7425d07e0fb972c7f73373bea4b.html#exhale-function-namespace-sym-engine-1adf49c7425d07e0fb972c7f73373bea4b"><span class="std std-ref">Function SymEngine::elementwise_mul_dense_dense</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a2eb0d05b781ff2948b07f612f83a82bc.html#exhale-function-namespace-sym-engine-1a2eb0d05b781ff2948b07f612f83a82bc"><span class="std std-ref">Function SymEngine::emptyset</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a2861dd1747fa1416cd6ef023ef08fca5.html#exhale-function-namespace-sym-engine-1a2861dd1747fa1416cd6ef023ef08fca5"><span class="std std-ref">Function SymEngine::eq</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1abb176b90171ba213e14a1dca70b890ab.html#exhale-function-namespace-sym-engine-1abb176b90171ba213e14a1dca70b890ab"><span class="std std-ref">Function SymEngine::Eq(const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a2a4962a72c0af004b4c06b4eb660e3e1.html#exhale-function-namespace-sym-engine-1a2a4962a72c0af004b4c06b4eb660e3e1"><span class="std std-ref">Function SymEngine::Eq(const RCP&lt;const Basic&gt;&amp;, const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a2861dd1747fa1416cd6ef023ef08fca5.html#exhale-function-namespace-sym-engine-1a2861dd1747fa1416cd6ef023ef08fca5"><span class="std std-ref">Function SymEngine::eq</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ac51d8c7a02041f2c0a6daa8905e20b0d.html#exhale-function-namespace-sym-engine-1ac51d8c7a02041f2c0a6daa8905e20b0d"><span class="std std-ref">Function SymEngine::erf</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a8f9a1131b360ff67d1e9d61c142bd895.html#exhale-function-namespace-sym-engine-1a8f9a1131b360ff67d1e9d61c142bd895"><span class="std std-ref">Function SymEngine::erfc</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab1fd9e6ccc9795d71bf6eaa75ebe6856.html#exhale-function-namespace-sym-engine-1ab1fd9e6ccc9795d71bf6eaa75ebe6856"><span class="std std-ref">Function SymEngine::eval_complex_double</span></a></p></li>
@@ -518,8 +519,8 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a8926d053443b78b4a44a405bfb9c7447.html#exhale-function-namespace-sym-engine-1a8926d053443b78b4a44a405bfb9c7447"><span class="std std-ref">Function SymEngine::fraction_free_LDU</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a6e14d617760b9b748066779fb54716ff.html#exhale-function-namespace-sym-engine-1a6e14d617760b9b748066779fb54716ff"><span class="std std-ref">Function SymEngine::fraction_free_LU</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a3b03956b4019515f47eaa382f3ff2125.html#exhale-function-namespace-sym-engine-1a3b03956b4019515f47eaa382f3ff2125"><span class="std std-ref">Function SymEngine::fraction_free_LU_solve</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae8227a937fb0b2b4692e5d68bd838045.html#exhale-function-namespace-sym-engine-1ae8227a937fb0b2b4692e5d68bd838045"><span class="std std-ref">Function SymEngine::free_symbols(const MatrixBase&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a2f92d8c6b6e4c7d9d6350f09fdb83a0e.html#exhale-function-namespace-sym-engine-1a2f92d8c6b6e4c7d9d6350f09fdb83a0e"><span class="std std-ref">Function SymEngine::free_symbols(const Basic&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae8227a937fb0b2b4692e5d68bd838045.html#exhale-function-namespace-sym-engine-1ae8227a937fb0b2b4692e5d68bd838045"><span class="std std-ref">Function SymEngine::free_symbols(const MatrixBase&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ae584093404e71f228d9f2e2ce261fa70.html#exhale-function-namespace-sym-engine-1ae584093404e71f228d9f2e2ce261fa70"><span class="std std-ref">Function SymEngine::function_symbol(std::string, const vec_basic&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a27d08ebdbf0bb28eaadc7b2a9c061da6.html#exhale-function-namespace-sym-engine-1a27d08ebdbf0bb28eaadc7b2a9c061da6"><span class="std std-ref">Function SymEngine::function_symbol(std::string, const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a7394a556e2651fe84fcdb3335f89681c.html#exhale-function-namespace-sym-engine-1a7394a556e2651fe84fcdb3335f89681c"><span class="std std-ref">Function SymEngine::function_symbols</span></a></p></li>
@@ -532,8 +533,8 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad65547b63ed033ce4c5cc21ebef7bedf.html#exhale-function-namespace-sym-engine-1ad65547b63ed033ce4c5cc21ebef7bedf"><span class="std std-ref">Function SymEngine::generate_fdiff_weights_vector</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a606680d625011965fcb01419130152c6.html#exhale-function-namespace-sym-engine-1a606680d625011965fcb01419130152c6"><span class="std std-ref">Function SymEngine::get_coeff_basic(const integer_class&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a959d780c5cb3ca117b480cc6d3915cef.html#exhale-function-namespace-sym-engine-1a959d780c5cb3ca117b480cc6d3915cef"><span class="std std-ref">Function SymEngine::get_coeff_basic(const Expression&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a6c15b70a486bac23e5fa9fa66d297efe.html#exhale-function-namespace-sym-engine-1a6c15b70a486bac23e5fa9fa66d297efe"><span class="std std-ref">Function SymEngine::get_den(const rational_class&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aa8138dcd26ea9d5e00c7d1ab4f254ea1.html#exhale-function-namespace-sym-engine-1aa8138dcd26ea9d5e00c7d1ab4f254ea1"><span class="std std-ref">Function SymEngine::get_den(rational_class&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a6c15b70a486bac23e5fa9fa66d297efe.html#exhale-function-namespace-sym-engine-1a6c15b70a486bac23e5fa9fa66d297efe"><span class="std std-ref">Function SymEngine::get_den(const rational_class&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab44d590f2967adc8288abb2adfe9d532.html#exhale-function-namespace-sym-engine-1ab44d590f2967adc8288abb2adfe9d532"><span class="std std-ref">Function SymEngine::get_dummy</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1adbd1fd8694f1d214445e1f1ff89f56f7.html#exhale-function-namespace-sym-engine-1adbd1fd8694f1d214445e1f1ff89f56f7"><span class="std std-ref">Function SymEngine::get_float_intrinsic</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab852e9862601f9ece7acf44c2f065d6f.html#exhale-function-namespace-sym-engine-1ab852e9862601f9ece7acf44c2f065d6f"><span class="std std-ref">Function SymEngine::get_mp_t(const integer_class&amp;)</span></a></p></li>
@@ -541,15 +542,15 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ae1dd3d3e067a91b7c753c5435b95df51.html#exhale-function-namespace-sym-engine-1ae1dd3d3e067a91b7c753c5435b95df51"><span class="std std-ref">Function SymEngine::get_mpq_t</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1acb169d8ebb21558852948e040beda0cc.html#exhale-function-namespace-sym-engine-1acb169d8ebb21558852948e040beda0cc"><span class="std std-ref">Function SymEngine::get_mpz_t(const integer_class&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a07c180bdbfc26209fb379eb710faf052.html#exhale-function-namespace-sym-engine-1a07c180bdbfc26209fb379eb710faf052"><span class="std std-ref">Function SymEngine::get_mpz_t(integer_class&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1afc00e49ffa8f0db3a4c032db79e68275.html#exhale-function-namespace-sym-engine-1afc00e49ffa8f0db3a4c032db79e68275"><span class="std std-ref">Function SymEngine::get_num(const rational_class&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a6223ed1e93a47a5dd127ee88919e62b3.html#exhale-function-namespace-sym-engine-1a6223ed1e93a47a5dd127ee88919e62b3"><span class="std std-ref">Function SymEngine::get_num(rational_class&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1afc00e49ffa8f0db3a4c032db79e68275.html#exhale-function-namespace-sym-engine-1afc00e49ffa8f0db3a4c032db79e68275"><span class="std std-ref">Function SymEngine::get_num(const rational_class&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a099fdf0478ebd3ed479f40ddb04f0315.html#exhale-function-namespace-sym-engine-1a099fdf0478ebd3ed479f40ddb04f0315"><span class="std std-ref">Function SymEngine::get_num_den</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a2fffbf87e0516fd6b0ce4075ab644c07.html#exhale-function-namespace-sym-engine-1a2fffbf87e0516fd6b0ce4075ab644c07"><span class="std std-ref">Function SymEngine::get_pi_shift</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a3bcdb3de782b80d6d1b003476f126841.html#exhale-function-namespace-sym-engine-1a3bcdb3de782b80d6d1b003476f126841"><span class="std std-ref">Function SymEngine::get_set_from_vec</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a7e9546d951d18f8d547c736653116951.html#exhale-function-namespace-sym-engine-1a7e9546d951d18f8d547c736653116951"><span class="std std-ref">Function SymEngine::get_vec_from_set</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a77367965f68641f67109c39a1b6751cb.html#exhale-function-namespace-sym-engine-1a77367965f68641f67109c39a1b6751cb"><span class="std std-ref">Function SymEngine::get_version</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a1e0f78cd669306fa94c4f80653de8533.html#exhale-function-namespace-sym-engine-1a1e0f78cd669306fa94c4f80653de8533"><span class="std std-ref">Function SymEngine::gf_poly(RCP&lt;const Basic&gt;, GaloisFieldDict&amp;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a65f6fb120186024286d9f8d42434e5e6.html#exhale-function-namespace-sym-engine-1a65f6fb120186024286d9f8d42434e5e6"><span class="std std-ref">Function SymEngine::gf_poly(RCP&lt;const Basic&gt;, map_uint_mpz&amp;&amp;, integer_class)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a1e0f78cd669306fa94c4f80653de8533.html#exhale-function-namespace-sym-engine-1a1e0f78cd669306fa94c4f80653de8533"><span class="std std-ref">Function SymEngine::gf_poly(RCP&lt;const Basic&gt;, GaloisFieldDict&amp;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ada2f0b220c4770c1c1fbbe96dfcf7af8.html#exhale-function-namespace-sym-engine-1ada2f0b220c4770c1c1fbbe96dfcf7af8"><span class="std std-ref">Function SymEngine::Gt</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aa56bf02c8c13be9b0c10a9c280d0e22c.html#exhale-function-namespace-sym-engine-1aa56bf02c8c13be9b0c10a9c280d0e22c"><span class="std std-ref">Function SymEngine::handle_minus</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1addac89ed5ce6ed7617f90f7473a91214.html#exhale-function-namespace-sym-engine-1addac89ed5ce6ed7617f90f7473a91214"><span class="std std-ref">Function SymEngine::harmonic</span></a></p></li>
@@ -568,8 +569,8 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a06b7b3e4580d3fc5229b21dbdfe30068.html#exhale-function-namespace-sym-engine-1a06b7b3e4580d3fc5229b21dbdfe30068"><span class="std std-ref">Function SymEngine::imageset</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1afb01d26ef4318eb02328f31e7fdf4a4d.html#exhale-function-namespace-sym-engine-1afb01d26ef4318eb02328f31e7fdf4a4d"><span class="std std-ref">Template Function SymEngine::implicit_cast</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a616d02c0103dc3cbe40bce404781963f.html#exhale-function-namespace-sym-engine-1a616d02c0103dc3cbe40bce404781963f"><span class="std std-ref">Function SymEngine::imulnum</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1af42f683a5aa9d3c54e3ad1b7ba503409.html#exhale-function-namespace-sym-engine-1af42f683a5aa9d3c54e3ad1b7ba503409"><span class="std std-ref">Function SymEngine::infty(int)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1abfcded7aa73810752cc456a32eb29989.html#exhale-function-namespace-sym-engine-1abfcded7aa73810752cc456a32eb29989"><span class="std std-ref">Function SymEngine::infty(const RCP&lt;const Number&gt;&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1af42f683a5aa9d3c54e3ad1b7ba503409.html#exhale-function-namespace-sym-engine-1af42f683a5aa9d3c54e3ad1b7ba503409"><span class="std std-ref">Function SymEngine::infty(int)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad91284f4cad81dc22ba21921a4e6bafb.html#exhale-function-namespace-sym-engine-1ad91284f4cad81dc22ba21921a4e6bafb"><span class="std std-ref">Function SymEngine::init_eval_double</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a8a0fa36d4fbff063bb37b9893c4e6354.html#exhale-function-namespace-sym-engine-1a8a0fa36d4fbff063bb37b9893c4e6354"><span class="std std-ref">Template Function SymEngine::insert</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a17c4fb234fb676cbdcd3e5b19a559356.html#exhale-function-namespace-sym-engine-1a17c4fb234fb676cbdcd3e5b19a559356"><span class="std std-ref">Template Function SymEngine::integer(T)</span></a></p></li>
@@ -582,8 +583,8 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab727b123973817a71f34ac120dfb7fc4.html#exhale-function-namespace-sym-engine-1ab727b123973817a71f34ac120dfb7fc4"><span class="std std-ref">Function SymEngine::inverse_LU</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1afc967bc813fa5a571e7257f4d4a57e10.html#exhale-function-namespace-sym-engine-1afc967bc813fa5a571e7257f4d4a57e10"><span class="std std-ref">Function SymEngine::inverse_pivoted_LU</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aed618fa204dd30c86aa8e1772c72ed80.html#exhale-function-namespace-sym-engine-1aed618fa204dd30c86aa8e1772c72ed80"><span class="std std-ref">Function SymEngine::invertComplex</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a55c552d60587cfdd634494c9bf8840a9.html#exhale-function-namespace-sym-engine-1a55c552d60587cfdd634494c9bf8840a9"><span class="std std-ref">Template Function SymEngine::is_a(const MatrixBase&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a69193ed0d011c3b3f44db8a4f66792a4.html#exhale-function-namespace-sym-engine-1a69193ed0d011c3b3f44db8a4f66792a4"><span class="std std-ref">Template Function SymEngine::is_a(const Basic&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a55c552d60587cfdd634494c9bf8840a9.html#exhale-function-namespace-sym-engine-1a55c552d60587cfdd634494c9bf8840a9"><span class="std std-ref">Template Function SymEngine::is_a(const MatrixBase&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a9b828cb692f763f05e2ee78d7cde30f0.html#exhale-function-namespace-sym-engine-1a9b828cb692f763f05e2ee78d7cde30f0"><span class="std std-ref">Function SymEngine::is_a_Atom</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a4166dcdd92a7c84f39df5b04a0e6ff29.html#exhale-function-namespace-sym-engine-1a4166dcdd92a7c84f39df5b04a0e6ff29"><span class="std std-ref">Function SymEngine::is_a_Boolean</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ac1ffd806385fb08a9a48dd86a60915ee.html#exhale-function-namespace-sym-engine-1ac1ffd806385fb08a9a48dd86a60915ee"><span class="std std-ref">Function SymEngine::is_a_Complex</span></a></p></li>
@@ -684,8 +685,8 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aa2074c084c5e4ecbbf0b8a1d05f2270b.html#exhale-function-namespace-sym-engine-1aa2074c084c5e4ecbbf0b8a1d05f2270b"><span class="std std-ref">Function SymEngine::mp_nextprime</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aa067e8e1e48e2cb3c29426e98e755b8a.html#exhale-function-namespace-sym-engine-1aa067e8e1e48e2cb3c29426e98e755b8a"><span class="std std-ref">Function SymEngine::mp_perfect_power_p</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aabbf8eb7c388f8b9b73e10441867380e.html#exhale-function-namespace-sym-engine-1aabbf8eb7c388f8b9b73e10441867380e"><span class="std std-ref">Function SymEngine::mp_perfect_square_p</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1ad88d5d3a65e4d0b3c0bc58254a435349.html#exhale-function-namespace-sym-engine-1ad88d5d3a65e4d0b3c0bc58254a435349"><span class="std std-ref">Function SymEngine::mp_pow_ui(integer_class&amp;, const integer_class&amp;, unsigned long)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab36e465b0f69e55b33b09b40c1eff518.html#exhale-function-namespace-sym-engine-1ab36e465b0f69e55b33b09b40c1eff518"><span class="std std-ref">Function SymEngine::mp_pow_ui(rational_class&amp;, const rational_class&amp;, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ad88d5d3a65e4d0b3c0bc58254a435349.html#exhale-function-namespace-sym-engine-1ad88d5d3a65e4d0b3c0bc58254a435349"><span class="std std-ref">Function SymEngine::mp_pow_ui(integer_class&amp;, const integer_class&amp;, unsigned long)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a1183fd19218e79376ab1128d325991fc.html#exhale-function-namespace-sym-engine-1a1183fd19218e79376ab1128d325991fc"><span class="std std-ref">Function SymEngine::mp_powm</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a455281d26033604d5c59b0e83b8c8dcd.html#exhale-function-namespace-sym-engine-1a455281d26033604d5c59b0e83b8c8dcd"><span class="std std-ref">Function SymEngine::mp_probab_prime_p</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab26581ba01cd3aa4b7d8c5cf4c8174a7.html#exhale-function-namespace-sym-engine-1ab26581ba01cd3aa4b7d8c5cf4c8174a7"><span class="std std-ref">Function SymEngine::mp_root</span></a></p></li>
@@ -717,15 +718,13 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a45dbcfb187e36f525090486594bea367.html#exhale-function-namespace-sym-engine-1a45dbcfb187e36f525090486594bea367"><span class="std std-ref">Function SymEngine::nthroot_mod_list</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1acabe1420a50b1ae71d8caca07ca1a54d.html#exhale-function-namespace-sym-engine-1acabe1420a50b1ae71d8caca07ca1a54d"><span class="std std-ref">Function SymEngine::number(std::complex&lt;double&gt;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a73ad4abd1d63b987de90dc0c62338f5c.html#exhale-function-namespace-sym-engine-1a73ad4abd1d63b987de90dc0c62338f5c"><span class="std std-ref">Function SymEngine::number(double)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae3bd323c5446c9a522aa1f2b32d1a3c3.html#exhale-function-namespace-sym-engine-1ae3bd323c5446c9a522aa1f2b32d1a3c3"><span class="std std-ref">Template Function SymEngine::numeric_cast(From, typename std::enable_if&lt;(std::is_unsigned&lt;From&gt;::value&amp;&amp;std::is_signed&lt;To&gt;::value)&gt;::type *)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1ac7efc430a53c52eb6dd010765c963f2f.html#exhale-function-namespace-sym-engine-1ac7efc430a53c52eb6dd010765c963f2f"><span class="std std-ref">Template Function SymEngine::numeric_cast(From, typename std::enable_if&lt;(std::is_signed&lt;From&gt;::value&amp;&amp;std::is_unsigned&lt;To&gt;::value)&gt;::type *)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a61a3583f55ed82dda95cb51d010e21ac.html#exhale-function-namespace-sym-engine-1a61a3583f55ed82dda95cb51d010e21ac"><span class="std std-ref">Template Function SymEngine::numeric_cast(From, typename std::enable_if&lt;(std::is_signed&lt;From&gt;::value&amp;&amp;std::is_signed&lt;To&gt;::value)||(std::is_unsigned&lt;From&gt;::value&amp;&amp;std::is_unsigned&lt;To&gt;::value)&gt;::type *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ac7efc430a53c52eb6dd010765c963f2f.html#exhale-function-namespace-sym-engine-1ac7efc430a53c52eb6dd010765c963f2f"><span class="std std-ref">Template Function SymEngine::numeric_cast(From, typename std::enable_if&lt;(std::is_signed&lt;From&gt;::value&amp;&amp;std::is_unsigned&lt;To&gt;::value)&gt;::type *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae3bd323c5446c9a522aa1f2b32d1a3c3.html#exhale-function-namespace-sym-engine-1ae3bd323c5446c9a522aa1f2b32d1a3c3"><span class="std std-ref">Template Function SymEngine::numeric_cast(From, typename std::enable_if&lt;(std::is_unsigned&lt;From&gt;::value&amp;&amp;std::is_signed&lt;To&gt;::value)&gt;::type *)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a49007b7108d47b85b9baa3f788924515.html#exhale-function-namespace-sym-engine-1a49007b7108d47b85b9baa3f788924515"><span class="std std-ref">Function SymEngine::ones</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a79d264ecba89d3aba09c7879da2eeafa.html#exhale-function-namespace-sym-engine-1a79d264ecba89d3aba09c7879da2eeafa"><span class="std std-ref">Function SymEngine::operator!=</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1_1literals_1a620898fede3e2e0c8194ddb9a91cafa5.html#exhale-function-namespace-sym-engine-1-1literals-1a620898fede3e2e0c8194ddb9a91cafa5"><span class="std std-ref">Function SymEngine::literals::operator””_q</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1_1literals_1a618f35c7b256be9b4e0109a60bf80f4c.html#exhale-function-namespace-sym-engine-1-1literals-1a618f35c7b256be9b4e0109a60bf80f4c"><span class="std std-ref">Function SymEngine::literals::operator””_z</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a0950028440d8c9dca6a21e2c78e7992a.html#exhale-function-namespace-sym-engine-1a0950028440d8c9dca6a21e2c78e7992a"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const fmpz_wrapper&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a7f08c3787b2021c2397ea089f80c7c13.html#exhale-function-namespace-sym-engine-1a7f08c3787b2021c2397ea089f80c7c13"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const fmpq_wrapper&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a77686ca34a7fa8292ac3b0ec1f2e8ed8.html#exhale-function-namespace-sym-engine-1a77686ca34a7fa8292ac3b0ec1f2e8ed8"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const SymEngine::umap_basic_num&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad299fcc197e29be01d9e9a76df6924c3.html#exhale-function-namespace-sym-engine-1ad299fcc197e29be01d9e9a76df6924c3"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const SymEngine::map_basic_num&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a55a3b1949bb7c8a09ec8a4b083e2953f.html#exhale-function-namespace-sym-engine-1a55a3b1949bb7c8a09ec8a4b083e2953f"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const SymEngine::map_basic_basic&amp;)</span></a></p></li>
@@ -734,6 +733,8 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a128a7d10c9765ba1ff8aad6047c3fcb6.html#exhale-function-namespace-sym-engine-1a128a7d10c9765ba1ff8aad6047c3fcb6"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const SymEngine::set_basic&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad1a96103f814f3932e9c627283d3ffa0.html#exhale-function-namespace-sym-engine-1ad1a96103f814f3932e9c627283d3ffa0"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const SymEngine::map_int_Expr&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab25c87c978fbf8f361ea604194178e51.html#exhale-function-namespace-sym-engine-1ab25c87c978fbf8f361ea604194178e51"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const SymEngine::vec_pair&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a0950028440d8c9dca6a21e2c78e7992a.html#exhale-function-namespace-sym-engine-1a0950028440d8c9dca6a21e2c78e7992a"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const fmpz_wrapper&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a7f08c3787b2021c2397ea089f80c7c13.html#exhale-function-namespace-sym-engine-1a7f08c3787b2021c2397ea089f80c7c13"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const fmpq_wrapper&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad412c21e0a4b4454574243e62b799d61.html#exhale-function-namespace-sym-engine-1ad412c21e0a4b4454574243e62b799d61"><span class="std std-ref">Function SymEngine::operator&lt;&lt;(std::ostream&amp;, const SymEngine::Basic&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab7b4404d09f3e657858cf7815acec8ab.html#exhale-function-namespace-sym-engine-1ab7b4404d09f3e657858cf7815acec8ab"><span class="std std-ref">Function SymEngine::operator==</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1afcd77c44433bf15ce98aa223d5dc67dd.html#exhale-function-namespace-sym-engine-1afcd77c44433bf15ce98aa223d5dc67dd"><span class="std std-ref">Function SymEngine::opt_cse</span></a></p></li>
@@ -751,17 +752,17 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1afaa37b1b593b898a07e829f902ce0302.html#exhale-function-namespace-sym-engine-1afaa37b1b593b898a07e829f902ce0302"><span class="std std-ref">Function SymEngine::pivoted_fraction_free_gaussian_elimination</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a297b9e511eeaba80b26896a479eda16f.html#exhale-function-namespace-sym-engine-1a297b9e511eeaba80b26896a479eda16f"><span class="std std-ref">Function SymEngine::pivoted_gauss_jordan_elimination</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a0db6194c085654eec369223849c26777.html#exhale-function-namespace-sym-engine-1a0db6194c085654eec369223849c26777"><span class="std std-ref">Function SymEngine::pivoted_gaussian_elimination</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1aee80470359193f2825574a6cd0fb10eb.html#exhale-function-namespace-sym-engine-1aee80470359193f2825574a6cd0fb10eb"><span class="std std-ref">Function SymEngine::pivoted_LU(const DenseMatrix&amp;, DenseMatrix&amp;, permutelist&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a5612751c292565ba550bb33b255174ee.html#exhale-function-namespace-sym-engine-1a5612751c292565ba550bb33b255174ee"><span class="std std-ref">Function SymEngine::pivoted_LU(const DenseMatrix&amp;, DenseMatrix&amp;, DenseMatrix&amp;, permutelist&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aee80470359193f2825574a6cd0fb10eb.html#exhale-function-namespace-sym-engine-1aee80470359193f2825574a6cd0fb10eb"><span class="std std-ref">Function SymEngine::pivoted_LU(const DenseMatrix&amp;, DenseMatrix&amp;, permutelist&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a0193d6373e275d921e9e93bf409b302d.html#exhale-function-namespace-sym-engine-1a0193d6373e275d921e9e93bf409b302d"><span class="std std-ref">Function SymEngine::pivoted_LU_solve</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aab1d7303c130d7ef8cfa033236bbe4b2.html#exhale-function-namespace-sym-engine-1aab1d7303c130d7ef8cfa033236bbe4b2"><span class="std std-ref">Function SymEngine::poly_mul</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a1fd201b852a258d731b82bada47a188b.html#exhale-function-namespace-sym-engine-1a1fd201b852a258d731b82bada47a188b"><span class="std std-ref">Function SymEngine::polygamma</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a1cde4d7ba6fab94306fd31a5fd1f874a.html#exhale-function-namespace-sym-engine-1a1cde4d7ba6fab94306fd31a5fd1f874a"><span class="std std-ref">Function SymEngine::positive_root</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ac430ea4710b14ff8dd96a8a0d4792aac.html#exhale-function-namespace-sym-engine-1ac430ea4710b14ff8dd96a8a0d4792aac"><span class="std std-ref">Function SymEngine::postorder_traversal</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a645d72a8aa2b7e1a5a3f4cde8adfdd9d.html#exhale-function-namespace-sym-engine-1a645d72a8aa2b7e1a5a3f4cde8adfdd9d"><span class="std std-ref">Function SymEngine::postorder_traversal_stop</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a4986c6feb6b56fe61080472b36458aa9.html#exhale-function-namespace-sym-engine-1a4986c6feb6b56fe61080472b36458aa9"><span class="std std-ref">Function SymEngine::pow(const Expression&amp;, const Expression&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1adc1ef289ccfd9feaee76c26c9ab02929.html#exhale-function-namespace-sym-engine-1adc1ef289ccfd9feaee76c26c9ab02929"><span class="std std-ref">Function SymEngine::pow(const RCP&lt;const Basic&gt;&amp;, const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a4a02f64f449d1789ebe703180fda5e61.html#exhale-function-namespace-sym-engine-1a4a02f64f449d1789ebe703180fda5e61"><span class="std std-ref">Function SymEngine::pow(const integer_class&amp;, unsigned long)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a4986c6feb6b56fe61080472b36458aa9.html#exhale-function-namespace-sym-engine-1a4986c6feb6b56fe61080472b36458aa9"><span class="std std-ref">Function SymEngine::pow(const Expression&amp;, const Expression&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a4ead015d5b67b409b7b3657eaf821581.html#exhale-function-namespace-sym-engine-1a4ead015d5b67b409b7b3657eaf821581"><span class="std std-ref">Function SymEngine::pow_expand</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a4e2cb40bffd424651ae4b71e677317dc.html#exhale-function-namespace-sym-engine-1a4e2cb40bffd424651ae4b71e677317dc"><span class="std std-ref">Function SymEngine::pow_number</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a3132fc9da3a64ad112b22c0ff5382d32.html#exhale-function-namespace-sym-engine-1a3132fc9da3a64ad112b22c0ff5382d32"><span class="std std-ref">Function SymEngine::pow_upoly</span></a></p></li>
@@ -816,8 +817,8 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aa7fac88dd37cd3040c278346f1bffc07.html#exhale-function-namespace-sym-engine-1aa7fac88dd37cd3040c278346f1bffc07"><span class="std std-ref">Function SymEngine::solve_rational</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a7457b714a9bb9d200e55b2753eba65be.html#exhale-function-namespace-sym-engine-1a7457b714a9bb9d200e55b2753eba65be"><span class="std std-ref">Function SymEngine::solve_trig</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab6b82f6bf307ea41158441cb2543d24e.html#exhale-function-namespace-sym-engine-1ab6b82f6bf307ea41158441cb2543d24e"><span class="std std-ref">Template Function SymEngine::sorted_keys</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a3fed2bc2a99f9d70b4dd04ae0320d32b.html#exhale-function-namespace-sym-engine-1a3fed2bc2a99f9d70b4dd04ae0320d32b"><span class="std std-ref">Function SymEngine::sqrt(const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad3c79a5139355045b975b5a848589cd9.html#exhale-function-namespace-sym-engine-1ad3c79a5139355045b975b5a848589cd9"><span class="std std-ref">Function SymEngine::sqrt(RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a3fed2bc2a99f9d70b4dd04ae0320d32b.html#exhale-function-namespace-sym-engine-1a3fed2bc2a99f9d70b4dd04ae0320d32b"><span class="std std-ref">Function SymEngine::sqrt(const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ae459921e036f06869a8d53b0f019c0c3.html#exhale-function-namespace-sym-engine-1ae459921e036f06869a8d53b0f019c0c3"><span class="std std-ref">Function SymEngine::ssubs</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad2fb3b32ef355f144b07b53bcf3d5ccd.html#exhale-function-namespace-sym-engine-1ad2fb3b32ef355f144b07b53bcf3d5ccd"><span class="std std-ref">Function SymEngine::step</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ac39b85018d7d1cad840fe9fe280db53a.html#exhale-function-namespace-sym-engine-1ac39b85018d7d1cad840fe9fe280db53a"><span class="std std-ref">Function SymEngine::str</span></a></p></li>
@@ -827,12 +828,12 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a05f89c479d5e9f785d0baabc3b41df68.html#exhale-function-namespace-sym-engine-1a05f89c479d5e9f785d0baabc3b41df68"><span class="std std-ref">Function SymEngine::subs</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a1f382b48b9cb214e1017d0e11fd3e6d6.html#exhale-function-namespace-sym-engine-1a1f382b48b9cb214e1017d0e11fd3e6d6"><span class="std std-ref">Function SymEngine::symbol</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ac2075df0bf71d1fc05cd67d441ab2901.html#exhale-function-namespace-sym-engine-1ac2075df0bf71d1fc05cd67d441ab2901"><span class="std std-ref">Function SymEngine::SYMENGINE_LOGIC_FUNCTION(And, CreateAnd)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a8008d9874694df0c0714c3d2dddcdb9d.html#exhale-function-namespace-sym-engine-1a8008d9874694df0c0714c3d2dddcdb9d"><span class="std std-ref">Function SymEngine::SYMENGINE_LOGIC_FUNCTION(Or, CreateOr)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ae9e84b99fc2e570bb9981503d0f12646.html#exhale-function-namespace-sym-engine-1ae9e84b99fc2e570bb9981503d0f12646"><span class="std std-ref">Function SymEngine::SYMENGINE_LOGIC_FUNCTION(Xor, CreateXor)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a0cdaf734ccf0a0d4887109e5ac9c54b0.html#exhale-function-namespace-sym-engine-1a0cdaf734ccf0a0d4887109e5ac9c54b0"><span class="std std-ref">Function SymEngine::SYMENGINE_RELATIONAL_FUNCTION(Equality, CreateFCmpOEQ)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a8008d9874694df0c0714c3d2dddcdb9d.html#exhale-function-namespace-sym-engine-1a8008d9874694df0c0714c3d2dddcdb9d"><span class="std std-ref">Function SymEngine::SYMENGINE_LOGIC_FUNCTION(Or, CreateOr)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a2ec69c2614848a607ef0fea85d5378e7.html#exhale-function-namespace-sym-engine-1a2ec69c2614848a607ef0fea85d5378e7"><span class="std std-ref">Function SymEngine::SYMENGINE_RELATIONAL_FUNCTION(Unequality, CreateFCmpONE)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a046606e767860d5ca4d1b3e42dbdc014.html#exhale-function-namespace-sym-engine-1a046606e767860d5ca4d1b3e42dbdc014"><span class="std std-ref">Function SymEngine::SYMENGINE_RELATIONAL_FUNCTION(LessThan, CreateFCmpOLE)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ad71930ec47fb65b0e6acce8eb199a9a7.html#exhale-function-namespace-sym-engine-1ad71930ec47fb65b0e6acce8eb199a9a7"><span class="std std-ref">Function SymEngine::SYMENGINE_RELATIONAL_FUNCTION(StrictLessThan, CreateFCmpOLT)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a046606e767860d5ca4d1b3e42dbdc014.html#exhale-function-namespace-sym-engine-1a046606e767860d5ca4d1b3e42dbdc014"><span class="std std-ref">Function SymEngine::SYMENGINE_RELATIONAL_FUNCTION(LessThan, CreateFCmpOLE)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a0cdaf734ccf0a0d4887109e5ac9c54b0.html#exhale-function-namespace-sym-engine-1a0cdaf734ccf0a0d4887109e5ac9c54b0"><span class="std std-ref">Function SymEngine::SYMENGINE_RELATIONAL_FUNCTION(Equality, CreateFCmpOEQ)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a6e5f23d059e1621822b81d41b8363601.html#exhale-function-namespace-sym-engine-1a6e5f23d059e1621822b81d41b8363601"><span class="std std-ref">Function SymEngine::tan</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a8346955fed5e42cb443055b3264089f3.html#exhale-function-namespace-sym-engine-1a8346955fed5e42cb443055b3264089f3"><span class="std std-ref">Function SymEngine::tanh</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ac5117c22ff62901ca0c6210310816bc1.html#exhale-function-namespace-sym-engine-1ac5117c22ff62901ca0c6210310816bc1"><span class="std std-ref">Template Function SymEngine::to_string</span></a></p></li>
@@ -846,6 +847,7 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aa4550752e62ed1fbf09556fd21536e17.html#exhale-function-namespace-sym-engine-1aa4550752e62ed1fbf09556fd21536e17"><span class="std std-ref">Function SymEngine::truncate</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a5bffb5798bc02e0a0e7434a4900d9640.html#exhale-function-namespace-sym-engine-1a5bffb5798bc02e0a0e7434a4900d9640"><span class="std std-ref">Function SymEngine::unchecked_jacobi</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a621cff748a0cb0d8580ebbe45a24a74f.html#exhale-function-namespace-sym-engine-1a621cff748a0cb0d8580ebbe45a24a74f"><span class="std std-ref">Function SymEngine::unevaluated_expr</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ad0713bd0242891a552ca5aa0d32a386d.html#exhale-function-namespace-sym-engine-1ad0713bd0242891a552ca5aa0d32a386d"><span class="std std-ref">Template Function SymEngine::unified_compare(const std::unordered_map&lt;K, V, H, E&gt;&amp;, const std::unordered_map&lt;K, V, H, E&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aa27372019239f6dd6e6f9944774c64cb.html#exhale-function-namespace-sym-engine-1aa27372019239f6dd6e6f9944774c64cb"><span class="std std-ref">Function SymEngine::unified_compare(const Expression&amp;, const Expression&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1abd6e504a0004aae351332d69343747fe.html#exhale-function-namespace-sym-engine-1abd6e504a0004aae351332d69343747fe"><span class="std std-ref">Template Function SymEngine::unified_compare(const T&amp;, const T&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a9c8e91a5053aad5ca9f29790413e211c.html#exhale-function-namespace-sym-engine-1a9c8e91a5053aad5ca9f29790413e211c"><span class="std std-ref">Template Function SymEngine::unified_compare(const RCP&lt;const T&gt;&amp;, const RCP&lt;const U&gt;&amp;)</span></a></p></li>
@@ -854,15 +856,14 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a38e6f1d266a19b893b06b81c2aa9292c.html#exhale-function-namespace-sym-engine-1a38e6f1d266a19b893b06b81c2aa9292c"><span class="std std-ref">Template Function SymEngine::unified_compare(const std::multiset&lt;T, U&gt;&amp;, const std::multiset&lt;T, U&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1af7f7606696e1bb9bdc4f8a2781cf94f9.html#exhale-function-namespace-sym-engine-1af7f7606696e1bb9bdc4f8a2781cf94f9"><span class="std std-ref">Template Function SymEngine::unified_compare(const std::pair&lt;T, U&gt;&amp;, const std::pair&lt;T, U&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ace04e5b4b5437b263a7371c25cae4456.html#exhale-function-namespace-sym-engine-1ace04e5b4b5437b263a7371c25cae4456"><span class="std std-ref">Template Function SymEngine::unified_compare(const std::map&lt;K, V, C&gt;&amp;, const std::map&lt;K, V, C&gt;&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1ad0713bd0242891a552ca5aa0d32a386d.html#exhale-function-namespace-sym-engine-1ad0713bd0242891a552ca5aa0d32a386d"><span class="std std-ref">Template Function SymEngine::unified_compare(const std::unordered_map&lt;K, V, H, E&gt;&amp;, const std::unordered_map&lt;K, V, H, E&gt;&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a465e112793b8e5b96d2c3a0433462051.html#exhale-function-namespace-sym-engine-1a465e112793b8e5b96d2c3a0433462051"><span class="std std-ref">Function SymEngine::unified_eq(const Expression&amp;, const Expression&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab7528bd6601ed464d5b0919d99620c53.html#exhale-function-namespace-sym-engine-1ab7528bd6601ed464d5b0919d99620c53"><span class="std std-ref">Template Function SymEngine::unified_eq(const std::pair&lt;T, U&gt;&amp;, const std::pair&lt;T, U&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1adb77aa33f9fd398701346c328fad65d3.html#exhale-function-namespace-sym-engine-1adb77aa33f9fd398701346c328fad65d3"><span class="std std-ref">Template Function SymEngine::unified_eq(const std::set&lt;T, U&gt;&amp;, const std::set&lt;T, U&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ab685b0dc0929d0ab6cd92ad25c4ccf5b.html#exhale-function-namespace-sym-engine-1ab685b0dc0929d0ab6cd92ad25c4ccf5b"><span class="std std-ref">Template Function SymEngine::unified_eq(const std::multiset&lt;T, U&gt;&amp;, const std::multiset&lt;T, U&gt;&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a3d8fabaaaed46ba0445af280efde6f52.html#exhale-function-namespace-sym-engine-1a3d8fabaaaed46ba0445af280efde6f52"><span class="std std-ref">Template Function SymEngine::unified_eq(const std::map&lt;K, V, C&gt;&amp;, const std::map&lt;K, V, C&gt;&amp;)</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a2ba26d818e22549b8174372ffc615617.html#exhale-function-namespace-sym-engine-1a2ba26d818e22549b8174372ffc615617"><span class="std std-ref">Template Function SymEngine::unified_eq(const std::unordered_map&lt;K, V, H, E&gt;&amp;, const std::unordered_map&lt;K, V, H, E&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a5a9d43e47063c86008bbaea6c9b56cd8.html#exhale-function-namespace-sym-engine-1a5a9d43e47063c86008bbaea6c9b56cd8"><span class="std std-ref">Template Function SymEngine::unified_eq(const RCP&lt;const T&gt;&amp;, const RCP&lt;const U&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1ae816ea5321e80ba2b5757679b43f16a3.html#exhale-function-namespace-sym-engine-1ae816ea5321e80ba2b5757679b43f16a3"><span class="std std-ref">Template Function SymEngine::unified_eq(const T&amp;, const T&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a465e112793b8e5b96d2c3a0433462051.html#exhale-function-namespace-sym-engine-1a465e112793b8e5b96d2c3a0433462051"><span class="std std-ref">Function SymEngine::unified_eq(const Expression&amp;, const Expression&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a3d8fabaaaed46ba0445af280efde6f52.html#exhale-function-namespace-sym-engine-1a3d8fabaaaed46ba0445af280efde6f52"><span class="std std-ref">Template Function SymEngine::unified_eq(const std::map&lt;K, V, C&gt;&amp;, const std::map&lt;K, V, C&gt;&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a2ba26d818e22549b8174372ffc615617.html#exhale-function-namespace-sym-engine-1a2ba26d818e22549b8174372ffc615617"><span class="std std-ref">Template Function SymEngine::unified_eq(const std::unordered_map&lt;K, V, H, E&gt;&amp;, const std::unordered_map&lt;K, V, H, E&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a304555c47aee86400ee4aef4bab43a1b.html#exhale-function-namespace-sym-engine-1a304555c47aee86400ee4aef4bab43a1b"><span class="std std-ref">Template Function SymEngine::unified_eq(const std::vector&lt;T&gt;&amp;, const std::vector&lt;T&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1aeff620e19b3e65b6328fbc21459ed3f5.html#exhale-function-namespace-sym-engine-1aeff620e19b3e65b6328fbc21459ed3f5"><span class="std std-ref">Function SymEngine::univariate_series</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a5b43a939c87eecd5f2e74793b48850b5.html#exhale-function-namespace-sym-engine-1a5b43a939c87eecd5f2e74793b48850b5"><span class="std std-ref">Function SymEngine::universalset</span></a></p></li>
@@ -872,8 +873,8 @@
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a9abe8e75a54bd930425a94584942b8e5.html#exhale-function-namespace-sym-engine-1a9abe8e75a54bd930425a94584942b8e5"><span class="std std-ref">Function SymEngine::vec_basic_eq_perm</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1abf5f5d7f025f8dc0a87fe3f912a94a22.html#exhale-function-namespace-sym-engine-1abf5f5d7f025f8dc0a87fe3f912a94a22"><span class="std std-ref">Function SymEngine::xreplace</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a986dfa7bfec941863e36292282242705.html#exhale-function-namespace-sym-engine-1a986dfa7bfec941863e36292282242705"><span class="std std-ref">Function SymEngine::zeros</span></a></p></li>
-<li><p><a class="reference internal" href="function_namespace_sym_engine_1a227ea1d94f9ac72c4051a247ac54b1d1.html#exhale-function-namespace-sym-engine-1a227ea1d94f9ac72c4051a247ac54b1d1"><span class="std std-ref">Function SymEngine::zeta(const RCP&lt;const Basic&gt;&amp;, const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
 <li><p><a class="reference internal" href="function_namespace_sym_engine_1a4c025e7c49e3a12ab085dadd12092551.html#exhale-function-namespace-sym-engine-1a4c025e7c49e3a12ab085dadd12092551"><span class="std std-ref">Function SymEngine::zeta(const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a227ea1d94f9ac72c4051a247ac54b1d1.html#exhale-function-namespace-sym-engine-1a227ea1d94f9ac72c4051a247ac54b1d1"><span class="std std-ref">Function SymEngine::zeta(const RCP&lt;const Basic&gt;&amp;, const RCP&lt;const Basic&gt;&amp;)</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="typedefs">
@@ -967,57 +968,34 @@
 </div>
 </div>
 
-  
-    <div class="section no-print">
-    
-      
-    
-    
-    
-    </div>
-  
 
-                </main><ul class="page-nav no-print">
-</ul>
-            </div>
-          </div>
-        </td></tr></tbody>
-        <tfoot>
-          <tr><th><div id="layout_footer">
-          </div></th></tr>
-        </tfoot>
-      </table><footer class="footer" role="contentinfo">
-  
-    <p>
-    
-      &#169; Copyright 2020, SymEngine Development Team.
-    
-    </p>
-  
-  
-    <p>
-    
-    
-      Licensed under .
-    
-    
-    </p>
-  
-  
-    <p>
-  
-  
-  
-    Created using <a
-        href="http://sphinx-doc.org/">Sphinx</a> 3.3.0 with
-    <a href="https://www.nerv-project.eu">Nerv Project theme</a>
-    based on <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>
-    and <a href="https://ablog.readthedocs.io/">ABlog</a>.</p>
-  
-  <div class="pagecount"></div>
-</footer>
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='left-prev' id="prev-link" href="namespace_std.html" title="previous page">Namespace std</a>
+    <a class='right-next' id="next-link" href="namespace_SymEngine__%400.html" title="next page">Namespace SymEngine::&#64;0</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
     </div>
+
     
-    
+  <script src="../_static/js/index.2e394030c035d5864108.js"></script>
+
+
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2020, SymEngine Development Team.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.3.0.<br/>
+    </p>
+  </div>
+</footer>
   </body>
 </html>

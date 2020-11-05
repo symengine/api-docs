@@ -67,9 +67,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_namespace_sym_engine_1a16ba61741eca9629bbc565bd1ba5ee77`
-
 - :ref:`exhale_function_namespace_sym_engine_1a6907d6b16813f4436d225f07a2eeaed7`
+
+- :ref:`exhale_function_namespace_sym_engine_1a16ba61741eca9629bbc565bd1ba5ee77`
 
 - :ref:`exhale_function_namespace_sym_engine_1a1f382b48b9cb214e1017d0e11fd3e6d6`
 
