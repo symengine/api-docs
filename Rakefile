@@ -86,32 +86,33 @@ namespace "api" do
   desc "Build doxyrest API"
   task :mkDoxyRest, [:builder, :runner] => "api:mkDoxy" do |task, args|
     args.with_defaults(:builder => "html", :runner => "system")
-    Dir.chdir(to = CWD)
-    if args.runner == "system"
-      if find_executable "doxyrest"
-        sh "doxyrest -c #{DOXLUA}"
-      elsif find_executable "nix"
-        begin
-          puts "System has no doxyrest, trying nix"
-          sh "nix-shell #{NIXSHELL} --run 'doxyrest -c #{DOXLUA}'"
-        rescue
-          puts "Falling back to conda"
-          sh "conda run doxyrest -c #{DOXLUA}"
-        end
-      else
-        raise ExecException.new
-      end
-    elsif args.runner == "nix"
-      begin
-        puts "System has no doxyrest, trying nix"
-        sh "nix-shell #{NIXSHELL} --run 'doxyrest -c #{DOXLUA}'"
-      rescue
-        puts "Falling back to conda"
-        sh "conda run doxyrest -c #{DOXLUA}"
-      end
-    else
-      raise RunnerException.new
-    end
+    puts "Disabled for now"
+    # Dir.chdir(to = CWD)
+    # if args.runner == "system"
+    #   if find_executable "doxyrest"
+    #     sh "doxyrest -c #{DOXLUA}"
+    #   elsif find_executable "nix"
+    #     begin
+    #       puts "System has no doxyrest, trying nix"
+    #       sh "nix-shell #{NIXSHELL} --run 'doxyrest -c #{DOXLUA}'"
+    #     rescue
+    #       puts "Falling back to conda"
+    #       sh "conda run doxyrest -c #{DOXLUA}"
+    #     end
+    #   else
+    #     raise ExecException.new
+    #   end
+    # elsif args.runner == "nix"
+    #   begin
+    #     puts "System has no doxyrest, trying nix"
+    #     sh "nix-shell #{NIXSHELL} --run 'doxyrest -c #{DOXLUA}'"
+    #   rescue
+    #     puts "Falling back to conda"
+    #     sh "conda run doxyrest -c #{DOXLUA}"
+    #   end
+    # else
+    #   raise RunnerException.new
+    # end
   end
 
   desc "Build Sphinx API docs"
