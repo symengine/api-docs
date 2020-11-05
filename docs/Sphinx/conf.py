@@ -119,8 +119,8 @@ highlight_language = 'cpp'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# html_theme = 'nervproject'
-html_theme = 'pyramid'
+html_theme = 'nervproject'
+# html_theme = 'pyramid'
 # -- Sphinx Book Theme Settings
 html_theme_options = {
     "repository_url": "https://github.com/symengine/api-docs",
