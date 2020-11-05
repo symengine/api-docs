@@ -150,9 +150,9 @@ Functions
 
 - :ref:`exhale_function_namespace_sym_engine_1a0db6194c085654eec369223849c26777`
 
-- :ref:`exhale_function_namespace_sym_engine_1a5612751c292565ba550bb33b255174ee`
-
 - :ref:`exhale_function_namespace_sym_engine_1aee80470359193f2825574a6cd0fb10eb`
+
+- :ref:`exhale_function_namespace_sym_engine_1a5612751c292565ba550bb33b255174ee`
 
 - :ref:`exhale_function_namespace_sym_engine_1a0193d6373e275d921e9e93bf409b302d`
 
