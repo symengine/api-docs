@@ -120,7 +120,7 @@ highlight_language = 'cpp'
 # a list of builtin themes.
 #
 # html_theme = 'nervproject'
-html_theme = 'pydata-sphinx-theme'
+html_theme = 'pydata_sphinx_theme'
 # -- Sphinx Book Theme Settings
 html_theme_options = {
     "repository_url": "https://github.com/symengine/api-docs",
