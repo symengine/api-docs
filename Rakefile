@@ -129,6 +129,8 @@ namespace "api" do
     else
       raise RunnerException.new
     end
+    puts "... Also preventing trigger happy gh-pages rubbish"
+    sh "touch #{OUTPUB}/.nojekyll"
   end
 
   desc "Build API Coverage"
