@@ -12,6 +12,7 @@ dependencies:
   - sphinxcontrib-bibtex>=1.0.0,<2.0.0
   - doxyrest
   - doxygen
+  - exhale
   - ld_impl_linux-64=2.35=h769bd43_9 # A bugfix for https://github.com/ContinuumIO/anaconda-issues/issues/11603#issuecomment-586124255
   - sphinx
   - pip:
