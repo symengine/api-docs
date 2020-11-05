@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a01437049995f570675bce93925db7b7c:
+
+Function SymEngine::mp_lucnum2_ui
+=================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_lucnum2_ui(integer_class&, integer_class&, unsigned long)

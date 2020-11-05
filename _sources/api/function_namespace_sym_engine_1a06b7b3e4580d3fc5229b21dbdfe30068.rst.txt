@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a06b7b3e4580d3fc5229b21dbdfe30068:
+
+Function SymEngine::imageset
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::imageset(const RCP<const Basic>&, const RCP<const Basic>&, const RCP<const Set>&)

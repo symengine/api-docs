@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a39c4aa170bc123a990149a38662edf99:
+
+Function SymEngine::ceiling
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::ceiling(const RCP<const Basic>&)

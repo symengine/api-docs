@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a6f8ad0107dc645c6ce7249c600385705:
+
+Function SymEngine::lcm
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::lcm(const Integer&, const Integer&)

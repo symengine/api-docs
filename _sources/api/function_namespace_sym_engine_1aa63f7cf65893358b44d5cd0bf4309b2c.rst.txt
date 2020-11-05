@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa63f7cf65893358b44d5cd0bf4309b2c:
+
+Function SymEngine::trig_has_basic_shift
+========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::trig_has_basic_shift(const RCP<const Basic>&)

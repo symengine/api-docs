@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File cwrapper.cpp &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File cwrapper.cpp</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="file-cwrapper-cpp">
+<span id="file-home-travis-build-symengine-api-docs-projects-symengine-symengine-cwrapper-cpp"></span><h1>File cwrapper.cpp<a class="headerlink" href="#file-cwrapper-cpp" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="dir__home_travis_build_symengine_api-docs_projects_symengine_symengine.html#dir-home-travis-build-symengine-api-docs-projects-symengine-symengine"><span class="std std-ref">Parent directory</span></a> (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine</span></code>)</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-cwrapper-cpp" id="id1">Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/cwrapper.cpp</span></code>)</a></p></li>
+<li><p><a class="reference internal" href="#includes" id="id2">Includes</a></p></li>
+<li><p><a class="reference internal" href="#namespaces" id="id3">Namespaces</a></p></li>
+<li><p><a class="reference internal" href="#classes" id="id4">Classes</a></p></li>
+<li><p><a class="reference internal" href="#functions" id="id5">Functions</a></p></li>
+<li><p><a class="reference internal" href="#defines" id="id6">Defines</a></p></li>
+</ul>
+</div>
+<div class="section" id="definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-cwrapper-cpp">
+<h2>Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/cwrapper.cpp</span></code>)<a class="headerlink" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-cwrapper-cpp" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="includes">
+<h2>Includes<a class="headerlink" href="#includes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cstdlib</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cstring</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/cwrapper.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-cwrapper-h"><span class="std std-ref">File cwrapper.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/eval.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-eval-h"><span class="std std-ref">File eval.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/lambda_double.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_lambda_double.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-lambda-double-h"><span class="std std-ref">File lambda_double.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/matrix.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-matrix-h"><span class="std std-ref">File matrix.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/parser.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_parser.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-parser-h"><span class="std std-ref">File parser.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/printers.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-printers-h"><span class="std std-ref">File printers.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/solve.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-solve-h"><span class="std std-ref">File solve.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/symbol.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symbol.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-symbol-h"><span class="std std-ref">File symbol.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/type_codes.inc</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_type_codes.inc.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-type-codes-inc"><span class="std std-ref">File type_codes.inc</span></a>)</p></li>
+</ul>
+</div>
+<div class="section" id="namespaces">
+<h2>Namespaces<a class="headerlink" href="#namespaces" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="namespace_SymEngine.html#namespace-symengine"><span class="std std-ref">Namespace SymEngine</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="struct_c_dense_matrix.html#exhale-struct-struct-c-dense-matrix"><span class="std std-ref">Struct CDenseMatrix</span></a></p></li>
+<li><p><a class="reference internal" href="struct_c_lambda_real_double_visitor.html#exhale-struct-struct-c-lambda-real-double-visitor"><span class="std std-ref">Struct CLambdaRealDoubleVisitor</span></a></p></li>
+<li><p><a class="reference internal" href="struct_c_map_basic_basic.html#exhale-struct-struct-c-map-basic-basic"><span class="std std-ref">Struct CMapBasicBasic</span></a></p></li>
+<li><p><a class="reference internal" href="struct_c_r_c_p_basic.html#exhale-struct-struct-c-r-c-p-basic"><span class="std std-ref">Struct CRCPBasic</span></a></p></li>
+<li><p><a class="reference internal" href="struct_c_set_basic.html#exhale-struct-struct-c-set-basic"><span class="std std-ref">Struct CSetBasic</span></a></p></li>
+<li><p><a class="reference internal" href="struct_c_sparse_matrix.html#exhale-struct-struct-c-sparse-matrix"><span class="std std-ref">Struct CSparseMatrix</span></a></p></li>
+<li><p><a class="reference internal" href="struct_c_vec_basic.html#exhale-struct-struct-c-vec-basic"><span class="std std-ref">Struct CVecBasic</span></a></p></li>
+<li><p><a class="reference internal" href="struct_c_vector_int.html#exhale-struct-struct-c-vector-int"><span class="std std-ref">Struct CVectorInt</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a96aa3a224ee194cc9d47e1098e3e0a0f.html#exhale-function-cwrapper-8cpp-1a96aa3a224ee194cc9d47e1098e3e0a0f"><span class="std std-ref">Function ascii_art_str()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a28b0371a37980ff3e6cecaea567f305a.html#exhale-function-cwrapper-8cpp-1a28b0371a37980ff3e6cecaea567f305a"><span class="std std-ref">Function basic_add(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aaf7ece94666c43b31773c82b8c948d8e.html#exhale-function-cwrapper-8cpp-1aaf7ece94666c43b31773c82b8c948d8e"><span class="std std-ref">Function basic_as_numer_denom(basic, basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a45b7ec68408478ae6767a940331a0bdd.html#exhale-function-cwrapper-8cpp-1a45b7ec68408478ae6767a940331a0bdd"><span class="std std-ref">Function basic_assign(basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ae676445d52e3c20d86e529db87e369d2.html#exhale-function-cwrapper-8cpp-1ae676445d52e3c20d86e529db87e369d2"><span class="std std-ref">Function basic_coeff(basic, const basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a3dc475f8a0015991164cb94c2e169858.html#exhale-function-cwrapper-8cpp-1a3dc475f8a0015991164cb94c2e169858"><span class="std std-ref">Function basic_const_Catalan(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a560a60c9d3b2a3dad243fc56f335a452.html#exhale-function-cwrapper-8cpp-1a560a60c9d3b2a3dad243fc56f335a452"><span class="std std-ref">Function basic_const_complex_infinity(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ae3e50d7ffcd0236b0b2d75dde36b3665.html#exhale-function-cwrapper-8cpp-1ae3e50d7ffcd0236b0b2d75dde36b3665"><span class="std std-ref">Function basic_const_E(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1af5ec97767841b03b792709abebd31c6d.html#exhale-function-cwrapper-8cpp-1af5ec97767841b03b792709abebd31c6d"><span class="std std-ref">Function basic_const_EulerGamma(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a4f7f255bb089653a6ddc771cb815a582.html#exhale-function-cwrapper-8cpp-1a4f7f255bb089653a6ddc771cb815a582"><span class="std std-ref">Function basic_const_GoldenRatio(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aa85f344c6fab3f2158d2479602cd725a.html#exhale-function-cwrapper-8cpp-1aa85f344c6fab3f2158d2479602cd725a"><span class="std std-ref">Function basic_const_I(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aa1a959449d7a3f0411f162dacda55b48.html#exhale-function-cwrapper-8cpp-1aa1a959449d7a3f0411f162dacda55b48"><span class="std std-ref">Function basic_const_infinity(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a7cc33d51797dbc4153ba7ca4e5a1c712.html#exhale-function-cwrapper-8cpp-1a7cc33d51797dbc4153ba7ca4e5a1c712"><span class="std std-ref">Function basic_const_minus_one(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1afe9e7a98e566edbbdb19c31383d25078.html#exhale-function-cwrapper-8cpp-1afe9e7a98e566edbbdb19c31383d25078"><span class="std std-ref">Function basic_const_nan(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a56c4a0a4b9596c483f4e7511860019f4.html#exhale-function-cwrapper-8cpp-1a56c4a0a4b9596c483f4e7511860019f4"><span class="std std-ref">Function basic_const_neginfinity(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a78bf29598355651898fa30d64bb7bf2e.html#exhale-function-cwrapper-8cpp-1a78bf29598355651898fa30d64bb7bf2e"><span class="std std-ref">Function basic_const_one(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a5c36eff33e166ec8a69762209730d90a.html#exhale-function-cwrapper-8cpp-1a5c36eff33e166ec8a69762209730d90a"><span class="std std-ref">Function basic_const_pi(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a58299cf6d74115a41e39696ca718f1a7.html#exhale-function-cwrapper-8cpp-1a58299cf6d74115a41e39696ca718f1a7"><span class="std std-ref">Function basic_const_set(basic, const char *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a698af3dbf2e8c16df9d2dfe7b77c7700.html#exhale-function-cwrapper-8cpp-1a698af3dbf2e8c16df9d2dfe7b77c7700"><span class="std std-ref">Function basic_const_zero(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a4ce40c59040f62c01c3ce81d976ca5e1.html#exhale-function-cwrapper-8cpp-1a4ce40c59040f62c01c3ce81d976ca5e1"><span class="std std-ref">Function basic_cse(CVecBasic *, CVecBasic *, CVecBasic *, const CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a01574ee23014f72c47112a5ac697879b.html#exhale-function-cwrapper-8cpp-1a01574ee23014f72c47112a5ac697879b"><span class="std std-ref">Function basic_diff(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a3c20b6b0bdf6051f0ea3285c74a78fb5.html#exhale-function-cwrapper-8cpp-1a3c20b6b0bdf6051f0ea3285c74a78fb5"><span class="std std-ref">Function basic_div(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ac42208d40a14e0c3e65eb457645b73f0.html#exhale-function-cwrapper-8cpp-1ac42208d40a14e0c3e65eb457645b73f0"><span class="std std-ref">Function basic_eq(const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a749a36ddf8111708de9630fc84d534eb.html#exhale-function-cwrapper-8cpp-1a749a36ddf8111708de9630fc84d534eb"><span class="std std-ref">Function basic_evalf(basic, const basic, unsigned long, int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ab1cb5ed2bd28bb7b795d752dd5e3c0fc.html#exhale-function-cwrapper-8cpp-1ab1cb5ed2bd28bb7b795d752dd5e3c0fc"><span class="std std-ref">Function basic_free_heap(basic_struct *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1acef99915592acc9339f4a7d7d0180f0b.html#exhale-function-cwrapper-8cpp-1acef99915592acc9339f4a7d7d0180f0b"><span class="std std-ref">Function basic_free_stack(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a3287e422282d12284e8ce38641d328fe.html#exhale-function-cwrapper-8cpp-1a3287e422282d12284e8ce38641d328fe"><span class="std std-ref">Function basic_free_symbols(const basic, CSetBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a283840b8821277e29a717c92a06360fc.html#exhale-function-cwrapper-8cpp-1a283840b8821277e29a717c92a06360fc"><span class="std std-ref">Function basic_function_symbols(CSetBasic *, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a65c9c923033024ae642b9ff33d9abb08.html#exhale-function-cwrapper-8cpp-1a65c9c923033024ae642b9ff33d9abb08"><span class="std std-ref">Function basic_get_args(const basic, CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aac524b18690b75a7c03abfb97a690926.html#exhale-function-cwrapper-8cpp-1aac524b18690b75a7c03abfb97a690926"><span class="std std-ref">Function basic_get_class_from_id(TypeID)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a098656f21c85ce1bc26a383fedd3dd1c.html#exhale-function-cwrapper-8cpp-1a098656f21c85ce1bc26a383fedd3dd1c"><span class="std std-ref">Function basic_get_class_id(const char *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aa2b68725206cacb4f1d8c08bdfe70a94.html#exhale-function-cwrapper-8cpp-1aa2b68725206cacb4f1d8c08bdfe70a94"><span class="std std-ref">Function basic_get_type(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ab19d755a1017adc4e60a52bcaf8f6ef0.html#exhale-function-cwrapper-8cpp-1ab19d755a1017adc4e60a52bcaf8f6ef0"><span class="std std-ref">Function basic_hash(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ac2b3fc3520be71aa1899f6c0c40bd274.html#exhale-function-cwrapper-8cpp-1ac2b3fc3520be71aa1899f6c0c40bd274"><span class="std std-ref">Function basic_max(basic, CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a146f0113d0dd20153b46f7ab25d7eea5.html#exhale-function-cwrapper-8cpp-1a146f0113d0dd20153b46f7ab25d7eea5"><span class="std std-ref">Function basic_min(basic, CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1acd4ae951fac6c54963af263295bca9c6.html#exhale-function-cwrapper-8cpp-1acd4ae951fac6c54963af263295bca9c6"><span class="std std-ref">Function basic_mul(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a54a69968f134b035c6cdb85253c593c8.html#exhale-function-cwrapper-8cpp-1a54a69968f134b035c6cdb85253c593c8"><span class="std std-ref">Function basic_neq(const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6e226e49f16ea34a9597ba4e137bde32.html#exhale-function-cwrapper-8cpp-1a6e226e49f16ea34a9597ba4e137bde32"><span class="std std-ref">Function basic_new_heap()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a54196ef667ac938ca24917115541a9ad.html#exhale-function-cwrapper-8cpp-1a54196ef667ac938ca24917115541a9ad"><span class="std std-ref">Function basic_new_stack(basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a1537bac2b0c18aae0f13875a4fa4d194.html#exhale-function-cwrapper-8cpp-1a1537bac2b0c18aae0f13875a4fa4d194"><span class="std std-ref">Function basic_parse(basic, const char *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a99c63bd83e89fec9d8f27b440aaf2339.html#exhale-function-cwrapper-8cpp-1a99c63bd83e89fec9d8f27b440aaf2339"><span class="std std-ref">Function basic_parse2(basic, const char *, int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a5f3f19c558f87d8664189569b0614434.html#exhale-function-cwrapper-8cpp-1a5f3f19c558f87d8664189569b0614434"><span class="std std-ref">Function basic_pow(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a704a9fc835d6ab08cf35d5aa6de184bf.html#exhale-function-cwrapper-8cpp-1a704a9fc835d6ab08cf35d5aa6de184bf"><span class="std std-ref">Function basic_solve_poly(CSetBasic *, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aff49667c1d7a42c4735bf6b9ff96a2db.html#exhale-function-cwrapper-8cpp-1aff49667c1d7a42c4735bf6b9ff96a2db"><span class="std std-ref">Function basic_str_free(char *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a61cf9597dfd516c4b5904ca9a6ff1f2f.html#exhale-function-cwrapper-8cpp-1a61cf9597dfd516c4b5904ca9a6ff1f2f"><span class="std std-ref">Function basic_sub(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a0b465e25a14f5d2f2b3187bf596d56d3.html#exhale-function-cwrapper-8cpp-1a0b465e25a14f5d2f2b3187bf596d56d3"><span class="std std-ref">Function basic_subs(basic, const basic, const CMapBasicBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a8588e81d6f6808602f67d2de1b49ec1c.html#exhale-function-cwrapper-8cpp-1a8588e81d6f6808602f67d2de1b49ec1c"><span class="std std-ref">Function basic_subs2(basic, const basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a36513415364a1815bab4fe5fb3f04ded.html#exhale-function-cwrapper-8cpp-1a36513415364a1815bab4fe5fb3f04ded"><span class="std std-ref">Function complex_base_imaginary_part(basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aca6758f7b5895c9d052c702c8c2cf329.html#exhale-function-cwrapper-8cpp-1aca6758f7b5895c9d052c702c8c2cf329"><span class="std std-ref">Function complex_base_real_part(basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a1413c9b7b7014fc6d2a9568c21c23fc7.html#exhale-function-cwrapper-8cpp-1a1413c9b7b7014fc6d2a9568c21c23fc7"><span class="std std-ref">Function complex_double_get(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a57d61a0dee78521414681917a83280f6.html#exhale-function-cwrapper-8cpp-1a57d61a0dee78521414681917a83280f6"><span class="std std-ref">Function complex_set(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1adeae8eaccdfe58c7abf98276f1a41b35.html#exhale-function-cwrapper-8cpp-1adeae8eaccdfe58c7abf98276f1a41b35"><span class="std std-ref">Function complex_set_rat(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a4771b88d88e38e131fd194683e3b567b.html#exhale-function-cwrapper-8cpp-1a4771b88d88e38e131fd194683e3b567b"><span class="std std-ref">Function dense_matrix_add_matrix(CDenseMatrix *, const CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a61322c8e06d00457e92c84f7dd9c49d5.html#exhale-function-cwrapper-8cpp-1a61322c8e06d00457e92c84f7dd9c49d5"><span class="std std-ref">Function dense_matrix_add_scalar(CDenseMatrix *, const CDenseMatrix *, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a43e0b7103d30b054be461f8061e4c530.html#exhale-function-cwrapper-8cpp-1a43e0b7103d30b054be461f8061e4c530"><span class="std std-ref">Function dense_matrix_col_del(CDenseMatrix *, unsigned)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a039090a0079db93f39b7fa2da4135c1f.html#exhale-function-cwrapper-8cpp-1a039090a0079db93f39b7fa2da4135c1f"><span class="std std-ref">Function dense_matrix_col_join(CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ab870894f075d089fbfdf7634af688d71.html#exhale-function-cwrapper-8cpp-1ab870894f075d089fbfdf7634af688d71"><span class="std std-ref">Function dense_matrix_cols(const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ad45328cae3d04b02cbd4d5ab8e9e39d0.html#exhale-function-cwrapper-8cpp-1ad45328cae3d04b02cbd4d5ab8e9e39d0"><span class="std std-ref">Function dense_matrix_det(basic, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1afce78cce62fb8602ca2018102df20b88.html#exhale-function-cwrapper-8cpp-1afce78cce62fb8602ca2018102df20b88"><span class="std std-ref">Function dense_matrix_diag(CDenseMatrix *, CVecBasic *, long int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a2adb9eab03c9ae8354ce37343fb31b5d.html#exhale-function-cwrapper-8cpp-1a2adb9eab03c9ae8354ce37343fb31b5d"><span class="std std-ref">Function dense_matrix_diff(CDenseMatrix *, const CDenseMatrix *, basic const)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a4412707082a19a6d28ea56e870ec7ba7.html#exhale-function-cwrapper-8cpp-1a4412707082a19a6d28ea56e870ec7ba7"><span class="std std-ref">Function dense_matrix_eq(CDenseMatrix *, CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a896d4f531c4251a03a45f5d136c3e55a.html#exhale-function-cwrapper-8cpp-1a896d4f531c4251a03a45f5d136c3e55a"><span class="std std-ref">Function dense_matrix_eye(CDenseMatrix *, unsigned long int, unsigned long int, int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a664524af9338e69745f8d43f279c66fb.html#exhale-function-cwrapper-8cpp-1a664524af9338e69745f8d43f279c66fb"><span class="std std-ref">Function dense_matrix_FFLDU(CDenseMatrix *, CDenseMatrix *, CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1adb52e1b936ce2cfde462112a9254fcc1.html#exhale-function-cwrapper-8cpp-1adb52e1b936ce2cfde462112a9254fcc1"><span class="std std-ref">Function dense_matrix_FFLU(CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a5763a0e06bae1402b84a436687d4bf8d.html#exhale-function-cwrapper-8cpp-1a5763a0e06bae1402b84a436687d4bf8d"><span class="std std-ref">Function dense_matrix_free(CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a29035d5127b66c22e59df0988e85bd00.html#exhale-function-cwrapper-8cpp-1a29035d5127b66c22e59df0988e85bd00"><span class="std std-ref">Function dense_matrix_get_basic(basic, const CDenseMatrix *, unsigned long int, unsigned long int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a62cf27ffa9a0d7c264f02f2a809062c6.html#exhale-function-cwrapper-8cpp-1a62cf27ffa9a0d7c264f02f2a809062c6"><span class="std std-ref">Function dense_matrix_inv(CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aa8a1f4aa8e288bc57c46da193124fb37.html#exhale-function-cwrapper-8cpp-1aa8a1f4aa8e288bc57c46da193124fb37"><span class="std std-ref">Function dense_matrix_jacobian(CDenseMatrix *, const CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a963d3d9f4e830ab0e8389b069a0d6822.html#exhale-function-cwrapper-8cpp-1a963d3d9f4e830ab0e8389b069a0d6822"><span class="std std-ref">Function dense_matrix_LDL(CDenseMatrix *, CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a9719dd58864733d0e9c92e1f463e16d5.html#exhale-function-cwrapper-8cpp-1a9719dd58864733d0e9c92e1f463e16d5"><span class="std std-ref">Function dense_matrix_LU(CDenseMatrix *, CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1af3af7124a952d79334a63249593e5d8a.html#exhale-function-cwrapper-8cpp-1af3af7124a952d79334a63249593e5d8a"><span class="std std-ref">Function dense_matrix_LU_solve(CDenseMatrix *, const CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1abb2cde0e31c9f4e4c61873674591ae16.html#exhale-function-cwrapper-8cpp-1abb2cde0e31c9f4e4c61873674591ae16"><span class="std std-ref">Function dense_matrix_mul_matrix(CDenseMatrix *, const CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a9475315b968b7347f046579630d91424.html#exhale-function-cwrapper-8cpp-1a9475315b968b7347f046579630d91424"><span class="std std-ref">Function dense_matrix_mul_scalar(CDenseMatrix *, const CDenseMatrix *, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6a079a8d9d3121727c7332424b951c5a.html#exhale-function-cwrapper-8cpp-1a6a079a8d9d3121727c7332424b951c5a"><span class="std std-ref">Function dense_matrix_new()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a31f0222f71de0732e33afce35a65dc1d.html#exhale-function-cwrapper-8cpp-1a31f0222f71de0732e33afce35a65dc1d"><span class="std std-ref">Function dense_matrix_new_rows_cols(unsigned, unsigned)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aa5fea20962120faf63f29b8aadac5439.html#exhale-function-cwrapper-8cpp-1aa5fea20962120faf63f29b8aadac5439"><span class="std std-ref">Function dense_matrix_new_vec(unsigned, unsigned, CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a76df2ff71252e01780ddfdf0d54e93ef.html#exhale-function-cwrapper-8cpp-1a76df2ff71252e01780ddfdf0d54e93ef"><span class="std std-ref">Function dense_matrix_ones(CDenseMatrix *, unsigned long int, unsigned long int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a02c4b0b27a323a9a0ea4ab59b43cdbec.html#exhale-function-cwrapper-8cpp-1a02c4b0b27a323a9a0ea4ab59b43cdbec"><span class="std std-ref">Function dense_matrix_row_del(CDenseMatrix *, unsigned)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aaa47857df3bd6828b1bc6d0f404cf059.html#exhale-function-cwrapper-8cpp-1aaa47857df3bd6828b1bc6d0f404cf059"><span class="std std-ref">Function dense_matrix_row_join(CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a5ee5c7757bfc83593ebebf6423433970.html#exhale-function-cwrapper-8cpp-1a5ee5c7757bfc83593ebebf6423433970"><span class="std std-ref">Function dense_matrix_rows(const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aae5fbb6bb8bd0d3170f4f2eac796d175.html#exhale-function-cwrapper-8cpp-1aae5fbb6bb8bd0d3170f4f2eac796d175"><span class="std std-ref">Function dense_matrix_rows_cols(CDenseMatrix *, unsigned, unsigned)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a095b062d78aac21460fcc206333a13cc.html#exhale-function-cwrapper-8cpp-1a095b062d78aac21460fcc206333a13cc"><span class="std std-ref">Function dense_matrix_set(CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a00de5da94ee215b42892e85b847fdfdd.html#exhale-function-cwrapper-8cpp-1a00de5da94ee215b42892e85b847fdfdd"><span class="std std-ref">Function dense_matrix_set_basic(CDenseMatrix *, unsigned long int, unsigned long int, basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ad1e948201f86344e84e283c63370d120.html#exhale-function-cwrapper-8cpp-1ad1e948201f86344e84e283c63370d120"><span class="std std-ref">Function dense_matrix_str(const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6236ec2d9438644ef88cf1d163a16de5.html#exhale-function-cwrapper-8cpp-1a6236ec2d9438644ef88cf1d163a16de5"><span class="std std-ref">Function dense_matrix_submatrix(CDenseMatrix *, const CDenseMatrix *, unsigned long int, unsigned long int, unsigned long int, unsigned long int, unsigned long int, unsigned long int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1af9fa0f08119b2bde9fcdf86c5c23d464.html#exhale-function-cwrapper-8cpp-1af9fa0f08119b2bde9fcdf86c5c23d464"><span class="std std-ref">Function dense_matrix_transpose(CDenseMatrix *, const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a90b1e50d7f04cc359b5b36b95e91c1db.html#exhale-function-cwrapper-8cpp-1a90b1e50d7f04cc359b5b36b95e91c1db"><span class="std std-ref">Function dense_matrix_zeros(CDenseMatrix *, unsigned long int, unsigned long int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ac1ab6bc090aae327b681ead1a30efdab.html#exhale-function-cwrapper-8cpp-1ac1ab6bc090aae327b681ead1a30efdab"><span class="std std-ref">Function function_symbol_get_name(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a2e7a8b9c419d7db4b39f5cca255f8bf2.html#exhale-function-cwrapper-8cpp-1a2e7a8b9c419d7db4b39f5cca255f8bf2"><span class="std std-ref">Function function_symbol_set(basic, const char *, const CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1afa785f759688c9dff206cd7c107d0a31.html#exhale-function-cwrapper-8cpp-1afa785f759688c9dff206cd7c107d0a31"><span class="std std-ref">Function integer_get_si(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a0516108b5e81e74591fbf40df1d99319.html#exhale-function-cwrapper-8cpp-1a0516108b5e81e74591fbf40df1d99319"><span class="std std-ref">Function integer_get_ui(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a315c7dabba2a170f7107e7c826babe43.html#exhale-function-cwrapper-8cpp-1a315c7dabba2a170f7107e7c826babe43"><span class="std std-ref">Function integer_set_si(basic, long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1af8dae1fad44168da635cb35a1dd23fda.html#exhale-function-cwrapper-8cpp-1af8dae1fad44168da635cb35a1dd23fda"><span class="std std-ref">Function integer_set_str(basic, const char *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1abd422603e0e5b4c64b0a06965a18ec73.html#exhale-function-cwrapper-8cpp-1abd422603e0e5b4c64b0a06965a18ec73"><span class="std std-ref">Function integer_set_ui(basic, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a36b6cb4ef1d83b5716176335dc3b6741.html#exhale-function-cwrapper-8cpp-1a36b6cb4ef1d83b5716176335dc3b6741"><span class="std std-ref">Function is_a_Complex(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ab1e31be035ee7f3ebdec6aa4c1a4fd49.html#exhale-function-cwrapper-8cpp-1ab1e31be035ee7f3ebdec6aa4c1a4fd49"><span class="std std-ref">Function is_a_ComplexDouble(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6b6b9d06bc3c726fd899a5ccee77a7ec.html#exhale-function-cwrapper-8cpp-1a6b6b9d06bc3c726fd899a5ccee77a7ec"><span class="std std-ref">Function is_a_ComplexMPC(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ab1556312823aed287c7f6b2a689764cc.html#exhale-function-cwrapper-8cpp-1ab1556312823aed287c7f6b2a689764cc"><span class="std std-ref">Function is_a_DenseMatrix(const CDenseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1abb9b98e5b389b0beb6462cfb66ff37bb.html#exhale-function-cwrapper-8cpp-1abb9b98e5b389b0beb6462cfb66ff37bb"><span class="std std-ref">Function is_a_Integer(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a52af55d5d7b0de08ccb4b1d0a3cec37f.html#exhale-function-cwrapper-8cpp-1a52af55d5d7b0de08ccb4b1d0a3cec37f"><span class="std std-ref">Function is_a_Number(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aa9b04aeeb589ce690b9f88af2ed31a3e.html#exhale-function-cwrapper-8cpp-1aa9b04aeeb589ce690b9f88af2ed31a3e"><span class="std std-ref">Function is_a_Rational(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a35e06853720a494c88caf44536804984.html#exhale-function-cwrapper-8cpp-1a35e06853720a494c88caf44536804984"><span class="std std-ref">Function is_a_RealDouble(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a30db359e68d8816e6a9bd85d2688eda1.html#exhale-function-cwrapper-8cpp-1a30db359e68d8816e6a9bd85d2688eda1"><span class="std std-ref">Function is_a_RealMPFR(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a5eb9da0e9c0974fd64980e6711595eb7.html#exhale-function-cwrapper-8cpp-1a5eb9da0e9c0974fd64980e6711595eb7"><span class="std std-ref">Function is_a_SparseMatrix(const CSparseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a226baaba7ce7dd3256c5c5a7556cad22.html#exhale-function-cwrapper-8cpp-1a226baaba7ce7dd3256c5c5a7556cad22"><span class="std std-ref">Function is_a_Symbol(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1acbafb6c5c03eb32881600b8bfa1dc10a.html#exhale-function-cwrapper-8cpp-1acbafb6c5c03eb32881600b8bfa1dc10a"><span class="std std-ref">Function lambda_real_double_visitor_call(CLambdaRealDoubleVisitor *, double *const, const double *const)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aa4218a5c4cbb1e641b9c2d3106ffaee1.html#exhale-function-cwrapper-8cpp-1aa4218a5c4cbb1e641b9c2d3106ffaee1"><span class="std std-ref">Function lambda_real_double_visitor_free(CLambdaRealDoubleVisitor *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6b043ae95fdec64a2f4d255c396d8e4f.html#exhale-function-cwrapper-8cpp-1a6b043ae95fdec64a2f4d255c396d8e4f"><span class="std std-ref">Function lambda_real_double_visitor_init(CLambdaRealDoubleVisitor *, const CVecBasic *, const CVecBasic *, int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a2bb1f31ebe86b83b3a69c47fcb3edbb9.html#exhale-function-cwrapper-8cpp-1a2bb1f31ebe86b83b3a69c47fcb3edbb9"><span class="std std-ref">Function lambda_real_double_visitor_new()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6dbddadd895c274f8fc01dc8c78afb00.html#exhale-function-cwrapper-8cpp-1a6dbddadd895c274f8fc01dc8c78afb00"><span class="std std-ref">Function mapbasicbasic_free(CMapBasicBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1acde3e8c5d508f54736d66d4a4c00d320.html#exhale-function-cwrapper-8cpp-1acde3e8c5d508f54736d66d4a4c00d320"><span class="std std-ref">Function mapbasicbasic_get(CMapBasicBasic *, const basic, basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ac8c4d51838451da0cfb30f98d1adc2e8.html#exhale-function-cwrapper-8cpp-1ac8c4d51838451da0cfb30f98d1adc2e8"><span class="std std-ref">Function mapbasicbasic_insert(CMapBasicBasic *, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a9031c6a5352a962005294f57ff51455a.html#exhale-function-cwrapper-8cpp-1a9031c6a5352a962005294f57ff51455a"><span class="std std-ref">Function mapbasicbasic_new()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a2b8e6fdcabc01b0b0ba3eb519d10f32e.html#exhale-function-cwrapper-8cpp-1a2b8e6fdcabc01b0b0ba3eb519d10f32e"><span class="std std-ref">Function mapbasicbasic_size(CMapBasicBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a9525012e55bc3749d711663530074a9d.html#exhale-function-cwrapper-8cpp-1a9525012e55bc3749d711663530074a9d"><span class="std std-ref">Function ntheory_binomial(basic, const basic, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a98b34bc325f0bcd4be5c07cfcb6db170.html#exhale-function-cwrapper-8cpp-1a98b34bc325f0bcd4be5c07cfcb6db170"><span class="std std-ref">Function ntheory_factorial(basic, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a078c4823e6732f997654494b97c096b3.html#exhale-function-cwrapper-8cpp-1a078c4823e6732f997654494b97c096b3"><span class="std std-ref">Function ntheory_fibonacci(basic, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ad9b13c5ab8c3fd31a8d78626549defd1.html#exhale-function-cwrapper-8cpp-1ad9b13c5ab8c3fd31a8d78626549defd1"><span class="std std-ref">Function ntheory_fibonacci2(basic, basic, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a5e08ddbb7adb8fccfaa9d0b848dacc76.html#exhale-function-cwrapper-8cpp-1a5e08ddbb7adb8fccfaa9d0b848dacc76"><span class="std std-ref">Function ntheory_gcd(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a981eacb5a5253eb8e06bd2efd6175d97.html#exhale-function-cwrapper-8cpp-1a981eacb5a5253eb8e06bd2efd6175d97"><span class="std std-ref">Function ntheory_gcd_ext(basic, basic, basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a020d5a41222e97dccb4e914b29452a48.html#exhale-function-cwrapper-8cpp-1a020d5a41222e97dccb4e914b29452a48"><span class="std std-ref">Function ntheory_lcm(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1aac41f5cfa8acd87cb10a8e8ac77498c1.html#exhale-function-cwrapper-8cpp-1aac41f5cfa8acd87cb10a8e8ac77498c1"><span class="std std-ref">Function ntheory_lucas(basic, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a441ec1f04e50096d310449a072a5df38.html#exhale-function-cwrapper-8cpp-1a441ec1f04e50096d310449a072a5df38"><span class="std std-ref">Function ntheory_lucas2(basic, basic, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a0035ab01e4ee1fbc38205c370e94853c.html#exhale-function-cwrapper-8cpp-1a0035ab01e4ee1fbc38205c370e94853c"><span class="std std-ref">Function ntheory_mod(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1adcd15e06804fd597740d66c7f4fa1ede.html#exhale-function-cwrapper-8cpp-1adcd15e06804fd597740d66c7f4fa1ede"><span class="std std-ref">Function ntheory_mod_f(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a36614f2a82e2fcd5614ecd5175445ed9.html#exhale-function-cwrapper-8cpp-1a36614f2a82e2fcd5614ecd5175445ed9"><span class="std std-ref">Function ntheory_mod_inverse(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a449801e2625a05b473477e14c2876068.html#exhale-function-cwrapper-8cpp-1a449801e2625a05b473477e14c2876068"><span class="std std-ref">Function ntheory_nextprime(basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a14bb44d09a45e26641554dae2b8e444a.html#exhale-function-cwrapper-8cpp-1a14bb44d09a45e26641554dae2b8e444a"><span class="std std-ref">Function ntheory_quotient(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1af8bd21c229f70f4b1f68ce5a54c26be8.html#exhale-function-cwrapper-8cpp-1af8bd21c229f70f4b1f68ce5a54c26be8"><span class="std std-ref">Function ntheory_quotient_f(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6040f68917193ac99c45b95ef90ca4f1.html#exhale-function-cwrapper-8cpp-1a6040f68917193ac99c45b95ef90ca4f1"><span class="std std-ref">Function ntheory_quotient_mod(basic, basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1abcf51dfdafdd7ff5161af1b525e56053.html#exhale-function-cwrapper-8cpp-1abcf51dfdafdd7ff5161af1b525e56053"><span class="std std-ref">Function ntheory_quotient_mod_f(basic, basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ae2993f8080c9922224d7fa1713c7256b.html#exhale-function-cwrapper-8cpp-1ae2993f8080c9922224d7fa1713c7256b"><span class="std std-ref">Function number_is_complex(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1abf2c02d93f3c92657ef412089df4182a.html#exhale-function-cwrapper-8cpp-1abf2c02d93f3c92657ef412089df4182a"><span class="std std-ref">Function number_is_negative(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ab8ed396a33c056fea750b9c903ce6614.html#exhale-function-cwrapper-8cpp-1ab8ed396a33c056fea750b9c903ce6614"><span class="std std-ref">Function number_is_positive(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a79b8edf92541e11308be7efc2d6fb605.html#exhale-function-cwrapper-8cpp-1a79b8edf92541e11308be7efc2d6fb605"><span class="std std-ref">Function number_is_zero(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a04b64367e9fac8d5cf7cbd836ef8932d.html#exhale-function-cwrapper-8cpp-1a04b64367e9fac8d5cf7cbd836ef8932d"><span class="std std-ref">Function rational_set(basic, const basic, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a87a1ca17967645d45194b49f3b1a8ac2.html#exhale-function-cwrapper-8cpp-1a87a1ca17967645d45194b49f3b1a8ac2"><span class="std std-ref">Function rational_set_si(basic, long, long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a45328b1dd8754b5eb91788b2d780d81c.html#exhale-function-cwrapper-8cpp-1a45328b1dd8754b5eb91788b2d780d81c"><span class="std std-ref">Function rational_set_ui(basic, unsigned long, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a2795fa1048031bf82ad1f5a4f5a14378.html#exhale-function-cwrapper-8cpp-1a2795fa1048031bf82ad1f5a4f5a14378"><span class="std std-ref">Function real_double_get_d(const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1afdbb3af4dfe786e96b56b86a2ee34ac2.html#exhale-function-cwrapper-8cpp-1afdbb3af4dfe786e96b56b86a2ee34ac2"><span class="std std-ref">Function real_double_set_d(basic, double)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a846ffa71e778ade1895e81a780dc29ac.html#exhale-function-cwrapper-8cpp-1a846ffa71e778ade1895e81a780dc29ac"><span class="std std-ref">Function setbasic_erase(CSetBasic *, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a5a72162890f4b80a3065d7ca99bf5080.html#exhale-function-cwrapper-8cpp-1a5a72162890f4b80a3065d7ca99bf5080"><span class="std std-ref">Function setbasic_find(CSetBasic *, basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a5dba7054c5a7b04657eb9b924b5396be.html#exhale-function-cwrapper-8cpp-1a5dba7054c5a7b04657eb9b924b5396be"><span class="std std-ref">Function setbasic_free(CSetBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1addcabf3c2478c0d247bf27ece7d6c423.html#exhale-function-cwrapper-8cpp-1addcabf3c2478c0d247bf27ece7d6c423"><span class="std std-ref">Function setbasic_get(CSetBasic *, int, basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a563e45536600e208e0dd7b318da5de6a.html#exhale-function-cwrapper-8cpp-1a563e45536600e208e0dd7b318da5de6a"><span class="std std-ref">Function setbasic_insert(CSetBasic *, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a1f01fdf2148f7b5c4aad7b0e2b7c9bdb.html#exhale-function-cwrapper-8cpp-1a1f01fdf2148f7b5c4aad7b0e2b7c9bdb"><span class="std std-ref">Function setbasic_new()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a4256ffaddcfa2fed1994900225b238d1.html#exhale-function-cwrapper-8cpp-1a4256ffaddcfa2fed1994900225b238d1"><span class="std std-ref">Function setbasic_size(CSetBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a1cc281bc6ca08350c355612eabd8c7e6.html#exhale-function-cwrapper-8cpp-1a1cc281bc6ca08350c355612eabd8c7e6"><span class="std std-ref">Function sparse_matrix_eq(CSparseMatrix *, CSparseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a46e3e069881ab39249b7fbd10ca94782.html#exhale-function-cwrapper-8cpp-1a46e3e069881ab39249b7fbd10ca94782"><span class="std std-ref">Function sparse_matrix_free(CSparseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6d2d89c27fdaaccda997817096bdf327.html#exhale-function-cwrapper-8cpp-1a6d2d89c27fdaaccda997817096bdf327"><span class="std std-ref">Function sparse_matrix_get_basic(basic, const CSparseMatrix *, unsigned long int, unsigned long int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1abaebe3b0dec0903cb6f8e7689d3c861c.html#exhale-function-cwrapper-8cpp-1abaebe3b0dec0903cb6f8e7689d3c861c"><span class="std std-ref">Function sparse_matrix_init(CSparseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1affa3d7c3b009f9e73d6a8c3c19d59167.html#exhale-function-cwrapper-8cpp-1affa3d7c3b009f9e73d6a8c3c19d59167"><span class="std std-ref">Function sparse_matrix_new()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1acfd931febeff66dcebc375c9d55f3b73.html#exhale-function-cwrapper-8cpp-1acfd931febeff66dcebc375c9d55f3b73"><span class="std std-ref">Function sparse_matrix_rows_cols(CSparseMatrix *, unsigned long int, unsigned long int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a2b221e21057337e0ca2ad9023ec24925.html#exhale-function-cwrapper-8cpp-1a2b221e21057337e0ca2ad9023ec24925"><span class="std std-ref">Function sparse_matrix_set_basic(CSparseMatrix *, unsigned long int, unsigned long int, basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a984f2c4499cf6f29455c6a896f3ff424.html#exhale-function-cwrapper-8cpp-1a984f2c4499cf6f29455c6a896f3ff424"><span class="std std-ref">Function sparse_matrix_str(const CSparseMatrix *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a958b521b9147c8900fd6357beedb65a3.html#exhale-function-cwrapper-8cpp-1a958b521b9147c8900fd6357beedb65a3"><span class="std std-ref">Function symbol_set(basic, const char *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a6ec0f07b69061483b53a933a75e23dd3.html#exhale-function-namespace-sym-engine-1a6ec0f07b69061483b53a933a75e23dd3"><span class="std std-ref">Function SymEngine::_str</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aad4f9bf5d7eca26cf6cea5f10af7dc65.html#exhale-function-namespace-sym-engine-1aad4f9bf5d7eca26cf6cea5f10af7dc65"><span class="std std-ref">Template Function SymEngine::is_aligned</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ae01d22bd7d92e15548fac34620f80d76.html#exhale-function-cwrapper-8cpp-1ae01d22bd7d92e15548fac34620f80d76"><span class="std std-ref">Function symengine_have_component(const char *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1affc319585c888358b3fe5af4ab2719ba.html#exhale-function-cwrapper-8cpp-1affc319585c888358b3fe5af4ab2719ba"><span class="std std-ref">Function symengine_print_stack_on_segfault()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a02306eeb84b496d7ff94ba929014792b.html#exhale-function-cwrapper-8cpp-1a02306eeb84b496d7ff94ba929014792b"><span class="std std-ref">Function symengine_version()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a53dee2879c5cfdf22227aa5dd1b09d0c.html#exhale-function-cwrapper-8cpp-1a53dee2879c5cfdf22227aa5dd1b09d0c"><span class="std std-ref">Function vecbasic_erase(CVecBasic *, size_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1afc99f895e16eaa8878ff71590bb9d5cc.html#exhale-function-cwrapper-8cpp-1afc99f895e16eaa8878ff71590bb9d5cc"><span class="std std-ref">Function vecbasic_free(CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6d548607a7a8e67b2b48aaba241f155f.html#exhale-function-cwrapper-8cpp-1a6d548607a7a8e67b2b48aaba241f155f"><span class="std std-ref">Function vecbasic_get(CVecBasic *, size_t, basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a45323eaae8f5f1c2aa4725a81fba0087.html#exhale-function-cwrapper-8cpp-1a45323eaae8f5f1c2aa4725a81fba0087"><span class="std std-ref">Function vecbasic_linsolve(CVecBasic *, const CVecBasic *, const CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ac93dbacd33d0749a2e94565bf98b7425.html#exhale-function-cwrapper-8cpp-1ac93dbacd33d0749a2e94565bf98b7425"><span class="std std-ref">Function vecbasic_new()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1ab5324dada00ba94fd5a066194585fa97.html#exhale-function-cwrapper-8cpp-1ab5324dada00ba94fd5a066194585fa97"><span class="std std-ref">Function vecbasic_push_back(CVecBasic *, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a6a53a6ad6370f718877243e65dfa121d.html#exhale-function-cwrapper-8cpp-1a6a53a6ad6370f718877243e65dfa121d"><span class="std std-ref">Function vecbasic_set(CVecBasic *, size_t, const basic)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a00e3385a1154127309d8b96e5a9f24e2.html#exhale-function-cwrapper-8cpp-1a00e3385a1154127309d8b96e5a9f24e2"><span class="std std-ref">Function vecbasic_size(CVecBasic *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a78d2b3bdb75cdb5d15421958b500f119.html#exhale-function-cwrapper-8cpp-1a78d2b3bdb75cdb5d15421958b500f119"><span class="std std-ref">Function vectorint_free(CVectorInt *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a568784e6705f4ad0fd039fbcc557f7ef.html#exhale-function-cwrapper-8cpp-1a568784e6705f4ad0fd039fbcc557f7ef"><span class="std std-ref">Function vectorint_get(CVectorInt *, int)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a81505cca0d276d8327ad8deb248cd1b3.html#exhale-function-cwrapper-8cpp-1a81505cca0d276d8327ad8deb248cd1b3"><span class="std std-ref">Function vectorint_new()</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a922f5c7ed357467864a3cee3e9d6a59b.html#exhale-function-cwrapper-8cpp-1a922f5c7ed357467864a3cee3e9d6a59b"><span class="std std-ref">Function vectorint_placement_free(CVectorInt *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1afc662d5123a8446bddb4ef3b0e240b8e.html#exhale-function-cwrapper-8cpp-1afc662d5123a8446bddb4ef3b0e240b8e"><span class="std std-ref">Function vectorint_placement_new(void *)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a1c5a8740a7b6c0fec772ffcfcd0882aa.html#exhale-function-cwrapper-8cpp-1a1c5a8740a7b6c0fec772ffcfcd0882aa"><span class="std std-ref">Function vectorint_placement_new_check(void *, size_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function_cwrapper_8cpp_1a1f7922fa5d6ba6a5cae9e665af58dd16.html#exhale-function-cwrapper-8cpp-1a1f7922fa5d6ba6a5cae9e665af58dd16"><span class="std std-ref">Function vectorint_push_back(CVectorInt *, int)</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="defines">
+<h2>Defines<a class="headerlink" href="#defines" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1ab788096748b054da6dca459f8f5601cd.html#exhale-define-cwrapper-8cpp-1ab788096748b054da6dca459f8f5601cd"><span class="std std-ref">Define CWRAPPER_BEGIN</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1a4b2b4f0aee8ffa1e3b446410e834225d.html#exhale-define-cwrapper-8cpp-1a4b2b4f0aee8ffa1e3b446410e834225d"><span class="std std-ref">Define CWRAPPER_END</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1a6c483be031339c2123bd45f58870b013.html#exhale-define-cwrapper-8cpp-1a6c483be031339c2123bd45f58870b013"><span class="std std-ref">Define IMPLEMENT_ONE_ARG_FUNC</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1a85174e712778442b7b8c87c338f171ac.html#exhale-define-cwrapper-8cpp-1a85174e712778442b7b8c87c338f171ac"><span class="std std-ref">Define IMPLEMENT_STR_CONVERSION</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1aae5722d27403f1bc2908c019b624190a.html#exhale-define-cwrapper-8cpp-1aae5722d27403f1bc2908c019b624190a"><span class="std std-ref">Define IMPLEMENT_TWO_ARG_FUNC</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1ad8ab729381f270b100f3d05b6c6676fc.html#exhale-define-cwrapper-8cpp-1ad8ab729381f270b100f3d05b6c6676fc"><span class="std std-ref">Define str</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1a0f1932316136059674ea58fa58109920.html#exhale-define-cwrapper-8cpp-1a0f1932316136059674ea58fa58109920"><span class="std std-ref">Define SYMENGINE_ENUM</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1a0f1932316136059674ea58fa58109920.html#exhale-define-cwrapper-8cpp-1a0f1932316136059674ea58fa58109920"><span class="std std-ref">Define SYMENGINE_ENUM</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1a87c58cfe167897f7fed2477f8f35a2ea.html#exhale-define-cwrapper-8cpp-1a87c58cfe167897f7fed2477f8f35a2ea"><span class="std std-ref">Define SYMENGINE_INCLUDE_ALL</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1a87c58cfe167897f7fed2477f8f35a2ea.html#exhale-define-cwrapper-8cpp-1a87c58cfe167897f7fed2477f8f35a2ea"><span class="std std-ref">Define SYMENGINE_INCLUDE_ALL</span></a></p></li>
+<li><p><a class="reference internal" href="define_cwrapper_8cpp_1aeec40e2b433cc2844853d184006edff0.html#exhale-define-cwrapper-8cpp-1aeec40e2b433cc2844853d184006edff0"><span class="std std-ref">Define xstr</span></a></p></li>
+</ul>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">File cwrapper.cpp</a><ul>
+<li><a class="reference internal" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-cwrapper-cpp">Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/cwrapper.cpp</span></code>)</a></li>
+<li><a class="reference internal" href="#includes">Includes</a></li>
+<li><a class="reference internal" href="#namespaces">Namespaces</a></li>
+<li><a class="reference internal" href="#classes">Classes</a></li>
+<li><a class="reference internal" href="#functions">Functions</a></li>
+<li><a class="reference internal" href="#defines">Defines</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File cwrapper.cpp</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

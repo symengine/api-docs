@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2a4962a72c0af004b4c06b4eb660e3e1:
+
+Function SymEngine::Eq(const RCP<const Basic>&, const RCP<const Basic>&)
+========================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::Eq(const RCP<const Basic>&, const RCP<const Basic>&)

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a29359055eb577e15b1f396b4acc24558:
+
+Function basic_acos
+===================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_acos(basic, const basic)

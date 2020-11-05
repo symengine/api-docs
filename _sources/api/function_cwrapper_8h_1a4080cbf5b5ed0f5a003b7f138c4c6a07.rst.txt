@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a4080cbf5b5ed0f5a003b7f138c4c6a07:
+
+Function basic_asin
+===================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_asin(basic, const basic)

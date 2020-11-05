@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1ac2b3fc3520be71aa1899f6c0c40bd274:
+
+Function basic_max(basic, CVecBasic \*)
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_max(basic, CVecBasic *)

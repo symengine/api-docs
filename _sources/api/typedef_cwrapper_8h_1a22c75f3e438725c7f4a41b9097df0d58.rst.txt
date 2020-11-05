@@ -1,0 +1,13 @@
+.. _exhale_typedef_cwrapper_8h_1a22c75f3e438725c7f4a41b9097df0d58:
+
+Typedef CSetBasic
+=================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: CSetBasic

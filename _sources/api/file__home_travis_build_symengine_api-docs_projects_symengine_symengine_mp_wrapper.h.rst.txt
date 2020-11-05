@@ -1,0 +1,66 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.h:
+
+File mp_wrapper.h
+=================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/mp_wrapper.h``)
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``gmp.h``
+
+- ``symengine/flint_wrapper.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_flint_wrapper.h`)
+
+- ``symengine/symengine_rcp.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_rcp.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_mp__wrapper_8h_1af85735661296c2e7aa3c54f386838ad3`
+
+- :ref:`exhale_define_mp__wrapper_8h_1a5ec5c1a3feb25484309c23e4b9e898fc`
+
+- :ref:`exhale_define_mp__wrapper_8h_1a87cd4130deab4a3f8b8555b71451f934`
+
+- :ref:`exhale_define_mp__wrapper_8h_1a46cc0b1211e93934bc8aab1632ecedc3`
+
+- :ref:`exhale_define_mp__wrapper_8h_1adaf9d44c10134811c6bbdce139d5647c`
+
+- :ref:`exhale_define_mp__wrapper_8h_1adc99dae05cdedae61156cb9e414f751f`
+

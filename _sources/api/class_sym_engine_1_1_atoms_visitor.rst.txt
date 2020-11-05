@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_atoms_visitor:
+
+Template Class AtomsVisitor
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::BaseVisitor< AtomsVisitor< Args... > >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::AtomsVisitor
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8f4604cdd696c1d067294bc78fec6231:
+
+Function SymEngine::conditionset
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::conditionset(const RCP<const Basic>&, const RCP<const Boolean>&)

@@ -1,0 +1,36 @@
+.. _exhale_class_class_sym_engine_1_1_hyperbolic_function:
+
+Class HyperbolicFunction
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::HyperbolicBase`` (:ref:`exhale_class_class_sym_engine_1_1_hyperbolic_base`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::Cosh`` (:ref:`exhale_class_class_sym_engine_1_1_cosh`)
+- ``public SymEngine::Coth`` (:ref:`exhale_class_class_sym_engine_1_1_coth`)
+- ``public SymEngine::Csch`` (:ref:`exhale_class_class_sym_engine_1_1_csch`)
+- ``public SymEngine::Sech`` (:ref:`exhale_class_class_sym_engine_1_1_sech`)
+- ``public SymEngine::Sinh`` (:ref:`exhale_class_class_sym_engine_1_1_sinh`)
+- ``public SymEngine::Tanh`` (:ref:`exhale_class_class_sym_engine_1_1_tanh`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::HyperbolicFunction
+   :members:
+   :protected-members:
+   :undoc-members:

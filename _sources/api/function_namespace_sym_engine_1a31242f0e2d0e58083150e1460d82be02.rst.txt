@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a31242f0e2d0e58083150e1460d82be02:
+
+Template Function SymEngine::fdiff(const T&, RCP<const Symbol>, DiffVisitor&)
+=============================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_derivative.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::fdiff(const T&, RCP<const Symbol>, DiffVisitor&)

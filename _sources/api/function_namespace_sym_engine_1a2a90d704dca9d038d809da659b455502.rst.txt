@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2a90d704dca9d038d809da659b455502:
+
+Function SymEngine::coth
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::coth(const RCP<const Basic>&)

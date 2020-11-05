@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8d243e3a9146c0b0641bced63fc79254:
+
+Function SymEngine::floor
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::floor(const RCP<const Basic>&)

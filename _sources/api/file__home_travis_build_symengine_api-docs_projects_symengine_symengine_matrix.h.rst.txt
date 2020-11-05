@@ -1,0 +1,90 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h:
+
+File matrix.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/matrix.h``)
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`)
+
+- ``symengine/sets.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_diophantine.h`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.h`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sparse_matrix.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_c_s_r_matrix`
+
+- :ref:`exhale_class_class_sym_engine_1_1_dense_matrix`
+
+- :ref:`exhale_class_class_sym_engine_1_1_matrix_base`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_matrix_8h_1ae979849324e8a4143ccbefc7ceaa28a4`
+
+- :ref:`exhale_function_namespace_sym_engine_1a55c552d60587cfdd634494c9bf8840a9`
+
+- :ref:`exhale_function_namespace_sym_engine_1a79d264ecba89d3aba09c7879da2eeafa`
+
+- :ref:`exhale_function_namespace_sym_engine_1ab7b4404d09f3e657858cf7815acec8ab`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_namespace_sym_engine_1a545265fb9636fec22762f1b6dbecc90f`
+

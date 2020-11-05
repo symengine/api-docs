@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a26ea0f8bb528dca0193c0b3425bab62f:
+
+Function SymEngine::as_numer_denom
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_numer_denom.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::as_numer_denom(const RCP<const Basic>&, const Ptr<RCP<const Basic>>&, const Ptr<RCP<const Basic>>&)

@@ -1,0 +1,13 @@
+.. _exhale_define_mp__wrapper_8h_1a87cd4130deab4a3f8b8555b71451f934:
+
+Define SYMENGINE_MPZ_WRAPPER_IMPLEMENT_NON_COMMUTATIVE
+======================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: SYMENGINE_MPZ_WRAPPER_IMPLEMENT_NON_COMMUTATIVE

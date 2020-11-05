@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_real_double:
+
+Class RealDouble
+================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_double.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Number`` (:ref:`exhale_class_class_sym_engine_1_1_number`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::RealDouble
+   :members:
+   :protected-members:
+   :undoc-members:

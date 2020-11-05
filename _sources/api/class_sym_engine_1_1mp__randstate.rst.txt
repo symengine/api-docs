@@ -1,0 +1,16 @@
+.. _exhale_class_class_sym_engine_1_1mp__randstate:
+
+Class mp_randstate
+==================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::mp_randstate
+   :members:
+   :protected-members:
+   :undoc-members:

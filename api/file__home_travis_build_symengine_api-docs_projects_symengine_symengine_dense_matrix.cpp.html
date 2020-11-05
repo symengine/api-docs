@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File dense_matrix.cpp &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File dense_matrix.cpp</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="file-dense-matrix-cpp">
+<span id="file-home-travis-build-symengine-api-docs-projects-symengine-symengine-dense-matrix-cpp"></span><h1>File dense_matrix.cpp<a class="headerlink" href="#file-dense-matrix-cpp" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="dir__home_travis_build_symengine_api-docs_projects_symengine_symengine.html#dir-home-travis-build-symengine-api-docs-projects-symengine-symengine"><span class="std std-ref">Parent directory</span></a> (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine</span></code>)</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-dense-matrix-cpp" id="id1">Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/dense_matrix.cpp</span></code>)</a></p></li>
+<li><p><a class="reference internal" href="#includes" id="id2">Includes</a></p></li>
+<li><p><a class="reference internal" href="#namespaces" id="id3">Namespaces</a></p></li>
+<li><p><a class="reference internal" href="#functions" id="id4">Functions</a></p></li>
+</ul>
+</div>
+<div class="section" id="definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-dense-matrix-cpp">
+<h2>Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/dense_matrix.cpp</span></code>)<a class="headerlink" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-dense-matrix-cpp" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="includes">
+<h2>Includes<a class="headerlink" href="#includes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/add.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-add-h"><span class="std std-ref">File add.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/functions.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-functions-h"><span class="std std-ref">File functions.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/matrix.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-matrix-h"><span class="std std-ref">File matrix.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/polys/uexprpoly.h</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/pow.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-pow-h"><span class="std std-ref">File pow.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/solve.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-solve-h"><span class="std std-ref">File solve.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/subs.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_subs.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-subs-h"><span class="std std-ref">File subs.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/symengine_exception.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-symengine-exception-h"><span class="std std-ref">File symengine_exception.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/test_visitors.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_test_visitors.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-test-visitors-h"><span class="std std-ref">File test_visitors.h</span></a>)</p></li>
+</ul>
+</div>
+<div class="section" id="namespaces">
+<h2>Namespaces<a class="headerlink" href="#namespaces" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="namespace_SymEngine.html#namespace-symengine"><span class="std std-ref">Namespace SymEngine</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a3ff5f9bed19eb534b8e70a54b869d9cd.html#exhale-function-namespace-sym-engine-1a3ff5f9bed19eb534b8e70a54b869d9cd"><span class="std std-ref">Function SymEngine::add_dense_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1abac81d62daf9214ed61d085aa374f559.html#exhale-function-namespace-sym-engine-1abac81d62daf9214ed61d085aa374f559"><span class="std std-ref">Function SymEngine::add_dense_scalar</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1afb898fa068d2c49c7dcc5616c0c09717.html#exhale-function-namespace-sym-engine-1afb898fa068d2c49c7dcc5616c0c09717"><span class="std std-ref">Function SymEngine::back_substitution</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a39346c5eed59702b2a2bc1a6c946acd7.html#exhale-function-namespace-sym-engine-1a39346c5eed59702b2a2bc1a6c946acd7"><span class="std std-ref">Function SymEngine::berkowitz</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a439e1e866051234efd104af137ed52d1.html#exhale-function-namespace-sym-engine-1a439e1e866051234efd104af137ed52d1"><span class="std std-ref">Function SymEngine::char_poly</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1acf24eb7427e1a09f5312d884133926b9.html#exhale-function-namespace-sym-engine-1acf24eb7427e1a09f5312d884133926b9"><span class="std std-ref">Function SymEngine::cholesky</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a8c43565c1985b2a399bd107bf8715c9f.html#exhale-function-namespace-sym-engine-1a8c43565c1985b2a399bd107bf8715c9f"><span class="std std-ref">Function SymEngine::column_exchange_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a505923f9f1371da644b6e819290d6d82.html#exhale-function-namespace-sym-engine-1a505923f9f1371da644b6e819290d6d82"><span class="std std-ref">Function SymEngine::conjugate_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a35b642f3237e6557e73e87eaa53c9440.html#exhale-function-namespace-sym-engine-1a35b642f3237e6557e73e87eaa53c9440"><span class="std std-ref">Function SymEngine::conjugate_transpose_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aed2ce39ddde30903e1f0688ed985d355.html#exhale-function-namespace-sym-engine-1aed2ce39ddde30903e1f0688ed985d355"><span class="std std-ref">Function SymEngine::cross</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ac5a9be202c370fb91e789d6df2a93afc.html#exhale-function-namespace-sym-engine-1ac5a9be202c370fb91e789d6df2a93afc"><span class="std std-ref">Function SymEngine::det_bareis</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a494d3cbbe57419beaf935f52c6499ea0.html#exhale-function-namespace-sym-engine-1a494d3cbbe57419beaf935f52c6499ea0"><span class="std std-ref">Function SymEngine::det_berkowitz</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a125c7c68dc64fd5d9afca31d4b8bb47d.html#exhale-function-namespace-sym-engine-1a125c7c68dc64fd5d9afca31d4b8bb47d"><span class="std std-ref">Function SymEngine::diag</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ab82d85f9f3eee8455eb2b9d802a519d8.html#exhale-function-namespace-sym-engine-1ab82d85f9f3eee8455eb2b9d802a519d8"><span class="std std-ref">Function SymEngine::diagonal_solve</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a5abd2b1a5c9b8c75fa80312351e4f064.html#exhale-function-namespace-sym-engine-1a5abd2b1a5c9b8c75fa80312351e4f064"><span class="std std-ref">Function SymEngine::diff(const DenseMatrix&amp;, const RCP&lt;const Symbol&gt;&amp;, DenseMatrix&amp;, bool)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ad24e5e2a40b4adec2f412671f39042d8.html#exhale-function-namespace-sym-engine-1ad24e5e2a40b4adec2f412671f39042d8"><span class="std std-ref">Function SymEngine::dot</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a7241cd5422fa4ea4d7d2f8fa13c7c8a4.html#exhale-function-namespace-sym-engine-1a7241cd5422fa4ea4d7d2f8fa13c7c8a4"><span class="std std-ref">Function SymEngine::eigen_values</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1adf49c7425d07e0fb972c7f73373bea4b.html#exhale-function-namespace-sym-engine-1adf49c7425d07e0fb972c7f73373bea4b"><span class="std std-ref">Function SymEngine::elementwise_mul_dense_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1abd2d984192635714e8c93156d5ec614c.html#exhale-function-namespace-sym-engine-1abd2d984192635714e8c93156d5ec614c"><span class="std std-ref">Function SymEngine::eye</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a28d0be8c6df84cd08c70677d8467bc8e.html#exhale-function-namespace-sym-engine-1a28d0be8c6df84cd08c70677d8467bc8e"><span class="std std-ref">Function SymEngine::forward_substitution</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae66a66e8d361babecbbf2cd12cafde10.html#exhale-function-namespace-sym-engine-1ae66a66e8d361babecbbf2cd12cafde10"><span class="std std-ref">Function SymEngine::fraction_free_gauss_jordan_elimination</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a51a555c8bbab97b7ff0d6c7d328b1dd2.html#exhale-function-namespace-sym-engine-1a51a555c8bbab97b7ff0d6c7d328b1dd2"><span class="std std-ref">Function SymEngine::fraction_free_gauss_jordan_solve</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a593a39cafb3bd272e08aea4184731c42.html#exhale-function-namespace-sym-engine-1a593a39cafb3bd272e08aea4184731c42"><span class="std std-ref">Function SymEngine::fraction_free_gaussian_elimination</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a5fa1ede4e36e657fc15a69728203f065.html#exhale-function-namespace-sym-engine-1a5fa1ede4e36e657fc15a69728203f065"><span class="std std-ref">Function SymEngine::fraction_free_gaussian_elimination_solve</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a8926d053443b78b4a44a405bfb9c7447.html#exhale-function-namespace-sym-engine-1a8926d053443b78b4a44a405bfb9c7447"><span class="std std-ref">Function SymEngine::fraction_free_LDU</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a6e14d617760b9b748066779fb54716ff.html#exhale-function-namespace-sym-engine-1a6e14d617760b9b748066779fb54716ff"><span class="std std-ref">Function SymEngine::fraction_free_LU</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a3b03956b4019515f47eaa382f3ff2125.html#exhale-function-namespace-sym-engine-1a3b03956b4019515f47eaa382f3ff2125"><span class="std std-ref">Function SymEngine::fraction_free_LU_solve</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ad37b049a1e31bae939d88ad0b956422c.html#exhale-function-namespace-sym-engine-1ad37b049a1e31bae939d88ad0b956422c"><span class="std std-ref">Function SymEngine::inverse_fraction_free_LU</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a984bef160102f76dc3a88dac664479ae.html#exhale-function-namespace-sym-engine-1a984bef160102f76dc3a88dac664479ae"><span class="std std-ref">Function SymEngine::inverse_gauss_jordan</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ab727b123973817a71f34ac120dfb7fc4.html#exhale-function-namespace-sym-engine-1ab727b123973817a71f34ac120dfb7fc4"><span class="std std-ref">Function SymEngine::inverse_LU</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1afc967bc813fa5a571e7257f4d4a57e10.html#exhale-function-namespace-sym-engine-1afc967bc813fa5a571e7257f4d4a57e10"><span class="std std-ref">Function SymEngine::inverse_pivoted_LU</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a15a5908749edb96e6227bbb61649d6ac.html#exhale-function-namespace-sym-engine-1a15a5908749edb96e6227bbb61649d6ac"><span class="std std-ref">Function SymEngine::is_symmetric_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a5abe24f711694e6fc6b8f36310fb4477.html#exhale-function-namespace-sym-engine-1a5abe24f711694e6fc6b8f36310fb4477"><span class="std std-ref">Function SymEngine::jacobian</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1af1054fc1177b11063e096b4da02a6c0c.html#exhale-function-namespace-sym-engine-1af1054fc1177b11063e096b4da02a6c0c"><span class="std std-ref">Function SymEngine::LDL</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a2267605c07ed1e883b7b9e63e3806ed0.html#exhale-function-namespace-sym-engine-1a2267605c07ed1e883b7b9e63e3806ed0"><span class="std std-ref">Function SymEngine::LDL_solve</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1af5673755ad940b07a76b34d34d5a22ce.html#exhale-function-namespace-sym-engine-1af5673755ad940b07a76b34d34d5a22ce"><span class="std std-ref">Function SymEngine::LU</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a626fb87f79a8af6ef2c9ced758e7de11.html#exhale-function-namespace-sym-engine-1a626fb87f79a8af6ef2c9ced758e7de11"><span class="std std-ref">Function SymEngine::LU_solve</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a228d47dc0e565d704551384ffb92f6be.html#exhale-function-namespace-sym-engine-1a228d47dc0e565d704551384ffb92f6be"><span class="std std-ref">Function SymEngine::mul_dense_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a8d97ac56bb12921f3ce968f16f13079a.html#exhale-function-namespace-sym-engine-1a8d97ac56bb12921f3ce968f16f13079a"><span class="std std-ref">Function SymEngine::mul_dense_scalar</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a49007b7108d47b85b9baa3f788924515.html#exhale-function-namespace-sym-engine-1a49007b7108d47b85b9baa3f788924515"><span class="std std-ref">Function SymEngine::ones</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1af12517788e017ca05c2e173d697326a8.html#exhale-function-namespace-sym-engine-1af12517788e017ca05c2e173d697326a8"><span class="std std-ref">Function SymEngine::permuteFwd</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ac4a85f6cf3b0894aeb4793d6041e87dc.html#exhale-function-namespace-sym-engine-1ac4a85f6cf3b0894aeb4793d6041e87dc"><span class="std std-ref">Function SymEngine::pivot</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a94b3fae309e3eb79aad31b95736bd6a9.html#exhale-function-namespace-sym-engine-1a94b3fae309e3eb79aad31b95736bd6a9"><span class="std std-ref">Function SymEngine::pivoted_fraction_free_gauss_jordan_elimination</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1afaa37b1b593b898a07e829f902ce0302.html#exhale-function-namespace-sym-engine-1afaa37b1b593b898a07e829f902ce0302"><span class="std std-ref">Function SymEngine::pivoted_fraction_free_gaussian_elimination</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a297b9e511eeaba80b26896a479eda16f.html#exhale-function-namespace-sym-engine-1a297b9e511eeaba80b26896a479eda16f"><span class="std std-ref">Function SymEngine::pivoted_gauss_jordan_elimination</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a0db6194c085654eec369223849c26777.html#exhale-function-namespace-sym-engine-1a0db6194c085654eec369223849c26777"><span class="std std-ref">Function SymEngine::pivoted_gaussian_elimination</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aee80470359193f2825574a6cd0fb10eb.html#exhale-function-namespace-sym-engine-1aee80470359193f2825574a6cd0fb10eb"><span class="std std-ref">Function SymEngine::pivoted_LU(const DenseMatrix&amp;, DenseMatrix&amp;, permutelist&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a5612751c292565ba550bb33b255174ee.html#exhale-function-namespace-sym-engine-1a5612751c292565ba550bb33b255174ee"><span class="std std-ref">Function SymEngine::pivoted_LU(const DenseMatrix&amp;, DenseMatrix&amp;, DenseMatrix&amp;, permutelist&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a0193d6373e275d921e9e93bf409b302d.html#exhale-function-namespace-sym-engine-1a0193d6373e275d921e9e93bf409b302d"><span class="std std-ref">Function SymEngine::pivoted_LU_solve</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aa5875e572c76f38dc359629018ecdd77.html#exhale-function-namespace-sym-engine-1aa5875e572c76f38dc359629018ecdd77"><span class="std std-ref">Function SymEngine::QR</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1adf584f577f4216d68439ebee8c33d3de.html#exhale-function-namespace-sym-engine-1adf584f577f4216d68439ebee8c33d3de"><span class="std std-ref">Function SymEngine::reduced_row_echelon_form</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1adffed8f61e190c25a82dab915887fb46.html#exhale-function-namespace-sym-engine-1adffed8f61e190c25a82dab915887fb46"><span class="std std-ref">Function SymEngine::row_add_row_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a5c28226fa85481f4991b9a3198fd8fd8.html#exhale-function-namespace-sym-engine-1a5c28226fa85481f4991b9a3198fd8fd8"><span class="std std-ref">Function SymEngine::row_exchange_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a7d65756a2edecb9b81b96a619d42cc75.html#exhale-function-namespace-sym-engine-1a7d65756a2edecb9b81b96a619d42cc75"><span class="std std-ref">Function SymEngine::row_mul_scalar_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a98db802f7c1394fb36632c121bef1cf2.html#exhale-function-namespace-sym-engine-1a98db802f7c1394fb36632c121bef1cf2"><span class="std std-ref">Function SymEngine::sdiff(const DenseMatrix&amp;, const RCP&lt;const Basic&gt;&amp;, DenseMatrix&amp;, bool)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a72da90f7aa5ddf163ff1585d3970ab39.html#exhale-function-namespace-sym-engine-1a72da90f7aa5ddf163ff1585d3970ab39"><span class="std std-ref">Function SymEngine::sjacobian</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aeca109a45e795ad4528ab42136c56e2e.html#exhale-function-namespace-sym-engine-1aeca109a45e795ad4528ab42136c56e2e"><span class="std std-ref">Function SymEngine::submatrix_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a42dfc1259f891cab6657bcffc1c96671.html#exhale-function-namespace-sym-engine-1a42dfc1259f891cab6657bcffc1c96671"><span class="std std-ref">Function SymEngine::transpose_dense</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a986dfa7bfec941863e36292282242705.html#exhale-function-namespace-sym-engine-1a986dfa7bfec941863e36292282242705"><span class="std std-ref">Function SymEngine::zeros</span></a></p></li>
+</ul>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">File dense_matrix.cpp</a><ul>
+<li><a class="reference internal" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-dense-matrix-cpp">Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/dense_matrix.cpp</span></code>)</a></li>
+<li><a class="reference internal" href="#includes">Includes</a></li>
+<li><a class="reference internal" href="#namespaces">Namespaces</a></li>
+<li><a class="reference internal" href="#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File dense_matrix.cpp</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

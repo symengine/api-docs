@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a1fd201b852a258d731b82bada47a188b:
+
+Function SymEngine::polygamma
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::polygamma(const RCP<const Basic>&, const RCP<const Basic>&)

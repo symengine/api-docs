@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1adfce34e501f5641c5d623cf006b2b636:
+
+Function SymEngine::solve
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::solve(const RCP<const Basic>&, const RCP<const Symbol>&, const RCP<const Set>&)

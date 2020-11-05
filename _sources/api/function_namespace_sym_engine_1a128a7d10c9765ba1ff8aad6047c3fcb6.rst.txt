@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a128a7d10c9765ba1ff8aad6047c3fcb6:
+
+Function SymEngine::operator<<(std::ostream&, const SymEngine::set_basic&)
+==========================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::operator<<(std::ostream&, const SymEngine::set_basic&)

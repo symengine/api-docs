@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4b51fa317bd7b3748c3734239ae0dcee:
+
+Function SymEngine::eval_levicivita
+===================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::eval_levicivita(const vec_basic&, int)

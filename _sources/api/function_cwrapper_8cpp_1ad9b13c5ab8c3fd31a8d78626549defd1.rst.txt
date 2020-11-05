@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1ad9b13c5ab8c3fd31a8d78626549defd1:
+
+Function ntheory_fibonacci2(basic, basic, unsigned long)
+========================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ntheory_fibonacci2(basic, basic, unsigned long)

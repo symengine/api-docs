@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a6d548607a7a8e67b2b48aaba241f155f:
+
+Function vecbasic_get(CVecBasic \*, size_t, basic)
+==================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: vecbasic_get(CVecBasic *, size_t, basic)

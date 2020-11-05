@@ -1,0 +1,43 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.cpp:
+
+File number.cpp
+===============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/number.cpp``)
+----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h`)
+
+- ``symengine/pow.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`)
+
+- ``symengine/rational.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

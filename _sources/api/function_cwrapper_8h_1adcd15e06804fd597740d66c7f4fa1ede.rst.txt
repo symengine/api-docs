@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1adcd15e06804fd597740d66c7f4fa1ede:
+
+Function ntheory_mod_f(basic, const basic, const basic)
+=======================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ntheory_mod_f(basic, const basic, const basic)

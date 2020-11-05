@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ad88d5d3a65e4d0b3c0bc58254a435349:
+
+Function SymEngine::mp_pow_ui(integer_class&, const integer_class&, unsigned long)
+==================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_pow_ui(integer_class&, const integer_class&, unsigned long)

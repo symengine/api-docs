@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File visitor.cpp &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File visitor.cpp</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="file-visitor-cpp">
+<span id="file-home-travis-build-symengine-api-docs-projects-symengine-symengine-visitor-cpp"></span><h1>File visitor.cpp<a class="headerlink" href="#file-visitor-cpp" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="dir__home_travis_build_symengine_api-docs_projects_symengine_symengine.html#dir-home-travis-build-symengine-api-docs-projects-symengine-symengine"><span class="std std-ref">Parent directory</span></a> (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine</span></code>)</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-visitor-cpp" id="id1">Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/visitor.cpp</span></code>)</a></p></li>
+<li><p><a class="reference internal" href="#includes" id="id2">Includes</a></p></li>
+<li><p><a class="reference internal" href="#namespaces" id="id3">Namespaces</a></p></li>
+<li><p><a class="reference internal" href="#classes" id="id4">Classes</a></p></li>
+<li><p><a class="reference internal" href="#functions" id="id5">Functions</a></p></li>
+<li><p><a class="reference internal" href="#defines" id="id6">Defines</a></p></li>
+</ul>
+</div>
+<div class="section" id="definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-visitor-cpp">
+<h2>Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/visitor.cpp</span></code>)<a class="headerlink" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-visitor-cpp" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="includes">
+<h2>Includes<a class="headerlink" href="#includes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/polys/basic_conversions.h</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/sets.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-sets-h"><span class="std std-ref">File sets.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/type_codes.inc</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_type_codes.inc.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-type-codes-inc"><span class="std std-ref">File type_codes.inc</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/visitor.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-visitor-h"><span class="std std-ref">File visitor.h</span></a>)</p></li>
+</ul>
+</div>
+<div class="section" id="namespaces">
+<h2>Namespaces<a class="headerlink" href="#namespaces" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="namespace_SymEngine.html#namespace-symengine"><span class="std std-ref">Namespace SymEngine</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="class_sym_engine_1_1_free_symbols_visitor.html#exhale-class-class-sym-engine-1-1-free-symbols-visitor"><span class="std std-ref">Class FreeSymbolsVisitor</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a971b3f93e9fac9acf03b1f4081d5e9a6.html#exhale-function-namespace-sym-engine-1a971b3f93e9fac9acf03b1f4081d5e9a6"><span class="std std-ref">Function SymEngine::coeff</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae1259c23b4bb13c11d5ac1b28760e1be.html#exhale-function-namespace-sym-engine-1ae1259c23b4bb13c11d5ac1b28760e1be"><span class="std std-ref">Function SymEngine::count_ops</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a2f92d8c6b6e4c7d9d6350f09fdb83a0e.html#exhale-function-namespace-sym-engine-1a2f92d8c6b6e4c7d9d6350f09fdb83a0e"><span class="std std-ref">Function SymEngine::free_symbols(const Basic&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae8227a937fb0b2b4692e5d68bd838045.html#exhale-function-namespace-sym-engine-1ae8227a937fb0b2b4692e5d68bd838045"><span class="std std-ref">Function SymEngine::free_symbols(const MatrixBase&amp;)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a7394a556e2651fe84fcdb3335f89681c.html#exhale-function-namespace-sym-engine-1a7394a556e2651fe84fcdb3335f89681c"><span class="std std-ref">Function SymEngine::function_symbols</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae5b0bdd4cc645dd135e7efc9265b2361.html#exhale-function-namespace-sym-engine-1ae5b0bdd4cc645dd135e7efc9265b2361"><span class="std std-ref">Function SymEngine::has_symbol</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ac430ea4710b14ff8dd96a8a0d4792aac.html#exhale-function-namespace-sym-engine-1ac430ea4710b14ff8dd96a8a0d4792aac"><span class="std std-ref">Function SymEngine::postorder_traversal</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a645d72a8aa2b7e1a5a3f4cde8adfdd9d.html#exhale-function-namespace-sym-engine-1a645d72a8aa2b7e1a5a3f4cde8adfdd9d"><span class="std std-ref">Function SymEngine::postorder_traversal_stop</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ab83ec7940ad851065fc6426159a538f9.html#exhale-function-namespace-sym-engine-1ab83ec7940ad851065fc6426159a538f9"><span class="std std-ref">Function SymEngine::preorder_traversal</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a9c923106e7ba5c0ab5db8cd2e6b5a994.html#exhale-function-namespace-sym-engine-1a9c923106e7ba5c0ab5db8cd2e6b5a994"><span class="std std-ref">Function SymEngine::preorder_traversal_local_stop</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a99ebc87ef9bba99c9bfb2d5cb1ba2a21.html#exhale-function-namespace-sym-engine-1a99ebc87ef9bba99c9bfb2d5cb1ba2a21"><span class="std std-ref">Function SymEngine::preorder_traversal_stop</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="defines">
+<h2>Defines<a class="headerlink" href="#defines" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="define_visitor_8cpp_1a1ebe684b3cafcf65359fc64596f9787b.html#exhale-define-visitor-8cpp-1a1ebe684b3cafcf65359fc64596f9787b"><span class="std std-ref">Define ACCEPT</span></a></p></li>
+<li><p><a class="reference internal" href="define_visitor_8cpp_1a4806471ed102e83b9d860be0f80fdc07.html#exhale-define-visitor-8cpp-1a4806471ed102e83b9d860be0f80fdc07"><span class="std std-ref">Define SYMENGINE_ENUM</span></a></p></li>
+</ul>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">File visitor.cpp</a><ul>
+<li><a class="reference internal" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-visitor-cpp">Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/visitor.cpp</span></code>)</a></li>
+<li><a class="reference internal" href="#includes">Includes</a></li>
+<li><a class="reference internal" href="#namespaces">Namespaces</a></li>
+<li><a class="reference internal" href="#classes">Classes</a></li>
+<li><a class="reference internal" href="#functions">Functions</a></li>
+<li><a class="reference internal" href="#defines">Defines</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File visitor.cpp</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa067e8e1e48e2cb3c29426e98e755b8a:
+
+Function SymEngine::mp_perfect_power_p
+======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_perfect_power_p(const integer_class&)

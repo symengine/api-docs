@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8f9a1131b360ff67d1e9d61c142bd895:
+
+Function SymEngine::erfc
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::erfc(const RCP<const Basic>&)

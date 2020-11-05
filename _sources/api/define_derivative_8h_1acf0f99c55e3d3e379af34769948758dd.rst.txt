@@ -1,0 +1,13 @@
+.. _exhale_define_derivative_8h_1acf0f99c55e3d3e379af34769948758dd:
+
+Define debug_methods
+====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_derivative.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: debug_methods

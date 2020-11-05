@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Evaluate &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class EvaluateComplexDouble" href="class_sym_engine_1_1_evaluate_complex_double.html" />
+    <link rel="prev" title="Class EvalRealDoubleVisitorPattern" href="class_sym_engine_1_1_eval_real_double_visitor_pattern.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_evaluate_complex_double.html" title="Class EvaluateComplexDouble"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_eval_real_double_visitor_pattern.html" title="Class EvalRealDoubleVisitorPattern"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class Evaluate</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-evaluate">
+<span id="exhale-class-class-sym-engine-1-1-evaluate"></span><h1>Class Evaluate<a class="headerlink" href="#class-evaluate" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-number-h"><span class="std std-ref">File number.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="derived-types">
+<h3>Derived Types<a class="headerlink" href="#derived-types" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::EvaluateDouble&lt;</span> <span class="pre">ComplexDouble</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_evaluate_double.html#exhale-class-class-sym-engine-1-1-evaluate-double"><span class="std std-ref">Template Class EvaluateDouble</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::EvaluateDouble&lt;</span> <span class="pre">RealDouble</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_evaluate_double.html#exhale-class-class-sym-engine-1-1-evaluate-double"><span class="std std-ref">Template Class EvaluateDouble</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::EvaluateDouble&lt;</span> <span class="pre">T</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_evaluate_double.html#exhale-class-class-sym-engine-1-1-evaluate-double"><span class="std std-ref">Template Class EvaluateDouble</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::EvaluateInfty</span></code> (<a class="reference internal" href="class_sym_engine_1_1_evaluate_infty.html#exhale-class-class-sym-engine-1-1-evaluate-infty"><span class="std std-ref">Class EvaluateInfty</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::EvaluateNaN</span></code> (<a class="reference internal" href="class_sym_engine_1_1_evaluate_na_n.html#exhale-class-class-sym-engine-1-1-evaluate-na-n"><span class="std std-ref">Class EvaluateNaN</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine8EvaluateE">
+<span id="_CPPv3N9SymEngine8EvaluateE"></span><span id="_CPPv2N9SymEngine8EvaluateE"></span><span id="SymEngine::Evaluate"></span><span class="target" id="class_sym_engine_1_1_evaluate"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">Evaluate</code><a class="headerlink" href="#_CPPv4N9SymEngine8EvaluateE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>A class that will evaluate functions numerically. </p>
+<p>Subclassed by <a class="reference internal" href="class_sym_engine_1_1_evaluate_double.html#class_sym_engine_1_1_evaluate_double"><span class="std std-ref">SymEngine::EvaluateDouble&lt; ComplexDouble &gt;</span></a>, <a class="reference internal" href="class_sym_engine_1_1_evaluate_double.html#class_sym_engine_1_1_evaluate_double"><span class="std std-ref">SymEngine::EvaluateDouble&lt; RealDouble &gt;</span></a>, <a class="reference internal" href="class_sym_engine_1_1_evaluate_double.html#class_sym_engine_1_1_evaluate_double"><span class="std std-ref">SymEngine::EvaluateDouble&lt; T &gt;</span></a>, <a class="reference internal" href="class_sym_engine_1_1_evaluate_infty.html#class_sym_engine_1_1_evaluate_infty"><span class="std std-ref">SymEngine::EvaluateInfty</span></a>, <a class="reference internal" href="class_sym_engine_1_1_evaluate_na_n.html#class_sym_engine_1_1_evaluate_na_n"><span class="std std-ref">SymEngine::EvaluateNaN</span></a></p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3sinERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3sinERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3sinERK5Basic"></span><span id="SymEngine::Evaluate::sin__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a3d0802f634942255993222f852cf3031"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">sin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3sinERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3cosERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3cosERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3cosERK5Basic"></span><span id="SymEngine::Evaluate::cos__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1ace52281c5492f19c72289836e139c4a0"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">cos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3cosERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3tanERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3tanERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3tanERK5Basic"></span><span id="SymEngine::Evaluate::tan__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a6a8f83f99c37ccaf1344f084d99b3ba1"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">tan</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3tanERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3cotERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3cotERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3cotERK5Basic"></span><span id="SymEngine::Evaluate::cot__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a43ef15cf5fc29ce5bf4f266152eea9a2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">cot</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3cotERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3secERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3secERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3secERK5Basic"></span><span id="SymEngine::Evaluate::sec__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a8067408f171fc656ece06b214c3be4da"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">sec</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3secERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3cscERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3cscERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3cscERK5Basic"></span><span id="SymEngine::Evaluate::csc__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a59808b01243269b12d8baefbc6cda100"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">csc</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3cscERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4asinERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4asinERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4asinERK5Basic"></span><span id="SymEngine::Evaluate::asin__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a56e1aae1e898f07c4bcc887f9a80333f"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">asin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4asinERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4acosERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4acosERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4acosERK5Basic"></span><span id="SymEngine::Evaluate::acos__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a31ce37b627e9707a71d2cd32ead01da3"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">acos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4acosERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4atanERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4atanERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4atanERK5Basic"></span><span id="SymEngine::Evaluate::atan__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a253b34f88c094da71c53d2582e126a8e"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">atan</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4atanERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4acotERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4acotERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4acotERK5Basic"></span><span id="SymEngine::Evaluate::acot__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a8089b401e1201dd977c8d0c84adbf974"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">acot</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4acotERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4asecERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4asecERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4asecERK5Basic"></span><span id="SymEngine::Evaluate::asec__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a189141adf25a6aa4986782a7424f99f8"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">asec</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4asecERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4acscERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4acscERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4acscERK5Basic"></span><span id="SymEngine::Evaluate::acsc__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1afe4a85d64f029fe6385128629963499c"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">acsc</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4acscERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4sinhERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4sinhERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4sinhERK5Basic"></span><span id="SymEngine::Evaluate::sinh__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a7bfb13a581a5e39472cc1638e9aa4caf"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">sinh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4sinhERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4cschERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4cschERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4cschERK5Basic"></span><span id="SymEngine::Evaluate::csch__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1aaef4c3f9252d1b6a522800797127ddec"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">csch</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4cschERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4coshERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4coshERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4coshERK5Basic"></span><span id="SymEngine::Evaluate::cosh__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1ac5f41a9951f3ee4786b3687239811a7b"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">cosh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4coshERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4sechERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4sechERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4sechERK5Basic"></span><span id="SymEngine::Evaluate::sech__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1ae1d65e7aa0f2644ffa8dd1b5d7be9528"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">sech</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4sechERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4tanhERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4tanhERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4tanhERK5Basic"></span><span id="SymEngine::Evaluate::tanh__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1abfa52da36b9a983bdeedc1a7214cfb9d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">tanh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4tanhERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4cothERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4cothERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4cothERK5Basic"></span><span id="SymEngine::Evaluate::coth__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1aabb12232f72d08d6a18cba8f31229c61"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">coth</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4cothERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate5asinhERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate5asinhERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate5asinhERK5Basic"></span><span id="SymEngine::Evaluate::asinh__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a43e38bd02b3e2761953d36450b31db0b"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">asinh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate5asinhERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate5acschERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate5acschERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate5acschERK5Basic"></span><span id="SymEngine::Evaluate::acsch__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a78bfd6fe8e837f1e03b1c387c5bbaa72"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">acsch</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate5acschERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate5acoshERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate5acoshERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate5acoshERK5Basic"></span><span id="SymEngine::Evaluate::acosh__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a1b24b6736ab358d0a95b2dff15923a81"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">acosh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate5acoshERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate5atanhERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate5atanhERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate5atanhERK5Basic"></span><span id="SymEngine::Evaluate::atanh__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a15dc1faa89586c420c9070d231bb30db"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">atanh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate5atanhERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate5acothERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate5acothERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate5acothERK5Basic"></span><span id="SymEngine::Evaluate::acoth__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1ac2a940a77cf6c0190a8a3fee210add38"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">acoth</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate5acothERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate5asechERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate5asechERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate5asechERK5Basic"></span><span id="SymEngine::Evaluate::asech__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a2e739e31f8638df0d2018a6f91861cfb"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">asech</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate5asechERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3logERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3logERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3logERK5Basic"></span><span id="SymEngine::Evaluate::log__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1ad922da524e099046a5aa08792b573419"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">log</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3logERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate5gammaERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate5gammaERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate5gammaERK5Basic"></span><span id="SymEngine::Evaluate::gamma__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a214797042e966c122f33bd0d1ac892d6"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">gamma</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate5gammaERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3absERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3absERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3absERK5Basic"></span><span id="SymEngine::Evaluate::abs__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a755142ec2b7b7574efaeb5ed525a89ac"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">abs</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3absERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3expERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3expERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3expERK5Basic"></span><span id="SymEngine::Evaluate::exp__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a907408a02566b4a4ccc70a92068eaf6c"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">exp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3expERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate5floorERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate5floorERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate5floorERK5Basic"></span><span id="SymEngine::Evaluate::floor__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a8b1278e7988f112c2e63b4e641855265"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">floor</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate5floorERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate7ceilingERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate7ceilingERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate7ceilingERK5Basic"></span><span id="SymEngine::Evaluate::ceiling__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1af9e9bc588a33f7f39e46fbdf8f1d47d0"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">ceiling</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate7ceilingERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate8truncateERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate8truncateERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate8truncateERK5Basic"></span><span id="SymEngine::Evaluate::truncate__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1a06ef47b7df08e656758d212e65f55a30"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">truncate</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate8truncateERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate3erfERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate3erfERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate3erfERK5Basic"></span><span id="SymEngine::Evaluate::erf__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1aee549b6247ffe4b38162060f5af541dd"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">erf</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate3erfERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Evaluate4erfcERK5Basic">
+<span id="_CPPv3NK9SymEngine8Evaluate4erfcERK5Basic"></span><span id="_CPPv2NK9SymEngine8Evaluate4erfcERK5Basic"></span><span id="SymEngine::Evaluate::erfc__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_evaluate_1ac4e04ebc515d4ddf3913633fa86e9fd1"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">erfc</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&amp;<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine8Evaluate4erfcERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class Evaluate</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#derived-types">Derived Types</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_eval_real_double_visitor_pattern.html"
+                        title="previous chapter">Class EvalRealDoubleVisitorPattern</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_evaluate_complex_double.html"
+                        title="next chapter">Class EvaluateComplexDouble</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_evaluate.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_evaluate_complex_double.html" title="Class EvaluateComplexDouble"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_eval_real_double_visitor_pattern.html" title="Class EvalRealDoubleVisitorPattern"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class Evaluate</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

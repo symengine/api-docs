@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_needs_symbolic_expansion_visitor:
+
+Class NeedsSymbolicExpansionVisitor
+===================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_visitor.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::BaseVisitor< NeedsSymbolicExpansionVisitor, StopVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::NeedsSymbolicExpansionVisitor
+   :members:
+   :protected-members:
+   :undoc-members:

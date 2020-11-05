@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2203e9e82d8b995e95ba5ce0efe5fe0c:
+
+Function SymEngine::beta
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::beta(const RCP<const Basic>&, const RCP<const Basic>&)

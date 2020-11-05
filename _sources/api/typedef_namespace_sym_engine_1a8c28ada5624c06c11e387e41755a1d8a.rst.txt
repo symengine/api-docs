@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a8c28ada5624c06c11e387e41755a1d8a:
+
+Typedef SymEngine::vec_pair
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::vec_pair

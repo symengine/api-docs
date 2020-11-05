@@ -1,0 +1,39 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_piranha.cpp:
+
+File series_piranha.cpp
+=======================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/series_piranha.cpp``)
+------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/series_visitor.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_visitor.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

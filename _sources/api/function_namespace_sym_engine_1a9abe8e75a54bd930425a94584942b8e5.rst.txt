@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a9abe8e75a54bd930425a94584942b8e5:
+
+Function SymEngine::vec_basic_eq_perm
+=====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::vec_basic_eq_perm(const vec_basic&, const vec_basic&)

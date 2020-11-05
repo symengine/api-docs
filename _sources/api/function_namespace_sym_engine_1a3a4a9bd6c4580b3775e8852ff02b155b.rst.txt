@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a3a4a9bd6c4580b3775e8852ff02b155b:
+
+Function SymEngine::subnum
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::subnum(const RCP<const Number>&, const RCP<const Number>&)

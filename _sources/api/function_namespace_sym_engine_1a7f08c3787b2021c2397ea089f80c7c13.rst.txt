@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a7f08c3787b2021c2397ea089f80c7c13:
+
+Function SymEngine::operator<<(std::ostream&, const fmpq_wrapper&)
+==================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::operator<<(std::ostream&, const fmpq_wrapper&)

@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class InvertComplexVisitor &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class IRBuilder" href="class_sym_engine_1_1_i_r_builder.html" />
+    <link rel="prev" title="Class InverseTrigFunction" href="class_sym_engine_1_1_inverse_trig_function.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_i_r_builder.html" title="Class IRBuilder"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_inverse_trig_function.html" title="Class InverseTrigFunction"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class InvertComplexVisitor</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-invertcomplexvisitor">
+<span id="exhale-class-class-sym-engine-1-1-invert-complex-visitor"></span><h1>Class InvertComplexVisitor<a class="headerlink" href="#class-invertcomplexvisitor" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-solve-cpp"><span class="std std-ref">File solve.cpp</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::BaseVisitor&lt;</span> <span class="pre">InvertComplexVisitor</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#exhale-class-class-sym-engine-1-1-base-visitor"><span class="std std-ref">Template Class BaseVisitor</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitorE">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitorE"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitorE"></span><span id="SymEngine::InvertComplexVisitor"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">InvertComplexVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine20InvertComplexVisitorE" title="SymEngine::InvertComplexVisitor">InvertComplexVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor20InvertComplexVisitorE3RCPIK3SetE3RCPIK5DummyE3RCPIK6SymbolE3RCPIK3SetE">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor20InvertComplexVisitorE3RCPIK3SetE3RCPIK5DummyE3RCPIK6SymbolE3RCPIK3SetE"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor20InvertComplexVisitorE3RCPIK3SetE3RCPIK5DummyE3RCPIK6SymbolE3RCPIK3SetE"></span><span id="SymEngine::InvertComplexVisitor::InvertComplexVisitor__RCP:SetC:.RCP:DummyC:.RCP:SymbolC:.RCP:SetC:"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1acc9b555468605f868f3768fcbdd50eb1"></span><code class="sig-name descname">InvertComplexVisitor</code><span class="sig-paren">(</span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_set.html#_CPPv4N9SymEngine3SetE" title="SymEngine::Set">Set</a>&gt; <em>gY</em>, RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_dummy.html#_CPPv4N9SymEngine5DummyE" title="SymEngine::Dummy">Dummy</a>&gt; <em>nD</em>, RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a>&gt; <em>sym</em>, RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_set.html#_CPPv4N9SymEngine3SetE" title="SymEngine::Set">Set</a>&gt; <em>domain</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor20InvertComplexVisitorE3RCPIK3SetE3RCPIK5DummyE3RCPIK6SymbolE3RCPIK3SetE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor6bvisitERK5Basic"></span><span id="SymEngine::InvertComplexVisitor::bvisit__BasicCR"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1acf06e9ec702d2a6aabec0f57d3e40767"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor6bvisitERK3Add">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor6bvisitERK3Add"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor6bvisitERK3Add"></span><span id="SymEngine::InvertComplexVisitor::bvisit__AddCR"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1a7567fa30a513484e8e9016e78cc126cd"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_add.html#_CPPv4N9SymEngine3AddE" title="SymEngine::Add">Add</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor6bvisitERK3Add" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor6bvisitERK3Mul">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor6bvisitERK3Mul"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor6bvisitERK3Mul"></span><span id="SymEngine::InvertComplexVisitor::bvisit__MulCR"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1ab6d892509bedebce6bcd8569d9d07afd"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_mul.html#_CPPv4N9SymEngine3MulE" title="SymEngine::Mul">Mul</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor6bvisitERK3Mul" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor6bvisitERK3Pow"></span><span id="SymEngine::InvertComplexVisitor::bvisit__PowCR"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1afa4daec0893e7753076933dee8410091"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor5applyERK5Basic">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor5applyERK5Basic"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor5applyERK5Basic"></span><span id="SymEngine::InvertComplexVisitor::apply__BasicCR"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1a33597bb979bf478a8f4ad53d1ab83c9a"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_set.html#_CPPv4N9SymEngine3SetE" title="SymEngine::Set">Set</a>&gt; <code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>b</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor5applyERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Protected Attributes</p>
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor7result_E">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor7result_E"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor7result_E"></span><span id="SymEngine::InvertComplexVisitor::result___RCP:SetC:"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1a405c94dc733b0a7637dbf191631a679f"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_set.html#_CPPv4N9SymEngine3SetE" title="SymEngine::Set">Set</a>&gt; <code class="sig-name descname">result_</code><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor7result_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor3gY_E">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor3gY_E"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor3gY_E"></span><span id="SymEngine::InvertComplexVisitor::gY___RCP:SetC:"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1ad9a6c642b45c6e4ac648c8a8b939f976"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_set.html#_CPPv4N9SymEngine3SetE" title="SymEngine::Set">Set</a>&gt; <code class="sig-name descname">gY_</code><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor3gY_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor3nD_E">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor3nD_E"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor3nD_E"></span><span id="SymEngine::InvertComplexVisitor::nD___RCP:DummyC:"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1a44a65071cdd56bad918d74e812ce9d4d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_dummy.html#_CPPv4N9SymEngine5DummyE" title="SymEngine::Dummy">Dummy</a>&gt; <code class="sig-name descname">nD_</code><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor3nD_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor4sym_E">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor4sym_E"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor4sym_E"></span><span id="SymEngine::InvertComplexVisitor::sym___RCP:SymbolC:"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1a729cacb6f484fa5212e53605e6b49bc6"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a>&gt; <code class="sig-name descname">sym_</code><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor4sym_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine20InvertComplexVisitor7domain_E">
+<span id="_CPPv3N9SymEngine20InvertComplexVisitor7domain_E"></span><span id="_CPPv2N9SymEngine20InvertComplexVisitor7domain_E"></span><span id="SymEngine::InvertComplexVisitor::domain___RCP:SetC:"></span><span class="target" id="class_sym_engine_1_1_invert_complex_visitor_1a4a6e6d6a9659c6b282ccb8f04052f2b3"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_set.html#_CPPv4N9SymEngine3SetE" title="SymEngine::Set">Set</a>&gt; <code class="sig-name descname">domain_</code><a class="headerlink" href="#_CPPv4N9SymEngine20InvertComplexVisitor7domain_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class InvertComplexVisitor</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_inverse_trig_function.html"
+                        title="previous chapter">Class InverseTrigFunction</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_i_r_builder.html"
+                        title="next chapter">Class IRBuilder</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_invert_complex_visitor.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_i_r_builder.html" title="Class IRBuilder"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_inverse_trig_function.html" title="Class InverseTrigFunction"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class InvertComplexVisitor</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

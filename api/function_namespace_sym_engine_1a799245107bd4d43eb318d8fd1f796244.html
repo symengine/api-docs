@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function SymEngine::csr_binop_csr_canonical &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Function SymEngine::csr_diagonal" href="function_namespace_sym_engine_1a7b77b862f7b1eb804fb71fcbd0712bd5.html" />
+    <link rel="prev" title="Function SymEngine::cse" href="function_namespace_sym_engine_1af19f9286e6694c276b957b08105ce37d.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="function_namespace_sym_engine_1a7b77b862f7b1eb804fb71fcbd0712bd5.html" title="Function SymEngine::csr_diagonal"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="function_namespace_sym_engine_1af19f9286e6694c276b957b08105ce37d.html" title="Function SymEngine::cse"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Function SymEngine::csr_binop_csr_canonical</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="function-symengine-csr-binop-csr-canonical">
+<span id="exhale-function-namespace-sym-engine-1a799245107bd4d43eb318d8fd1f796244"></span><h1>Function SymEngine::csr_binop_csr_canonical<a class="headerlink" href="#function-symengine-csr-binop-csr-canonical" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sparse_matrix.cpp.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-sparse-matrix-cpp"><span class="std std-ref">File sparse_matrix.cpp</span></a></p></li>
+</ul>
+<div class="section" id="function-documentation">
+<h2>Function Documentation<a class="headerlink" href="#function-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine23csr_binop_csr_canonicalERK9CSRMatrixRK9CSRMatrixR9CSRMatrixRF3RCPIK5BasicERK3RCPIK5BasicERK3RCPIK5BasicEE">
+<span id="_CPPv3N9SymEngine23csr_binop_csr_canonicalERK9CSRMatrixRK9CSRMatrixR9CSRMatrixRF3RCPIK5BasicERK3RCPIK5BasicERK3RCPIK5BasicEE"></span><span id="_CPPv2N9SymEngine23csr_binop_csr_canonicalERK9CSRMatrixRK9CSRMatrixR9CSRMatrixRF3RCPIK5BasicERK3RCPIK5BasicERK3RCPIK5BasicEE"></span><span class="target" id="namespace_sym_engine_1a799245107bd4d43eb318d8fd1f796244"></span>void <code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">csr_binop_csr_canonical</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_c_s_r_matrix.html#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>A</em>, <em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_c_s_r_matrix.html#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>B</em>, <a class="reference internal" href="class_sym_engine_1_1_c_s_r_matrix.html#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>C</em>, RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; (&amp;<em>bin_op</em>)<span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&amp;, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&amp;<span class="sig-paren">)</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine23csr_binop_csr_canonicalERK9CSRMatrixRK9CSRMatrixR9CSRMatrixRF3RCPIK5BasicERK3RCPIK5BasicERK3RCPIK5BasicEE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Function SymEngine::csr_binop_csr_canonical</a><ul>
+<li><a class="reference internal" href="#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="function_namespace_sym_engine_1af19f9286e6694c276b957b08105ce37d.html"
+                        title="previous chapter">Function SymEngine::cse</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="function_namespace_sym_engine_1a7b77b862f7b1eb804fb71fcbd0712bd5.html"
+                        title="next chapter">Function SymEngine::csr_diagonal</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/function_namespace_sym_engine_1a799245107bd4d43eb318d8fd1f796244.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="function_namespace_sym_engine_1a7b77b862f7b1eb804fb71fcbd0712bd5.html" title="Function SymEngine::csr_diagonal"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="function_namespace_sym_engine_1af19f9286e6694c276b957b08105ce37d.html" title="Function SymEngine::cse"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Function SymEngine::csr_binop_csr_canonical</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

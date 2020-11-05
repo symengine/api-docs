@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a9fb0f7276b77dd114ee0a705016fd9ca:
+
+Function SymEngine::trigamma
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::trigamma(const RCP<const Basic>&)

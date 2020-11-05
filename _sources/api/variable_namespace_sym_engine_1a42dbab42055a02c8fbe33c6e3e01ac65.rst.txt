@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1a42dbab42055a02c8fbe33c6e3e01ac65:
+
+Variable SymEngine::EulerGamma
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::EulerGamma

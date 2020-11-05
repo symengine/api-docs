@@ -1,0 +1,36 @@
+.. _exhale_class_class_sym_engine_1_1_inverse_hyperbolic_function:
+
+Class InverseHyperbolicFunction
+===============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::HyperbolicBase`` (:ref:`exhale_class_class_sym_engine_1_1_hyperbolic_base`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::ACosh`` (:ref:`exhale_class_class_sym_engine_1_1_a_cosh`)
+- ``public SymEngine::ACoth`` (:ref:`exhale_class_class_sym_engine_1_1_a_coth`)
+- ``public SymEngine::ACsch`` (:ref:`exhale_class_class_sym_engine_1_1_a_csch`)
+- ``public SymEngine::ASech`` (:ref:`exhale_class_class_sym_engine_1_1_a_sech`)
+- ``public SymEngine::ASinh`` (:ref:`exhale_class_class_sym_engine_1_1_a_sinh`)
+- ``public SymEngine::ATanh`` (:ref:`exhale_class_class_sym_engine_1_1_a_tanh`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::InverseHyperbolicFunction
+   :members:
+   :protected-members:
+   :undoc-members:

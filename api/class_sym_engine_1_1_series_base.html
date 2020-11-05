@@ -1,0 +1,466 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Class SeriesBase &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class SeriesCoeffInterface" href="class_sym_engine_1_1_series_coeff_interface.html" />
+    <link rel="prev" title="Class Sech" href="class_sym_engine_1_1_sech.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_series_coeff_interface.html" title="Class SeriesCoeffInterface"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_sech.html" title="Class Sech"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Template Class SeriesBase</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="template-class-seriesbase">
+<span id="exhale-class-class-sym-engine-1-1-series-base"></span><h1>Template Class SeriesBase<a class="headerlink" href="#template-class-seriesbase" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-series-h"><span class="std std-ref">File series.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::SeriesCoeffInterface</span></code> (<a class="reference internal" href="class_sym_engine_1_1_series_coeff_interface.html#exhale-class-class-sym-engine-1-1-series-coeff-interface"><span class="std std-ref">Class SeriesCoeffInterface</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4I000EN9SymEngine10SeriesBaseE">
+<span id="_CPPv3I000EN9SymEngine10SeriesBaseE"></span><span id="_CPPv2I000EN9SymEngine10SeriesBaseE"></span>template&lt;typename <code class="sig-name descname">Poly</code>, typename <code class="sig-name descname">Coeff</code>, typename <code class="sig-name descname">Series</code>&gt;<br /><span class="target" id="class_sym_engine_1_1_series_base"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">SeriesBase</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_series_coeff_interface.html#_CPPv4N9SymEngine20SeriesCoeffInterfaceE" title="SymEngine::SeriesCoeffInterface">SeriesCoeffInterface</a><a class="headerlink" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10SeriesBaseE4PolyNSt6stringEj">
+<span id="_CPPv3N9SymEngine10SeriesBase10SeriesBaseE4PolyNSt6stringEj"></span><span id="_CPPv2N9SymEngine10SeriesBase10SeriesBaseE4PolyNSt6stringEj"></span><span id="SymEngine::SeriesBase::SeriesBase__Poly.ss.unsigned"></span><span class="target" id="class_sym_engine_1_1_series_base_1ae6097f5da53708c0ba919fd4a1e5e068"></span><code class="sig-name descname">SeriesBase</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <em>p</em>, std::string <em>var</em>, unsigned <em>degree</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10SeriesBaseE4PolyNSt6stringEj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase10get_degreeEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase10get_degreeEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase10get_degreeEv"></span><span id="SymEngine::SeriesBase::get_degreeC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a32c645f0f1709efa0c5c05eabbd5d664"></span>unsigned <code class="sig-name descname">get_degree</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase10get_degreeEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase7get_varEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase7get_varEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase7get_varEv"></span><span id="SymEngine::SeriesBase::get_varC"></span><span class="target" id="class_sym_engine_1_1_series_base_1ac8a3ee2ee26e47bf5bf1673554cea339"></span><em class="property">const</em> std::string &amp;<code class="sig-name descname">get_var</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase7get_varEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase8get_polyEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase8get_polyEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase8get_polyEv"></span><span id="SymEngine::SeriesBase::get_polyC"></span><span class="target" id="class_sym_engine_1_1_series_base_1affd175374cf7f815c9d3b2171ed044d2"></span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<code class="sig-name descname">get_poly</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase8get_polyEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase7is_zeroEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase7is_zeroEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase7is_zeroEv"></span><span id="SymEngine::SeriesBase::is_zeroC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a91b392123907de64a1ddbe3db61e906c"></span>bool <code class="sig-name descname">is_zero</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase7is_zeroEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if <code class="docutils literal notranslate"><span class="pre">0</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase6is_oneEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase6is_oneEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase6is_oneEv"></span><span id="SymEngine::SeriesBase::is_oneC"></span><span class="target" id="class_sym_engine_1_1_series_base_1afb8d592efc98c3aba356bdd56aa6747f"></span>bool <code class="sig-name descname">is_one</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase6is_oneEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if <code class="docutils literal notranslate"><span class="pre">1</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase12is_minus_oneEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase12is_minus_oneEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase12is_minus_oneEv"></span><span id="SymEngine::SeriesBase::is_minus_oneC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a65d43bc35883b5ab71c2e1995d4bbfe6"></span>bool <code class="sig-name descname">is_minus_one</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase12is_minus_oneEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if <code class="docutils literal notranslate"><span class="pre">-1</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase11is_negativeEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase11is_negativeEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase11is_negativeEv"></span><span id="SymEngine::SeriesBase::is_negativeC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a77de73de25e90bf4761fde6a124833de"></span>bool <code class="sig-name descname">is_negative</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase11is_negativeEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if negative </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase11is_positiveEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase11is_positiveEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase11is_positiveEv"></span><span id="SymEngine::SeriesBase::is_positiveC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a7b141ef4f2a1c4676e88503eb49918a2"></span>bool <code class="sig-name descname">is_positive</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase11is_positiveEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if positive </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase10is_complexEv">
+<span id="_CPPv3NK9SymEngine10SeriesBase10is_complexEv"></span><span id="_CPPv2NK9SymEngine10SeriesBase10is_complexEv"></span><span id="SymEngine::SeriesBase::is_complexC"></span><span class="target" id="class_sym_engine_1_1_series_base_1ab195a7fac9068875a3dce08a936051f1"></span>bool <code class="sig-name descname">is_complex</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase10is_complexEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if a complex number </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase6__eq__ERK5Basic">
+<span id="_CPPv3NK9SymEngine10SeriesBase6__eq__ERK5Basic"></span><span id="_CPPv2NK9SymEngine10SeriesBase6__eq__ERK5Basic"></span><span id="SymEngine::SeriesBase::__eq____BasicCRC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a011c1df4cccff2b57c52061edff599e6"></span>bool <code class="sig-name descname">__eq__</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase6__eq__ERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>true if <code class="docutils literal notranslate"><span class="pre">this</span></code> is equal to <code class="docutils literal notranslate"><span class="pre">o</span></code>. Deprecated: Use <a class="reference internal" href="function_namespace_sym_engine_1a2861dd1747fa1416cd6ef023ef08fca5.html#namespace_sym_engine_1a2861dd1747fa1416cd6ef023ef08fca5"><span class="std std-ref">eq(const Basic &amp;a, const Basic &amp;b)</span></a> non-member method </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase3addERK6Number">
+<span id="_CPPv3NK9SymEngine10SeriesBase3addERK6Number"></span><span id="_CPPv2NK9SymEngine10SeriesBase3addERK6Number"></span><span id="SymEngine::SeriesBase::add__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_series_base_1aa8cd59b6f47f16980495f1ab67acc2d2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase3addERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Addition. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase3mulERK6Number">
+<span id="_CPPv3NK9SymEngine10SeriesBase3mulERK6Number"></span><span id="_CPPv2NK9SymEngine10SeriesBase3mulERK6Number"></span><span id="SymEngine::SeriesBase::mul__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_series_base_1add4eb6159cabeb052931818ca1bf9571"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mul</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase3mulERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiplication. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase3powERK6Number">
+<span id="_CPPv3NK9SymEngine10SeriesBase3powERK6Number"></span><span id="_CPPv2NK9SymEngine10SeriesBase3powERK6Number"></span><span id="SymEngine::SeriesBase::pow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_series_base_1af47864c1b83ae960d7a802c092ad47f7"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">pow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase3powERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Power. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10SeriesBase4rpowERK6Number">
+<span id="_CPPv3NK9SymEngine10SeriesBase4rpowERK6Number"></span><span id="_CPPv2NK9SymEngine10SeriesBase4rpowERK6Number"></span><span id="SymEngine::SeriesBase::rpow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a405e291c2a9944373498407f2b1fd005"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rpow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10SeriesBase4rpowERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Static Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase9step_listEj">
+<span id="_CPPv3N9SymEngine10SeriesBase9step_listEj"></span><span id="_CPPv2N9SymEngine10SeriesBase9step_listEj"></span><span id="SymEngine::SeriesBase::step_list__unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1ae3f315bbdffa33ebc1acf2a28652a05d"></span><em class="property">const</em> std::list&lt;unsigned int&gt; &amp;<code class="sig-name descname">step_list</code><span class="sig-paren">(</span>unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase9step_listEj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase13series_invertERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase13series_invertERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase13series_invertERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_invert__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a27e00f0e452b81a4e9301c6e961a3991"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_invert</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase13series_invertERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase14series_reverseERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase14series_reverseERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase14series_reverseERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_reverse__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a72b3ee1406587571b8204e35fe90ffa2"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_reverse</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase14series_reverseERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase14series_nthrootERK4PolyiRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase14series_nthrootERK4PolyiRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase14series_nthrootERK4PolyiRK4Polyj"></span><span id="SymEngine::SeriesBase::series_nthroot__PolyCR.i.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a5777e03bcf3a07cc93f3fcc97158d362"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_nthroot</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, int <em>n</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase14series_nthrootERK4PolyiRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase11series_atanERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase11series_atanERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase11series_atanERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_atan__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a68b5b47c647a1bd91eff3d8714558f4c"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_atan</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase11series_atanERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10series_tanERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase10series_tanERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase10series_tanERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_tan__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a8d5a6a51bca9df6988ec31af4e314279"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_tan</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10series_tanERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10series_cotERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase10series_cotERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase10series_cotERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_cot__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1ae9272898f01f2d8e6cea95a057febddc"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_cot</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10series_cotERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase11_series_sinERK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase11_series_sinERK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase11_series_sinERK4Polyj"></span><span id="SymEngine::SeriesBase::_series_sin__PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a14c24f0dbbabe37f30bd27212df76ea3"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">_series_sin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase11_series_sinERK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10series_sinERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase10series_sinERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase10series_sinERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_sin__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a09547d13f48abd570ac9b8b078d14682"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_sin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10series_sinERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10series_cscERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase10series_cscERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase10series_cscERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_csc__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1ac027ddb76b74061f2c20652a4f04dfd0"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_csc</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10series_cscERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase11series_asinERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase11series_asinERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase11series_asinERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_asin__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a057020f0f6eca55fbf9d4af11362fbca"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_asin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase11series_asinERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase11series_acosERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase11series_acosERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase11series_acosERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_acos__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a9b761a105bf394e08b1f808c2c553f62"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_acos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase11series_acosERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase11_series_cosERK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase11_series_cosERK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase11_series_cosERK4Polyj"></span><span id="SymEngine::SeriesBase::_series_cos__PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a85057a8e353dc114f41e74b061dc7e76"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">_series_cos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase11_series_cosERK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10series_cosERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase10series_cosERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase10series_cosERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_cos__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a58e214c4928bf4122ef38cac76792f0d"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_cos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10series_cosERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10series_secERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase10series_secERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase10series_secERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_sec__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1ada95d00e3303426d0380f6b5bb9ccce6"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_sec</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10series_secERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10series_logERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase10series_logERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase10series_logERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_log__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1ac5cec2cd3a25548f07131fef12865939"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_log</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10series_logERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase10series_expERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase10series_expERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase10series_expERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_exp__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1ac3a615df9a5edbc70fa26543023873be"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_exp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase10series_expERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase15series_lambertwERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase15series_lambertwERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase15series_lambertwERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_lambertw__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a8bcd09de2d65506c73fa3a10792fbc5e"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_lambertw</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase15series_lambertwERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase11series_sinhERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase11series_sinhERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase11series_sinhERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_sinh__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a5ba20f35e428747c8621ea16d8e78a10"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_sinh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase11series_sinhERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase11series_coshERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase11series_coshERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase11series_coshERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_cosh__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1a54c0567bab88b4bae5439cbb47988884"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_cosh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase11series_coshERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase12series_atanhERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase12series_atanhERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase12series_atanhERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_atanh__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1adb141277eba1b0d4b22381dfba899204"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_atanh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase12series_atanhERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase12series_asinhERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase12series_asinhERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase12series_asinhERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_asinh__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1acc7cca86bee09aaa92a2157636d3b7a2"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_asinh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase12series_asinhERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase11series_tanhERK4PolyRK4Polyj">
+<span id="_CPPv3N9SymEngine10SeriesBase11series_tanhERK4PolyRK4Polyj"></span><span id="_CPPv2N9SymEngine10SeriesBase11series_tanhERK4PolyRK4Polyj"></span><span id="SymEngine::SeriesBase::series_tanh__PolyCR.PolyCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_series_base_1ae2b99a4e878ee891ed9ceded2ed7194d"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">series_tanh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>s</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> &amp;<em>var</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase11series_tanhERK4PolyRK4Polyj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase3sinERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase3sinERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase3sinERK5Coeff"></span><span id="SymEngine::SeriesBase::sin__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1ac5f9556c8c493bc11d7f9b28f44381b6"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">sin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase3sinERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase3cosERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase3cosERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase3cosERK5Coeff"></span><span id="SymEngine::SeriesBase::cos__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1a626b454f8cb1e400ad4114d4376df836"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">cos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase3cosERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase3tanERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase3tanERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase3tanERK5Coeff"></span><span id="SymEngine::SeriesBase::tan__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1ac0e79eacd129be0836228390c3160474"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">tan</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase3tanERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase4asinERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase4asinERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase4asinERK5Coeff"></span><span id="SymEngine::SeriesBase::asin__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1afe0301d00577c9c83ae0bf6b53d1b097"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">asin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase4asinERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase4acosERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase4acosERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase4acosERK5Coeff"></span><span id="SymEngine::SeriesBase::acos__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1a1b609a5709edb9a71a95c2c48cd567cf"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">acos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase4acosERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase4atanERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase4atanERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase4atanERK5Coeff"></span><span id="SymEngine::SeriesBase::atan__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1a017d7f96344c9f9c847be82cc337e637"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">atan</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase4atanERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase4sinhERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase4sinhERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase4sinhERK5Coeff"></span><span id="SymEngine::SeriesBase::sinh__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1a3542cf0c6bfcdbbe31fc6931dc9f7253"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">sinh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase4sinhERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase4coshERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase4coshERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase4coshERK5Coeff"></span><span id="SymEngine::SeriesBase::cosh__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1af737a5c486c23117f3a0b5335f9bdb5d"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">cosh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase4coshERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase4tanhERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase4tanhERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase4tanhERK5Coeff"></span><span id="SymEngine::SeriesBase::tanh__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1aeb7b1dae9ec2d256799be1356107d660"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">tanh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase4tanhERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase5asinhERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase5asinhERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase5asinhERK5Coeff"></span><span id="SymEngine::SeriesBase::asinh__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1a19552723d8582dddd7048746a2885226"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">asinh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase5asinhERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase5atanhERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase5atanhERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase5atanhERK5Coeff"></span><span id="SymEngine::SeriesBase::atanh__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1ae310d74b412246fe696dd8dac97f18b8"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">atanh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase5atanhERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase3expERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase3expERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase3expERK5Coeff"></span><span id="SymEngine::SeriesBase::exp__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1accdefef67303c01b8228a9689c8e7c09"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">exp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase3expERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10SeriesBase3logERK5Coeff">
+<span id="_CPPv3N9SymEngine10SeriesBase3logERK5Coeff"></span><span id="_CPPv2N9SymEngine10SeriesBase3logERK5Coeff"></span><span id="SymEngine::SeriesBase::log__CoeffCR"></span><span class="target" id="class_sym_engine_1_1_series_base_1ada469a6050a1fad3987351dfb4ae784c"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> <code class="sig-name descname">log</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Coeff">Coeff</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase3logERK5Coeff" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Protected Attributes</p>
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine10SeriesBase2p_E">
+<span id="_CPPv3N9SymEngine10SeriesBase2p_E"></span><span id="_CPPv2N9SymEngine10SeriesBase2p_E"></span><span id="SymEngine::SeriesBase::p___PolyC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a0d030dfeb32250eed650fae1603cfdc5"></span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase::Poly">Poly</a> <code class="sig-name descname">p_</code><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase2p_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine10SeriesBase4var_E">
+<span id="_CPPv3N9SymEngine10SeriesBase4var_E"></span><span id="_CPPv2N9SymEngine10SeriesBase4var_E"></span><span id="SymEngine::SeriesBase::var___ssC"></span><span class="target" id="class_sym_engine_1_1_series_base_1a0e6870cc87bcce091c83c6eecb013dcf"></span><em class="property">const</em> std::string <code class="sig-name descname">var_</code><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase4var_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine10SeriesBase7degree_E">
+<span id="_CPPv3N9SymEngine10SeriesBase7degree_E"></span><span id="_CPPv2N9SymEngine10SeriesBase7degree_E"></span><span id="SymEngine::SeriesBase::degree___unsignedC"></span><span class="target" id="class_sym_engine_1_1_series_base_1ae566bec7a13d78581a16bb5727149027"></span><em class="property">const</em> unsigned <code class="sig-name descname">degree_</code><a class="headerlink" href="#_CPPv4N9SymEngine10SeriesBase7degree_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Template Class SeriesBase</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_sech.html"
+                        title="previous chapter">Class Sech</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_series_coeff_interface.html"
+                        title="next chapter">Class SeriesCoeffInterface</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_series_base.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_series_coeff_interface.html" title="Class SeriesCoeffInterface"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_sech.html" title="Class Sech"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Template Class SeriesBase</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a96aa3a224ee194cc9d47e1098e3e0a0f:
+
+Function ascii_art_str()
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ascii_art_str()

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a24513440dc9c2758c07fb8d7cae3ff09:
+
+Function basic_gamma
+====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_gamma(basic, const basic)

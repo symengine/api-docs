@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ac4005fc558a62af163a375964729baa5:
+
+Function SymEngine::set_complement
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::set_complement(const RCP<const Set>&, const RCP<const Set>&)

@@ -1,0 +1,13 @@
+.. _exhale_define_visitor_8cpp_1a4806471ed102e83b9d860be0f80fdc07:
+
+Define SYMENGINE_ENUM
+=====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: SYMENGINE_ENUM

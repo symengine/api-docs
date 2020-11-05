@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4986c6feb6b56fe61080472b36458aa9:
+
+Function SymEngine::pow(const Expression&, const Expression&)
+=============================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expression.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::pow(const Expression&, const Expression&)

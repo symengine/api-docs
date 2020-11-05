@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1adbe7b8cae0aabc2776ce47a4b66d670b:
+
+Function SymEngine::solve_poly
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::solve_poly(const RCP<const Basic>&, const RCP<const Symbol>&, const RCP<const Set>&)

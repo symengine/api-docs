@@ -1,0 +1,16 @@
+.. _exhale_struct_struct_sym_engine_1_1remove__reference_3_01_t_01_6_01_4:
+
+Template Struct remove_reference< T & >
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_casts.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: SymEngine::remove_reference< T & >
+   :members:
+   :protected-members:
+   :undoc-members:

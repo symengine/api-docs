@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a12b4b4161e68085035da278324b9c9b7:
+
+Function SymEngine::linear_eqns_to_matrix
+=========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::linear_eqns_to_matrix(const vec_basic&, const vec_sym&)

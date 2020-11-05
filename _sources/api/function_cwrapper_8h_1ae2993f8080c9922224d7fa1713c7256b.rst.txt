@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1ae2993f8080c9922224d7fa1713c7256b:
+
+Function number_is_complex(const basic)
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: number_is_complex(const basic)

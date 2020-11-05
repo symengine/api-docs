@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a57d61a0dee78521414681917a83280f6:
+
+Function complex_set(basic, const basic, const basic)
+=====================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: complex_set(basic, const basic, const basic)

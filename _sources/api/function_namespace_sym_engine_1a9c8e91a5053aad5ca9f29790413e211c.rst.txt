@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a9c8e91a5053aad5ca9f29790413e211c:
+
+Template Function SymEngine::unified_compare(const RCP<const T>&, const RCP<const U>&)
+======================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::unified_compare(const RCP<const T>&, const RCP<const U>&)

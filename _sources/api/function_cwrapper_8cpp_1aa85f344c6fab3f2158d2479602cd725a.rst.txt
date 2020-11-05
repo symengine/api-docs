@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1aa85f344c6fab3f2158d2479602cd725a:
+
+Function basic_const_I(basic)
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_const_I(basic)

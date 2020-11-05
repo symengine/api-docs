@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a78cd7d9fe5866ae1cf7f2adf78940c15:
+
+Function SymEngine::multiplicative_order
+========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::multiplicative_order(const Ptr<RCP<const Integer>>&, const RCP<const Integer>&, const RCP<const Integer>&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a645d72a8aa2b7e1a5a3f4cde8adfdd9d:
+
+Function SymEngine::postorder_traversal_stop
+============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::postorder_traversal_stop(const Basic&, StopVisitor&)

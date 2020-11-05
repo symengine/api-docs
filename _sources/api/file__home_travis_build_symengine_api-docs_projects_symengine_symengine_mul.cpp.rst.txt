@@ -1,0 +1,60 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.cpp:
+
+File mul.cpp
+============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/mul.cpp``)
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h`)
+
+- ``symengine/complex.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex.h`)
+
+- ``symengine/pow.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h`)
+
+- ``symengine/test_visitors.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_test_visitors.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1a16a102cafaa2be38a4fd095789b1a806`
+
+- :ref:`exhale_function_namespace_sym_engine_1a896396e3101c37df65e7a2b46fc7cadd`
+
+- :ref:`exhale_function_namespace_sym_engine_1aa54b8f86703cfc0974fe422df064c864`
+
+- :ref:`exhale_function_namespace_sym_engine_1aeb3fb08495ed47a074a19b8bbacb3db2`
+

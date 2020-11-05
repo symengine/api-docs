@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1af1054fc1177b11063e096b4da02a6c0c:
+
+Function SymEngine::LDL
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::LDL(const DenseMatrix&, DenseMatrix&, DenseMatrix&)

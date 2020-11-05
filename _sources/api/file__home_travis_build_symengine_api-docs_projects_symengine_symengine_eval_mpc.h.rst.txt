@@ -1,0 +1,46 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpc.h:
+
+File eval_mpc.h
+===============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/eval_mpc.h``)
+----------------------------------------------------------------------------------------------
+
+
+
+
+Detailed Description
+--------------------
+
+Evaluation of numeric expressions using MPC 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/symengine_config.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_mpc.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpc.cpp`
+
+
+

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1aa8a1f4aa8e288bc57c46da193124fb37:
+
+Function dense_matrix_jacobian(CDenseMatrix \*, const CDenseMatrix \*, const CDenseMatrix \*)
+=============================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_jacobian(CDenseMatrix *, const CDenseMatrix *, const CDenseMatrix *)

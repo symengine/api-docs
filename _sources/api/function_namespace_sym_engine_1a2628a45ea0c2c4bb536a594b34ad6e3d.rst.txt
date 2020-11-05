@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2628a45ea0c2c4bb536a594b34ad6e3d:
+
+Function SymEngine::primitive_root
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::primitive_root(const Ptr<RCP<const Integer>>&, const Integer&)

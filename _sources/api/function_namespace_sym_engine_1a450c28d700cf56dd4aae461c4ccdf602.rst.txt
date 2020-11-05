@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a450c28d700cf56dd4aae461c4ccdf602:
+
+Function SymEngine::quotient_f
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::quotient_f(const Integer&, const Integer&)

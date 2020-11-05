@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a1537bac2b0c18aae0f13875a4fa4d194:
+
+Function basic_parse(basic, const char \*)
+==========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_parse(basic, const char *)

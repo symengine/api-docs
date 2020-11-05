@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1abbdc2f1f3c92c9560d10a5b7998e33e3:
+
+Function SymEngine::finiteset
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::finiteset(const set_basic&)

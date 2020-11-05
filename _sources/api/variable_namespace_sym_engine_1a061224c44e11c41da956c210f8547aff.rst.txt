@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1a061224c44e11c41da956c210f8547aff:
+
+Variable SymEngine::GoldenRatio
+===============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::GoldenRatio

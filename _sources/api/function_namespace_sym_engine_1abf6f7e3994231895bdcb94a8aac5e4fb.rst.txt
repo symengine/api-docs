@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1abf6f7e3994231895bdcb94a8aac5e4fb:
+
+Function SymEngine::neq
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic-inl.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::neq(const Basic&, const Basic&)

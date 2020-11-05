@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1abfcded7aa73810752cc456a32eb29989:
+
+Function SymEngine::infty(const RCP<const Number>&)
+===================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_infinity.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::infty(const RCP<const Number>&)

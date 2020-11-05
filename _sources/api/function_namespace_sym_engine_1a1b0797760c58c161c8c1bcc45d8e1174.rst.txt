@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a1b0797760c58c161c8c1bcc45d8e1174:
+
+Function SymEngine::inverse_lookup
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::inverse_lookup(umap_basic_basic&, const RCP<const Basic>&, const Ptr<RCP<const Basic>>&)

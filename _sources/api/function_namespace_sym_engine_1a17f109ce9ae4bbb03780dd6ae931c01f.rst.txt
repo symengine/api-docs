@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a17f109ce9ae4bbb03780dd6ae931c01f:
+
+Function SymEngine::fdiff(const Ptr<RCP<const Basic>>&, const Function&, unsigned)
+==================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_derivative.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::fdiff(const Ptr<RCP<const Basic>>&, const Function&, unsigned)

@@ -1,0 +1,13 @@
+.. _exhale_typedef_cwrapper_8h_1a0b8f9163ab0bb02c2e6d5b0deff96afb:
+
+Typedef CLambdaRealDoubleVisitor
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: CLambdaRealDoubleVisitor

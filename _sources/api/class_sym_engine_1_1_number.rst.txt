@@ -1,0 +1,39 @@
+.. _exhale_class_class_sym_engine_1_1_number:
+
+Class Number
+============
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Basic`` (:ref:`exhale_class_class_sym_engine_1_1_basic`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::ComplexBase`` (:ref:`exhale_class_class_sym_engine_1_1_complex_base`)
+- ``public SymEngine::Infty`` (:ref:`exhale_class_class_sym_engine_1_1_infty`)
+- ``public SymEngine::Integer`` (:ref:`exhale_class_class_sym_engine_1_1_integer`)
+- ``public SymEngine::NaN`` (:ref:`exhale_class_class_sym_engine_1_1_na_n`)
+- ``public SymEngine::NumberWrapper`` (:ref:`exhale_class_class_sym_engine_1_1_number_wrapper`)
+- ``public SymEngine::Rational`` (:ref:`exhale_class_class_sym_engine_1_1_rational`)
+- ``public SymEngine::RealDouble`` (:ref:`exhale_class_class_sym_engine_1_1_real_double`)
+- ``public SymEngine::RealMPFR`` (:ref:`exhale_class_class_sym_engine_1_1_real_m_p_f_r`)
+- ``public SymEngine::SeriesCoeffInterface`` (:ref:`exhale_class_class_sym_engine_1_1_series_coeff_interface`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Number
+   :members:
+   :protected-members:
+   :undoc-members:

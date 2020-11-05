@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aed618fa204dd30c86aa8e1772c72ed80:
+
+Function SymEngine::invertComplex
+=================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::invertComplex(const RCP<const Basic>&, const RCP<const Set>&, const RCP<const Symbol>&, const RCP<const Dummy>&, const RCP<const Set>&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ab30d4b6631f4f77c6e64404857ccc429:
+
+Function SymEngine::gamma_positive_int
+======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::gamma_positive_int(const RCP<const Basic>&)

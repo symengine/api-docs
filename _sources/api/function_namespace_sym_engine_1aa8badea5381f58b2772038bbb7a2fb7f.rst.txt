@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa8badea5381f58b2772038bbb7a2fb7f:
+
+Function SymEngine::cos
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::cos(const RCP<const Basic>&)

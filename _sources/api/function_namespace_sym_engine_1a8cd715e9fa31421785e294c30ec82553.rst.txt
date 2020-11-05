@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8cd715e9fa31421785e294c30ec82553:
+
+Function SymEngine::mp_scan1
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_scan1(const integer_class&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aabbf8eb7c388f8b9b73e10441867380e:
+
+Function SymEngine::mp_perfect_square_p
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_perfect_square_p(const integer_class&)

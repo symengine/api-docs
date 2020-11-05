@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a6236ec2d9438644ef88cf1d163a16de5:
+
+Function dense_matrix_submatrix(CDenseMatrix \*, const CDenseMatrix \*, unsigned long int, unsigned long int, unsigned long int, unsigned long int, unsigned long int, unsigned long int)
+=========================================================================================================================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_submatrix(CDenseMatrix *, const CDenseMatrix *, unsigned long int, unsigned long int, unsigned long int, unsigned long int, unsigned long int, unsigned long int)

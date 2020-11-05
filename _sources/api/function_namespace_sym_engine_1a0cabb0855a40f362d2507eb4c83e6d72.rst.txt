@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a0cabb0855a40f362d2507eb4c83e6d72:
+
+Function SymEngine::tree_cse
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cse.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::tree_cse(vec_pair&, vec_basic&, const vec_basic&, umap_basic_basic&)

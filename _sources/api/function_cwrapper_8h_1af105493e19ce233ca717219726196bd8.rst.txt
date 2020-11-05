@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1af105493e19ce233ca717219726196bd8:
+
+Function basic_neg
+==================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_neg(basic, const basic)

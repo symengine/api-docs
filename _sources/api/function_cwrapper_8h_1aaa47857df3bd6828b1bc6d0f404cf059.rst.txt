@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1aaa47857df3bd6828b1bc6d0f404cf059:
+
+Function dense_matrix_row_join(CDenseMatrix \*, const CDenseMatrix \*)
+======================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_row_join(CDenseMatrix *, const CDenseMatrix *)

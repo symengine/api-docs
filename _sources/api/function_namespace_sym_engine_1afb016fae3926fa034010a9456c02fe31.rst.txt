@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1afb016fae3926fa034010a9456c02fe31:
+
+Function SymEngine::rewrite_as_exp
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rewrite.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::rewrite_as_exp(const RCP<const Basic>&)

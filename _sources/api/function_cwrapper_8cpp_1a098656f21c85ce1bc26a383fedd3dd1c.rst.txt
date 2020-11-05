@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a098656f21c85ce1bc26a383fedd3dd1c:
+
+Function basic_get_class_id(const char \*)
+==========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_get_class_id(const char *)

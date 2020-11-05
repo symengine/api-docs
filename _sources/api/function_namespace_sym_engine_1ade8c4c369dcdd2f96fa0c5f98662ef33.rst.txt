@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ade8c4c369dcdd2f96fa0c5f98662ef33:
+
+Function SymEngine::rational
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::rational(long, long)

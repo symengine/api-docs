@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a310f9f699f41cff255e29fb6013e3f40:
+
+Function SymEngine::mobius
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mobius(const Integer&)

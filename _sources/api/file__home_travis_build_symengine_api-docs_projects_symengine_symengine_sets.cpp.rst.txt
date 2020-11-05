@@ -1,0 +1,64 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.cpp:
+
+File sets.cpp
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/sets.cpp``)
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``iterator``
+
+- ``symengine/add.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h`)
+
+- ``symengine/functions.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`)
+
+- ``symengine/logic.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.h`)
+
+- ``symengine/symengine_casts.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_casts.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1a8f4604cdd696c1d067294bc78fec6231`
+
+- :ref:`exhale_function_namespace_sym_engine_1a5a1f3e4ae17eab4142fbf84a4c7d4860`
+
+- :ref:`exhale_function_namespace_sym_engine_1ac4005fc558a62af163a375964729baa5`
+
+- :ref:`exhale_function_namespace_sym_engine_1abd51a64b1542f0a8432a766a5f09b2e1`
+
+- :ref:`exhale_function_namespace_sym_engine_1ac6cf35a531bcaf92eabd0c9f5e8996f8`
+
+- :ref:`exhale_function_namespace_sym_engine_1ad84087b2c3be9c7dc348f094297c0820`
+

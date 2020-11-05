@@ -1,0 +1,16 @@
+.. _dir__home_travis_build_symengine_api-docs_projects:
+
+
+Directory projects
+==================
+
+
+*Directory path:* ``/home/travis/build/symengine/api-docs/projects``
+
+Subdirectories
+--------------
+
+- :ref:`dir__home_travis_build_symengine_api-docs_projects_symengine`
+
+
+

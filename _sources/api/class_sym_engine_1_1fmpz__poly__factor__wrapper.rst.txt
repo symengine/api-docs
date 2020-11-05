@@ -1,0 +1,16 @@
+.. _exhale_class_class_sym_engine_1_1fmpz__poly__factor__wrapper:
+
+Class fmpz_poly_factor_wrapper
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_flint_wrapper.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::fmpz_poly_factor_wrapper
+   :members:
+   :protected-members:
+   :undoc-members:

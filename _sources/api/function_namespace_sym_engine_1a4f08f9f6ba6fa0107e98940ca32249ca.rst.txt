@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4f08f9f6ba6fa0107e98940ca32249ca:
+
+Function SymEngine::fibonacci
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::fibonacci(unsigned long)

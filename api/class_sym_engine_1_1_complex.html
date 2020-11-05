@@ -1,0 +1,576 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Complex &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class ComplexBase" href="class_sym_engine_1_1_complex_base.html" />
+    <link rel="prev" title="Class Complement" href="class_sym_engine_1_1_complement.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_complex_base.html" title="Class ComplexBase"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_complement.html" title="Class Complement"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class Complex</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-complex">
+<span id="exhale-class-class-sym-engine-1-1-complex"></span><h1>Class Complex<a class="headerlink" href="#class-complex" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-complex-h"><span class="std std-ref">File complex.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::ComplexBase</span></code> (<a class="reference internal" href="class_sym_engine_1_1_complex_base.html#exhale-class-class-sym-engine-1-1-complex-base"><span class="std std-ref">Class ComplexBase</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine7ComplexE">
+<span id="_CPPv3N9SymEngine7ComplexE"></span><span id="_CPPv2N9SymEngine7ComplexE"></span><span id="SymEngine::Complex"></span><span class="target" id="class_sym_engine_1_1_complex"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">Complex</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_complex_base.html#_CPPv4N9SymEngine11ComplexBaseE" title="SymEngine::ComplexBase">ComplexBase</a><a class="headerlink" href="#_CPPv4N9SymEngine7ComplexE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> Class. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine7Complex7ComplexE14rational_class14rational_class">
+<span id="_CPPv3N9SymEngine7Complex7ComplexE14rational_class14rational_class"></span><span id="_CPPv2N9SymEngine7Complex7ComplexE14rational_class14rational_class"></span><span id="SymEngine::Complex::Complex__rational_class.rational_class"></span><span class="target" id="class_sym_engine_1_1_complex_1a0118acdd1815c5e649b7ce968c81bb88"></span><code class="sig-name descname">Complex</code><span class="sig-paren">(</span><a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> <em>real</em>, <a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> <em>imaginary</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine7Complex7ComplexE14rational_class14rational_class" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Constructor of <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> class. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex12is_canonicalERK14rational_classRK14rational_class">
+<span id="_CPPv3NK9SymEngine7Complex12is_canonicalERK14rational_classRK14rational_class"></span><span id="_CPPv2NK9SymEngine7Complex12is_canonicalERK14rational_classRK14rational_class"></span><span id="SymEngine::Complex::is_canonical__rational_classCR.rational_classCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1aa65d673cc2711e04fb3b68bb87b0bbcd"></span>bool <code class="sig-name descname">is_canonical</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> &amp;<em>real</em>, <em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> &amp;<em>imaginary</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex12is_canonicalERK14rational_classRK14rational_class" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if canonical </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex8__hash__Ev">
+<span id="_CPPv3NK9SymEngine7Complex8__hash__Ev"></span><span id="_CPPv2NK9SymEngine7Complex8__hash__Ev"></span><span id="SymEngine::Complex::__hash__C"></span><span class="target" id="class_sym_engine_1_1_complex_1a31b94e6dd2f0ad69be90ba0443fbf24c"></span><a class="reference internal" href="typedef_namespace_sym_engine_1a455620f815334592057d7966d62d5de6.html#_CPPv4N9SymEngine6hash_tE" title="SymEngine::hash_t">hash_t</a> <code class="sig-name descname">__hash__</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex8__hash__Ev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>size of the hash </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex6__eq__ERK5Basic">
+<span id="_CPPv3NK9SymEngine7Complex6__eq__ERK5Basic"></span><span id="_CPPv2NK9SymEngine7Complex6__eq__ERK5Basic"></span><span id="SymEngine::Complex::__eq____BasicCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a9cd9b0e567c670900340c9d291e13fde"></span>bool <code class="sig-name descname">__eq__</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex6__eq__ERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_equality.html#class_sym_engine_1_1_equality"><span class="std std-ref">Equality</span></a> comparator <dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>whether the 2 objects are equal </p>
+</dd>
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">o</span></code>: - Object to be compared with </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7compareERK5Basic">
+<span id="_CPPv3NK9SymEngine7Complex7compareERK5Basic"></span><span id="_CPPv2NK9SymEngine7Complex7compareERK5Basic"></span><span id="SymEngine::Complex::compare__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1aaa072442b2c5fd411fa2904fe010066c"></span>int <code class="sig-name descname">compare</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7compareERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Returns -1, 0, 1 for <code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">&lt;</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">==</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">&gt;</span> <span class="pre">o</span></code>. This method is used when you want to sort things like <code class="docutils literal notranslate"><span class="pre">x+y+z</span></code> into canonical order. This function assumes that <code class="docutils literal notranslate"><span class="pre">o</span></code> is the same type as <code class="docutils literal notranslate"><span class="pre">this</span></code>. Use <code class="docutils literal notranslate"><span class="pre">__cmp__</span></code> if you want general comparison. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex9real_partEv">
+<span id="_CPPv3NK9SymEngine7Complex9real_partEv"></span><span id="_CPPv2NK9SymEngine7Complex9real_partEv"></span><span id="SymEngine::Complex::real_partC"></span><span class="target" id="class_sym_engine_1_1_complex_1a14d9563699bb6cbcdce58bc9a5a20678"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">real_part</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex9real_partEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Get the real part of the complex number. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex14imaginary_partEv">
+<span id="_CPPv3NK9SymEngine7Complex14imaginary_partEv"></span><span id="_CPPv2NK9SymEngine7Complex14imaginary_partEv"></span><span id="SymEngine::Complex::imaginary_partC"></span><span class="target" id="class_sym_engine_1_1_complex_1a731b4af6b8a6ae3a3d2acfee6c6aa687"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">imaginary_part</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex14imaginary_partEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Get the imaginary part of the complex number. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex9conjugateEv">
+<span id="_CPPv3NK9SymEngine7Complex9conjugateEv"></span><span id="_CPPv2NK9SymEngine7Complex9conjugateEv"></span><span id="SymEngine::Complex::conjugateC"></span><span class="target" id="class_sym_engine_1_1_complex_1a787877a8c149cbb8190ea5ab91b3777d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">conjugate</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex9conjugateEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Get the conjugate of the complex number. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex11is_positiveEv">
+<span id="_CPPv3NK9SymEngine7Complex11is_positiveEv"></span><span id="_CPPv2NK9SymEngine7Complex11is_positiveEv"></span><span id="SymEngine::Complex::is_positiveC"></span><span class="target" id="class_sym_engine_1_1_complex_1a31e909343abf811e638754d4036acbfd"></span>bool <code class="sig-name descname">is_positive</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex11is_positiveEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex11is_negativeEv">
+<span id="_CPPv3NK9SymEngine7Complex11is_negativeEv"></span><span id="_CPPv2NK9SymEngine7Complex11is_negativeEv"></span><span id="SymEngine::Complex::is_negativeC"></span><span class="target" id="class_sym_engine_1_1_complex_1a949132e39b70893c0e78437d63610552"></span>bool <code class="sig-name descname">is_negative</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex11is_negativeEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex10is_complexEv">
+<span id="_CPPv3NK9SymEngine7Complex10is_complexEv"></span><span id="_CPPv2NK9SymEngine7Complex10is_complexEv"></span><span id="SymEngine::Complex::is_complexC"></span><span class="target" id="class_sym_engine_1_1_complex_1a5978143714cddaf1c5a496df403a4ec0"></span>bool <code class="sig-name descname">is_complex</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex10is_complexEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7is_zeroEv">
+<span id="_CPPv3NK9SymEngine7Complex7is_zeroEv"></span><span id="_CPPv2NK9SymEngine7Complex7is_zeroEv"></span><span id="SymEngine::Complex::is_zeroC"></span><span class="target" id="class_sym_engine_1_1_complex_1ab6936d33d4f9e758f2f3d60de681ceda"></span>bool <code class="sig-name descname">is_zero</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7is_zeroEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> since <code class="docutils literal notranslate"><span class="pre">imaginary_</span></code> cannot be zero </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex6is_oneEv">
+<span id="_CPPv3NK9SymEngine7Complex6is_oneEv"></span><span id="_CPPv2NK9SymEngine7Complex6is_oneEv"></span><span id="SymEngine::Complex::is_oneC"></span><span class="target" id="class_sym_engine_1_1_complex_1a438b9585d4ecc0a6c593d675f3396f95"></span>bool <code class="sig-name descname">is_one</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex6is_oneEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> since <code class="docutils literal notranslate"><span class="pre">imaginary_</span></code> cannot be zero </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex12is_minus_oneEv">
+<span id="_CPPv3NK9SymEngine7Complex12is_minus_oneEv"></span><span id="_CPPv2NK9SymEngine7Complex12is_minus_oneEv"></span><span id="SymEngine::Complex::is_minus_oneC"></span><span class="target" id="class_sym_engine_1_1_complex_1a9aaeab84dc088d17fffe1b88e06e096e"></span>bool <code class="sig-name descname">is_minus_one</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex12is_minus_oneEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> since <code class="docutils literal notranslate"><span class="pre">imaginary_</span></code> cannot be zero </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7addcompERK7Complex">
+<span id="_CPPv3NK9SymEngine7Complex7addcompERK7Complex"></span><span id="_CPPv2NK9SymEngine7Complex7addcompERK7Complex"></span><span id="SymEngine::Complex::addcomp__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1abb6d9516df14783f2bfbf5ec7823374d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7addcompERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7addcompERK8Rational">
+<span id="_CPPv3NK9SymEngine7Complex7addcompERK8Rational"></span><span id="_CPPv2NK9SymEngine7Complex7addcompERK8Rational"></span><span id="SymEngine::Complex::addcomp__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1abfb046c69f75c63786d02954a9b74949"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7addcompERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7addcompERK7Integer">
+<span id="_CPPv3NK9SymEngine7Complex7addcompERK7Integer"></span><span id="_CPPv2NK9SymEngine7Complex7addcompERK7Integer"></span><span id="SymEngine::Complex::addcomp__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a865df22bfbf2511a7cbb605a4f1975ac"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7addcompERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7subcompERK7Complex">
+<span id="_CPPv3NK9SymEngine7Complex7subcompERK7Complex"></span><span id="_CPPv2NK9SymEngine7Complex7subcompERK7Complex"></span><span id="SymEngine::Complex::subcomp__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a0a033bc70f5bd427da77081aeea252bc"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7subcompERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7subcompERK8Rational">
+<span id="_CPPv3NK9SymEngine7Complex7subcompERK8Rational"></span><span id="_CPPv2NK9SymEngine7Complex7subcompERK8Rational"></span><span id="SymEngine::Complex::subcomp__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1aeb60a577d69eda847e483e6f42ae6540"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7subcompERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7subcompERK7Integer">
+<span id="_CPPv3NK9SymEngine7Complex7subcompERK7Integer"></span><span id="_CPPv2NK9SymEngine7Complex7subcompERK7Integer"></span><span id="SymEngine::Complex::subcomp__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a77d6b284b84bb1120559d798657055e6"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7subcompERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex8rsubcompERK7Complex">
+<span id="_CPPv3NK9SymEngine7Complex8rsubcompERK7Complex"></span><span id="_CPPv2NK9SymEngine7Complex8rsubcompERK7Complex"></span><span id="SymEngine::Complex::rsubcomp__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a75aada5db69b4ee7b38c07aeac7d3912"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsubcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex8rsubcompERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> from other <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex8rsubcompERK8Rational">
+<span id="_CPPv3NK9SymEngine7Complex8rsubcompERK8Rational"></span><span id="_CPPv2NK9SymEngine7Complex8rsubcompERK8Rational"></span><span id="SymEngine::Complex::rsubcomp__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1ae2944f4ccb8cfa0123b03a316e6e12d4"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsubcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex8rsubcompERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> from other <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex8rsubcompERK7Integer">
+<span id="_CPPv3NK9SymEngine7Complex8rsubcompERK7Integer"></span><span id="_CPPv2NK9SymEngine7Complex8rsubcompERK7Integer"></span><span id="SymEngine::Complex::rsubcomp__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a9d557917c2993143c321ccfc0cb3408e"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsubcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex8rsubcompERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> from other <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7mulcompERK7Complex">
+<span id="_CPPv3NK9SymEngine7Complex7mulcompERK7Complex"></span><span id="_CPPv2NK9SymEngine7Complex7mulcompERK7Complex"></span><span id="SymEngine::Complex::mulcomp__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a50a28c3e03fe8362093acb5d1017641b"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7mulcompERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7mulcompERK8Rational">
+<span id="_CPPv3NK9SymEngine7Complex7mulcompERK8Rational"></span><span id="_CPPv2NK9SymEngine7Complex7mulcompERK8Rational"></span><span id="SymEngine::Complex::mulcomp__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a648034bc3e6fcd5c3bba4bd8fb0a7080"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7mulcompERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7mulcompERK7Integer">
+<span id="_CPPv3NK9SymEngine7Complex7mulcompERK7Integer"></span><span id="_CPPv2NK9SymEngine7Complex7mulcompERK7Integer"></span><span id="SymEngine::Complex::mulcomp__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a767dd9a8120eed125e44974cba3eab90"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7mulcompERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7divcompERK7Complex">
+<span id="_CPPv3NK9SymEngine7Complex7divcompERK7Complex"></span><span id="_CPPv2NK9SymEngine7Complex7divcompERK7Complex"></span><span id="SymEngine::Complex::divcomp__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1adf47976c33609993ef4ae15013846524"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7divcompERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7divcompERK8Rational">
+<span id="_CPPv3NK9SymEngine7Complex7divcompERK8Rational"></span><span id="_CPPv2NK9SymEngine7Complex7divcompERK8Rational"></span><span id="SymEngine::Complex::divcomp__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a0f23350be3052b46429430b07ee5a7cb"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7divcompERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7divcompERK7Integer">
+<span id="_CPPv3NK9SymEngine7Complex7divcompERK7Integer"></span><span id="_CPPv2NK9SymEngine7Complex7divcompERK7Integer"></span><span id="SymEngine::Complex::divcomp__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a5cd1e6e89726b4aa611f82b104f357b0"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7divcompERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex8rdivcompERK7Integer">
+<span id="_CPPv3NK9SymEngine7Complex8rdivcompERK7Integer"></span><span id="_CPPv2NK9SymEngine7Complex8rdivcompERK7Integer"></span><span id="SymEngine::Complex::rdivcomp__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a902a981d64b226070fee21db04861a14"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rdivcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex8rdivcompERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide other by the <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex7powcompERK7Integer">
+<span id="_CPPv3NK9SymEngine7Complex7powcompERK7Integer"></span><span id="_CPPv2NK9SymEngine7Complex7powcompERK7Integer"></span><span id="SymEngine::Complex::powcomp__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a6016a44414ac81e2881a83fb8b1315a2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">powcomp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex7powcompERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_pow.html#class_sym_engine_1_1_pow"><span class="std std-ref">Pow</span></a> <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex3addERK6Number">
+<span id="_CPPv3NK9SymEngine7Complex3addERK6Number"></span><span id="_CPPv2NK9SymEngine7Complex3addERK6Number"></span><span id="SymEngine::Complex::add__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1af4456199de9fd6ac750bfb44c3ce0bd8"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex3addERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">addcomp</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex3subERK6Number">
+<span id="_CPPv3NK9SymEngine7Complex3subERK6Number"></span><span id="_CPPv2NK9SymEngine7Complex3subERK6Number"></span><span id="SymEngine::Complex::sub__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1acac306aa60ad6f4b0d00d55a318034a2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">sub</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex3subERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">subcomp</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex4rsubERK6Number">
+<span id="_CPPv3NK9SymEngine7Complex4rsubERK6Number"></span><span id="_CPPv2NK9SymEngine7Complex4rsubERK6Number"></span><span id="SymEngine::Complex::rsub__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a3d10e9edc81bff228d34e545a73b5a43"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsub</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex4rsubERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">rsubcomp</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex3mulERK6Number">
+<span id="_CPPv3NK9SymEngine7Complex3mulERK6Number"></span><span id="_CPPv2NK9SymEngine7Complex3mulERK6Number"></span><span id="SymEngine::Complex::mul__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1ad794965adfb7f8eb368f89ae63bd79f1"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mul</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex3mulERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">mulcomp</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex3divERK6Number">
+<span id="_CPPv3NK9SymEngine7Complex3divERK6Number"></span><span id="_CPPv2NK9SymEngine7Complex3divERK6Number"></span><span id="SymEngine::Complex::div__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1acd165a2cd013a718eadcf6bb79eb169c"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">div</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex3divERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">divcomp</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex4rdivERK6Number">
+<span id="_CPPv3NK9SymEngine7Complex4rdivERK6Number"></span><span id="_CPPv2NK9SymEngine7Complex4rdivERK6Number"></span><span id="SymEngine::Complex::rdiv__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a4866c3e29c6d21dcc6d463b6f68b7c44"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rdiv</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex4rdivERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">rdivcomp</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex3powERK6Number">
+<span id="_CPPv3NK9SymEngine7Complex3powERK6Number"></span><span id="_CPPv2NK9SymEngine7Complex3powERK6Number"></span><span id="SymEngine::Complex::pow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a613f3bcffffad70300c9446c34471488"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">pow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex3powERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">powcomp</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine7Complex4rpowERK6Number">
+<span id="_CPPv3NK9SymEngine7Complex4rpowERK6Number"></span><span id="_CPPv2NK9SymEngine7Complex4rpowERK6Number"></span><span id="SymEngine::Complex::rpow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_complex_1a87935d566c07155e0ff9eef8ec78f325"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rpow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine7Complex4rpowERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine7Complex5real_E">
+<span id="_CPPv3N9SymEngine7Complex5real_E"></span><span id="_CPPv2N9SymEngine7Complex5real_E"></span><span id="SymEngine::Complex::real___rational_class"></span><span class="target" id="class_sym_engine_1_1_complex_1a41dc778c2cb9bfa284537d58677b7e7a"></span><a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> <code class="sig-name descname">real_</code><a class="headerlink" href="#_CPPv4N9SymEngine7Complex5real_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><code class="docutils literal notranslate"><span class="pre">real_</span></code> : Real part of the complex <a class="reference internal" href="class_sym_engine_1_1_number.html#class_sym_engine_1_1_number"><span class="std std-ref">Number</span></a> <code class="docutils literal notranslate"><span class="pre">imaginary_</span></code> : Imaginary part of the complex <a class="reference internal" href="class_sym_engine_1_1_number.html#class_sym_engine_1_1_number"><span class="std std-ref">Number</span></a> </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine7Complex10imaginary_E">
+<span id="_CPPv3N9SymEngine7Complex10imaginary_E"></span><span id="_CPPv2N9SymEngine7Complex10imaginary_E"></span><span id="SymEngine::Complex::imaginary___rational_class"></span><span class="target" id="class_sym_engine_1_1_complex_1a1be79f3b233514ed265c11397a8db982"></span><a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> <code class="sig-name descname">imaginary_</code><a class="headerlink" href="#_CPPv4N9SymEngine7Complex10imaginary_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Static Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine7Complex8from_mpqEK14rational_classK14rational_class">
+<span id="_CPPv3N9SymEngine7Complex8from_mpqEK14rational_classK14rational_class"></span><span id="_CPPv2N9SymEngine7Complex8from_mpqEK14rational_classK14rational_class"></span><span id="SymEngine::Complex::from_mpq__rational_classC.rational_classC"></span><span class="target" id="class_sym_engine_1_1_complex_1a0f92c792c26925e32d88da7451bfb83e"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">from_mpq</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> <em>re</em>, <em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> <em>im</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine7Complex8from_mpqEK14rational_classK14rational_class" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Creates an instance of <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> if imaginary part is non-zero <dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> or <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> depending on imaginary part. </p>
+</dd>
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;tt&gt;re&lt;/tt&gt;</span></code>: must already be in rational_class canonical form </p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;tt&gt;im&lt;/tt&gt;</span></code>: must already be in rational_class canonical form </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine7Complex13from_two_ratsERK8RationalRK8Rational">
+<span id="_CPPv3N9SymEngine7Complex13from_two_ratsERK8RationalRK8Rational"></span><span id="_CPPv2N9SymEngine7Complex13from_two_ratsERK8RationalRK8Rational"></span><span id="SymEngine::Complex::from_two_rats__RationalCR.RationalCR"></span><span class="target" id="class_sym_engine_1_1_complex_1aa2bfd5c4dfc9a893c1fef53c5d6889aa"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">from_two_rats</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>re</em>, <em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>im</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine7Complex13from_two_ratsERK8RationalRK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Constructs <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> from re, im. If im is 0 it will return a <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> instead. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine7Complex13from_two_numsERK6NumberRK6Number">
+<span id="_CPPv3N9SymEngine7Complex13from_two_numsERK6NumberRK6Number"></span><span id="_CPPv2N9SymEngine7Complex13from_two_numsERK6NumberRK6Number"></span><span id="SymEngine::Complex::from_two_nums__NumberCR.NumberCR"></span><span class="target" id="class_sym_engine_1_1_complex_1adacb67b50059961da56764fe0a9170fa"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">from_two_nums</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>re</em>, <em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>im</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine7Complex13from_two_numsERK6NumberRK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Constructs <a class="reference internal" href="#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> from re, im. If im is 0 it will return a <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> instead. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class Complex</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_complement.html"
+                        title="previous chapter">Class Complement</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_complex_base.html"
+                        title="next chapter">Class ComplexBase</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_complex.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_complex_base.html" title="Class ComplexBase"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_complement.html" title="Class Complement"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class Complex</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

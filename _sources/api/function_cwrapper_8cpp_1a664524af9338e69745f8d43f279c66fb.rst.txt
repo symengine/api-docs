@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a664524af9338e69745f8d43f279c66fb:
+
+Function dense_matrix_FFLDU(CDenseMatrix \*, CDenseMatrix \*, CDenseMatrix \*, const CDenseMatrix \*)
+=====================================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_FFLDU(CDenseMatrix *, CDenseMatrix *, CDenseMatrix *, const CDenseMatrix *)

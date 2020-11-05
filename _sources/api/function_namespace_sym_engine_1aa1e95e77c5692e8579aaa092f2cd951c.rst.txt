@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa1e95e77c5692e8579aaa092f2cd951c:
+
+Function SymEngine::lowergamma
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::lowergamma(const RCP<const Basic>&, const RCP<const Basic>&)

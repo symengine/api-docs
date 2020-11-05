@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a6e226e49f16ea34a9597ba4e137bde32:
+
+Function basic_new_heap()
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_new_heap()

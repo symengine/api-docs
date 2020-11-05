@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1afce78cce62fb8602ca2018102df20b88:
+
+Function dense_matrix_diag(CDenseMatrix \*, CVecBasic \*, long int)
+===================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_diag(CDenseMatrix *, CVecBasic *, long int)

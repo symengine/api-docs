@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1ad1e948201f86344e84e283c63370d120:
+
+Function dense_matrix_str(const CDenseMatrix \*)
+================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_str(const CDenseMatrix *)

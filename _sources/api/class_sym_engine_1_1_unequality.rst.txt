@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_unequality:
+
+Class Unequality
+================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Relational`` (:ref:`exhale_class_class_sym_engine_1_1_relational`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Unequality
+   :members:
+   :protected-members:
+   :undoc-members:

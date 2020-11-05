@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1ac42208d40a14e0c3e65eb457645b73f0:
+
+Function basic_eq(const basic, const basic)
+===========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_eq(const basic, const basic)

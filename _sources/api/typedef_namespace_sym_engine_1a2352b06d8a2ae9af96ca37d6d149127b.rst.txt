@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a2352b06d8a2ae9af96ca37d6d149127b:
+
+Typedef SymEngine::vec_boolean
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::vec_boolean

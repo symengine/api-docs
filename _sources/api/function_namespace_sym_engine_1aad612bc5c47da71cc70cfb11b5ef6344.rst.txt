@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aad612bc5c47da71cc70cfb11b5ef6344:
+
+Function SymEngine::crt
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::crt(const Ptr<RCP<const Integer>>&, const std::vector<RCP<const Integer>>&, const std::vector<RCP<const Integer>>&)

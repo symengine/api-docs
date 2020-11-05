@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4f5dc2e3fd1198f985c2dee59fbf848f:
+
+Function SymEngine::sech
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::sech(const RCP<const Basic>&)

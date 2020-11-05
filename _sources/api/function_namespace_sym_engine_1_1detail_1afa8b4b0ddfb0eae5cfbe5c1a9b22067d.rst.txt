@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1_1detail_1afa8b4b0ddfb0eae5cfbe5c1a9b22067d:
+
+Function SymEngine::detail::poly_print
+======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expression.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::detail::poly_print(const Expression&)

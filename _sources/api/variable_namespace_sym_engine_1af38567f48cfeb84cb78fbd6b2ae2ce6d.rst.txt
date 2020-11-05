@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1af38567f48cfeb84cb78fbd6b2ae2ce6d:
+
+Variable SymEngine::sq3
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::sq3

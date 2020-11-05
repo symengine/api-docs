@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a5a9d43e47063c86008bbaea6c9b56cd8:
+
+Template Function SymEngine::unified_eq(const RCP<const T>&, const RCP<const U>&)
+=================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::unified_eq(const RCP<const T>&, const RCP<const U>&)

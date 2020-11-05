@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a133cec803e9dbba163ce363a413a8a83:
+
+Function SymEngine::kronecker
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::kronecker(const Integer&, const Integer&)

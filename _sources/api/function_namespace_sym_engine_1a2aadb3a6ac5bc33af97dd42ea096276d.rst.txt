@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2aadb3a6ac5bc33af97dd42ea096276d:
+
+Function SymEngine::Lt
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::Lt(const RCP<const Basic>&, const RCP<const Basic>&)

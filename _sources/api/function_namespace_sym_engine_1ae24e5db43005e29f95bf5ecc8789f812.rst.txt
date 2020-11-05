@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ae24e5db43005e29f95bf5ecc8789f812:
+
+Function SymEngine::sinh
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::sinh(const RCP<const Basic>&)

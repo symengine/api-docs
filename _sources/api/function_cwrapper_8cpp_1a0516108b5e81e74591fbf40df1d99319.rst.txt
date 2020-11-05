@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a0516108b5e81e74591fbf40df1d99319:
+
+Function integer_get_ui(const basic)
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: integer_get_ui(const basic)

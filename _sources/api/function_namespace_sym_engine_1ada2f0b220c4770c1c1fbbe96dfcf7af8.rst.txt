@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ada2f0b220c4770c1c1fbbe96dfcf7af8:
+
+Function SymEngine::Gt
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::Gt(const RCP<const Basic>&, const RCP<const Basic>&)

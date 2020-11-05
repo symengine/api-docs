@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a9475315b968b7347f046579630d91424:
+
+Function dense_matrix_mul_scalar(CDenseMatrix \*, const CDenseMatrix \*, const basic)
+=====================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_mul_scalar(CDenseMatrix *, const CDenseMatrix *, const basic)

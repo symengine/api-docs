@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1ae01d22bd7d92e15548fac34620f80d76:
+
+Function symengine_have_component(const char \*)
+================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: symengine_have_component(const char *)

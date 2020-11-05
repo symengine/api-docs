@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1af19f9286e6694c276b957b08105ce37d:
+
+Function SymEngine::cse
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cse.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::cse(vec_pair&, vec_basic&, const vec_basic&)

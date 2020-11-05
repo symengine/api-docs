@@ -1,0 +1,13 @@
+.. _exhale_define_basic_8h_1a87c58cfe167897f7fed2477f8f35a2ea:
+
+Define SYMENGINE_INCLUDE_ALL
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: SYMENGINE_INCLUDE_ALL

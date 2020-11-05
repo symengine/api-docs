@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1a090bbddf8659d698ed8c2d61da9f86d4:
+
+Variable SymEngine::C4
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::C4

@@ -1,0 +1,16 @@
+.. _exhale_class_class_sym_engine_1_1_enable_r_c_p_from_this:
+
+Template Class EnableRCPFromThis
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_rcp.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::EnableRCPFromThis
+   :members:
+   :protected-members:
+   :undoc-members:

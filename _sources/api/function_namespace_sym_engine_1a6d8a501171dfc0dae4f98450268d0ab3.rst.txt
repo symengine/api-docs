@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a6d8a501171dfc0dae4f98450268d0ab3:
+
+Function SymEngine::acoth
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::acoth(const RCP<const Basic>&)

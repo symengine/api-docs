@@ -1,0 +1,154 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.cpp:
+
+File llvm_double.cpp
+====================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/llvm_double.cpp``)
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``algorithm``
+
+- ``cassert``
+
+- ``fstream``
+
+- ``llvm/ADT/APFloat.h``
+
+- ``llvm/ADT/STLExtras.h``
+
+- ``llvm/Analysis/Passes.h``
+
+- ``llvm/ExecutionEngine/ExecutionEngine.h``
+
+- ``llvm/ExecutionEngine/GenericValue.h``
+
+- ``llvm/ExecutionEngine/MCJIT.h``
+
+- ``llvm/ExecutionEngine/ObjectCache.h``
+
+- ``llvm/IR/Argument.h``
+
+- ``llvm/IR/Attributes.h``
+
+- ``llvm/IR/BasicBlock.h``
+
+- ``llvm/IR/Constants.h``
+
+- ``llvm/IR/DerivedTypes.h``
+
+- ``llvm/IR/Function.h``
+
+- ``llvm/IR/IRBuilder.h``
+
+- ``llvm/IR/Instructions.h``
+
+- ``llvm/IR/Intrinsics.h``
+
+- ``llvm/IR/LLVMContext.h``
+
+- ``llvm/IR/LegacyPassManager.h``
+
+- ``llvm/IR/Module.h``
+
+- ``llvm/IR/Type.h``
+
+- ``llvm/IR/Verifier.h``
+
+- ``llvm/Support/Casting.h``
+
+- ``llvm/Support/FileSystem.h``
+
+- ``llvm/Support/ManagedStatic.h``
+
+- ``llvm/Support/Path.h``
+
+- ``llvm/Support/TargetSelect.h``
+
+- ``llvm/Support/raw_ostream.h``
+
+- ``llvm/Target/TargetMachine.h``
+
+- ``llvm/Transforms/Scalar.h``
+
+- ``llvm/Transforms/Vectorize.h``
+
+- ``memory``
+
+- ``symengine/eval.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.h`)
+
+- ``symengine/eval_double.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_double.h`)
+
+- ``symengine/llvm_double.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.h`)
+
+- ``vector``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_i_r_builder`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1adbd1fd8694f1d214445e1f1ff89f56f7`
+
+- :ref:`exhale_function_namespace_sym_engine_1a8008d9874694df0c0714c3d2dddcdb9d`
+
+- :ref:`exhale_function_namespace_sym_engine_1ac2075df0bf71d1fc05cd67d441ab2901`
+
+- :ref:`exhale_function_namespace_sym_engine_1ae9e84b99fc2e570bb9981503d0f12646`
+
+- :ref:`exhale_function_namespace_sym_engine_1ad71930ec47fb65b0e6acce8eb199a9a7`
+
+- :ref:`exhale_function_namespace_sym_engine_1a0cdaf734ccf0a0d4887109e5ac9c54b0`
+
+- :ref:`exhale_function_namespace_sym_engine_1a2ec69c2614848a607ef0fea85d5378e7`
+
+- :ref:`exhale_function_namespace_sym_engine_1a046606e767860d5ca4d1b3e42dbdc014`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_llvm__double_8cpp_1abcb8998cdda132f7c8bc21d20483bca6`
+
+- :ref:`exhale_define_llvm__double_8cpp_1a5f328ecd803c42e6271af4005248f646`
+
+- :ref:`exhale_define_llvm__double_8cpp_1a6982893cb61b7fd42f6a7600c96deb87`
+
+- :ref:`exhale_define_llvm__double_8cpp_1a884df4aa94bab1bc504bbe7ed2cc42d5`
+

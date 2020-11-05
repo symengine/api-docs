@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_real_imag_visitor:
+
+Class RealImagVisitor
+=====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_as_real_imag.cpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::BaseVisitor< RealImagVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::RealImagVisitor
+   :members:
+   :protected-members:
+   :undoc-members:

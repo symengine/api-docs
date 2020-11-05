@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aff0d65ef819e6ee1328757e4acf3fb1e:
+
+Function SymEngine::lucas2
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::lucas2(const Ptr<RCP<const Integer>>&, const Ptr<RCP<const Integer>>&, unsigned long)

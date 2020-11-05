@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class NeedsSymbolicExpansionVisitor &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class Not" href="class_sym_engine_1_1_not.html" />
+    <link rel="prev" title="Class NaN" href="class_sym_engine_1_1_na_n.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_not.html" title="Class Not"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_na_n.html" title="Class NaN"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class NeedsSymbolicExpansionVisitor</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-needssymbolicexpansionvisitor">
+<span id="exhale-class-class-sym-engine-1-1-needs-symbolic-expansion-visitor"></span><h1>Class NeedsSymbolicExpansionVisitor<a class="headerlink" href="#class-needssymbolicexpansionvisitor" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_visitor.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-series-visitor-h"><span class="std std-ref">File series_visitor.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::BaseVisitor&lt;</span> <span class="pre">NeedsSymbolicExpansionVisitor,</span> <span class="pre">StopVisitor</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#exhale-class-class-sym-engine-1-1-base-visitor"><span class="std std-ref">Template Class BaseVisitor</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitorE">
+<span id="_CPPv3N9SymEngine29NeedsSymbolicExpansionVisitorE"></span><span id="_CPPv2N9SymEngine29NeedsSymbolicExpansionVisitorE"></span><span id="SymEngine::NeedsSymbolicExpansionVisitor"></span><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">NeedsSymbolicExpansionVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitorE" title="SymEngine::NeedsSymbolicExpansionVisitor">NeedsSymbolicExpansionVisitor</a>, <a class="reference internal" href="class_sym_engine_1_1_stop_visitor.html#_CPPv4N9SymEngine11StopVisitorE" title="SymEngine::StopVisitor">StopVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4I00EN9SymEngine29NeedsSymbolicExpansionVisitor6bvisitEvRK1T">
+<span id="_CPPv3I00EN9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK1T"></span><span id="_CPPv2I00EN9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK1T"></span>template&lt;typename <code class="sig-name descname">T</code>, typename = <a class="reference internal" href="typedef_namespace_sym_engine_1ad98cc31f9c98da201743811a65157f57.html#_CPPv4I_b0EN9SymEngine11enable_if_tE" title="SymEngine::enable_if_t">enable_if_t</a>&lt;std::is_base_of&lt;<a class="reference internal" href="class_sym_engine_1_1_trig_base.html#_CPPv4N9SymEngine8TrigBaseE" title="SymEngine::TrigBase">TrigBase</a>, <a class="reference internal" href="#_CPPv4I00EN9SymEngine29NeedsSymbolicExpansionVisitor6bvisitEvRK1T" title="SymEngine::NeedsSymbolicExpansionVisitor::bvisit::T">T</a>&gt;::value or std::is_base_of&lt;<a class="reference internal" href="class_sym_engine_1_1_hyperbolic_base.html#_CPPv4N9SymEngine14HyperbolicBaseE" title="SymEngine::HyperbolicBase">HyperbolicBase</a>, <a class="reference internal" href="#_CPPv4I00EN9SymEngine29NeedsSymbolicExpansionVisitor6bvisitEvRK1T" title="SymEngine::NeedsSymbolicExpansionVisitor::bvisit::T">T</a>&gt;::value&gt;&gt;<br /><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor_1a90786b3cd8bf119feeedad0e8260b0ac"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I00EN9SymEngine29NeedsSymbolicExpansionVisitor6bvisitEvRK1T" title="SymEngine::NeedsSymbolicExpansionVisitor::bvisit::T">T</a> &amp;<em>f</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I00EN9SymEngine29NeedsSymbolicExpansionVisitor6bvisitEvRK1T" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK3Pow"></span><span id="SymEngine::NeedsSymbolicExpansionVisitor::bvisit__PowCR"></span><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor_1a0eb2df057bbf822a38a0913bc1aec283"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>pow</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK3Log">
+<span id="_CPPv3N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK3Log"></span><span id="_CPPv2N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK3Log"></span><span id="SymEngine::NeedsSymbolicExpansionVisitor::bvisit__LogCR"></span><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor_1a51fe4adcc3a300185cc9352dfc4474b1"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_log.html#_CPPv4N9SymEngine3LogE" title="SymEngine::Log">Log</a> &amp;<em>f</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK3Log" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK8LambertW">
+<span id="_CPPv3N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK8LambertW"></span><span id="_CPPv2N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK8LambertW"></span><span id="SymEngine::NeedsSymbolicExpansionVisitor::bvisit__LambertWCR"></span><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor_1aa111dd407dd9c5f76f2edeba26c1ba81"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_lambert_w.html#_CPPv4N9SymEngine8LambertWE" title="SymEngine::LambertW">LambertW</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK8LambertW" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK5Basic"></span><span id="SymEngine::NeedsSymbolicExpansionVisitor::bvisit__BasicCR"></span><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor_1a7dbcab86c3cc93c7a95cc113c34aa8ae"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor5applyERK5BasicRK3RCPIK6SymbolE">
+<span id="_CPPv3N9SymEngine29NeedsSymbolicExpansionVisitor5applyERK5BasicRK3RCPIK6SymbolE"></span><span id="_CPPv2N9SymEngine29NeedsSymbolicExpansionVisitor5applyERK5BasicRK3RCPIK6SymbolE"></span><span id="SymEngine::NeedsSymbolicExpansionVisitor::apply__BasicCR.RCP:SymbolC:CR"></span><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor_1a6d76f2b350139c5c76ea734467be6217"></span>bool <code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>b</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a>&gt; &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor5applyERK5BasicRK3RCPIK6SymbolE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Protected Attributes</p>
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor2x_E">
+<span id="_CPPv3N9SymEngine29NeedsSymbolicExpansionVisitor2x_E"></span><span id="_CPPv2N9SymEngine29NeedsSymbolicExpansionVisitor2x_E"></span><span id="SymEngine::NeedsSymbolicExpansionVisitor::x___RCP:SymbolC:"></span><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor_1a728e785d58ceaa27d9c03566fe6b801e"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a>&gt; <code class="sig-name descname">x_</code><a class="headerlink" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor2x_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6needs_E">
+<span id="_CPPv3N9SymEngine29NeedsSymbolicExpansionVisitor6needs_E"></span><span id="_CPPv2N9SymEngine29NeedsSymbolicExpansionVisitor6needs_E"></span><span id="SymEngine::NeedsSymbolicExpansionVisitor::needs___b"></span><span class="target" id="class_sym_engine_1_1_needs_symbolic_expansion_visitor_1a88150dfbf2f2493a4c69b3b9f7a4385f"></span>bool <code class="sig-name descname">needs_</code><a class="headerlink" href="#_CPPv4N9SymEngine29NeedsSymbolicExpansionVisitor6needs_E" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class NeedsSymbolicExpansionVisitor</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_na_n.html"
+                        title="previous chapter">Class NaN</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_not.html"
+                        title="next chapter">Class Not</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_needs_symbolic_expansion_visitor.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_not.html" title="Class Not"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_na_n.html" title="Class NaN"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class NeedsSymbolicExpansionVisitor</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

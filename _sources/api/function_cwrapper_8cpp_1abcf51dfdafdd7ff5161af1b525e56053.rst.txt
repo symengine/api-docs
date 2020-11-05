@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1abcf51dfdafdd7ff5161af1b525e56053:
+
+Function ntheory_quotient_mod_f(basic, basic, const basic, const basic)
+=======================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ntheory_quotient_mod_f(basic, basic, const basic, const basic)

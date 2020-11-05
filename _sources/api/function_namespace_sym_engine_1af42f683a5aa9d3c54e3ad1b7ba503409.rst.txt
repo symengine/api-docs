@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1af42f683a5aa9d3c54e3ad1b7ba503409:
+
+Function SymEngine::infty(int)
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_infinity.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::infty(int)

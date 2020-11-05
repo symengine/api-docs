@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aad4f9bf5d7eca26cf6cea5f10af7dc65:
+
+Template Function SymEngine::is_aligned
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::is_aligned(T *, size_t)

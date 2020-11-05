@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ac51d8c7a02041f2c0a6daa8905e20b0d:
+
+Function SymEngine::erf
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::erf(const RCP<const Basic>&)

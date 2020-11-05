@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1aac41f5cfa8acd87cb10a8e8ac77498c1:
+
+Function ntheory_lucas(basic, unsigned long)
+============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ntheory_lucas(basic, unsigned long)

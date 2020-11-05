@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a9525012e55bc3749d711663530074a9d:
+
+Function ntheory_binomial(basic, const basic, unsigned long)
+============================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ntheory_binomial(basic, const basic, unsigned long)

@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_condition_set:
+
+Class ConditionSet
+==================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Set`` (:ref:`exhale_class_class_sym_engine_1_1_set`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::ConditionSet
+   :members:
+   :protected-members:
+   :undoc-members:

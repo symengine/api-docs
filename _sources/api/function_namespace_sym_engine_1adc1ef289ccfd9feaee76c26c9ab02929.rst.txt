@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1adc1ef289ccfd9feaee76c26c9ab02929:
+
+Function SymEngine::pow(const RCP<const Basic>&, const RCP<const Basic>&)
+=========================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::pow(const RCP<const Basic>&, const RCP<const Basic>&)

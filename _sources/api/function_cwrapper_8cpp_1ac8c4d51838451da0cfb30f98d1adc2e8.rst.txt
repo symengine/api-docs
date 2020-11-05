@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1ac8c4d51838451da0cfb30f98d1adc2e8:
+
+Function mapbasicbasic_insert(CMapBasicBasic \*, const basic, const basic)
+==========================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: mapbasicbasic_insert(CMapBasicBasic *, const basic, const basic)

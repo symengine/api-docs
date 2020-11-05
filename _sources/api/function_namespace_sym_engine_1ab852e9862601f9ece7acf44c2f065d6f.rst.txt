@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ab852e9862601f9ece7acf44c2f065d6f:
+
+Function SymEngine::get_mp_t(const integer_class&)
+==================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::get_mp_t(const integer_class&)

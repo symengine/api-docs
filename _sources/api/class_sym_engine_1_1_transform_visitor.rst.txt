@@ -1,0 +1,33 @@
+.. _exhale_class_class_sym_engine_1_1_transform_visitor:
+
+Class TransformVisitor
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::BaseVisitor< TransformVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::BaseVisitor< EvalVisitor, TransformVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< RebuildVisitor, TransformVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< RewriteAsExp, TransformVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::TransformVisitor
+   :members:
+   :protected-members:
+   :undoc-members:

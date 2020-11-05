@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1ab19d755a1017adc4e60a52bcaf8f6ef0:
+
+Function basic_hash(const basic)
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_hash(const basic)

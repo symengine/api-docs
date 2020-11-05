@@ -1,0 +1,42 @@
+.. _exhale_class_class_sym_engine_1_1_basic:
+
+Class Basic
+===========
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::EnableRCPFromThis< Basic >`` (:ref:`exhale_class_class_sym_engine_1_1_enable_r_c_p_from_this`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::Add`` (:ref:`exhale_class_class_sym_engine_1_1_add`)
+- ``public SymEngine::Boolean`` (:ref:`exhale_class_class_sym_engine_1_1_boolean`)
+- ``public SymEngine::Constant`` (:ref:`exhale_class_class_sym_engine_1_1_constant`)
+- ``public SymEngine::Derivative`` (:ref:`exhale_class_class_sym_engine_1_1_derivative`)
+- ``public SymEngine::Function`` (:ref:`exhale_class_class_sym_engine_1_1_function`)
+- ``public SymEngine::Mul`` (:ref:`exhale_class_class_sym_engine_1_1_mul`)
+- ``public SymEngine::Number`` (:ref:`exhale_class_class_sym_engine_1_1_number`)
+- ``public SymEngine::Piecewise`` (:ref:`exhale_class_class_sym_engine_1_1_piecewise`)
+- ``public SymEngine::Pow`` (:ref:`exhale_class_class_sym_engine_1_1_pow`)
+- ``public SymEngine::Set`` (:ref:`exhale_class_class_sym_engine_1_1_set`)
+- ``public SymEngine::Subs`` (:ref:`exhale_class_class_sym_engine_1_1_subs`)
+- ``public SymEngine::Symbol`` (:ref:`exhale_class_class_sym_engine_1_1_symbol`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Basic
+   :members:
+   :protected-members:
+   :undoc-members:

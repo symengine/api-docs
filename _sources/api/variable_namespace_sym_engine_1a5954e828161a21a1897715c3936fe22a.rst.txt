@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1a5954e828161a21a1897715c3936fe22a:
+
+Variable SymEngine::Nan
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::Nan

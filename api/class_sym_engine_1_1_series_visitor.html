@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Class SeriesVisitor &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class Set" href="class_sym_engine_1_1_set.html" />
+    <link rel="prev" title="Class SeriesCoeffInterface" href="class_sym_engine_1_1_series_coeff_interface.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_set.html" title="Class Set"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_series_coeff_interface.html" title="Class SeriesCoeffInterface"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Template Class SeriesVisitor</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="template-class-seriesvisitor">
+<span id="exhale-class-class-sym-engine-1-1-series-visitor"></span><h1>Template Class SeriesVisitor<a class="headerlink" href="#template-class-seriesvisitor" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_visitor.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-series-visitor-h"><span class="std std-ref">File series_visitor.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::BaseVisitor&lt;</span> <span class="pre">SeriesVisitor&lt;</span> <span class="pre">Poly,</span> <span class="pre">Coeff,</span> <span class="pre">Series</span> <span class="pre">&gt;</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#exhale-class-class-sym-engine-1-1-base-visitor"><span class="std std-ref">Template Class BaseVisitor</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4I000EN9SymEngine13SeriesVisitorE">
+<span id="_CPPv3I000EN9SymEngine13SeriesVisitorE"></span><span id="_CPPv2I000EN9SymEngine13SeriesVisitorE"></span>template&lt;typename <code class="sig-name descname">Poly</code>, typename <code class="sig-name descname">Coeff</code>, typename <code class="sig-name descname">Series</code>&gt;<br /><span class="target" id="class_sym_engine_1_1_series_visitor"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">SeriesVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="SymEngine::SeriesVisitor">SeriesVisitor</a>&lt;<a class="reference internal" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="SymEngine::SeriesVisitor::Poly">Poly</a>, <a class="reference internal" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="SymEngine::SeriesVisitor::Coeff">Coeff</a>, <a class="reference internal" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="SymEngine::SeriesVisitor::Series">Series</a>&gt;&gt;<a class="headerlink" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor13SeriesVisitorERK4PolyRKNSt6stringEKj">
+<span id="_CPPv3N9SymEngine13SeriesVisitor13SeriesVisitorERK4PolyRKNSt6stringEKj"></span><span id="_CPPv2N9SymEngine13SeriesVisitor13SeriesVisitorERK4PolyRKNSt6stringEKj"></span><span id="SymEngine::SeriesVisitor::SeriesVisitor__PolyCR.ssCR.unsignedC"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a39499c4194a63afb1821223eb290477c"></span><code class="sig-name descname">SeriesVisitor</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="SymEngine::SeriesVisitor::Poly">Poly</a> &amp;<em>var_</em>, <em class="property">const</em> std::string &amp;<em>varname_</em>, <em class="property">const</em> unsigned <em>prec_</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor13SeriesVisitorERK4PolyRKNSt6stringEKj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6seriesERK3RCPIK5BasicE">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6seriesERK3RCPIK5BasicE"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6seriesERK3RCPIK5BasicE"></span><span id="SymEngine::SeriesVisitor::series__RCP:BasicC:CR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1aa0343b2aa41da3ee71b201d81acd7338"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="SymEngine::SeriesVisitor::Series">Series</a>&gt; <code class="sig-name descname">series</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6seriesERK3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor5applyERK3RCPIK5BasicE">
+<span id="_CPPv3N9SymEngine13SeriesVisitor5applyERK3RCPIK5BasicE"></span><span id="_CPPv2N9SymEngine13SeriesVisitor5applyERK3RCPIK5BasicE"></span><span id="SymEngine::SeriesVisitor::apply__RCP:BasicC:CR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a779bce14a20eca72591d3281eaa873f7"></span><a class="reference internal" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="SymEngine::SeriesVisitor::Poly">Poly</a> <code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor5applyERK3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Add">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Add"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Add"></span><span id="SymEngine::SeriesVisitor::bvisit__AddCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a4c2aa6e673d68437888858329c352e61"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_add.html#_CPPv4N9SymEngine3AddE" title="SymEngine::Add">Add</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Add" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Mul">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Mul"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Mul"></span><span id="SymEngine::SeriesVisitor::bvisit__MulCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a20d55686ab66dd7d0a99e776fdc40f59"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_mul.html#_CPPv4N9SymEngine3MulE" title="SymEngine::Mul">Mul</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Mul" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Pow"></span><span id="SymEngine::SeriesVisitor::bvisit__PowCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a487c1c3d3aa2abeea31767c9809150ae"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK8Function">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK8Function"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK8Function"></span><span id="SymEngine::SeriesVisitor::bvisit__FunctionCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a2f930ba254b1c0ba83574c0d4f0cf7df"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_function.html#_CPPv4N9SymEngine8FunctionE" title="SymEngine::Function">Function</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK8Function" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK5Gamma">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK5Gamma"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK5Gamma"></span><span id="SymEngine::SeriesVisitor::bvisit__GammaCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a19d6cd2a709e5e8de7e3a44319aeea12"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_gamma.html#_CPPv4N9SymEngine5GammaE" title="SymEngine::Gamma">Gamma</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK5Gamma" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK6Series">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK6Series"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK6Series"></span><span id="SymEngine::SeriesVisitor::bvisit__SeriesCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a74d2c687ecd88600123a64a7e953e1f3"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4I000EN9SymEngine13SeriesVisitorE" title="SymEngine::SeriesVisitor::Series">Series</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK6Series" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK7Integer">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK7Integer"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK7Integer"></span><span id="SymEngine::SeriesVisitor::bvisit__IntegerCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a6c552ef73609622a2c6645f58de823af"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK8Rational">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK8Rational"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK8Rational"></span><span id="SymEngine::SeriesVisitor::bvisit__RationalCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a2aa8a0a6effc09181c1d8b504be00e3f"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK7Complex">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK7Complex"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK7Complex"></span><span id="SymEngine::SeriesVisitor::bvisit__ComplexCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a95cf69bbbea97821c39ba178b17e48a6"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK10RealDouble">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK10RealDouble"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK10RealDouble"></span><span id="SymEngine::SeriesVisitor::bvisit__RealDoubleCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1acf42e55616fef2126c2252112e349612"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_real_double.html#_CPPv4N9SymEngine10RealDoubleE" title="SymEngine::RealDouble">RealDouble</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK10RealDouble" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK13ComplexDouble">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK13ComplexDouble"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK13ComplexDouble"></span><span id="SymEngine::SeriesVisitor::bvisit__ComplexDoubleCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a1a0ce46af9bbcc2fa4b1d7d0a3a59705"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex_double.html#_CPPv4N9SymEngine13ComplexDoubleE" title="SymEngine::ComplexDouble">ComplexDouble</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK13ComplexDouble" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Sin">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Sin"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Sin"></span><span id="SymEngine::SeriesVisitor::bvisit__SinCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a0b962ecdf634021056d2141e902cf013"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_sin.html#_CPPv4N9SymEngine3SinE" title="SymEngine::Sin">Sin</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Sin" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Cos">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Cos"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Cos"></span><span id="SymEngine::SeriesVisitor::bvisit__CosCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a20bb4839305c61c7d363db77fdd1cac7"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_cos.html#_CPPv4N9SymEngine3CosE" title="SymEngine::Cos">Cos</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Cos" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Tan">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Tan"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Tan"></span><span id="SymEngine::SeriesVisitor::bvisit__TanCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a11ec603f7f30e7339b9f4ea2b0d7b59d"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_tan.html#_CPPv4N9SymEngine3TanE" title="SymEngine::Tan">Tan</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Tan" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Cot">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Cot"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Cot"></span><span id="SymEngine::SeriesVisitor::bvisit__CotCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a8dfe380b952f044acf920293dbbfda8f"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_cot.html#_CPPv4N9SymEngine3CotE" title="SymEngine::Cot">Cot</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Cot" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Csc">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Csc"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Csc"></span><span id="SymEngine::SeriesVisitor::bvisit__CscCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a292a336739fdcba0ee92afe000d25538"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_csc.html#_CPPv4N9SymEngine3CscE" title="SymEngine::Csc">Csc</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Csc" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Sec">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Sec"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Sec"></span><span id="SymEngine::SeriesVisitor::bvisit__SecCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1aa5ef4356e1b5e68d5cac609c18817fe2"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_sec.html#_CPPv4N9SymEngine3SecE" title="SymEngine::Sec">Sec</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Sec" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Log">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK3Log"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK3Log"></span><span id="SymEngine::SeriesVisitor::bvisit__LogCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a9cc89e831fc7bf1220e7367a49aae85e"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_log.html#_CPPv4N9SymEngine3LogE" title="SymEngine::Log">Log</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK3Log" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4ASin">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK4ASin"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK4ASin"></span><span id="SymEngine::SeriesVisitor::bvisit__ASinCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a7e1e5241cd6a0a7c0bd56fb954f58a27"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_a_sin.html#_CPPv4N9SymEngine4ASinE" title="SymEngine::ASin">ASin</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4ASin" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4ACos">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK4ACos"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK4ACos"></span><span id="SymEngine::SeriesVisitor::bvisit__ACosCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1aeef2f996bd8f0ecd3148a45857b6b1be"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_a_cos.html#_CPPv4N9SymEngine4ACosE" title="SymEngine::ACos">ACos</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4ACos" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4ATan">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK4ATan"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK4ATan"></span><span id="SymEngine::SeriesVisitor::bvisit__ATanCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a71850daca57b43d89074e72f1bcf503b"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_a_tan.html#_CPPv4N9SymEngine4ATanE" title="SymEngine::ATan">ATan</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4ATan" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4Sinh">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK4Sinh"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK4Sinh"></span><span id="SymEngine::SeriesVisitor::bvisit__SinhCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a2d92c8560abb776e27c7039e03168bf2"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_sinh.html#_CPPv4N9SymEngine4SinhE" title="SymEngine::Sinh">Sinh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4Sinh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4Cosh">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK4Cosh"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK4Cosh"></span><span id="SymEngine::SeriesVisitor::bvisit__CoshCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a391674658fa5102f476010ad015415f7"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_cosh.html#_CPPv4N9SymEngine4CoshE" title="SymEngine::Cosh">Cosh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4Cosh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4Tanh">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK4Tanh"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK4Tanh"></span><span id="SymEngine::SeriesVisitor::bvisit__TanhCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1ad7cd159f438c4d572b5b67e3597e5e5e"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_tanh.html#_CPPv4N9SymEngine4TanhE" title="SymEngine::Tanh">Tanh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK4Tanh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK5ASinh">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK5ASinh"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK5ASinh"></span><span id="SymEngine::SeriesVisitor::bvisit__ASinhCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a4cd3a651dc48cce4b781693666d22042"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_a_sinh.html#_CPPv4N9SymEngine5ASinhE" title="SymEngine::ASinh">ASinh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK5ASinh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK5ATanh">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK5ATanh"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK5ATanh"></span><span id="SymEngine::SeriesVisitor::bvisit__ATanhCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a425b0e7cdd2f9d46c790f1f8a5964918"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_a_tanh.html#_CPPv4N9SymEngine5ATanhE" title="SymEngine::ATanh">ATanh</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK5ATanh" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK8LambertW">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK8LambertW"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK8LambertW"></span><span id="SymEngine::SeriesVisitor::bvisit__LambertWCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a37f748ae2b681e0a6d7879a9deaa9073"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_lambert_w.html#_CPPv4N9SymEngine8LambertWE" title="SymEngine::LambertW">LambertW</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK8LambertW" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK6Symbol">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK6Symbol"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK6Symbol"></span><span id="SymEngine::SeriesVisitor::bvisit__SymbolCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a698aad6099090f316999e509bd6f2e3a"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK6Symbol" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK8Constant">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK8Constant"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK8Constant"></span><span id="SymEngine::SeriesVisitor::bvisit__ConstantCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a1c6ffce1299a9e7b490db6ee19496e47"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_constant.html#_CPPv4N9SymEngine8ConstantE" title="SymEngine::Constant">Constant</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK8Constant" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine13SeriesVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine13SeriesVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine13SeriesVisitor6bvisitERK5Basic"></span><span id="SymEngine::SeriesVisitor::bvisit__BasicCR"></span><span class="target" id="class_sym_engine_1_1_series_visitor_1a4f8b4ba88a71d78ee2cf5bdf43e39e2b"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine13SeriesVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Template Class SeriesVisitor</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_series_coeff_interface.html"
+                        title="previous chapter">Class SeriesCoeffInterface</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_set.html"
+                        title="next chapter">Class Set</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_series_visitor.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_set.html" title="Class Set"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_series_coeff_interface.html" title="Class SeriesCoeffInterface"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Template Class SeriesVisitor</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

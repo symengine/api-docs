@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a59e3d537409ce295f1a798525ed39df1:
+
+Function SymEngine::exp
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::exp(const RCP<const Basic>&)

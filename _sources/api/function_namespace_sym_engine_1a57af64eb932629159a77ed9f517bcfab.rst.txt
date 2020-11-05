@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a57af64eb932629159a77ed9f517bcfab:
+
+Function SymEngine::is_quad_residue
+===================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::is_quad_residue(const Integer&, const Integer&)

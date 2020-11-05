@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a5963303c5492f9a23105ce6dc5f340cb:
+
+Function SymEngine::linsolve(const DenseMatrix&, const vec_sym&)
+================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::linsolve(const DenseMatrix&, const vec_sym&)

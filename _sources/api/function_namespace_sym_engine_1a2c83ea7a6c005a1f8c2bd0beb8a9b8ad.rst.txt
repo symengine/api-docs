@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2c83ea7a6c005a1f8c2bd0beb8a9b8ad:
+
+Function SymEngine::trig_simplify
+=================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::trig_simplify(const RCP<const Basic>&, unsigned, bool, bool, const Ptr<RCP<const Basic>>&, int&, int&)

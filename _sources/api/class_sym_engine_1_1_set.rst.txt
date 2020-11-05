@@ -1,0 +1,40 @@
+.. _exhale_class_class_sym_engine_1_1_set:
+
+Class Set
+=========
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Basic`` (:ref:`exhale_class_class_sym_engine_1_1_basic`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::Complement`` (:ref:`exhale_class_class_sym_engine_1_1_complement`)
+- ``public SymEngine::ConditionSet`` (:ref:`exhale_class_class_sym_engine_1_1_condition_set`)
+- ``public SymEngine::EmptySet`` (:ref:`exhale_class_class_sym_engine_1_1_empty_set`)
+- ``public SymEngine::FiniteSet`` (:ref:`exhale_class_class_sym_engine_1_1_finite_set`)
+- ``public SymEngine::ImageSet`` (:ref:`exhale_class_class_sym_engine_1_1_image_set`)
+- ``public SymEngine::Integers`` (:ref:`exhale_class_class_sym_engine_1_1_integers`)
+- ``public SymEngine::Interval`` (:ref:`exhale_class_class_sym_engine_1_1_interval`)
+- ``public SymEngine::Reals`` (:ref:`exhale_class_class_sym_engine_1_1_reals`)
+- ``public SymEngine::Union`` (:ref:`exhale_class_class_sym_engine_1_1_union`)
+- ``public SymEngine::UniversalSet`` (:ref:`exhale_class_class_sym_engine_1_1_universal_set`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Set
+   :members:
+   :protected-members:
+   :undoc-members:

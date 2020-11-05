@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a68cf186a0ab35fac048f9b57dc848f17:
+
+Function SymEngine::perfect_square
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::perfect_square(const Integer&)

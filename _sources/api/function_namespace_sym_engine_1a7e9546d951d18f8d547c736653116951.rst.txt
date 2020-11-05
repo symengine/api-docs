@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a7e9546d951d18f8d547c736653116951:
+
+Function SymEngine::get_vec_from_set
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::get_vec_from_set(const set_boolean&)

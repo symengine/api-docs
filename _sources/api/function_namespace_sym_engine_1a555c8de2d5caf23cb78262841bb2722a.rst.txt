@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a555c8de2d5caf23cb78262841bb2722a:
+
+Function SymEngine::mp_get_ui
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_get_ui(const integer_class&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ada7b9196d7dbcd0611640a60bbdaeba9:
+
+Function SymEngine::Ne
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::Ne(const RCP<const Basic>&, const RCP<const Basic>&)

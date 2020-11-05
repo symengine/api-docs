@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1abaebe3b0dec0903cb6f8e7689d3c861c:
+
+Function sparse_matrix_init(CSparseMatrix \*)
+=============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sparse_matrix_init(CSparseMatrix *)

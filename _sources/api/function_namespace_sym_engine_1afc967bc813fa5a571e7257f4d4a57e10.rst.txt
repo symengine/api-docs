@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1afc967bc813fa5a571e7257f4d4a57e10:
+
+Function SymEngine::inverse_pivoted_LU
+======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::inverse_pivoted_LU(const DenseMatrix&, DenseMatrix&)

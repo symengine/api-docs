@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a45323eaae8f5f1c2aa4725a81fba0087:
+
+Function vecbasic_linsolve(CVecBasic \*, const CVecBasic \*, const CVecBasic \*)
+================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: vecbasic_linsolve(CVecBasic *, const CVecBasic *, const CVecBasic *)

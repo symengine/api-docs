@@ -1,0 +1,99 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp:
+
+File solve.cpp
+==============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/solve.cpp``)
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/as_real_imag.cpp`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_as_real_imag.cpp`)
+
+- ``symengine/logic.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.h`)
+
+- ``symengine/mul.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.h`)
+
+- ``symengine/polys/basic_conversions.h``
+
+- ``symengine/solve.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_invert_complex_visitor`
+
+- :ref:`exhale_class_class_sym_engine_1_1_is_a_linear_arg_trig_visitor`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1af1a23aa6da4de18508fc3dc15dcd7ae2`
+
+- :ref:`exhale_function_namespace_sym_engine_1a606680d625011965fcb01419130152c6`
+
+- :ref:`exhale_function_namespace_sym_engine_1a959d780c5cb3ca117b480cc6d3915cef`
+
+- :ref:`exhale_function_namespace_sym_engine_1a3bcdb3de782b80d6d1b003476f126841`
+
+- :ref:`exhale_function_namespace_sym_engine_1aed618fa204dd30c86aa8e1772c72ed80`
+
+- :ref:`exhale_function_namespace_sym_engine_1a89c39c7500e9c42812c10d5ccb0397f3`
+
+- :ref:`exhale_function_namespace_sym_engine_1a12b4b4161e68085035da278324b9c9b7`
+
+- :ref:`exhale_function_namespace_sym_engine_1a5963303c5492f9a23105ce6dc5f340cb`
+
+- :ref:`exhale_function_namespace_sym_engine_1a8c5fd8eb115ccb91e2928cb4947bc7d1`
+
+- :ref:`exhale_function_namespace_sym_engine_1a4e41044faa7975964a6a0bc248bcac0a`
+
+- :ref:`exhale_function_namespace_sym_engine_1adfce34e501f5641c5d623cf006b2b636`
+
+- :ref:`exhale_function_namespace_sym_engine_1adbe7b8cae0aabc2776ce47a4b66d670b`
+
+- :ref:`exhale_function_namespace_sym_engine_1a7556c870f7d2f54f75016097d65e40e6`
+
+- :ref:`exhale_function_namespace_sym_engine_1a6ae9a8b6e2b94511df20335428e68dec`
+
+- :ref:`exhale_function_namespace_sym_engine_1af2a79106227c7b620fc25cc09c8d42d7`
+
+- :ref:`exhale_function_namespace_sym_engine_1a0be7045400fe0d9efd7b6d7eb5281802`
+
+- :ref:`exhale_function_namespace_sym_engine_1a457a055abd5435cb30e1f75b0ce2ca45`
+
+- :ref:`exhale_function_namespace_sym_engine_1aa7fac88dd37cd3040c278346f1bffc07`
+
+- :ref:`exhale_function_namespace_sym_engine_1a7457b714a9bb9d200e55b2753eba65be`
+

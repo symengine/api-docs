@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a472e32d743cd0f5c727ee7366646ee32:
+
+Function SymEngine::monomial_mul
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_monomials.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::monomial_mul(const vec_int&, const vec_int&, vec_int&)

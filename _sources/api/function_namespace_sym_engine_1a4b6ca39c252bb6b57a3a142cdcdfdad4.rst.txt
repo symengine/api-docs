@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4b6ca39c252bb6b57a3a142cdcdfdad4:
+
+Function SymEngine::set_as_vec
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cse.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::set_as_vec(const set_basic&)

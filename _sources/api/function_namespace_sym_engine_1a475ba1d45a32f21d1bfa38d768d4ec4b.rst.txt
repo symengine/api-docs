@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a475ba1d45a32f21d1bfa38d768d4ec4b:
+
+Function SymEngine::mp_sqrt
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_sqrt(const integer_class&)

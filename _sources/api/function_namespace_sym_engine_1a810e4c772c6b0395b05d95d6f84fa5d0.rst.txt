@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a810e4c772c6b0395b05d95d6f84fa5d0:
+
+Function SymEngine::mp_sign(const integer_class&)
+=================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_sign(const integer_class&)

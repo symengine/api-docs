@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a5b43a939c87eecd5f2e74793b48850b5:
+
+Function SymEngine::universalset
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::universalset()

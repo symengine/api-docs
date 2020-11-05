@@ -1,0 +1,130 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp:
+
+File constants.cpp
+==================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/constants.cpp``)
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h`)
+
+- ``symengine/complex.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex.h`)
+
+- ``symengine/infinity.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_infinity.h`)
+
+- ``symengine/nan.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_nan.h`)
+
+- ``symengine/pow.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_namespace_sym_engine_1a7e3af3fb7e6e7b0d3082e5b9f32f5c6b`
+
+- :ref:`exhale_variable_namespace_sym_engine_1aa97432c9d3f6cf07216b3d19b26dbfdf`
+
+- :ref:`exhale_variable_namespace_sym_engine_1adf4386be89ee0373bff378411408cc68`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a2a7b96ad02c00696ed3e62569c501221`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a090bbddf8659d698ed8c2d61da9f86d4`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a97f54acd2c3ab2b9297d235896bbd9d7`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a3b5e2351233e8d5898454827d4012c1a`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a73c93ade9fb40978456aff6886170513`
+
+- :ref:`exhale_variable_namespace_sym_engine_1af8efc963e44c3c75be338da4bae8fe6d`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a0ae04e22c7f96ec8e593be32a80f7621`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a42dbab42055a02c8fbe33c6e3e01ac65`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a061224c44e11c41da956c210f8547aff`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a7939c49aba5d9b5a96f1e90575c32dfc`
+
+- :ref:`exhale_variable_namespace_sym_engine_1aab821c14086041feec89da396e4ea019`
+
+- :ref:`exhale_variable_namespace_sym_engine_1ac15b4ffa4aa6ffebd9276bb9b77d550a`
+
+- :ref:`exhale_variable_namespace_sym_engine_1aca25c6ae00289537bf9d73502728a4d1`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a5e577631e595e5b65d58350df824f672`
+
+- :ref:`exhale_variable_namespace_sym_engine_1ad6e6ff9749ce5fb17ae3355bffebe39f`
+
+- :ref:`exhale_variable_namespace_sym_engine_1aec9be3c37beba460ff0fa6cd000b7150`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a7c20070b915762ca2704fef7109a5a54`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a096624048e943479e52366951573bca1`
+
+- :ref:`exhale_variable_namespace_sym_engine_1ac186d04b290ed046a76181ff5f35fe68`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a2b7e5dcd8a17bd042e402ac04a80c1c2`
+
+- :ref:`exhale_variable_namespace_sym_engine_1ad8be7de85b0796b4a035ae704efa161d`
+
+- :ref:`exhale_variable_namespace_sym_engine_1afc3eeea238e7191543446ccf8f8b748d`
+
+- :ref:`exhale_variable_namespace_sym_engine_1aa457d7350e05b8b7729843f06f27607e`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a12ffd7d86feea12e6e64704234e5b4fb`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a3baebfbdf61c81dbe8472bab483c0018`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a62782a7eee49c1ad9fc00a8d6244ed6e`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a361abb0f8ca4669ab6040580985eedf1`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a5954e828161a21a1897715c3936fe22a`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a28dee364890d0b82f134e5177bd85b45`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a44051946ed56f8f4818ab36ee1813b99`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a034dc976ed49954deac535b8eeb19cc6`
+
+- :ref:`exhale_variable_namespace_sym_engine_1aac9e4cebc529e94194ce8a74591388a4`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a014f15b87dfb2875aab4a07a9d3a225f`
+
+- :ref:`exhale_variable_namespace_sym_engine_1af38567f48cfeb84cb78fbd6b2ae2ce6d`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a82f7f893f59f02403333a07b47026632`
+
+- :ref:`exhale_variable_namespace_sym_engine_1a3daa97435763d1989bbccad4f0e5bb20`
+

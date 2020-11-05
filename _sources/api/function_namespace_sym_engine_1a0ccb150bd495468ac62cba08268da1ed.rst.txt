@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a0ccb150bd495468ac62cba08268da1ed:
+
+Function SymEngine::powermod
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::powermod(const Ptr<RCP<const Integer>>&, const RCP<const Integer>&, const RCP<const Number>&, const RCP<const Integer>&)

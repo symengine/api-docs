@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File mp_boost.cpp &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File mp_boost.cpp</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="file-mp-boost-cpp">
+<span id="file-home-travis-build-symengine-api-docs-projects-symengine-symengine-mp-boost-cpp"></span><h1>File mp_boost.cpp<a class="headerlink" href="#file-mp-boost-cpp" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="dir__home_travis_build_symengine_api-docs_projects_symengine_symengine.html#dir-home-travis-build-symengine-api-docs-projects-symengine-symengine"><span class="std std-ref">Parent directory</span></a> (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine</span></code>)</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-mp-boost-cpp" id="id1">Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/mp_boost.cpp</span></code>)</a></p></li>
+<li><p><a class="reference internal" href="#includes" id="id2">Includes</a></p></li>
+<li><p><a class="reference internal" href="#namespaces" id="id3">Namespaces</a></p></li>
+<li><p><a class="reference internal" href="#classes" id="id4">Classes</a></p></li>
+<li><p><a class="reference internal" href="#functions" id="id5">Functions</a></p></li>
+</ul>
+</div>
+<div class="section" id="definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-mp-boost-cpp">
+<h2>Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/mp_boost.cpp</span></code>)<a class="headerlink" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-mp-boost-cpp" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="includes">
+<h2>Includes<a class="headerlink" href="#includes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">boost/mpl/int.hpp</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">boost/multiprecision/miller_rabin.hpp</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cmath</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mp_class.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-mp-class-h"><span class="std std-ref">File mp_class.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/symengine_assert.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_assert.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-symengine-assert-h"><span class="std std-ref">File symengine_assert.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">symengine/symengine_exception.h</span></code> (<a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-symengine-exception-h"><span class="std std-ref">File symengine_exception.h</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">utility</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="namespaces">
+<h2>Namespaces<a class="headerlink" href="#namespaces" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="namespace_SymEngine.html#namespace-symengine"><span class="std std-ref">Namespace SymEngine</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="struct_sym_engine_1_1two__by__two__matrix.html#exhale-struct-struct-sym-engine-1-1two-by-two-matrix"><span class="std std-ref">Struct two_by_two_matrix</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a07f5eabf2fa8fc0e34248a319471cf39.html#exhale-function-namespace-sym-engine-1a07f5eabf2fa8fc0e34248a319471cf39"><span class="std std-ref">Function SymEngine::fib_matrix</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a212984cf0698953ac4298a124da7ea7a.html#exhale-function-namespace-sym-engine-1a212984cf0698953ac4298a124da7ea7a"><span class="std std-ref">Function SymEngine::fmod</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a64f877d61bf453c83b0c13bae061715b.html#exhale-function-namespace-sym-engine-1a64f877d61bf453c83b0c13bae061715b"><span class="std std-ref">Function SymEngine::luc_matrix</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a146d6ee14717f89c779fad6b1d413047.html#exhale-function-namespace-sym-engine-1a146d6ee14717f89c779fad6b1d413047"><span class="std std-ref">Function SymEngine::mp_bin_ui</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ac7236988a1b7c8df30988123a2783d29.html#exhale-function-namespace-sym-engine-1ac7236988a1b7c8df30988123a2783d29"><span class="std std-ref">Function SymEngine::mp_cdiv_qr</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a9a7209fb0cb52687c99b1f6bfe32e8a8.html#exhale-function-namespace-sym-engine-1a9a7209fb0cb52687c99b1f6bfe32e8a8"><span class="std std-ref">Function SymEngine::mp_fac_ui</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a3863bea5ec2f41fa5a29d4390ea4f220.html#exhale-function-namespace-sym-engine-1a3863bea5ec2f41fa5a29d4390ea4f220"><span class="std std-ref">Function SymEngine::mp_fdiv_qr</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a775d0d3fdc1e344eb4d54bff6cfee6b9.html#exhale-function-namespace-sym-engine-1a775d0d3fdc1e344eb4d54bff6cfee6b9"><span class="std std-ref">Function SymEngine::mp_fib2_ui</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a825d44ed7bcbcabed2fa0e1fd33241e6.html#exhale-function-namespace-sym-engine-1a825d44ed7bcbcabed2fa0e1fd33241e6"><span class="std std-ref">Function SymEngine::mp_fib_ui</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1adbc7204c38df4382ccdc41d843a9b4ac.html#exhale-function-namespace-sym-engine-1adbc7204c38df4382ccdc41d843a9b4ac"><span class="std std-ref">Function SymEngine::mp_gcdext</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aea0d9ce009bc55a7a47ba39124828ab5.html#exhale-function-namespace-sym-engine-1aea0d9ce009bc55a7a47ba39124828ab5"><span class="std std-ref">Function SymEngine::mp_invert</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a0414636d23b0bf9e2f8c036cf2f60b2f.html#exhale-function-namespace-sym-engine-1a0414636d23b0bf9e2f8c036cf2f60b2f"><span class="std std-ref">Function SymEngine::mp_jacobi</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a74101f367b0a8e236aa555bf4347c8ef.html#exhale-function-namespace-sym-engine-1a74101f367b0a8e236aa555bf4347c8ef"><span class="std std-ref">Function SymEngine::mp_kronecker</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aa34fe75f19f99fc48a8a69a034e8b24c.html#exhale-function-namespace-sym-engine-1aa34fe75f19f99fc48a8a69a034e8b24c"><span class="std std-ref">Function SymEngine::mp_legendre</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a01437049995f570675bce93925db7b7c.html#exhale-function-namespace-sym-engine-1a01437049995f570675bce93925db7b7c"><span class="std std-ref">Function SymEngine::mp_lucnum2_ui</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a7006349119e4b55fc4293a82300eb81d.html#exhale-function-namespace-sym-engine-1a7006349119e4b55fc4293a82300eb81d"><span class="std std-ref">Function SymEngine::mp_lucnum_ui</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aa2074c084c5e4ecbbf0b8a1d05f2270b.html#exhale-function-namespace-sym-engine-1aa2074c084c5e4ecbbf0b8a1d05f2270b"><span class="std std-ref">Function SymEngine::mp_nextprime</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aa067e8e1e48e2cb3c29426e98e755b8a.html#exhale-function-namespace-sym-engine-1aa067e8e1e48e2cb3c29426e98e755b8a"><span class="std std-ref">Function SymEngine::mp_perfect_power_p</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1aabbf8eb7c388f8b9b73e10441867380e.html#exhale-function-namespace-sym-engine-1aabbf8eb7c388f8b9b73e10441867380e"><span class="std std-ref">Function SymEngine::mp_perfect_square_p</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ab36e465b0f69e55b33b09b40c1eff518.html#exhale-function-namespace-sym-engine-1ab36e465b0f69e55b33b09b40c1eff518"><span class="std std-ref">Function SymEngine::mp_pow_ui(rational_class&amp;, const rational_class&amp;, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a1183fd19218e79376ab1128d325991fc.html#exhale-function-namespace-sym-engine-1a1183fd19218e79376ab1128d325991fc"><span class="std std-ref">Function SymEngine::mp_powm</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a455281d26033604d5c59b0e83b8c8dcd.html#exhale-function-namespace-sym-engine-1a455281d26033604d5c59b0e83b8c8dcd"><span class="std std-ref">Function SymEngine::mp_probab_prime_p</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ab26581ba01cd3aa4b7d8c5cf4c8174a7.html#exhale-function-namespace-sym-engine-1ab26581ba01cd3aa4b7d8c5cf4c8174a7"><span class="std std-ref">Function SymEngine::mp_root</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ae514816b46c23d9ab5a5de69216905c2.html#exhale-function-namespace-sym-engine-1ae514816b46c23d9ab5a5de69216905c2"><span class="std std-ref">Function SymEngine::mp_rootrem</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a8cd715e9fa31421785e294c30ec82553.html#exhale-function-namespace-sym-engine-1a8cd715e9fa31421785e294c30ec82553"><span class="std std-ref">Function SymEngine::mp_scan1</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a475ba1d45a32f21d1bfa38d768d4ec4b.html#exhale-function-namespace-sym-engine-1a475ba1d45a32f21d1bfa38d768d4ec4b"><span class="std std-ref">Function SymEngine::mp_sqrt</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a711a0c6ddee4d614c5ff7a48d5d8ba22.html#exhale-function-namespace-sym-engine-1a711a0c6ddee4d614c5ff7a48d5d8ba22"><span class="std std-ref">Function SymEngine::mp_sqrtrem</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a1cde4d7ba6fab94306fd31a5fd1f874a.html#exhale-function-namespace-sym-engine-1a1cde4d7ba6fab94306fd31a5fd1f874a"><span class="std std-ref">Function SymEngine::positive_root</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a4a02f64f449d1789ebe703180fda5e61.html#exhale-function-namespace-sym-engine-1a4a02f64f449d1789ebe703180fda5e61"><span class="std std-ref">Function SymEngine::pow(const integer_class&amp;, unsigned long)</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1ad2fb3b32ef355f144b07b53bcf3d5ccd.html#exhale-function-namespace-sym-engine-1ad2fb3b32ef355f144b07b53bcf3d5ccd"><span class="std std-ref">Function SymEngine::step</span></a></p></li>
+<li><p><a class="reference internal" href="function_namespace_sym_engine_1a5bffb5798bc02e0a0e7434a4900d9640.html#exhale-function-namespace-sym-engine-1a5bffb5798bc02e0a0e7434a4900d9640"><span class="std std-ref">Function SymEngine::unchecked_jacobi</span></a></p></li>
+</ul>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">File mp_boost.cpp</a><ul>
+<li><a class="reference internal" href="#definition-home-travis-build-symengine-api-docs-projects-symengine-symengine-mp-boost-cpp">Definition (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/mp_boost.cpp</span></code>)</a></li>
+<li><a class="reference internal" href="#includes">Includes</a></li>
+<li><a class="reference internal" href="#namespaces">Namespaces</a></li>
+<li><a class="reference internal" href="#classes">Classes</a></li>
+<li><a class="reference internal" href="#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File mp_boost.cpp</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a6d2d89c27fdaaccda997817096bdf327:
+
+Function sparse_matrix_get_basic(basic, const CSparseMatrix \*, unsigned long int, unsigned long int)
+=====================================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sparse_matrix_get_basic(basic, const CSparseMatrix *, unsigned long int, unsigned long int)

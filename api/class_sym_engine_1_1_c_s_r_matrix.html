@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class CSRMatrix &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class DenseMatrix" href="class_sym_engine_1_1_dense_matrix.html" />
+    <link rel="prev" title="Class Csch" href="class_sym_engine_1_1_csch.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_dense_matrix.html" title="Class DenseMatrix"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_csch.html" title="Class Csch"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class CSRMatrix</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-csrmatrix">
+<span id="exhale-class-class-sym-engine-1-1-c-s-r-matrix"></span><h1>Class CSRMatrix<a class="headerlink" href="#class-csrmatrix" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-matrix-h"><span class="std std-ref">File matrix.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::MatrixBase</span></code> (<a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#exhale-class-class-sym-engine-1-1-matrix-base"><span class="std std-ref">Class MatrixBase</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine9CSRMatrixE">
+<span id="_CPPv3N9SymEngine9CSRMatrixE"></span><span id="_CPPv2N9SymEngine9CSRMatrixE"></span><span id="SymEngine::CSRMatrix"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">CSRMatrix</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrixE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix9CSRMatrixEv">
+<span id="_CPPv3N9SymEngine9CSRMatrix9CSRMatrixEv"></span><span id="_CPPv2N9SymEngine9CSRMatrix9CSRMatrixEv"></span><span id="SymEngine::CSRMatrix::CSRMatrix"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a8485ddca78eeb633afa70b029b18562d"></span><code class="sig-name descname">CSRMatrix</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix9CSRMatrixEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix9CSRMatrixEjj">
+<span id="_CPPv3N9SymEngine9CSRMatrix9CSRMatrixEjj"></span><span id="_CPPv2N9SymEngine9CSRMatrix9CSRMatrixEjj"></span><span id="SymEngine::CSRMatrix::CSRMatrix__unsigned.unsigned"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1ae1a3baaee49477fea8f0d99dfee1b644"></span><code class="sig-name descname">CSRMatrix</code><span class="sig-paren">(</span>unsigned <em>row</em>, unsigned <em>col</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix9CSRMatrixEjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix9CSRMatrixEjjRKNSt6vectorIjEERKNSt6vectorIjEERK9vec_basic">
+<span id="_CPPv3N9SymEngine9CSRMatrix9CSRMatrixEjjRKNSt6vectorIjEERKNSt6vectorIjEERK9vec_basic"></span><span id="_CPPv2N9SymEngine9CSRMatrix9CSRMatrixEjjRKNSt6vectorIjEERKNSt6vectorIjEERK9vec_basic"></span><span id="SymEngine::CSRMatrix::CSRMatrix__unsigned.unsigned.std::vector:unsigned:CR.std::vector:unsigned:CR.vec_basicCR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aaf1fd5c8302f520c041cc9fd4c16dbea"></span><code class="sig-name descname">CSRMatrix</code><span class="sig-paren">(</span>unsigned <em>row</em>, unsigned <em>col</em>, <em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>p</em>, <em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>j</em>, <em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1.html#_CPPv4N9SymEngine9vec_basicE" title="SymEngine::vec_basic">vec_basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix9CSRMatrixEjjRKNSt6vectorIjEERKNSt6vectorIjEERK9vec_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix9CSRMatrixEjjRRNSt6vectorIjEERRNSt6vectorIjEERR9vec_basic">
+<span id="_CPPv3N9SymEngine9CSRMatrix9CSRMatrixEjjRRNSt6vectorIjEERRNSt6vectorIjEERR9vec_basic"></span><span id="_CPPv2N9SymEngine9CSRMatrix9CSRMatrixEjjRRNSt6vectorIjEERRNSt6vectorIjEERR9vec_basic"></span><span id="SymEngine::CSRMatrix::CSRMatrix__unsigned.unsigned.std::vector:unsigned:RR.std::vector:unsigned:RR.vec_basicRR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1afc017fbe6de2b8469689e1fef49e7af7"></span><code class="sig-name descname">CSRMatrix</code><span class="sig-paren">(</span>unsigned <em>row</em>, unsigned <em>col</em>, std::vector&lt;unsigned&gt; &amp;&amp;<em>p</em>, std::vector&lt;unsigned&gt; &amp;&amp;<em>j</em>, <a class="reference internal" href="typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1.html#_CPPv4N9SymEngine9vec_basicE" title="SymEngine::vec_basic">vec_basic</a> &amp;&amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix9CSRMatrixEjjRRNSt6vectorIjEERRNSt6vectorIjEERR9vec_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrixaSERR9CSRMatrix">
+<span id="_CPPv3N9SymEngine9CSRMatrixaSERR9CSRMatrix"></span><span id="_CPPv2N9SymEngine9CSRMatrixaSERR9CSRMatrix"></span><span id="SymEngine::CSRMatrix::assign-operator__CSRMatrixRR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a399747474db8797d02383a1946df3d88"></span><a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<code class="sig-name descname">operator=</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;&amp;<em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrixaSERR9CSRMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix9CSRMatrixERK9CSRMatrix">
+<span id="_CPPv3N9SymEngine9CSRMatrix9CSRMatrixERK9CSRMatrix"></span><span id="_CPPv2N9SymEngine9CSRMatrix9CSRMatrixERK9CSRMatrix"></span><span id="SymEngine::CSRMatrix::CSRMatrix__CSRMatrixCR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a9bc50c781fdbe2abf8e596fc7e448703"></span><code class="sig-name descname">CSRMatrix</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrix9CSRMatrixERK9CSRMatrix" title="SymEngine::CSRMatrix::CSRMatrix">CSRMatrix</a>&amp;<span class="sig-paren">)</span> = default<a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix9CSRMatrixERK9CSRMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix10as_vectorsEv">
+<span id="_CPPv3NK9SymEngine9CSRMatrix10as_vectorsEv"></span><span id="_CPPv2NK9SymEngine9CSRMatrix10as_vectorsEv"></span><span id="SymEngine::CSRMatrix::as_vectorsC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a996c0a87508bb58750570e59c3fd24cf"></span>std::tuple&lt;std::vector&lt;unsigned&gt;, std::vector&lt;unsigned&gt;, <a class="reference internal" href="typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1.html#_CPPv4N9SymEngine9vec_basicE" title="SymEngine::vec_basic">vec_basic</a>&gt; <code class="sig-name descname">as_vectors</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix10as_vectorsEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix12is_canonicalEv">
+<span id="_CPPv3NK9SymEngine9CSRMatrix12is_canonicalEv"></span><span id="_CPPv2NK9SymEngine9CSRMatrix12is_canonicalEv"></span><span id="SymEngine::CSRMatrix::is_canonicalC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a286525ce711ef3a04340d54d0e6cb896"></span>bool <code class="sig-name descname">is_canonical</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix12is_canonicalEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix2eqERK10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix2eqERK10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix2eqERK10MatrixBase"></span><span id="SymEngine::CSRMatrix::eq__MatrixBaseCRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a30fc8160d493e8b8e9c700022fa47f17"></span>bool <code class="sig-name descname">eq</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix2eqERK10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix3getEjj">
+<span id="_CPPv3NK9SymEngine9CSRMatrix3getEjj"></span><span id="_CPPv2NK9SymEngine9CSRMatrix3getEjj"></span><span id="SymEngine::CSRMatrix::get__unsigned.unsignedC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a89289b4723ba561e0cca84e1ed9baad6"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">get</code><span class="sig-paren">(</span>unsigned <em>i</em>, unsigned <em>j</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix3getEjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix3setEjjRK3RCPIK5BasicE">
+<span id="_CPPv3N9SymEngine9CSRMatrix3setEjjRK3RCPIK5BasicE"></span><span id="_CPPv2N9SymEngine9CSRMatrix3setEjjRK3RCPIK5BasicE"></span><span id="SymEngine::CSRMatrix::set__unsigned.unsigned.RCP:BasicC:CR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a94a07dc9fc2e42c81f9744c6d9418637"></span>void <code class="sig-name descname">set</code><span class="sig-paren">(</span>unsigned <em>i</em>, unsigned <em>j</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>e</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix3setEjjRK3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix5nrowsEv">
+<span id="_CPPv3NK9SymEngine9CSRMatrix5nrowsEv"></span><span id="_CPPv2NK9SymEngine9CSRMatrix5nrowsEv"></span><span id="SymEngine::CSRMatrix::nrowsC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a1cdb9f18cc143cba248e195d57c2d52e"></span>unsigned <code class="sig-name descname">nrows</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix5nrowsEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix5ncolsEv">
+<span id="_CPPv3NK9SymEngine9CSRMatrix5ncolsEv"></span><span id="_CPPv2NK9SymEngine9CSRMatrix5ncolsEv"></span><span id="SymEngine::CSRMatrix::ncolsC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a580353ab3af4bb73adc2081336186caa"></span>unsigned <code class="sig-name descname">ncols</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix5ncolsEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix4rankEv">
+<span id="_CPPv3NK9SymEngine9CSRMatrix4rankEv"></span><span id="_CPPv2NK9SymEngine9CSRMatrix4rankEv"></span><span id="SymEngine::CSRMatrix::rankC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a5dd056d979655a4769c2f80f42c92109"></span>unsigned <code class="sig-name descname">rank</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix4rankEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix3detEv">
+<span id="_CPPv3NK9SymEngine9CSRMatrix3detEv"></span><span id="_CPPv2NK9SymEngine9CSRMatrix3detEv"></span><span id="SymEngine::CSRMatrix::detC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1ad9f9b1fb7179f1c2f7aac058f7c8c2a3"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">det</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix3detEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix3invER10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix3invER10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix3invER10MatrixBase"></span><span id="SymEngine::CSRMatrix::inv__MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1ae7efc0722454c660029cfeb3ceaa84b5"></span>void <code class="sig-name descname">inv</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix3invER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix10add_matrixERK10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix10add_matrixERK10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix10add_matrixERK10MatrixBaseR10MatrixBase"></span><span id="SymEngine::CSRMatrix::add_matrix__MatrixBaseCR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aca5d9e8d468446089d13f8fe646b421d"></span>void <code class="sig-name descname">add_matrix</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>other</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix10add_matrixERK10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix10mul_matrixERK10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix10mul_matrixERK10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix10mul_matrixERK10MatrixBaseR10MatrixBase"></span><span id="SymEngine::CSRMatrix::mul_matrix__MatrixBaseCR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a51e7c3791d4e7a409d2d46e27d82c420"></span>void <code class="sig-name descname">mul_matrix</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>other</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix10mul_matrixERK10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix22elementwise_mul_matrixERK10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix22elementwise_mul_matrixERK10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix22elementwise_mul_matrixERK10MatrixBaseR10MatrixBase"></span><span id="SymEngine::CSRMatrix::elementwise_mul_matrix__MatrixBaseCR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aaa66fd96eaab11aa97b48681e1646344"></span>void <code class="sig-name descname">elementwise_mul_matrix</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>other</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix22elementwise_mul_matrixERK10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix10add_scalarERK3RCPIK5BasicER10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix10add_scalarERK3RCPIK5BasicER10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix10add_scalarERK3RCPIK5BasicER10MatrixBase"></span><span id="SymEngine::CSRMatrix::add_scalar__RCP:BasicC:CR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a2ef38d3c8b104c4ec66480a74ab931e4"></span>void <code class="sig-name descname">add_scalar</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>k</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix10add_scalarERK3RCPIK5BasicER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix10mul_scalarERK3RCPIK5BasicER10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix10mul_scalarERK3RCPIK5BasicER10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix10mul_scalarERK3RCPIK5BasicER10MatrixBase"></span><span id="SymEngine::CSRMatrix::mul_scalar__RCP:BasicC:CR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a94babe451d5e65b0c86c89b676ac1bab"></span>void <code class="sig-name descname">mul_scalar</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>k</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix10mul_scalarERK3RCPIK5BasicER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix9conjugateER10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix9conjugateER10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix9conjugateER10MatrixBase"></span><span id="SymEngine::CSRMatrix::conjugate__MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aafc6b9461cdd0140e5a3f6cd4f893965"></span>void <code class="sig-name descname">conjugate</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix9conjugateER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix9transposeER10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix9transposeER10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix9transposeER10MatrixBase"></span><span id="SymEngine::CSRMatrix::transpose__MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aacd736aa330f66fb2d058bb3190b9eca"></span>void <code class="sig-name descname">transpose</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix9transposeER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix9transposeEb">
+<span id="_CPPv3NK9SymEngine9CSRMatrix9transposeEb"></span><span id="_CPPv2NK9SymEngine9CSRMatrix9transposeEb"></span><span id="SymEngine::CSRMatrix::transpose__bC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a7fbbbc0d509503b3e15e75fdac608c68"></span><a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> <code class="sig-name descname">transpose</code><span class="sig-paren">(</span>bool <em>conjugate</em> = false<span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix9transposeEb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix19conjugate_transposeER10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix19conjugate_transposeER10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix19conjugate_transposeER10MatrixBase"></span><span id="SymEngine::CSRMatrix::conjugate_transpose__MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1ad91629f75918c02cfa576f83031d5f13"></span>void <code class="sig-name descname">conjugate_transpose</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix19conjugate_transposeER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix9submatrixER10MatrixBasejjjjjj">
+<span id="_CPPv3NK9SymEngine9CSRMatrix9submatrixER10MatrixBasejjjjjj"></span><span id="_CPPv2NK9SymEngine9CSRMatrix9submatrixER10MatrixBasejjjjjj"></span><span id="SymEngine::CSRMatrix::submatrix__MatrixBaseR.unsigned.unsigned.unsigned.unsigned.unsigned.unsignedC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a800e5a6f4223bd37a071c9057ff6a8f4"></span>void <code class="sig-name descname">submatrix</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>result</em>, unsigned <em>row_start</em>, unsigned <em>col_start</em>, unsigned <em>row_end</em>, unsigned <em>col_end</em>, unsigned <em>row_step</em> = 1, unsigned <em>col_step</em> = 1<span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix9submatrixER10MatrixBasejjjjjj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix2LUER10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix2LUER10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix2LUER10MatrixBaseR10MatrixBase"></span><span id="SymEngine::CSRMatrix::LU__MatrixBaseR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aa1af2c13f2101c67a63908da362b5456"></span>void <code class="sig-name descname">LU</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>L</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>U</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix2LUER10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix3LDLER10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix3LDLER10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix3LDLER10MatrixBaseR10MatrixBase"></span><span id="SymEngine::CSRMatrix::LDL__MatrixBaseR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a61f18b3b860eff8112327a3c553245e2"></span>void <code class="sig-name descname">LDL</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>L</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>D</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix3LDLER10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix8LU_solveERK10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix8LU_solveERK10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix8LU_solveERK10MatrixBaseR10MatrixBase"></span><span id="SymEngine::CSRMatrix::LU_solve__MatrixBaseCR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a900916da082645e076c8653ffe190e05"></span>void <code class="sig-name descname">LU_solve</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>b</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>x</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix8LU_solveERK10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix4FFLUER10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix4FFLUER10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix4FFLUER10MatrixBase"></span><span id="SymEngine::CSRMatrix::FFLU__MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a3fa9c5c75adacad62d4c980f8d3915f8"></span>void <code class="sig-name descname">FFLU</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>LU</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix4FFLUER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix5FFLDUER10MatrixBaseR10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix5FFLDUER10MatrixBaseR10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix5FFLDUER10MatrixBaseR10MatrixBaseR10MatrixBase"></span><span id="SymEngine::CSRMatrix::FFLDU__MatrixBaseR.MatrixBaseR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a64c66a9b6c0ffe9a060e729425127e6b"></span>void <code class="sig-name descname">FFLDU</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>L</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>D</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>U</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix5FFLDUER10MatrixBaseR10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix2QRER10MatrixBaseR10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix2QRER10MatrixBaseR10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix2QRER10MatrixBaseR10MatrixBase"></span><span id="SymEngine::CSRMatrix::QR__MatrixBaseR.MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aa534a57628ac0596da5d7030a2987f51"></span>void <code class="sig-name descname">QR</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>Q</em>, <a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>R</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix2QRER10MatrixBaseR10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine9CSRMatrix8choleskyER10MatrixBase">
+<span id="_CPPv3NK9SymEngine9CSRMatrix8choleskyER10MatrixBase"></span><span id="_CPPv2NK9SymEngine9CSRMatrix8choleskyER10MatrixBase"></span><span id="SymEngine::CSRMatrix::cholesky__MatrixBaseRC"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aba451d3c6f7e947d96ae05d9530ace34"></span>void <code class="sig-name descname">cholesky</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_matrix_base.html#_CPPv4N9SymEngine10MatrixBaseE" title="SymEngine::MatrixBase">MatrixBase</a> &amp;<em>L</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine9CSRMatrix8choleskyER10MatrixBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Static Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix18csr_sum_duplicatesERNSt6vectorIjEERNSt6vectorIjEER9vec_basicj">
+<span id="_CPPv3N9SymEngine9CSRMatrix18csr_sum_duplicatesERNSt6vectorIjEERNSt6vectorIjEER9vec_basicj"></span><span id="_CPPv2N9SymEngine9CSRMatrix18csr_sum_duplicatesERNSt6vectorIjEERNSt6vectorIjEER9vec_basicj"></span><span id="SymEngine::CSRMatrix::csr_sum_duplicates__std::vector:unsigned:R.std::vector:unsigned:R.vec_basicR.unsigned"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a323050e4528fd71bddf11aee6de00e31"></span>void <code class="sig-name descname">csr_sum_duplicates</code><span class="sig-paren">(</span>std::vector&lt;unsigned&gt; &amp;<em>p_</em>, std::vector&lt;unsigned&gt; &amp;<em>j_</em>, <a class="reference internal" href="typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1.html#_CPPv4N9SymEngine9vec_basicE" title="SymEngine::vec_basic">vec_basic</a> &amp;<em>x_</em>, unsigned <em>row_</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix18csr_sum_duplicatesERNSt6vectorIjEERNSt6vectorIjEER9vec_basicj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix16csr_sort_indicesERNSt6vectorIjEERNSt6vectorIjEER9vec_basicj">
+<span id="_CPPv3N9SymEngine9CSRMatrix16csr_sort_indicesERNSt6vectorIjEERNSt6vectorIjEER9vec_basicj"></span><span id="_CPPv2N9SymEngine9CSRMatrix16csr_sort_indicesERNSt6vectorIjEERNSt6vectorIjEER9vec_basicj"></span><span id="SymEngine::CSRMatrix::csr_sort_indices__std::vector:unsigned:R.std::vector:unsigned:R.vec_basicR.unsigned"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a066b1944855409e2e54e3a4d8512643f"></span>void <code class="sig-name descname">csr_sort_indices</code><span class="sig-paren">(</span>std::vector&lt;unsigned&gt; &amp;<em>p_</em>, std::vector&lt;unsigned&gt; &amp;<em>j_</em>, <a class="reference internal" href="typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1.html#_CPPv4N9SymEngine9vec_basicE" title="SymEngine::vec_basic">vec_basic</a> &amp;<em>x_</em>, unsigned <em>row_</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix16csr_sort_indicesERNSt6vectorIjEERNSt6vectorIjEER9vec_basicj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix22csr_has_sorted_indicesERKNSt6vectorIjEERKNSt6vectorIjEEj">
+<span id="_CPPv3N9SymEngine9CSRMatrix22csr_has_sorted_indicesERKNSt6vectorIjEERKNSt6vectorIjEEj"></span><span id="_CPPv2N9SymEngine9CSRMatrix22csr_has_sorted_indicesERKNSt6vectorIjEERKNSt6vectorIjEEj"></span><span id="SymEngine::CSRMatrix::csr_has_sorted_indices__std::vector:unsigned:CR.std::vector:unsigned:CR.unsigned"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1acdab0693994f133d9c750c410549c388"></span>bool <code class="sig-name descname">csr_has_sorted_indices</code><span class="sig-paren">(</span><em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>p_</em>, <em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>j_</em>, unsigned <em>row_</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix22csr_has_sorted_indicesERKNSt6vectorIjEERKNSt6vectorIjEEj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix18csr_has_duplicatesERKNSt6vectorIjEERKNSt6vectorIjEEj">
+<span id="_CPPv3N9SymEngine9CSRMatrix18csr_has_duplicatesERKNSt6vectorIjEERKNSt6vectorIjEEj"></span><span id="_CPPv2N9SymEngine9CSRMatrix18csr_has_duplicatesERKNSt6vectorIjEERKNSt6vectorIjEEj"></span><span id="SymEngine::CSRMatrix::csr_has_duplicates__std::vector:unsigned:CR.std::vector:unsigned:CR.unsigned"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a5a6b377638dab739e84008dffb6cae6a"></span>bool <code class="sig-name descname">csr_has_duplicates</code><span class="sig-paren">(</span><em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>p_</em>, <em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>j_</em>, unsigned <em>row_</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix18csr_has_duplicatesERKNSt6vectorIjEERKNSt6vectorIjEEj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix24csr_has_canonical_formatERKNSt6vectorIjEERKNSt6vectorIjEEj">
+<span id="_CPPv3N9SymEngine9CSRMatrix24csr_has_canonical_formatERKNSt6vectorIjEERKNSt6vectorIjEEj"></span><span id="_CPPv2N9SymEngine9CSRMatrix24csr_has_canonical_formatERKNSt6vectorIjEERKNSt6vectorIjEEj"></span><span id="SymEngine::CSRMatrix::csr_has_canonical_format__std::vector:unsigned:CR.std::vector:unsigned:CR.unsigned"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a2b4f9226c8d7fa58766f1a9ea4bc4e49"></span>bool <code class="sig-name descname">csr_has_canonical_format</code><span class="sig-paren">(</span><em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>p_</em>, <em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>j_</em>, unsigned <em>row_</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix24csr_has_canonical_formatERKNSt6vectorIjEERKNSt6vectorIjEEj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix8from_cooEjjRKNSt6vectorIjEERKNSt6vectorIjEERK9vec_basic">
+<span id="_CPPv3N9SymEngine9CSRMatrix8from_cooEjjRKNSt6vectorIjEERKNSt6vectorIjEERK9vec_basic"></span><span id="_CPPv2N9SymEngine9CSRMatrix8from_cooEjjRKNSt6vectorIjEERKNSt6vectorIjEERK9vec_basic"></span><span id="SymEngine::CSRMatrix::from_coo__unsigned.unsigned.std::vector:unsigned:CR.std::vector:unsigned:CR.vec_basicCR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1aaea5900963d6a68c49a6dbbe04877796"></span><a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> <code class="sig-name descname">from_coo</code><span class="sig-paren">(</span>unsigned <em>row</em>, unsigned <em>col</em>, <em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>i</em>, <em class="property">const</em> std::vector&lt;unsigned&gt; &amp;<em>j</em>, <em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1.html#_CPPv4N9SymEngine9vec_basicE" title="SymEngine::vec_basic">vec_basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix8from_cooEjjRKNSt6vectorIjEERKNSt6vectorIjEERK9vec_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix8jacobianERK9vec_basicRK7vec_symb">
+<span id="_CPPv3N9SymEngine9CSRMatrix8jacobianERK9vec_basicRK7vec_symb"></span><span id="_CPPv2N9SymEngine9CSRMatrix8jacobianERK9vec_basicRK7vec_symb"></span><span id="SymEngine::CSRMatrix::jacobian__vec_basicCR.vec_symCR.b"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a667e7013a7ec1fc6b98bcf2f4e4b9da7"></span><a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> <code class="sig-name descname">jacobian</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1.html#_CPPv4N9SymEngine9vec_basicE" title="SymEngine::vec_basic">vec_basic</a> &amp;<em>exprs</em>, <em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1a9fdbd1736332521ea806566039581542.html#_CPPv4N9SymEngine7vec_symE" title="SymEngine::vec_sym">vec_sym</a> &amp;<em>x</em>, bool <em>diff_cache</em> = true<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix8jacobianERK9vec_basicRK7vec_symb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix8jacobianERK11DenseMatrixRK11DenseMatrixb">
+<span id="_CPPv3N9SymEngine9CSRMatrix8jacobianERK11DenseMatrixRK11DenseMatrixb"></span><span id="_CPPv2N9SymEngine9CSRMatrix8jacobianERK11DenseMatrixRK11DenseMatrixb"></span><span id="SymEngine::CSRMatrix::jacobian__DenseMatrixCR.DenseMatrixCR.b"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a86772d4c12b7f36932c401513ff1d1cc"></span><a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> <code class="sig-name descname">jacobian</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_dense_matrix.html#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>A</em>, <em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_dense_matrix.html#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>x</em>, bool <em>diff_cache</em> = true<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix8jacobianERK11DenseMatrixRK11DenseMatrixb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Friends</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix16csr_matmat_pass1ERK9CSRMatrixRK9CSRMatrixR9CSRMatrix">
+<span id="_CPPv3N9SymEngine9CSRMatrix16csr_matmat_pass1ERK9CSRMatrixRK9CSRMatrixR9CSRMatrix"></span><span id="_CPPv2N9SymEngine9CSRMatrix16csr_matmat_pass1ERK9CSRMatrixRK9CSRMatrixR9CSRMatrix"></span><span id="SymEngine::CSRMatrix::csr_matmat_pass1__CSRMatrixCR.CSRMatrixCR.CSRMatrixR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a29c253ccfa9183cbe8f8eb4ab7cab655"></span><em class="property">friend</em> void <code class="sig-name descname">csr_matmat_pass1</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>A</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>B</em>, <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>C</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix16csr_matmat_pass1ERK9CSRMatrixRK9CSRMatrixR9CSRMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix16csr_matmat_pass2ERK9CSRMatrixRK9CSRMatrixR9CSRMatrix">
+<span id="_CPPv3N9SymEngine9CSRMatrix16csr_matmat_pass2ERK9CSRMatrixRK9CSRMatrixR9CSRMatrix"></span><span id="_CPPv2N9SymEngine9CSRMatrix16csr_matmat_pass2ERK9CSRMatrixRK9CSRMatrixR9CSRMatrix"></span><span id="SymEngine::CSRMatrix::csr_matmat_pass2__CSRMatrixCR.CSRMatrixCR.CSRMatrixR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a81848313474c9de49f42e0cb083a19e2"></span><em class="property">friend</em> void <code class="sig-name descname">csr_matmat_pass2</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>A</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>B</em>, <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>C</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix16csr_matmat_pass2ERK9CSRMatrixRK9CSRMatrixR9CSRMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix12csr_diagonalERK9CSRMatrixR11DenseMatrix">
+<span id="_CPPv3N9SymEngine9CSRMatrix12csr_diagonalERK9CSRMatrixR11DenseMatrix"></span><span id="_CPPv2N9SymEngine9CSRMatrix12csr_diagonalERK9CSRMatrixR11DenseMatrix"></span><span id="SymEngine::CSRMatrix::csr_diagonal__CSRMatrixCR.DenseMatrixR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a557574f17694261ba40ae6ddbdeb1849"></span><em class="property">friend</em> void <code class="sig-name descname">csr_diagonal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>A</em>, <a class="reference internal" href="class_sym_engine_1_1_dense_matrix.html#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>D</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix12csr_diagonalERK9CSRMatrixR11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix14csr_scale_rowsER9CSRMatrixRK11DenseMatrix">
+<span id="_CPPv3N9SymEngine9CSRMatrix14csr_scale_rowsER9CSRMatrixRK11DenseMatrix"></span><span id="_CPPv2N9SymEngine9CSRMatrix14csr_scale_rowsER9CSRMatrixRK11DenseMatrix"></span><span id="SymEngine::CSRMatrix::csr_scale_rows__CSRMatrixR.DenseMatrixCR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a057bf33cd6c386dbc38c0e4c48d92bd4"></span><em class="property">friend</em> void <code class="sig-name descname">csr_scale_rows</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>A</em>, <em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_dense_matrix.html#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>X</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix14csr_scale_rowsER9CSRMatrixRK11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix17csr_scale_columnsER9CSRMatrixRK11DenseMatrix">
+<span id="_CPPv3N9SymEngine9CSRMatrix17csr_scale_columnsER9CSRMatrixRK11DenseMatrix"></span><span id="_CPPv2N9SymEngine9CSRMatrix17csr_scale_columnsER9CSRMatrixRK11DenseMatrix"></span><span id="SymEngine::CSRMatrix::csr_scale_columns__CSRMatrixR.DenseMatrixCR"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a2137e30197b286d64f33ac916158773b"></span><em class="property">friend</em> void <code class="sig-name descname">csr_scale_columns</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>A</em>, <em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_dense_matrix.html#_CPPv4N9SymEngine11DenseMatrixE" title="SymEngine::DenseMatrix">DenseMatrix</a> &amp;<em>X</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix17csr_scale_columnsER9CSRMatrixRK11DenseMatrix" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine9CSRMatrix23csr_binop_csr_canonicalERK9CSRMatrixRK9CSRMatrixR9CSRMatrixRF3RCPIK5BasicERK3RCPIK5BasicERK3RCPIK5BasicEE">
+<span id="_CPPv3N9SymEngine9CSRMatrix23csr_binop_csr_canonicalERK9CSRMatrixRK9CSRMatrixR9CSRMatrixRF3RCPIK5BasicERK3RCPIK5BasicERK3RCPIK5BasicEE"></span><span id="_CPPv2N9SymEngine9CSRMatrix23csr_binop_csr_canonicalERK9CSRMatrixRK9CSRMatrixR9CSRMatrixRF3RCPIK5BasicERK3RCPIK5BasicERK3RCPIK5BasicEE"></span><span class="target" id="class_sym_engine_1_1_c_s_r_matrix_1a00b2b5d1083c3696a13652b5108a293c"></span><em class="property">friend</em> void <code class="sig-name descname">csr_binop_csr_canonical</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>A</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>B</em>, <a class="reference internal" href="#_CPPv4N9SymEngine9CSRMatrixE" title="SymEngine::CSRMatrix">CSRMatrix</a> &amp;<em>C</em>, RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; (&amp;<em>bin_op</em>)<span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&amp;, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&amp;<span class="sig-paren">)</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine9CSRMatrix23csr_binop_csr_canonicalERK9CSRMatrixRK9CSRMatrixR9CSRMatrixRF3RCPIK5BasicERK3RCPIK5BasicERK3RCPIK5BasicEE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class CSRMatrix</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_csch.html"
+                        title="previous chapter">Class Csch</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_dense_matrix.html"
+                        title="next chapter">Class DenseMatrix</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_c_s_r_matrix.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_dense_matrix.html" title="Class DenseMatrix"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_csch.html" title="Class Csch"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class CSRMatrix</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

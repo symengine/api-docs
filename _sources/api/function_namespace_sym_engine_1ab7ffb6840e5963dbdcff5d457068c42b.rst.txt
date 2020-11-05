@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ab7ffb6840e5963dbdcff5d457068c42b:
+
+Function SymEngine::add(const RCP<const Basic>&, const RCP<const Basic>&)
+=========================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::add(const RCP<const Basic>&, const RCP<const Basic>&)

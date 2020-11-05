@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_m_subs_visitor:
+
+Class MSubsVisitor
+==================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_subs.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::BaseVisitor< MSubsVisitor, XReplaceVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::MSubsVisitor
+   :members:
+   :protected-members:
+   :undoc-members:

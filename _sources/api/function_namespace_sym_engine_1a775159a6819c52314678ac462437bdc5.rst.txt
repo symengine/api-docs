@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a775159a6819c52314678ac462437bdc5:
+
+Template Function SymEngine::ordered_compare
+============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::ordered_compare(const T&, const T&)

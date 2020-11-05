@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ae1dd3d3e067a91b7c753c5435b95df51:
+
+Function SymEngine::get_mpq_t
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::get_mpq_t(const rational_class&)

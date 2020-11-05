@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a971b3f93e9fac9acf03b1f4081d5e9a6:
+
+Function SymEngine::coeff
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::coeff(const Basic&, const Basic&, const Basic&)

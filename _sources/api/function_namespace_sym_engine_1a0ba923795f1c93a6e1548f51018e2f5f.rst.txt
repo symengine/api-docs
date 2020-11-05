@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a0ba923795f1c93a6e1548f51018e2f5f:
+
+Function SymEngine::set_diff
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cse.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::set_diff(const std::set<unsigned>&, const std::vector<unsigned>&)

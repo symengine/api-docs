@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a4f073559f9810e628d7a00fe57b7ff51:
+
+Function basic_diff(basic, const basic, const basic)
+====================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_diff(basic, const basic, const basic)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa73118b241918d4e37cd71ce122e00f3:
+
+Function SymEngine::mertens
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mertens(const unsigned long)

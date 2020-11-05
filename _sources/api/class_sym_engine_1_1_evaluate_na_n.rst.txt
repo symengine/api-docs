@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_evaluate_na_n:
+
+Class EvaluateNaN
+=================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_nan.cpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Evaluate`` (:ref:`exhale_class_class_sym_engine_1_1_evaluate`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::EvaluateNaN
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a981eacb5a5253eb8e06bd2efd6175d97:
+
+Function ntheory_gcd_ext(basic, basic, basic, const basic, const basic)
+=======================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ntheory_gcd_ext(basic, basic, basic, const basic, const basic)

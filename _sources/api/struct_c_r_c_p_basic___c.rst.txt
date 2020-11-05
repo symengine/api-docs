@@ -1,0 +1,16 @@
+.. _exhale_struct_struct_c_r_c_p_basic___c:
+
+Struct CRCPBasic_C
+==================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: CRCPBasic_C
+   :members:
+   :protected-members:
+   :undoc-members:

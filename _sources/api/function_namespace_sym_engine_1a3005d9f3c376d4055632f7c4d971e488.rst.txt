@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a3005d9f3c376d4055632f7c4d971e488:
+
+Function SymEngine::mp_gcd
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_gcd(integer_class&, const integer_class&, const integer_class&)

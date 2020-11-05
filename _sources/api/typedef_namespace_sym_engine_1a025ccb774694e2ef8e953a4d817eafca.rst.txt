@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a025ccb774694e2ef8e953a4d817eafca:
+
+Typedef SymEngine::umap_uvec_mpz
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::umap_uvec_mpz

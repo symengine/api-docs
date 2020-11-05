@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a6791cec0bb0ba67bc5cb8b42047a0b46:
+
+Function SymEngine::isqrt
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::isqrt(const Integer&)

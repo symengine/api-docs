@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a2795fa1048031bf82ad1f5a4f5a14378:
+
+Function real_double_get_d(const basic)
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: real_double_get_d(const basic)

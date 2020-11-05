@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a471693a6c59c1551d28fa34e615840ce:
+
+Function SymEngine::julia_str
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::julia_str(const Basic&)

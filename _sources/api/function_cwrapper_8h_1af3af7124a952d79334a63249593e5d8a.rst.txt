@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1af3af7124a952d79334a63249593e5d8a:
+
+Function dense_matrix_LU_solve(CDenseMatrix \*, const CDenseMatrix \*, const CDenseMatrix \*)
+=============================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_LU_solve(CDenseMatrix *, const CDenseMatrix *, const CDenseMatrix *)

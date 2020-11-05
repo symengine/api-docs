@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ab7b4404d09f3e657858cf7815acec8ab:
+
+Function SymEngine::operator==
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::operator==(const SymEngine::MatrixBase&, const SymEngine::MatrixBase&)

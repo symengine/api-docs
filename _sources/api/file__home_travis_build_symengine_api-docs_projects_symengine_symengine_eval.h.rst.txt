@@ -1,0 +1,60 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.h:
+
+File eval.h
+===========
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/eval.h``)
+------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`)
+
+- ``symengine/dict.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`)
+
+- ``symengine/symengine_rcp.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_rcp.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_namespace_sym_engine_1a04157cdfeef154e7bc8690bfd7a22160`
+

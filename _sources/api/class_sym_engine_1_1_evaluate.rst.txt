@@ -1,0 +1,29 @@
+.. _exhale_class_class_sym_engine_1_1_evaluate:
+
+Class Evaluate
+==============
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Types
+*************
+
+- ``public SymEngine::EvaluateDouble< ComplexDouble >`` (:ref:`exhale_class_class_sym_engine_1_1_evaluate_double`)
+- ``public SymEngine::EvaluateDouble< RealDouble >`` (:ref:`exhale_class_class_sym_engine_1_1_evaluate_double`)
+- ``public SymEngine::EvaluateDouble< T >`` (:ref:`exhale_class_class_sym_engine_1_1_evaluate_double`)
+- ``public SymEngine::EvaluateInfty`` (:ref:`exhale_class_class_sym_engine_1_1_evaluate_infty`)
+- ``public SymEngine::EvaluateNaN`` (:ref:`exhale_class_class_sym_engine_1_1_evaluate_na_n`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Evaluate
+   :members:
+   :protected-members:
+   :undoc-members:

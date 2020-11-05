@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a0a98ed704f86e941a5086a46465b2a5b:
+
+Function SymEngine::acos
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::acos(const RCP<const Basic>&)

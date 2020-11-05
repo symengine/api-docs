@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1adeea01ccd116f965ae18ccc76e43f7b7:
+
+Function SymEngine::factor_lehman_method
+========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::factor_lehman_method(const Ptr<RCP<const Integer>>&, const Integer&)

@@ -1,0 +1,88 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp:
+
+File visitor.cpp
+================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/visitor.cpp``)
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/polys/basic_conversions.h``
+
+- ``symengine/sets.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`)
+
+- ``symengine/type_codes.inc`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_type_codes.inc`)
+
+- ``symengine/visitor.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_free_symbols_visitor`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1a971b3f93e9fac9acf03b1f4081d5e9a6`
+
+- :ref:`exhale_function_namespace_sym_engine_1ae1259c23b4bb13c11d5ac1b28760e1be`
+
+- :ref:`exhale_function_namespace_sym_engine_1a2f92d8c6b6e4c7d9d6350f09fdb83a0e`
+
+- :ref:`exhale_function_namespace_sym_engine_1ae8227a937fb0b2b4692e5d68bd838045`
+
+- :ref:`exhale_function_namespace_sym_engine_1a7394a556e2651fe84fcdb3335f89681c`
+
+- :ref:`exhale_function_namespace_sym_engine_1ae5b0bdd4cc645dd135e7efc9265b2361`
+
+- :ref:`exhale_function_namespace_sym_engine_1ac430ea4710b14ff8dd96a8a0d4792aac`
+
+- :ref:`exhale_function_namespace_sym_engine_1a645d72a8aa2b7e1a5a3f4cde8adfdd9d`
+
+- :ref:`exhale_function_namespace_sym_engine_1ab83ec7940ad851065fc6426159a538f9`
+
+- :ref:`exhale_function_namespace_sym_engine_1a9c923106e7ba5c0ab5db8cd2e6b5a994`
+
+- :ref:`exhale_function_namespace_sym_engine_1a99ebc87ef9bba99c9bfb2d5cb1ba2a21`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_visitor_8cpp_1a1ebe684b3cafcf65359fc64596f9787b`
+
+- :ref:`exhale_define_visitor_8cpp_1a4806471ed102e83b9d860be0f80fdc07`
+

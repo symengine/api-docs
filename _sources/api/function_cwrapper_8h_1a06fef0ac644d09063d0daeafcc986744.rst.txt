@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a06fef0ac644d09063d0daeafcc986744:
+
+Function is_a_Integer(const basic)
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_a_Integer(const basic)

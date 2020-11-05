@@ -1,0 +1,33 @@
+.. _exhale_class_class_sym_engine_1_1_complex_base:
+
+Class ComplexBase
+=================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Number`` (:ref:`exhale_class_class_sym_engine_1_1_number`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::Complex`` (:ref:`exhale_class_class_sym_engine_1_1_complex`)
+- ``public SymEngine::ComplexDouble`` (:ref:`exhale_class_class_sym_engine_1_1_complex_double`)
+- ``public SymEngine::ComplexMPC`` (:ref:`exhale_class_class_sym_engine_1_1_complex_m_p_c`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::ComplexBase
+   :members:
+   :protected-members:
+   :undoc-members:

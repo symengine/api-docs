@@ -1,0 +1,36 @@
+.. _exhale_class_class_sym_engine_1_1_trig_function:
+
+Class TrigFunction
+==================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::TrigBase`` (:ref:`exhale_class_class_sym_engine_1_1_trig_base`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::Cos`` (:ref:`exhale_class_class_sym_engine_1_1_cos`)
+- ``public SymEngine::Cot`` (:ref:`exhale_class_class_sym_engine_1_1_cot`)
+- ``public SymEngine::Csc`` (:ref:`exhale_class_class_sym_engine_1_1_csc`)
+- ``public SymEngine::Sec`` (:ref:`exhale_class_class_sym_engine_1_1_sec`)
+- ``public SymEngine::Sin`` (:ref:`exhale_class_class_sym_engine_1_1_sin`)
+- ``public SymEngine::Tan`` (:ref:`exhale_class_class_sym_engine_1_1_tan`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::TrigFunction
+   :members:
+   :protected-members:
+   :undoc-members:

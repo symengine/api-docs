@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a35e06853720a494c88caf44536804984:
+
+Function is_a_RealDouble(const basic)
+=====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_a_RealDouble(const basic)

@@ -1,0 +1,13 @@
+.. _exhale_typedef_cwrapper_8h_1a2b9c43f8b0058da40200f4035f60934d:
+
+Typedef dcomplex
+================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: dcomplex

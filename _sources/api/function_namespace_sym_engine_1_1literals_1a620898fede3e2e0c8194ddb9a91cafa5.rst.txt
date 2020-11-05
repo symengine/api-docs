@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1_1literals_1a620898fede3e2e0c8194ddb9a91cafa5:
+
+Function SymEngine::literals::operator""_q
+==========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::literals::operator""_q(const char *)

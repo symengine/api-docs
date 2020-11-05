@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a3c2a57b1936a50f0896243aa830b9f11:
+
+Typedef SymEngine::umap_basic_uint
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::umap_basic_uint

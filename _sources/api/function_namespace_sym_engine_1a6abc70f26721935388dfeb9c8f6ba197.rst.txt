@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a6abc70f26721935388dfeb9c8f6ba197:
+
+Template Function SymEngine::unified_compare(const std::vector<T>&, const std::vector<T>&)
+==========================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::unified_compare(const std::vector<T>&, const std::vector<T>&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8717a15127694a0f67f52f5dc56e636f:
+
+Function SymEngine::c89code
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::c89code(const Basic&)

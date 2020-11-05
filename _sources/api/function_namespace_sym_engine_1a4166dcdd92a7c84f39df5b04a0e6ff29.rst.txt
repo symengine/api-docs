@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4166dcdd92a7c84f39df5b04a0e6ff29:
+
+Function SymEngine::is_a_Boolean
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::is_a_Boolean(const Basic&)

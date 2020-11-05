@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1_1literals_1a618f35c7b256be9b4e0109a60bf80f4c:
+
+Function SymEngine::literals::operator""_z
+==========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::literals::operator""_z(const char *)

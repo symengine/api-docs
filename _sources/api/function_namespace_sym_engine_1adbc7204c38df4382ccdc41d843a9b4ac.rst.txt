@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1adbc7204c38df4382ccdc41d843a9b4ac:
+
+Function SymEngine::mp_gcdext
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_gcdext(integer_class&, integer_class&, integer_class&, const integer_class&, const integer_class&)

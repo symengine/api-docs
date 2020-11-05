@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a64f877d61bf453c83b0c13bae061715b:
+
+Function SymEngine::luc_matrix
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::luc_matrix(unsigned long)

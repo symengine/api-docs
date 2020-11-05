@@ -1,0 +1,13 @@
+.. _exhale_define_visitor_8cpp_1a1ebe684b3cafcf65359fc64596f9787b:
+
+Define ACCEPT
+=============
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: ACCEPT

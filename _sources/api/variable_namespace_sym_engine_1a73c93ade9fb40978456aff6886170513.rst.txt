@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1a73c93ade9fb40978456aff6886170513:
+
+Variable SymEngine::Catalan
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::Catalan

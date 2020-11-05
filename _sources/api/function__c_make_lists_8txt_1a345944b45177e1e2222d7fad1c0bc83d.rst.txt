@@ -1,0 +1,13 @@
+.. _exhale_function__c_make_lists_8txt_1a345944b45177e1e2222d7fad1c0bc83d:
+
+Function include_directories
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_CMakeLists.txt`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: include_directories(BEFORE ${teuchos_BINARY_DIR})

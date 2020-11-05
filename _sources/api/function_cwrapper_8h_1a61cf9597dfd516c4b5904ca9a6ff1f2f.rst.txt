@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a61cf9597dfd516c4b5904ca9a6ff1f2f:
+
+Function basic_sub(basic, const basic, const basic)
+===================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_sub(basic, const basic, const basic)

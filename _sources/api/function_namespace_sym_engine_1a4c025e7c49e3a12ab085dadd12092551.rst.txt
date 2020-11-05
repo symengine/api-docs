@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4c025e7c49e3a12ab085dadd12092551:
+
+Function SymEngine::zeta(const RCP<const Basic>&)
+=================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::zeta(const RCP<const Basic>&)

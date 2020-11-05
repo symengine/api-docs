@@ -1,0 +1,46 @@
+.. _exhale_class_class_sym_engine_1_1_one_arg_function:
+
+Class OneArgFunction
+====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Function`` (:ref:`exhale_class_class_sym_engine_1_1_function`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::Abs`` (:ref:`exhale_class_class_sym_engine_1_1_abs`)
+- ``public SymEngine::Ceiling`` (:ref:`exhale_class_class_sym_engine_1_1_ceiling`)
+- ``public SymEngine::Conjugate`` (:ref:`exhale_class_class_sym_engine_1_1_conjugate`)
+- ``public SymEngine::Dirichlet_eta`` (:ref:`exhale_class_class_sym_engine_1_1_dirichlet__eta`)
+- ``public SymEngine::Erf`` (:ref:`exhale_class_class_sym_engine_1_1_erf`)
+- ``public SymEngine::Erfc`` (:ref:`exhale_class_class_sym_engine_1_1_erfc`)
+- ``public SymEngine::Floor`` (:ref:`exhale_class_class_sym_engine_1_1_floor`)
+- ``public SymEngine::Gamma`` (:ref:`exhale_class_class_sym_engine_1_1_gamma`)
+- ``public SymEngine::HyperbolicBase`` (:ref:`exhale_class_class_sym_engine_1_1_hyperbolic_base`)
+- ``public SymEngine::LambertW`` (:ref:`exhale_class_class_sym_engine_1_1_lambert_w`)
+- ``public SymEngine::Log`` (:ref:`exhale_class_class_sym_engine_1_1_log`)
+- ``public SymEngine::LogGamma`` (:ref:`exhale_class_class_sym_engine_1_1_log_gamma`)
+- ``public SymEngine::Sign`` (:ref:`exhale_class_class_sym_engine_1_1_sign`)
+- ``public SymEngine::TrigBase`` (:ref:`exhale_class_class_sym_engine_1_1_trig_base`)
+- ``public SymEngine::Truncate`` (:ref:`exhale_class_class_sym_engine_1_1_truncate`)
+- ``public SymEngine::UnevaluatedExpr`` (:ref:`exhale_class_class_sym_engine_1_1_unevaluated_expr`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::OneArgFunction
+   :members:
+   :protected-members:
+   :undoc-members:

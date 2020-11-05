@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a140e1990268bd87d976940e2bb7ae461:
+
+Function SymEngine::fibonacci2
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::fibonacci2(const Ptr<RCP<const Integer>>&, const Ptr<RCP<const Integer>>&, unsigned long)

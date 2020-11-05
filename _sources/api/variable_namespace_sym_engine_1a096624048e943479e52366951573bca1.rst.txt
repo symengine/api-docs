@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1a096624048e943479e52366951573bca1:
+
+Variable SymEngine::inverse_cst
+===============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::inverse_cst

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ad91284f4cad81dc22ba21921a4e6bafb:
+
+Function SymEngine::init_eval_double
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_double.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::init_eval_double()

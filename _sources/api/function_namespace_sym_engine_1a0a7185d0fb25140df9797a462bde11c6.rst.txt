@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a0a7185d0fb25140df9797a462bde11c6:
+
+Function SymEngine::Ge
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::Ge(const RCP<const Basic>&, const RCP<const Basic>&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a3c8a3ed69fc9d3920ed0a1ed22bb3b54:
+
+Function SymEngine::mp_lcm
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_lcm(integer_class&, const integer_class&, const integer_class&)

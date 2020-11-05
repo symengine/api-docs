@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1adbd1fd8694f1d214445e1f1ff89f56f7:
+
+Function SymEngine::get_float_intrinsic
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::get_float_intrinsic(llvm::Type *, llvm::Intrinsic::ID, unsigned, llvm::Module *)

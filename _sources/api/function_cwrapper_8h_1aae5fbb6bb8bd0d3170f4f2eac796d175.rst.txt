@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1aae5fbb6bb8bd0d3170f4f2eac796d175:
+
+Function dense_matrix_rows_cols(CDenseMatrix \*, unsigned, unsigned)
+====================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_rows_cols(CDenseMatrix *, unsigned, unsigned)

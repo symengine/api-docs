@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a3c20b6b0bdf6051f0ea3285c74a78fb5:
+
+Function basic_div(basic, const basic, const basic)
+===================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_div(basic, const basic, const basic)

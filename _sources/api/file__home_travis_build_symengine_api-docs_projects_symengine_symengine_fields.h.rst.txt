@@ -1,0 +1,75 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.h:
+
+File fields.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/fields.h``)
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`)
+
+- ``symengine/dict.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`)
+
+- ``symengine/polys/uintpoly.h``
+
+- ``symengine/polys/upolybase.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_struct_sym_engine_1_1_galois_field_dict_1_1_dict_less`
+
+- :ref:`exhale_class_class_sym_engine_1_1_galois_field`
+
+- :ref:`exhale_class_class_sym_engine_1_1_galois_field_dict`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1a1e0f78cd669306fa94c4f80653de8533`
+
+- :ref:`exhale_function_namespace_sym_engine_1a65f6fb120186024286d9f8d42434e5e6`
+
+- :ref:`exhale_function_namespace_sym_engine_1a3132fc9da3a64ad112b22c0ff5382d32`
+

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a72da90f7aa5ddf163ff1585d3970ab39:
+
+Function SymEngine::sjacobian
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::sjacobian(const DenseMatrix&, const DenseMatrix&, DenseMatrix&, bool)

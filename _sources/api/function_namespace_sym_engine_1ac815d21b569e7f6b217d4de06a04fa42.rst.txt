@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ac815d21b569e7f6b217d4de06a04fa42:
+
+Function SymEngine::evalf_numeric
+=================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::evalf_numeric(const Basic&, unsigned long, bool)

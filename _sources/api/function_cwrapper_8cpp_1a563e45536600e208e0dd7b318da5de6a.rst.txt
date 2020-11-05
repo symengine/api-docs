@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a563e45536600e208e0dd7b318da5de6a:
+
+Function setbasic_insert(CSetBasic \*, const basic)
+===================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: setbasic_insert(CSetBasic *, const basic)

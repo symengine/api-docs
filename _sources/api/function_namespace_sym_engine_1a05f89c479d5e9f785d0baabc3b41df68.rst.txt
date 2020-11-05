@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a05f89c479d5e9f785d0baabc3b41df68:
+
+Function SymEngine::subs
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_subs.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::subs(const RCP<const Basic>&, const map_basic_basic&, bool)

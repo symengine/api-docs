@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_a_coth:
+
+Class ACoth
+===========
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::InverseHyperbolicFunction`` (:ref:`exhale_class_class_sym_engine_1_1_inverse_hyperbolic_function`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::ACoth
+   :members:
+   :protected-members:
+   :undoc-members:

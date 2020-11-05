@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1af7f7606696e1bb9bdc4f8a2781cf94f9:
+
+Template Function SymEngine::unified_compare(const std::pair<T, U>&, const std::pair<T, U>&)
+============================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::unified_compare(const std::pair<T, U>&, const std::pair<T, U>&)

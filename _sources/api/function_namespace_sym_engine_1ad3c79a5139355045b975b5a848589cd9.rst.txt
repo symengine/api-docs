@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ad3c79a5139355045b975b5a848589cd9:
+
+Function SymEngine::sqrt(RCP<const Basic>&)
+===========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::sqrt(RCP<const Basic>&)

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1af5ec97767841b03b792709abebd31c6d:
+
+Function basic_const_EulerGamma(basic)
+======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_const_EulerGamma(basic)

@@ -1,0 +1,13 @@
+.. _exhale_define_cwrapper_8h_1a08bb410a1fa4af492bab1e5d83e12168:
+
+Define SYMENGINE_C_ASSERT
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: SYMENGINE_C_ASSERT

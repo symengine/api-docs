@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a283840b8821277e29a717c92a06360fc:
+
+Function basic_function_symbols(CSetBasic \*, const basic)
+==========================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_function_symbols(CSetBasic *, const basic)

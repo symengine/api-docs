@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ac2e88d0ec439019bac8b1273128a1c41:
+
+Function SymEngine::i_nth_root
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::i_nth_root(const Ptr<RCP<const Integer>>&, const Integer&, unsigned long int)

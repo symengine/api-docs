@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ae8227a937fb0b2b4692e5d68bd838045:
+
+Function SymEngine::free_symbols(const MatrixBase&)
+===================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::free_symbols(const MatrixBase&)

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a6b6b9d06bc3c726fd899a5ccee77a7ec:
+
+Function is_a_ComplexMPC(const basic)
+=====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_a_ComplexMPC(const basic)

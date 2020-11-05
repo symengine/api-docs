@@ -1,0 +1,13 @@
+.. _exhale_typedef_cwrapper_8h_1a80cf40066081c34832264b249b5020aa:
+
+Typedef CMapBasicBasic
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: CMapBasicBasic

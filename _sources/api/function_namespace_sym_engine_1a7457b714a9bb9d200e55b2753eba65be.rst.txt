@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a7457b714a9bb9d200e55b2753eba65be:
+
+Function SymEngine::solve_trig
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::solve_trig(const RCP<const Basic>&, const RCP<const Symbol>&, const RCP<const Set>&)

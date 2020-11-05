@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class CountOpsVisitor &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class Csc" href="class_sym_engine_1_1_csc.html" />
+    <link rel="prev" title="Class Coth" href="class_sym_engine_1_1_coth.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_csc.html" title="Class Csc"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_coth.html" title="Class Coth"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class CountOpsVisitor</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-countopsvisitor">
+<span id="exhale-class-class-sym-engine-1-1-count-ops-visitor"></span><h1>Class CountOpsVisitor<a class="headerlink" href="#class-countopsvisitor" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-visitor-h"><span class="std std-ref">File visitor.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::BaseVisitor&lt;</span> <span class="pre">CountOpsVisitor</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#exhale-class-class-sym-engine-1-1-base-visitor"><span class="std std-ref">Template Class BaseVisitor</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitorE">
+<span id="_CPPv3N9SymEngine15CountOpsVisitorE"></span><span id="_CPPv2N9SymEngine15CountOpsVisitorE"></span><span id="SymEngine::CountOpsVisitor"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">CountOpsVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine15CountOpsVisitorE" title="SymEngine::CountOpsVisitor">CountOpsVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor5applyERK5Basic">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor5applyERK5Basic"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor5applyERK5Basic"></span><span id="SymEngine::CountOpsVisitor::apply__BasicCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a00391c7677d6ab335def1260260a22d3"></span>void <code class="sig-name descname">apply</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>b</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor5applyERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Mul">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK3Mul"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK3Mul"></span><span id="SymEngine::CountOpsVisitor::bvisit__MulCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a8b8e4e072b64534a7582c0a30da9ae29"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_mul.html#_CPPv4N9SymEngine3MulE" title="SymEngine::Mul">Mul</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Mul" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Add">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK3Add"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK3Add"></span><span id="SymEngine::CountOpsVisitor::bvisit__AddCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a02425ada79ec24b2f85e4e2bb24c23b7"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_add.html#_CPPv4N9SymEngine3AddE" title="SymEngine::Add">Add</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Add" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK3Pow"></span><span id="SymEngine::CountOpsVisitor::bvisit__PowCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a536aa913bc75631d249c1712d37ac0b8"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK6Number">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK6Number"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK6Number"></span><span id="SymEngine::CountOpsVisitor::bvisit__NumberCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a63d77eeb6e06a0269d4552ea9cd49bec"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK11ComplexBase">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK11ComplexBase"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK11ComplexBase"></span><span id="SymEngine::CountOpsVisitor::bvisit__ComplexBaseCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a17cebcb5bbc6e7c847293e3d9a23a350"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex_base.html#_CPPv4N9SymEngine11ComplexBaseE" title="SymEngine::ComplexBase">ComplexBase</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK11ComplexBase" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK6Symbol">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK6Symbol"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK6Symbol"></span><span id="SymEngine::CountOpsVisitor::bvisit__SymbolCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a3a3883c212b845f0c682ed21adaa3f4a"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK6Symbol" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK8Constant">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK8Constant"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK8Constant"></span><span id="SymEngine::CountOpsVisitor::bvisit__ConstantCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a285e82978e57cf9eec86c0b9f35dcdd2"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_constant.html#_CPPv4N9SymEngine8ConstantE" title="SymEngine::Constant">Constant</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK8Constant" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor6bvisitERK5Basic"></span><span id="SymEngine::CountOpsVisitor::bvisit__BasicCR"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1abeaa2242d65b340558eb123398352931"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor5countE">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor5countE"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor5countE"></span><span id="SymEngine::CountOpsVisitor::count__unsigned"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a789d8f1c74cba18ab2f9ec18822dcd18"></span>unsigned <code class="sig-name descname">count</code> = 0<a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor5countE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Protected Attributes</p>
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine15CountOpsVisitor1vE">
+<span id="_CPPv3N9SymEngine15CountOpsVisitor1vE"></span><span id="_CPPv2N9SymEngine15CountOpsVisitor1vE"></span><span id="SymEngine::CountOpsVisitor::v__std::unordered_map:RCP:BasicC:.unsigned.RCPBasicHash.RCPBasicKeyEq:"></span><span class="target" id="class_sym_engine_1_1_count_ops_visitor_1a45046e55c8d2c4f4c3ab4db25abe6d7e"></span>std::unordered_map&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;, unsigned, <a class="reference internal" href="struct_sym_engine_1_1_r_c_p_basic_hash.html#_CPPv4N9SymEngine12RCPBasicHashE" title="SymEngine::RCPBasicHash">RCPBasicHash</a>, <a class="reference internal" href="struct_sym_engine_1_1_r_c_p_basic_key_eq.html#_CPPv4N9SymEngine13RCPBasicKeyEqE" title="SymEngine::RCPBasicKeyEq">RCPBasicKeyEq</a>&gt; <code class="sig-name descname">v</code><a class="headerlink" href="#_CPPv4N9SymEngine15CountOpsVisitor1vE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class CountOpsVisitor</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_coth.html"
+                        title="previous chapter">Class Coth</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_csc.html"
+                        title="next chapter">Class Csc</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_count_ops_visitor.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_csc.html" title="Class Csc"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_coth.html" title="Class Coth"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class CountOpsVisitor</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

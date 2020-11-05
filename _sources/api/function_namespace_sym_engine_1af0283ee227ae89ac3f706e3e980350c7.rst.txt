@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1af0283ee227ae89ac3f706e3e980350c7:
+
+Function SymEngine::mp_cmpabs
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_cmpabs(const integer_class&, const integer_class&)

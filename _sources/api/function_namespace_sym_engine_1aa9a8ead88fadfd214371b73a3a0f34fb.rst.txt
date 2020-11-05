@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa9a8ead88fadfd214371b73a3a0f34fb:
+
+Function SymEngine::log(const RCP<const Basic>&)
+================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::log(const RCP<const Basic>&)

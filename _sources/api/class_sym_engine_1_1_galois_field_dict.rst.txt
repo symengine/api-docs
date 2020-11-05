@@ -1,0 +1,26 @@
+.. _exhale_class_class_sym_engine_1_1_galois_field_dict:
+
+Class GaloisFieldDict
+=====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.h`
+
+
+Nested Relationships
+--------------------
+
+
+Nested Types
+************
+
+- :ref:`exhale_struct_struct_sym_engine_1_1_galois_field_dict_1_1_dict_less`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::GaloisFieldDict
+   :members:
+   :protected-members:
+   :undoc-members:

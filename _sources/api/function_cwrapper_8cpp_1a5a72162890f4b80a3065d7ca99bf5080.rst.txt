@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a5a72162890f4b80a3065d7ca99bf5080:
+
+Function setbasic_find(CSetBasic \*, basic)
+===========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: setbasic_find(CSetBasic *, basic)

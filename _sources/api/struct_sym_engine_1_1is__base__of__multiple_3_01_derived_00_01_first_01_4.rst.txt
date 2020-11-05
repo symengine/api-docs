@@ -1,0 +1,16 @@
+.. _exhale_struct_struct_sym_engine_1_1is__base__of__multiple_3_01_derived_00_01_first_01_4:
+
+Template Struct is_base_of_multiple< Derived, First >
+=====================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: SymEngine::is_base_of_multiple< Derived, First >
+   :members:
+   :protected-members:
+   :undoc-members:

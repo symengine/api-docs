@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a86f756bfa44ed4e5c91e063942d5e77a:
+
+Function SymEngine::is_a_Set
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::is_a_Set(const Basic&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a40dcbecd5d0d50dbd7d997a5c800ae81:
+
+Function SymEngine::lucas
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::lucas(unsigned long)

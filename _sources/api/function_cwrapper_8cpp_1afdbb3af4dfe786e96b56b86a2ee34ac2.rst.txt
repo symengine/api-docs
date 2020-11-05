@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1afdbb3af4dfe786e96b56b86a2ee34ac2:
+
+Function real_double_set_d(basic, double)
+=========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: real_double_set_d(basic, double)

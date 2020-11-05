@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ab82d85f9f3eee8455eb2b9d802a519d8:
+
+Function SymEngine::diagonal_solve
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::diagonal_solve(const DenseMatrix&, const DenseMatrix&, DenseMatrix&)

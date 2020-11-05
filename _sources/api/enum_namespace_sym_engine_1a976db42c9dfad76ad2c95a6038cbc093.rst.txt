@@ -1,0 +1,13 @@
+.. _exhale_enum_namespace_sym_engine_1a976db42c9dfad76ad2c95a6038cbc093:
+
+Enum TypeID
+===========
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: SymEngine::TypeID

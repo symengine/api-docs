@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aaf3d0680bc71428109d4c7837a81dc05:
+
+Function SymEngine::boolean
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::boolean(bool)

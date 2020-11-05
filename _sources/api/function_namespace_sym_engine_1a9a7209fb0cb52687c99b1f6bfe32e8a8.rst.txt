@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a9a7209fb0cb52687c99b1f6bfe32e8a8:
+
+Function SymEngine::mp_fac_ui
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_fac_ui(integer_class&, unsigned long)

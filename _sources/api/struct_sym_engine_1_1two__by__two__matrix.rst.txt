@@ -1,0 +1,16 @@
+.. _exhale_struct_struct_sym_engine_1_1two__by__two__matrix:
+
+Struct two_by_two_matrix
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: SymEngine::two_by_two_matrix
+   :members:
+   :protected-members:
+   :undoc-members:

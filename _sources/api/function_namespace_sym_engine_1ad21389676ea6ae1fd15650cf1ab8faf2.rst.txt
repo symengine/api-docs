@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ad21389676ea6ae1fd15650cf1ab8faf2:
+
+Function SymEngine::trig_to_sqrt
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::trig_to_sqrt(const RCP<const Basic>&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ab26581ba01cd3aa4b7d8c5cf4c8174a7:
+
+Function SymEngine::mp_root
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_root(integer_class&, const integer_class&, const unsigned long)

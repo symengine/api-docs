@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a0abfe74379edd0eacdf5d82909c13b00:
+
+Function SymEngine::ascii_art
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::ascii_art()

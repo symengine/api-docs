@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a969eb0905c46f6486a1b7437aa9d3d63:
+
+Function SymEngine::primitive_root_list
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::primitive_root_list(std::vector<RCP<const Integer>>&, const Integer&)

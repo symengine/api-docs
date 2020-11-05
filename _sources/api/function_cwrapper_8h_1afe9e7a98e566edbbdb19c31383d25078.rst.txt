@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1afe9e7a98e566edbbdb19c31383d25078:
+
+Function basic_const_nan(basic)
+===============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_const_nan(basic)

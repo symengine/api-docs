@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1afd86dcd8ad56d60a3fe63f36c0bc9947:
+
+Template Function SymEngine::atoms
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::atoms(const Basic&)

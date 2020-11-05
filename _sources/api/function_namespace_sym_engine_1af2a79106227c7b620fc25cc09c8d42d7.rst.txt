@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1af2a79106227c7b620fc25cc09c8d42d7:
+
+Function SymEngine::solve_poly_linear
+=====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::solve_poly_linear(const vec_basic&, const RCP<const Set>&)

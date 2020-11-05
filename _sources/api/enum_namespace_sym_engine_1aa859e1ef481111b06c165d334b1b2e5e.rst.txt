@@ -1,0 +1,13 @@
+.. _exhale_enum_namespace_sym_engine_1aa859e1ef481111b06c165d334b1b2e5e:
+
+Enum tribool
+============
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: SymEngine::tribool

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a4f7f255bb089653a6ddc771cb815a582:
+
+Function basic_const_GoldenRatio(basic)
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_const_GoldenRatio(basic)

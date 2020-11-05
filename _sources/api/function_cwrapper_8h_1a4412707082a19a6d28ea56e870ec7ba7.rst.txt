@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a4412707082a19a6d28ea56e870ec7ba7:
+
+Function dense_matrix_eq(CDenseMatrix \*, CDenseMatrix \*)
+==========================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_eq(CDenseMatrix *, CDenseMatrix *)

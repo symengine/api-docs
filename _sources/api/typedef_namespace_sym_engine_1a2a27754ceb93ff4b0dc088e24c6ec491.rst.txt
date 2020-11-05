@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a2a27754ceb93ff4b0dc088e24c6ec491:
+
+Typedef SymEngine::fn
+=====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_double.cpp`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::fn

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a088836761665686579e95229054b2fe2:
+
+Function SymEngine::contains
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::contains(const RCP<const Basic>&, const RCP<const Set>&)

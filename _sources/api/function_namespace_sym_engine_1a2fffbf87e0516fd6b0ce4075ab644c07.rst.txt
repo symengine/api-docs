@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2fffbf87e0516fd6b0ce4075ab644c07:
+
+Function SymEngine::get_pi_shift
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::get_pi_shift(const RCP<const Basic>&, const Ptr<RCP<const Number>>&, const Ptr<RCP<const Basic>>&)

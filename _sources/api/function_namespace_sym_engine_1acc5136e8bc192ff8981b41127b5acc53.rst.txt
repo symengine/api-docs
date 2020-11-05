@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1acc5136e8bc192ff8981b41127b5acc53:
+
+Template Function SymEngine::make_rcp
+=====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_rcp.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::make_rcp(Args&&...)

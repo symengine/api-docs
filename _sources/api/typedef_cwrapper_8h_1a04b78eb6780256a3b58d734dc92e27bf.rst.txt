@@ -1,0 +1,13 @@
+.. _exhale_typedef_cwrapper_8h_1a04b78eb6780256a3b58d734dc92e27bf:
+
+Typedef basic_struct
+====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: basic_struct

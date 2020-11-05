@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_pow:
+
+Class Pow
+=========
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Basic`` (:ref:`exhale_class_class_sym_engine_1_1_basic`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Pow
+   :members:
+   :protected-members:
+   :undoc-members:

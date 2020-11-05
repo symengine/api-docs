@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8ca7b86e9985274331842e0cd4e6313f:
+
+Function SymEngine::csr_matmat_pass2
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sparse_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::csr_matmat_pass2(const CSRMatrix&, const CSRMatrix&, CSRMatrix&)

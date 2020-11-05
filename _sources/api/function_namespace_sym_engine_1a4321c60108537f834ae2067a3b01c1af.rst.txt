@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4321c60108537f834ae2067a3b01c1af:
+
+Function SymEngine::expand(const Expression&)
+=============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expression.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::expand(const Expression&)

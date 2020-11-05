@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa56bf02c8c13be9b0c10a9c280d0e22c:
+
+Function SymEngine::handle_minus
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::handle_minus(const RCP<const Basic>&, const Ptr<RCP<const Basic>>&)

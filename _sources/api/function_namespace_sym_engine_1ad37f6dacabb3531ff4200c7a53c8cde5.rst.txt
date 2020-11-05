@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ad37f6dacabb3531ff4200c7a53c8cde5:
+
+Function SymEngine::_imulnum
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expand.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::_imulnum(const Ptr<RCP<const Number>>&, const RCP<const Number>&)

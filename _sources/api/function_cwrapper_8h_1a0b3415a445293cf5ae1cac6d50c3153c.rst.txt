@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a0b3415a445293cf5ae1cac6d50c3153c:
+
+Function rational_set_si(basic, long, long)
+===========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: rational_set_si(basic, long, long)

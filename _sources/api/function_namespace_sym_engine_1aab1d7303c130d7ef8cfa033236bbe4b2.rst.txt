@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aab1d7303c130d7ef8cfa033236bbe4b2:
+
+Function SymEngine::poly_mul
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::poly_mul(const umap_vec_mpz&, const umap_vec_mpz&, umap_vec_mpz&)

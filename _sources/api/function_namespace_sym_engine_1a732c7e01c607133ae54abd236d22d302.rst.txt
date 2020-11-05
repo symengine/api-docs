@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a732c7e01c607133ae54abd236d22d302:
+
+Function SymEngine::binomial
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::binomial(const Integer&, unsigned long)

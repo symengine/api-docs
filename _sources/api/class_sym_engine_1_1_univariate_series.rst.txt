@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_univariate_series:
+
+Class UnivariateSeries
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_generic.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::SeriesBase< UExprDict, Expression, UnivariateSeries >`` (:ref:`exhale_class_class_sym_engine_1_1_series_base`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::UnivariateSeries
+   :members:
+   :protected-members:
+   :undoc-members:

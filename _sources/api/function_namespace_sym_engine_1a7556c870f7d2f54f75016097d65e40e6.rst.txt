@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a7556c870f7d2f54f75016097d65e40e6:
+
+Function SymEngine::solve_poly_cubic
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::solve_poly_cubic(const vec_basic&, const RCP<const Set>&)

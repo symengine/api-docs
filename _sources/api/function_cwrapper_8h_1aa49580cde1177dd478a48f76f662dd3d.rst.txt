@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1aa49580cde1177dd478a48f76f662dd3d:
+
+Function basic_sec
+==================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_sec(basic, const basic)

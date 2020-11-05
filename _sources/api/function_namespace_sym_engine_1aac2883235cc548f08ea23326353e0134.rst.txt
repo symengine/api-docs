@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aac2883235cc548f08ea23326353e0134:
+
+Function SymEngine::csc
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::csc(const RCP<const Basic>&)

@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1ad98cc31f9c98da201743811a65157f57:
+
+Typedef SymEngine::enable_if_t
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::enable_if_t

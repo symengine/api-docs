@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class UnivariateSeries &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class UniversalSet" href="class_sym_engine_1_1_universal_set.html" />
+    <link rel="prev" title="Class Union" href="class_sym_engine_1_1_union.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_universal_set.html" title="Class UniversalSet"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_union.html" title="Class Union"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class UnivariateSeries</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-univariateseries">
+<span id="exhale-class-class-sym-engine-1-1-univariate-series"></span><h1>Class UnivariateSeries<a class="headerlink" href="#class-univariateseries" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_generic.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-series-generic-h"><span class="std std-ref">File series_generic.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::SeriesBase&lt;</span> <span class="pre">UExprDict,</span> <span class="pre">Expression,</span> <span class="pre">UnivariateSeries</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_series_base.html#exhale-class-class-sym-engine-1-1-series-base"><span class="std std-ref">Template Class SeriesBase</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine16UnivariateSeriesE">
+<span id="_CPPv3N9SymEngine16UnivariateSeriesE"></span><span id="_CPPv2N9SymEngine16UnivariateSeriesE"></span><span id="SymEngine::UnivariateSeries"></span><span class="target" id="class_sym_engine_1_1_univariate_series"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">UnivariateSeries</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_series_base.html#_CPPv4I000EN9SymEngine10SeriesBaseE" title="SymEngine::SeriesBase">SeriesBase</a>&lt;UExprDict, <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a>, <a class="reference internal" href="#_CPPv4N9SymEngine16UnivariateSeriesE" title="SymEngine::UnivariateSeries">UnivariateSeries</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeriesE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="#class_sym_engine_1_1_univariate_series"><span class="std std-ref">UnivariateSeries</span></a> Class. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries16UnivariateSeriesERK9UExprDictKNSt6stringEKj">
+<span id="_CPPv3N9SymEngine16UnivariateSeries16UnivariateSeriesERK9UExprDictKNSt6stringEKj"></span><span id="_CPPv2N9SymEngine16UnivariateSeries16UnivariateSeriesERK9UExprDictKNSt6stringEKj"></span><span id="SymEngine::UnivariateSeries::UnivariateSeries__UExprDictCR.ssC.unsignedC"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a8e4daa54caff28ca6f2e2d2d30e2c151"></span><code class="sig-name descname">UnivariateSeries</code><span class="sig-paren">(</span><em class="property">const</em> UExprDict &amp;<em>sp</em>, <em class="property">const</em> std::string <em>varname</em>, <em class="property">const</em> unsigned <em>degree</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries16UnivariateSeriesERK9UExprDictKNSt6stringEKj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine16UnivariateSeries8__hash__Ev">
+<span id="_CPPv3NK9SymEngine16UnivariateSeries8__hash__Ev"></span><span id="_CPPv2NK9SymEngine16UnivariateSeries8__hash__Ev"></span><span id="SymEngine::UnivariateSeries::__hash__C"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1aee41250e1dc7958049f58c3772f7e509"></span><a class="reference internal" href="typedef_namespace_sym_engine_1a455620f815334592057d7966d62d5de6.html#_CPPv4N9SymEngine6hash_tE" title="SymEngine::hash_t">hash_t</a> <code class="sig-name descname">__hash__</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine16UnivariateSeries8__hash__Ev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Calculates the hash of the given SymEngine class. Use <a class="reference internal" href="class_sym_engine_1_1_basic.html#class_sym_engine_1_1_basic_1af71e629c952b7390d72f2d4b24694b62"><span class="std std-ref">Basic.hash()</span></a> which gives a cached version of the hash. <dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>64-bit integer value for the hash </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine16UnivariateSeries7compareERK5Basic">
+<span id="_CPPv3NK9SymEngine16UnivariateSeries7compareERK5Basic"></span><span id="_CPPv2NK9SymEngine16UnivariateSeries7compareERK5Basic"></span><span id="SymEngine::UnivariateSeries::compare__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a6ac87c7f429eb0b8b2106a221e99601b"></span>int <code class="sig-name descname">compare</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine16UnivariateSeries7compareERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Returns -1, 0, 1 for <code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">&lt;</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">==</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">&gt;</span> <span class="pre">o</span></code>. This method is used when you want to sort things like <code class="docutils literal notranslate"><span class="pre">x+y+z</span></code> into canonical order. This function assumes that <code class="docutils literal notranslate"><span class="pre">o</span></code> is the same type as <code class="docutils literal notranslate"><span class="pre">this</span></code>. Use <code class="docutils literal notranslate"><span class="pre">__cmp__</span></code> if you want general comparison. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine16UnivariateSerieseqERK16UnivariateSeries">
+<span id="_CPPv3NK9SymEngine16UnivariateSerieseqERK16UnivariateSeries"></span><span id="_CPPv2NK9SymEngine16UnivariateSerieseqERK16UnivariateSeries"></span><span id="SymEngine::UnivariateSeries::eq-operator__UnivariateSeriesCRC"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1ae0fc94a318d8eb183cc5810d9a99f54a"></span>bool <code class="sig-name descname">operator==</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine16UnivariateSeriesE" title="SymEngine::UnivariateSeries">UnivariateSeries</a> &amp;<em>u</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine16UnivariateSerieseqERK16UnivariateSeries" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine16UnivariateSeries8as_basicEv">
+<span id="_CPPv3NK9SymEngine16UnivariateSeries8as_basicEv"></span><span id="_CPPv2NK9SymEngine16UnivariateSeries8as_basicEv"></span><span id="SymEngine::UnivariateSeries::as_basicC"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a50973de2d3553832473524c1ce50a025"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">as_basic</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine16UnivariateSeries8as_basicEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine16UnivariateSeries7as_dictEv">
+<span id="_CPPv3NK9SymEngine16UnivariateSeries7as_dictEv"></span><span id="_CPPv2NK9SymEngine16UnivariateSeries7as_dictEv"></span><span id="SymEngine::UnivariateSeries::as_dictC"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a2c5781d2301bb9ec447398e95174f7f7"></span><a class="reference internal" href="typedef_namespace_sym_engine_1a946f9005aa0ba2e414b184734c18e859.html#_CPPv4N9SymEngine14umap_int_basicE" title="SymEngine::umap_int_basic">umap_int_basic</a> <code class="sig-name descname">as_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine16UnivariateSeries7as_dictEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine16UnivariateSeries9get_coeffEi">
+<span id="_CPPv3NK9SymEngine16UnivariateSeries9get_coeffEi"></span><span id="_CPPv2NK9SymEngine16UnivariateSeries9get_coeffEi"></span><span id="SymEngine::UnivariateSeries::get_coeff__iC"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a1f8b347f15004a2b2356223109a072f9"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">get_coeff</code><span class="sig-paren">(</span>int<span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine16UnivariateSeries9get_coeffEi" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine16UnivariateSeries3powERK6Number">
+<span id="_CPPv3NK9SymEngine16UnivariateSeries3powERK6Number"></span><span id="_CPPv2NK9SymEngine16UnivariateSeries3powERK6Number"></span><span id="SymEngine::UnivariateSeries::pow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1af47864c1b83ae960d7a802c092ad47f7"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">pow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine16UnivariateSeries3powERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine16UnivariateSeries3mulERK6Number">
+<span id="_CPPv3NK9SymEngine16UnivariateSeries3mulERK6Number"></span><span id="_CPPv2NK9SymEngine16UnivariateSeries3mulERK6Number"></span><span id="SymEngine::UnivariateSeries::mul__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1add4eb6159cabeb052931818ca1bf9571"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mul</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine16UnivariateSeries3mulERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Static Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries6createERK3RCPIK6SymbolERKjRK9UExprDict">
+<span id="_CPPv3N9SymEngine16UnivariateSeries6createERK3RCPIK6SymbolERKjRK9UExprDict"></span><span id="_CPPv2N9SymEngine16UnivariateSeries6createERK3RCPIK6SymbolERKjRK9UExprDict"></span><span id="SymEngine::UnivariateSeries::create__RCP:SymbolC:CR.unsigned-iCR.UExprDictCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1acd15f51a23f1aa7022ac9d021cfdebf5"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine16UnivariateSeriesE" title="SymEngine::UnivariateSeries">UnivariateSeries</a>&gt; <code class="sig-name descname">create</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_symbol.html#_CPPv4N9SymEngine6SymbolE" title="SymEngine::Symbol">Symbol</a>&gt; &amp;<em>var</em>, <em class="property">const</em> unsigned int &amp;<em>prec</em>, <em class="property">const</em> UExprDict &amp;<em>s</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries6createERK3RCPIK6SymbolERKjRK9UExprDict" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries6seriesERK3RCPIK5BasicERKNSt6stringEj">
+<span id="_CPPv3N9SymEngine16UnivariateSeries6seriesERK3RCPIK5BasicERKNSt6stringEj"></span><span id="_CPPv2N9SymEngine16UnivariateSeries6seriesERK3RCPIK5BasicERKNSt6stringEj"></span><span id="SymEngine::UnivariateSeries::series__RCP:BasicC:CR.ssCR.unsigned-i"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a5c12d4e60dcf279fce0acb513a944d57"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine16UnivariateSeriesE" title="SymEngine::UnivariateSeries">UnivariateSeries</a>&gt; <code class="sig-name descname">series</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>t</em>, <em class="property">const</em> std::string &amp;<em>x</em>, unsigned int <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries6seriesERK3RCPIK5BasicERKNSt6stringEj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries3varERKNSt6stringE">
+<span id="_CPPv3N9SymEngine16UnivariateSeries3varERKNSt6stringE"></span><span id="_CPPv2N9SymEngine16UnivariateSeries3varERKNSt6stringE"></span><span id="SymEngine::UnivariateSeries::var__ssCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a825ed94b1b3e5d0def9a3c76a890a0d7"></span>UExprDict <code class="sig-name descname">var</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>s</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries3varERKNSt6stringE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries7convertERK5Basic">
+<span id="_CPPv3N9SymEngine16UnivariateSeries7convertERK5Basic"></span><span id="_CPPv2N9SymEngine16UnivariateSeries7convertERK5Basic"></span><span id="SymEngine::UnivariateSeries::convert__BasicCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a35c4dbae6cff3ec2a11d86b44d94e24e"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">convert</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries7convertERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries7ldegreeERK9UExprDict">
+<span id="_CPPv3N9SymEngine16UnivariateSeries7ldegreeERK9UExprDict"></span><span id="_CPPv2N9SymEngine16UnivariateSeries7ldegreeERK9UExprDict"></span><span id="SymEngine::UnivariateSeries::ldegree__UExprDictCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1ae2b2d081648945cf0fff292d19bc8d9b"></span>int <code class="sig-name descname">ldegree</code><span class="sig-paren">(</span><em class="property">const</em> UExprDict &amp;<em>s</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries7ldegreeERK9UExprDict" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries3mulERK9UExprDictRK9UExprDictj">
+<span id="_CPPv3N9SymEngine16UnivariateSeries3mulERK9UExprDictRK9UExprDictj"></span><span id="_CPPv2N9SymEngine16UnivariateSeries3mulERK9UExprDictRK9UExprDictj"></span><span id="SymEngine::UnivariateSeries::mul__UExprDictCR.UExprDictCR.unsigned"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a13c46d1a8f0c5ae2acaccac11fbdfa66"></span>UExprDict <code class="sig-name descname">mul</code><span class="sig-paren">(</span><em class="property">const</em> UExprDict &amp;<em>s</em>, <em class="property">const</em> UExprDict &amp;<em>r</em>, unsigned <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries3mulERK9UExprDictRK9UExprDictj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries3powERK9UExprDictij">
+<span id="_CPPv3N9SymEngine16UnivariateSeries3powERK9UExprDictij"></span><span id="_CPPv2N9SymEngine16UnivariateSeries3powERK9UExprDictij"></span><span id="SymEngine::UnivariateSeries::pow__UExprDictCR.i.unsigned"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1ab2ff916b1fe4e972aedd4f0c5f5ee929"></span>UExprDict <code class="sig-name descname">pow</code><span class="sig-paren">(</span><em class="property">const</em> UExprDict &amp;<em>s</em>, int <em>n</em>, unsigned <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries3powERK9UExprDictij" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries7find_cfERK9UExprDictRK9UExprDicti">
+<span id="_CPPv3N9SymEngine16UnivariateSeries7find_cfERK9UExprDictRK9UExprDicti"></span><span id="_CPPv2N9SymEngine16UnivariateSeries7find_cfERK9UExprDictRK9UExprDicti"></span><span id="SymEngine::UnivariateSeries::find_cf__UExprDictCR.UExprDictCR.i"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a3f17539de61d1f67cdf5ed90df80b332"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">find_cf</code><span class="sig-paren">(</span><em class="property">const</em> UExprDict &amp;<em>s</em>, <em class="property">const</em> UExprDict &amp;<em>var</em>, int <em>deg</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries7find_cfERK9UExprDictRK9UExprDicti" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4rootER10Expressionj">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4rootER10Expressionj"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4rootER10Expressionj"></span><span id="SymEngine::UnivariateSeries::root__ExpressionR.unsigned"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a0d51fd1eea00fa897932fe0c6571e42e"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">root</code><span class="sig-paren">(</span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em>, unsigned <em>n</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4rootER10Expressionj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4diffERK9UExprDictRK9UExprDict">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4diffERK9UExprDictRK9UExprDict"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4diffERK9UExprDictRK9UExprDict"></span><span id="SymEngine::UnivariateSeries::diff__UExprDictCR.UExprDictCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a889495552b69c530f3192303817855b7"></span>UExprDict <code class="sig-name descname">diff</code><span class="sig-paren">(</span><em class="property">const</em> UExprDict &amp;<em>s</em>, <em class="property">const</em> UExprDict &amp;<em>var</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4diffERK9UExprDictRK9UExprDict" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries9integrateERK9UExprDictRK9UExprDict">
+<span id="_CPPv3N9SymEngine16UnivariateSeries9integrateERK9UExprDictRK9UExprDict"></span><span id="_CPPv2N9SymEngine16UnivariateSeries9integrateERK9UExprDictRK9UExprDict"></span><span id="SymEngine::UnivariateSeries::integrate__UExprDictCR.UExprDictCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1abf84019896ef5f7aa9b77c8bc5367fa9"></span>UExprDict <code class="sig-name descname">integrate</code><span class="sig-paren">(</span><em class="property">const</em> UExprDict &amp;<em>s</em>, <em class="property">const</em> UExprDict &amp;<em>var</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries9integrateERK9UExprDictRK9UExprDict" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4subsERK9UExprDictRK9UExprDictRK9UExprDictj">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4subsERK9UExprDictRK9UExprDictRK9UExprDictj"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4subsERK9UExprDictRK9UExprDictRK9UExprDictj"></span><span id="SymEngine::UnivariateSeries::subs__UExprDictCR.UExprDictCR.UExprDictCR.unsigned"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a16e21a0538ae95eeedeac2074c2b3b8e"></span>UExprDict <code class="sig-name descname">subs</code><span class="sig-paren">(</span><em class="property">const</em> UExprDict &amp;<em>s</em>, <em class="property">const</em> UExprDict &amp;<em>var</em>, <em class="property">const</em> UExprDict &amp;<em>r</em>, unsigned <em>prec</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4subsERK9UExprDictRK9UExprDictRK9UExprDictj" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries3sinERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries3sinERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries3sinERK10Expression"></span><span id="SymEngine::UnivariateSeries::sin__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a4bb704318728db00f2e9441f626a7478"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">sin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries3sinERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries3cosERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries3cosERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries3cosERK10Expression"></span><span id="SymEngine::UnivariateSeries::cos__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1aa541cc8be16d5dd50043bc624085bd07"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">cos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries3cosERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries3tanERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries3tanERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries3tanERK10Expression"></span><span id="SymEngine::UnivariateSeries::tan__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a99030ac3310ac081c5e78268e60256d2"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">tan</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries3tanERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4asinERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4asinERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4asinERK10Expression"></span><span id="SymEngine::UnivariateSeries::asin__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1aad0c1eacce45c34fee10a78123cbf6ad"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">asin</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4asinERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4acosERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4acosERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4acosERK10Expression"></span><span id="SymEngine::UnivariateSeries::acos__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1aa8e3559a26571de0f9734621637e8dc6"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">acos</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4acosERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4atanERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4atanERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4atanERK10Expression"></span><span id="SymEngine::UnivariateSeries::atan__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a00b51cf4d2b9f062d87317916bd2d987"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">atan</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4atanERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4sinhERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4sinhERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4sinhERK10Expression"></span><span id="SymEngine::UnivariateSeries::sinh__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a7cb836c72668a4488bf74478933b5a1e"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">sinh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4sinhERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4coshERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4coshERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4coshERK10Expression"></span><span id="SymEngine::UnivariateSeries::cosh__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1ab0317f8456b9aea0999e9a8eb7bc1c0a"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">cosh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4coshERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries4tanhERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries4tanhERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries4tanhERK10Expression"></span><span id="SymEngine::UnivariateSeries::tanh__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1aee9dc6fa4b1d350926eaa02b2b2e468d"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">tanh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries4tanhERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries5asinhERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries5asinhERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries5asinhERK10Expression"></span><span id="SymEngine::UnivariateSeries::asinh__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a6244752fb8baad3783f9b51f430f2062"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">asinh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries5asinhERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries5acoshERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries5acoshERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries5acoshERK10Expression"></span><span id="SymEngine::UnivariateSeries::acosh__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a7cb8b31ff1b153e732f393f7be424894"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">acosh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries5acoshERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries5atanhERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries5atanhERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries5atanhERK10Expression"></span><span id="SymEngine::UnivariateSeries::atanh__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1aac2b3d9a878acde17260f404ebc09542"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">atanh</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries5atanhERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries3expERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries3expERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries3expERK10Expression"></span><span id="SymEngine::UnivariateSeries::exp__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1a8c7ca11539ee398df97317907ef8cf0b"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">exp</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries3expERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine16UnivariateSeries3logERK10Expression">
+<span id="_CPPv3N9SymEngine16UnivariateSeries3logERK10Expression"></span><span id="_CPPv2N9SymEngine16UnivariateSeries3logERK10Expression"></span><span id="SymEngine::UnivariateSeries::log__ExpressionCR"></span><span class="target" id="class_sym_engine_1_1_univariate_series_1aea5ef015a2d4fce466c7f1796bba471e"></span><a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> <code class="sig-name descname">log</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_expression.html#_CPPv4N9SymEngine10ExpressionE" title="SymEngine::Expression">Expression</a> &amp;<em>c</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine16UnivariateSeries3logERK10Expression" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class UnivariateSeries</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_union.html"
+                        title="previous chapter">Class Union</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_universal_set.html"
+                        title="next chapter">Class UniversalSet</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_univariate_series.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_universal_set.html" title="Class UniversalSet"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_union.html" title="Class Union"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class UnivariateSeries</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

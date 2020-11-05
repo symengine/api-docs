@@ -1,0 +1,56 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.cpp:
+
+File rings.cpp
+==============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/rings.cpp``)
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h`)
+
+- ``symengine/monomials.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_monomials.h`)
+
+- ``symengine/pow.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`)
+
+- ``symengine/rings.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1a6017105ba64d2df0e0f96bdb1fe2cd29`
+
+- :ref:`exhale_function_namespace_sym_engine_1aab1d7303c130d7ef8cfa033236bbe4b2`
+

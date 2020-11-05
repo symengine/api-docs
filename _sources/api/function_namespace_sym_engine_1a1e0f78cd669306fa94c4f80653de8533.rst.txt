@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a1e0f78cd669306fa94c4f80653de8533:
+
+Function SymEngine::gf_poly(RCP<const Basic>, GaloisFieldDict&&)
+================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::gf_poly(RCP<const Basic>, GaloisFieldDict&&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1af2d45bc95743a12a396cbed0e3f8f96f:
+
+Function SymEngine::multinomial_coefficients_mpz
+================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::multinomial_coefficients_mpz(unsigned, unsigned, map_vec_mpz&)

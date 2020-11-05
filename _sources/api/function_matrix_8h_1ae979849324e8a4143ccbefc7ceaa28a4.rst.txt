@@ -1,0 +1,13 @@
+.. _exhale_function_matrix_8h_1ae979849324e8a4143ccbefc7ceaa28a4:
+
+Function operator<<
+===================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: operator<<(std::ostream&, const SymEngine::MatrixBase&)

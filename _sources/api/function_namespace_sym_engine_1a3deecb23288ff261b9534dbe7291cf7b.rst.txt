@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a3deecb23288ff261b9534dbe7291cf7b:
+
+Function SymEngine::abs
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::abs(const RCP<const Basic>&)

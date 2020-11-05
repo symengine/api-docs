@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa7fac88dd37cd3040c278346f1bffc07:
+
+Function SymEngine::solve_rational
+==================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::solve_rational(const RCP<const Basic>&, const RCP<const Symbol>&, const RCP<const Set>&)

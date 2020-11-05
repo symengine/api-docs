@@ -1,0 +1,13 @@
+.. _exhale_define_mp__wrapper_8h_1adaf9d44c10134811c6bbdce139d5647c:
+
+Define SYMENGINE_SI
+===================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: SYMENGINE_SI

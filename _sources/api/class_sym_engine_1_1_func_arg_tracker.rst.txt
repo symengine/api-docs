@@ -1,0 +1,16 @@
+.. _exhale_class_class_sym_engine_1_1_func_arg_tracker:
+
+Class FuncArgTracker
+====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cse.cpp`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::FuncArgTracker
+   :members:
+   :protected-members:
+   :undoc-members:

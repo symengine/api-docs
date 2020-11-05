@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a19c972c58cd40e0b3795d092a6df7ada:
+
+Function SymEngine::logical_nand
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::logical_nand(const set_boolean&)

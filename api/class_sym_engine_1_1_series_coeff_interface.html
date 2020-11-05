@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class SeriesCoeffInterface &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Template Class SeriesVisitor" href="class_sym_engine_1_1_series_visitor.html" />
+    <link rel="prev" title="Template Class SeriesBase" href="class_sym_engine_1_1_series_base.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_series_visitor.html" title="Template Class SeriesVisitor"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_series_base.html" title="Template Class SeriesBase"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class SeriesCoeffInterface</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-seriescoeffinterface">
+<span id="exhale-class-class-sym-engine-1-1-series-coeff-interface"></span><h1>Class SeriesCoeffInterface<a class="headerlink" href="#class-seriescoeffinterface" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-series-h"><span class="std std-ref">File series.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::Number</span></code> (<a class="reference internal" href="class_sym_engine_1_1_number.html#exhale-class-class-sym-engine-1-1-number"><span class="std std-ref">Class Number</span></a>)</p></li>
+</ul>
+</div>
+<div class="section" id="derived-types">
+<h3>Derived Types<a class="headerlink" href="#derived-types" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::SeriesBase&lt;</span> <span class="pre">UExprDict,</span> <span class="pre">Expression,</span> <span class="pre">UnivariateSeries</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_series_base.html#exhale-class-class-sym-engine-1-1-series-base"><span class="std std-ref">Template Class SeriesBase</span></a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::SeriesBase&lt;</span> <span class="pre">Poly,</span> <span class="pre">Coeff,</span> <span class="pre">Series</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_series_base.html#exhale-class-class-sym-engine-1-1-series-base"><span class="std std-ref">Template Class SeriesBase</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine20SeriesCoeffInterfaceE">
+<span id="_CPPv3N9SymEngine20SeriesCoeffInterfaceE"></span><span id="_CPPv2N9SymEngine20SeriesCoeffInterfaceE"></span><span id="SymEngine::SeriesCoeffInterface"></span><span class="target" id="class_sym_engine_1_1_series_coeff_interface"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">SeriesCoeffInterface</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a><a class="headerlink" href="#_CPPv4N9SymEngine20SeriesCoeffInterfaceE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subclassed by <a class="reference internal" href="class_sym_engine_1_1_series_base.html#class_sym_engine_1_1_series_base"><span class="std std-ref">SymEngine::SeriesBase&lt; UExprDict, Expression, UnivariateSeries &gt;</span></a>, <a class="reference internal" href="class_sym_engine_1_1_series_base.html#class_sym_engine_1_1_series_base"><span class="std std-ref">SymEngine::SeriesBase&lt; Poly, Coeff, Series &gt;</span></a></p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface8as_basicEv">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface8as_basicEv"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface8as_basicEv"></span><span id="SymEngine::SeriesCoeffInterface::as_basicC"></span><span class="target" id="class_sym_engine_1_1_series_coeff_interface_1a314d5b049eb41a2da83d0d7d5872e7d1"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">as_basic</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface8as_basicEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface7as_dictEv">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface7as_dictEv"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface7as_dictEv"></span><span id="SymEngine::SeriesCoeffInterface::as_dictC"></span><span class="target" id="class_sym_engine_1_1_series_coeff_interface_1a27ac3d3197bcf5caf6f50bf302087132"></span><a class="reference internal" href="typedef_namespace_sym_engine_1a946f9005aa0ba2e414b184734c18e859.html#_CPPv4N9SymEngine14umap_int_basicE" title="SymEngine::umap_int_basic">umap_int_basic</a> <code class="sig-name descname">as_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface7as_dictEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface9get_coeffEi">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface9get_coeffEi"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface9get_coeffEi"></span><span id="SymEngine::SeriesCoeffInterface::get_coeff__iC"></span><span class="target" id="class_sym_engine_1_1_series_coeff_interface_1a78434dad13e73ddf1cacb862e2fcf1ed"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">get_coeff</code><span class="sig-paren">(</span>int<span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface9get_coeffEi" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface10get_degreeEv">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface10get_degreeEv"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface10get_degreeEv"></span><span id="SymEngine::SeriesCoeffInterface::get_degreeC"></span><span class="target" id="class_sym_engine_1_1_series_coeff_interface_1a2f82a9945c76494929be92d6fa059ec3"></span>unsigned <code class="sig-name descname">get_degree</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface10get_degreeEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine20SeriesCoeffInterface7get_varEv">
+<span id="_CPPv3NK9SymEngine20SeriesCoeffInterface7get_varEv"></span><span id="_CPPv2NK9SymEngine20SeriesCoeffInterface7get_varEv"></span><span id="SymEngine::SeriesCoeffInterface::get_varC"></span><span class="target" id="class_sym_engine_1_1_series_coeff_interface_1a1cf46ac4f5de806170bb84cfe10104c8"></span><em class="property">const</em> std::string &amp;<code class="sig-name descname">get_var</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em> = 0<a class="headerlink" href="#_CPPv4NK9SymEngine20SeriesCoeffInterface7get_varEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class SeriesCoeffInterface</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+<li><a class="reference internal" href="#derived-types">Derived Types</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_series_base.html"
+                        title="previous chapter">Template Class SeriesBase</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_series_visitor.html"
+                        title="next chapter">Template Class SeriesVisitor</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_series_coeff_interface.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_series_visitor.html" title="Template Class SeriesVisitor"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_series_base.html" title="Template Class SeriesBase"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class SeriesCoeffInterface</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

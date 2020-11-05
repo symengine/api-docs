@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1aa4218a5c4cbb1e641b9c2d3106ffaee1:
+
+Function lambda_real_double_visitor_free(CLambdaRealDoubleVisitor \*)
+=====================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: lambda_real_double_visitor_free(CLambdaRealDoubleVisitor *)

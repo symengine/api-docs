@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a02306eeb84b496d7ff94ba929014792b:
+
+Function symengine_version()
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: symengine_version()

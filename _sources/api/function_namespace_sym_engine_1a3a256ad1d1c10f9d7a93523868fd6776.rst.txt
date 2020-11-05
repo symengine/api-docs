@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a3a256ad1d1c10f9d7a93523868fd6776:
+
+Function SymEngine::divnum
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::divnum(const RCP<const Number>&, const RCP<const Number>&)

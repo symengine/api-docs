@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a435d45ce42422d86c1b36ad317f1900e:
+
+Function SymEngine::csr_scale_columns
+=====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sparse_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::csr_scale_columns(CSRMatrix&, const DenseMatrix&)

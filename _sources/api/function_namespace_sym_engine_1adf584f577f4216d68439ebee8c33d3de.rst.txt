@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1adf584f577f4216d68439ebee8c33d3de:
+
+Function SymEngine::reduced_row_echelon_form
+============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::reduced_row_echelon_form(const DenseMatrix&, DenseMatrix&, vec_uint&, bool)

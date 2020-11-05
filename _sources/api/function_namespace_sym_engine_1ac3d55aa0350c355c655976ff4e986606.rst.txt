@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ac3d55aa0350c355c655976ff4e986606:
+
+Template Function SymEngine::down_cast(From&)
+=============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_casts.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::down_cast(From&)

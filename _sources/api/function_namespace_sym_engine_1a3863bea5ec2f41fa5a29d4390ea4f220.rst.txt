@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a3863bea5ec2f41fa5a29d4390ea4f220:
+
+Function SymEngine::mp_fdiv_qr
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_fdiv_qr(integer_class&, integer_class&, const integer_class&, const integer_class&)

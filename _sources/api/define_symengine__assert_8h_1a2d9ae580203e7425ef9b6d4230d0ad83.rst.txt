@@ -1,0 +1,13 @@
+.. _exhale_define_symengine__assert_8h_1a2d9ae580203e7425ef9b6d4230d0ad83:
+
+Define SYMENGINE_ASSERT
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_assert.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: SYMENGINE_ASSERT

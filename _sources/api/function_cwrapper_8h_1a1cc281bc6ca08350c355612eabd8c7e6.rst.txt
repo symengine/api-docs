@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a1cc281bc6ca08350c355612eabd8c7e6:
+
+Function sparse_matrix_eq(CSparseMatrix \*, CSparseMatrix \*)
+=============================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: sparse_matrix_eq(CSparseMatrix *, CSparseMatrix *)

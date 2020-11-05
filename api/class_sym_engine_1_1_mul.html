@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Mul &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class MultiArgFunction" href="class_sym_engine_1_1_multi_arg_function.html" />
+    <link rel="prev" title="Class MSubsVisitor" href="class_sym_engine_1_1_m_subs_visitor.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_multi_arg_function.html" title="Class MultiArgFunction"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_m_subs_visitor.html" title="Class MSubsVisitor"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class Mul</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-mul">
+<span id="exhale-class-class-sym-engine-1-1-mul"></span><h1>Class Mul<a class="headerlink" href="#class-mul" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-mul-h"><span class="std std-ref">File mul.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::Basic</span></code> (<a class="reference internal" href="class_sym_engine_1_1_basic.html#exhale-class-class-sym-engine-1-1-basic"><span class="std std-ref">Class Basic</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine3MulE">
+<span id="_CPPv3N9SymEngine3MulE"></span><span id="_CPPv2N9SymEngine3MulE"></span><span id="SymEngine::Mul"></span><span class="target" id="class_sym_engine_1_1_mul"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">Mul</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a><a class="headerlink" href="#_CPPv4N9SymEngine3MulE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a> class keeps a product of symbolic expressions. Internal representation of an <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a> is a numeric coefficient <code class="docutils literal notranslate"><span class="pre">coef_</span></code> and a dictionary <code class="docutils literal notranslate"><span class="pre">dict_</span></code> of key-value pairs. <div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span> <span class="n">Mul</span><span class="p">(</span><span class="n">coef_</span><span class="p">,</span> <span class="p">{{</span><span class="n">key1</span><span class="p">,</span> <span class="n">value1</span><span class="p">},</span> <span class="p">{</span><span class="n">key2</span><span class="p">,</span> <span class="n">value2</span><span class="p">},</span> <span class="p">...</span> <span class="p">})</span>
+</pre></div>
+</div>
+</p>
+<p>This represents the following expression, <div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span> <span class="n">coef_</span> <span class="o">*</span> <span class="n">key1</span><span class="o">^</span><span class="n">value1</span> <span class="o">*</span> <span class="n">key2</span><span class="o">^</span><span class="n">value2</span> <span class="o">*</span> <span class="p">...</span>
+</pre></div>
+</div>
+</p>
+<p><code class="docutils literal notranslate"><span class="pre">coef_</span></code> is an objecct of type <a class="reference internal" href="class_sym_engine_1_1_number.html#class_sym_engine_1_1_number"><span class="std std-ref">Number</span></a>, i.e. a numeric coefficient like <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a>, <a class="reference internal" href="class_sym_engine_1_1_real_double.html#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a>, <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a>.</p>
+<p>For example, the following are valid representations <div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span> <span class="n">Mul</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="p">{{</span><span class="n">x</span><span class="p">,</span> <span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="n">y</span><span class="p">,</span> <span class="mi">5</span><span class="p">}})</span>
+ <span class="n">Mul</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="p">{{</span><span class="n">x</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="n">y</span><span class="p">,</span> <span class="mi">4</span><span class="p">},</span> <span class="p">{</span><span class="n">z</span><span class="p">,</span> <span class="mi">3</span><span class="p">}})</span>
+</pre></div>
+</div>
+</p>
+<p>Following are invalid representations. (valid equivalent is shown next to them)</p>
+<p>When key is a numeric and value is an integers,</p>
+<p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{3, 2}, {x, 2}}) -&gt; <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(18, {{x, 2}}) <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{I, 3}, {x, 2}}) -&gt; <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(-2*I, {{x, 2}})</p>
+<p>When key is an integer and value is a <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> not in the range (0, 1)</p>
+<p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{3, 3/2}, {x, 2}}) -&gt; <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(6, {{3, 1/2}, {x, 2}}) <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{3, -1/2}, {x, 2}}) -&gt; <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2/3, {{3, 1/2}, {x, 2}})</p>
+<p>When the value is zero</p>
+<p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(3, {{x, 0}, {y, 2}}) -&gt; <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(3, {{y, 2}})</p>
+<p>When key and value are numeric and one of them is inexact</p>
+<p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{3, 0.5}, {x, 2}}) -&gt; <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(3.464…, {x, 2}})</p>
+<p>When <code class="docutils literal notranslate"><span class="pre">coef_</span></code> is one and the dictionary is of size 1</p>
+<p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(1, {{x, 2}}) -&gt; Pow(x, 2)</p>
+<p>When <code class="docutils literal notranslate"><span class="pre">coef_</span></code> is zero</p>
+<p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(0, {{x, 2}}) -&gt; Integer(0) <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(0.0, {{x, 2}}) -&gt; <a class="reference internal" href="class_sym_engine_1_1_real_double.html#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a>(0.0)</p>
+<p>When key is 1</p>
+<p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{1, x}, {x, 2}}) -&gt; <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{x, 2}})</p>
+<p>When value is zero</p>
+<p><a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{1, x}, {x, 2}}) -&gt; <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a>(2, {{x, 2}}) </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine3Mul3MulERK3RCPIK6NumberERR15map_basic_basic">
+<span id="_CPPv3N9SymEngine3Mul3MulERK3RCPIK6NumberERR15map_basic_basic"></span><span id="_CPPv2N9SymEngine3Mul3MulERK3RCPIK6NumberERR15map_basic_basic"></span><span id="SymEngine::Mul::Mul__RCP:NumberC:CR.map_basic_basicRR"></span><span class="target" id="class_sym_engine_1_1_mul_1a6bfba46699f9a48bc713972a8f22a33e"></span><code class="sig-name descname">Mul</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; &amp;<em>coef</em>, <a class="reference internal" href="typedef_namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53.html#_CPPv4N9SymEngine15map_basic_basicE" title="SymEngine::map_basic_basic">map_basic_basic</a> &amp;&amp;<em>dict</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine3Mul3MulERK3RCPIK6NumberERR15map_basic_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>the dictionary of the rest (e.g. <code class="docutils literal notranslate"><span class="pre">x*y</span></code> in <code class="docutils literal notranslate"><span class="pre">2*x*y</span></code>) </p>
+<p>Constructs <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a> from a dictionary by copying the contents of the dictionary: </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul8__hash__Ev">
+<span id="_CPPv3NK9SymEngine3Mul8__hash__Ev"></span><span id="_CPPv2NK9SymEngine3Mul8__hash__Ev"></span><span id="SymEngine::Mul::__hash__C"></span><span class="target" id="class_sym_engine_1_1_mul_1abe0b8b540eef4be1aba2e135d01aed0f"></span><a class="reference internal" href="typedef_namespace_sym_engine_1a455620f815334592057d7966d62d5de6.html#_CPPv4N9SymEngine6hash_tE" title="SymEngine::hash_t">hash_t</a> <code class="sig-name descname">__hash__</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul8__hash__Ev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>size of the hash </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul6__eq__ERK5Basic">
+<span id="_CPPv3NK9SymEngine3Mul6__eq__ERK5Basic"></span><span id="_CPPv2NK9SymEngine3Mul6__eq__ERK5Basic"></span><span id="SymEngine::Mul::__eq____BasicCRC"></span><span class="target" id="class_sym_engine_1_1_mul_1aa9f6a1a362742db3d3b7792711746396"></span>bool <code class="sig-name descname">__eq__</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul6__eq__ERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_equality.html#class_sym_engine_1_1_equality"><span class="std std-ref">Equality</span></a> comparator <dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>whether the 2 objects are equal </p>
+</dd>
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">o</span></code>: - Object to be compared with </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul7compareERK5Basic">
+<span id="_CPPv3NK9SymEngine3Mul7compareERK5Basic"></span><span id="_CPPv2NK9SymEngine3Mul7compareERK5Basic"></span><span id="SymEngine::Mul::compare__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_mul_1ae918361c32ac53756616de7aa5785c9e"></span>int <code class="sig-name descname">compare</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul7compareERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Returns -1, 0, 1 for <code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">&lt;</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">==</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">&gt;</span> <span class="pre">o</span></code>. This method is used when you want to sort things like <code class="docutils literal notranslate"><span class="pre">x+y+z</span></code> into canonical order. This function assumes that <code class="docutils literal notranslate"><span class="pre">o</span></code> is the same type as <code class="docutils literal notranslate"><span class="pre">this</span></code>. Use <code class="docutils literal notranslate"><span class="pre">__cmp__</span></code> if you want general comparison. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul12as_two_termsERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE">
+<span id="_CPPv3NK9SymEngine3Mul12as_two_termsERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE"></span><span id="_CPPv2NK9SymEngine3Mul12as_two_termsERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE"></span><span id="SymEngine::Mul::as_two_terms__Ptr:RCP:BasicC::CR.Ptr:RCP:BasicC::CRC"></span><span class="target" id="class_sym_engine_1_1_mul_1aad7a77beff9e1c5eb7b956a072ff7df9"></span>void <code class="sig-name descname">as_two_terms</code><span class="sig-paren">(</span><em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&gt; &amp;<em>a</em>, <em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&gt; &amp;<em>b</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul12as_two_termsERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Rewrite as 2 terms. </p>
+<p>Example: if this=3*x**2*y**2*z**2<code class="docutils literal notranslate"><span class="pre">,</span> <span class="pre">then</span></code>a=x**2<code class="docutils literal notranslate"><span class="pre">and</span></code>b=3*y**2*z**2` </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul9power_numERK3PtrI3RCPIK6NumberEER15map_basic_basicRK3RCPIK6NumberE">
+<span id="_CPPv3NK9SymEngine3Mul9power_numERK3PtrI3RCPIK6NumberEER15map_basic_basicRK3RCPIK6NumberE"></span><span id="_CPPv2NK9SymEngine3Mul9power_numERK3PtrI3RCPIK6NumberEER15map_basic_basicRK3RCPIK6NumberE"></span><span id="SymEngine::Mul::power_num__Ptr:RCP:NumberC::CR.map_basic_basicR.RCP:NumberC:CRC"></span><span class="target" id="class_sym_engine_1_1_mul_1ac117537ce827a19b79cd39324881d4b0"></span>void <code class="sig-name descname">power_num</code><span class="sig-paren">(</span><em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt;&gt; &amp;<em>coef</em>, <a class="reference internal" href="typedef_namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53.html#_CPPv4N9SymEngine15map_basic_basicE" title="SymEngine::map_basic_basic">map_basic_basic</a> &amp;<em>d</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; &amp;<em>exp</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul9power_numERK3PtrI3RCPIK6NumberEER15map_basic_basicRK3RCPIK6NumberE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Power all terms with the exponent <code class="docutils literal notranslate"><span class="pre">exp</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul12is_canonicalERK3RCPIK6NumberERK15map_basic_basic">
+<span id="_CPPv3NK9SymEngine3Mul12is_canonicalERK3RCPIK6NumberERK15map_basic_basic"></span><span id="_CPPv2NK9SymEngine3Mul12is_canonicalERK3RCPIK6NumberERK15map_basic_basic"></span><span id="SymEngine::Mul::is_canonical__RCP:NumberC:CR.map_basic_basicCRC"></span><span class="target" id="class_sym_engine_1_1_mul_1a4218dc84c35feb16cbe4e3c2b82f844f"></span>bool <code class="sig-name descname">is_canonical</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; &amp;<em>coef</em>, <em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53.html#_CPPv4N9SymEngine15map_basic_basicE" title="SymEngine::map_basic_basic">map_basic_basic</a> &amp;<em>dict</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul12is_canonicalERK3RCPIK6NumberERK15map_basic_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if both <code class="docutils literal notranslate"><span class="pre">coef</span></code> and <code class="docutils literal notranslate"><span class="pre">dict</span></code> are in canonical form </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul8get_argsEv">
+<span id="_CPPv3NK9SymEngine3Mul8get_argsEv"></span><span id="_CPPv2NK9SymEngine3Mul8get_argsEv"></span><span id="SymEngine::Mul::get_argsC"></span><span class="target" id="class_sym_engine_1_1_mul_1aa4a64a32ae758274976ea2097384de79"></span><a class="reference internal" href="typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1.html#_CPPv4N9SymEngine9vec_basicE" title="SymEngine::vec_basic">vec_basic</a> <code class="sig-name descname">get_args</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul8get_argsEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Returns the list of arguments. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul8get_coefEv">
+<span id="_CPPv3NK9SymEngine3Mul8get_coefEv"></span><span id="_CPPv2NK9SymEngine3Mul8get_coefEv"></span><span id="SymEngine::Mul::get_coefC"></span><span class="target" id="class_sym_engine_1_1_mul_1ab0e9ec55b6660e0b099013ba953f469c"></span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; &amp;<code class="sig-name descname">get_coef</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul8get_coefEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine3Mul8get_dictEv">
+<span id="_CPPv3NK9SymEngine3Mul8get_dictEv"></span><span id="_CPPv2NK9SymEngine3Mul8get_dictEv"></span><span id="SymEngine::Mul::get_dictC"></span><span class="target" id="class_sym_engine_1_1_mul_1a5e1f54ef9b81314d4284a7ccbb22390e"></span><em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53.html#_CPPv4N9SymEngine15map_basic_basicE" title="SymEngine::map_basic_basic">map_basic_basic</a> &amp;<code class="sig-name descname">get_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine3Mul8get_dictEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Static Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine3Mul9from_dictERK3RCPIK6NumberERR15map_basic_basic">
+<span id="_CPPv3N9SymEngine3Mul9from_dictERK3RCPIK6NumberERR15map_basic_basic"></span><span id="_CPPv2N9SymEngine3Mul9from_dictERK3RCPIK6NumberERR15map_basic_basic"></span><span id="SymEngine::Mul::from_dict__RCP:NumberC:CR.map_basic_basicRR"></span><span class="target" id="class_sym_engine_1_1_mul_1ab8e2f2039c048fe0a09b346df85ba65d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">from_dict</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; &amp;<em>coef</em>, <a class="reference internal" href="typedef_namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53.html#_CPPv4N9SymEngine15map_basic_basicE" title="SymEngine::map_basic_basic">map_basic_basic</a> &amp;&amp;<em>d</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine3Mul9from_dictERK3RCPIK6NumberERR15map_basic_basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Create a <a class="reference internal" href="#class_sym_engine_1_1_mul"><span class="std std-ref">Mul</span></a> from a dict. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine3Mul13dict_add_termER15map_basic_basicRK3RCPIK5BasicERK3RCPIK5BasicE">
+<span id="_CPPv3N9SymEngine3Mul13dict_add_termER15map_basic_basicRK3RCPIK5BasicERK3RCPIK5BasicE"></span><span id="_CPPv2N9SymEngine3Mul13dict_add_termER15map_basic_basicRK3RCPIK5BasicERK3RCPIK5BasicE"></span><span id="SymEngine::Mul::dict_add_term__map_basic_basicR.RCP:BasicC:CR.RCP:BasicC:CR"></span><span class="target" id="class_sym_engine_1_1_mul_1a92c226852b7225c483761ddb74e196ff"></span>void <code class="sig-name descname">dict_add_term</code><span class="sig-paren">(</span><a class="reference internal" href="typedef_namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53.html#_CPPv4N9SymEngine15map_basic_basicE" title="SymEngine::map_basic_basic">map_basic_basic</a> &amp;<em>d</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>exp</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>t</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine3Mul13dict_add_termER15map_basic_basicRK3RCPIK5BasicERK3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> terms to dict. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine3Mul17dict_add_term_newERK3PtrI3RCPIK6NumberEER15map_basic_basicRK3RCPIK5BasicERK3RCPIK5BasicE">
+<span id="_CPPv3N9SymEngine3Mul17dict_add_term_newERK3PtrI3RCPIK6NumberEER15map_basic_basicRK3RCPIK5BasicERK3RCPIK5BasicE"></span><span id="_CPPv2N9SymEngine3Mul17dict_add_term_newERK3PtrI3RCPIK6NumberEER15map_basic_basicRK3RCPIK5BasicERK3RCPIK5BasicE"></span><span id="SymEngine::Mul::dict_add_term_new__Ptr:RCP:NumberC::CR.map_basic_basicR.RCP:BasicC:CR.RCP:BasicC:CR"></span><span class="target" id="class_sym_engine_1_1_mul_1a1ca2fbc6dae06d59977ed31131f39aba"></span>void <code class="sig-name descname">dict_add_term_new</code><span class="sig-paren">(</span><em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt;&gt; &amp;<em>coef</em>, <a class="reference internal" href="typedef_namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53.html#_CPPv4N9SymEngine15map_basic_basicE" title="SymEngine::map_basic_basic">map_basic_basic</a> &amp;<em>d</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>exp</em>, <em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>t</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine3Mul17dict_add_term_newERK3PtrI3RCPIK6NumberEER15map_basic_basicRK3RCPIK5BasicERK3RCPIK5BasicE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine3Mul11as_base_expERK3RCPIK5BasicERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE">
+<span id="_CPPv3N9SymEngine3Mul11as_base_expERK3RCPIK5BasicERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE"></span><span id="_CPPv2N9SymEngine3Mul11as_base_expERK3RCPIK5BasicERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE"></span><span id="SymEngine::Mul::as_base_exp__RCP:BasicC:CR.Ptr:RCP:BasicC::CR.Ptr:RCP:BasicC::CR"></span><span class="target" id="class_sym_engine_1_1_mul_1a770b81872d66430fb57217063de9a37c"></span>void <code class="sig-name descname">as_base_exp</code><span class="sig-paren">(</span><em class="property">const</em> RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; &amp;<em>self</em>, <em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&gt; &amp;<em>exp</em>, <em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt;&gt; &amp;<em>base</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine3Mul11as_base_expERK3RCPIK5BasicERK3PtrI3RCPIK5BasicEERK3PtrI3RCPIK5BasicEE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Convert to a base and exponent form. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class Mul</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_m_subs_visitor.html"
+                        title="previous chapter">Class MSubsVisitor</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_multi_arg_function.html"
+                        title="next chapter">Class MultiArgFunction</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_mul.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_multi_arg_function.html" title="Class MultiArgFunction"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_m_subs_visitor.html" title="Class MSubsVisitor"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class Mul</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

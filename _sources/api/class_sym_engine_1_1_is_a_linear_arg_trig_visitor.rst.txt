@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_is_a_linear_arg_trig_visitor:
+
+Class IsALinearArgTrigVisitor
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::BaseVisitor< IsALinearArgTrigVisitor, LocalStopVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::IsALinearArgTrigVisitor
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,683 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class RealDouble &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class RealImagVisitor" href="class_sym_engine_1_1_real_imag_visitor.html" />
+    <link rel="prev" title="Class Rational" href="class_sym_engine_1_1_rational.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_real_imag_visitor.html" title="Class RealImagVisitor"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_rational.html" title="Class Rational"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class RealDouble</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-realdouble">
+<span id="exhale-class-class-sym-engine-1-1-real-double"></span><h1>Class RealDouble<a class="headerlink" href="#class-realdouble" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_double.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-real-double-h"><span class="std std-ref">File real_double.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::Number</span></code> (<a class="reference internal" href="class_sym_engine_1_1_number.html#exhale-class-class-sym-engine-1-1-number"><span class="std std-ref">Class Number</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine10RealDoubleE">
+<span id="_CPPv3N9SymEngine10RealDoubleE"></span><span id="_CPPv2N9SymEngine10RealDoubleE"></span><span id="SymEngine::RealDouble"></span><span class="target" id="class_sym_engine_1_1_real_double"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">RealDouble</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a><a class="headerlink" href="#_CPPv4N9SymEngine10RealDoubleE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> Class to hold double values. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine10RealDouble10RealDoubleEd">
+<span id="_CPPv3N9SymEngine10RealDouble10RealDoubleEd"></span><span id="_CPPv2N9SymEngine10RealDouble10RealDoubleEd"></span><span id="SymEngine::RealDouble::RealDouble__double"></span><span class="target" id="class_sym_engine_1_1_real_double_1aecb8d59da57bedd29809cea4fa2e30fb"></span><code class="sig-name descname">RealDouble</code><span class="sig-paren">(</span>double <em>i</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine10RealDouble10RealDoubleEd" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Constructor of <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> class. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8__hash__Ev">
+<span id="_CPPv3NK9SymEngine10RealDouble8__hash__Ev"></span><span id="_CPPv2NK9SymEngine10RealDouble8__hash__Ev"></span><span id="SymEngine::RealDouble::__hash__C"></span><span class="target" id="class_sym_engine_1_1_real_double_1addc201ec0ac22bcc8f19181c1f9797a0"></span><a class="reference internal" href="typedef_namespace_sym_engine_1a455620f815334592057d7966d62d5de6.html#_CPPv4N9SymEngine6hash_tE" title="SymEngine::hash_t">hash_t</a> <code class="sig-name descname">__hash__</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8__hash__Ev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>size of the hash </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble6__eq__ERK5Basic">
+<span id="_CPPv3NK9SymEngine10RealDouble6__eq__ERK5Basic"></span><span id="_CPPv2NK9SymEngine10RealDouble6__eq__ERK5Basic"></span><span id="SymEngine::RealDouble::__eq____BasicCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a8b93b9484549dde8bc88e1c92ad6c66c"></span>bool <code class="sig-name descname">__eq__</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble6__eq__ERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_equality.html#class_sym_engine_1_1_equality"><span class="std std-ref">Equality</span></a> comparator <dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>whether the 2 objects are equal </p>
+</dd>
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">o</span></code>: - Object to be compared with </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7compareERK5Basic">
+<span id="_CPPv3NK9SymEngine10RealDouble7compareERK5Basic"></span><span id="_CPPv2NK9SymEngine10RealDouble7compareERK5Basic"></span><span id="SymEngine::RealDouble::compare__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a773d3ec13efa3801fffc92441ae17351"></span>int <code class="sig-name descname">compare</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7compareERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Returns -1, 0, 1 for <code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">&lt;</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">==</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">&gt;</span> <span class="pre">o</span></code>. This method is used when you want to sort things like <code class="docutils literal notranslate"><span class="pre">x+y+z</span></code> into canonical order. This function assumes that <code class="docutils literal notranslate"><span class="pre">o</span></code> is the same type as <code class="docutils literal notranslate"><span class="pre">this</span></code>. Use <code class="docutils literal notranslate"><span class="pre">__cmp__</span></code> if you want general comparison. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble11is_positiveEv">
+<span id="_CPPv3NK9SymEngine10RealDouble11is_positiveEv"></span><span id="_CPPv2NK9SymEngine10RealDouble11is_positiveEv"></span><span id="SymEngine::RealDouble::is_positiveC"></span><span class="target" id="class_sym_engine_1_1_real_double_1aa889931e1dade5a4c29665cfcd198922"></span>bool <code class="sig-name descname">is_positive</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble11is_positiveEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if positive </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble11is_negativeEv">
+<span id="_CPPv3NK9SymEngine10RealDouble11is_negativeEv"></span><span id="_CPPv2NK9SymEngine10RealDouble11is_negativeEv"></span><span id="SymEngine::RealDouble::is_negativeC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a6468e0694ac04980e96e5f0856a4648e"></span>bool <code class="sig-name descname">is_negative</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble11is_negativeEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if negative </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble9as_doubleEv">
+<span id="_CPPv3NK9SymEngine10RealDouble9as_doubleEv"></span><span id="_CPPv2NK9SymEngine10RealDouble9as_doubleEv"></span><span id="SymEngine::RealDouble::as_doubleC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a680c9526aa0cf757ffbee75238a48f4a"></span>double <code class="sig-name descname">as_double</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble9as_doubleEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>self as a double </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8is_exactEv">
+<span id="_CPPv3NK9SymEngine10RealDouble8is_exactEv"></span><span id="_CPPv2NK9SymEngine10RealDouble8is_exactEv"></span><span id="SymEngine::RealDouble::is_exactC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a60420f2c8395f0b67a2963c752b6e3d3"></span>bool <code class="sig-name descname">is_exact</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8is_exactEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if this number is an exact number </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8get_evalEv">
+<span id="_CPPv3NK9SymEngine10RealDouble8get_evalEv"></span><span id="_CPPv2NK9SymEngine10RealDouble8get_evalEv"></span><span id="SymEngine::RealDouble::get_evalC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a26da416cdb037d3afd8dc5ef5a343ef6"></span><a class="reference internal" href="class_sym_engine_1_1_evaluate.html#_CPPv4N9SymEngine8EvaluateE" title="SymEngine::Evaluate">Evaluate</a> &amp;<code class="sig-name descname">get_eval</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8get_evalEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Get <code class="docutils literal notranslate"><a class="reference internal" href="class_sym_engine_1_1_evaluate.html#class_sym_engine_1_1_evaluate"><span class="std std-ref"><span class="pre">Evaluate</span></span></a></code> singleton to evaluate numerically. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7is_zeroEv">
+<span id="_CPPv3NK9SymEngine10RealDouble7is_zeroEv"></span><span id="_CPPv2NK9SymEngine10RealDouble7is_zeroEv"></span><span id="SymEngine::RealDouble::is_zeroC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a8c97467c3089b1ebcdc00d1c64fcdf5d"></span>bool <code class="sig-name descname">is_zero</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7is_zeroEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> when equals to 0 </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble6is_oneEv">
+<span id="_CPPv3NK9SymEngine10RealDouble6is_oneEv"></span><span id="_CPPv2NK9SymEngine10RealDouble6is_oneEv"></span><span id="SymEngine::RealDouble::is_oneC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a7294106a689856d66ebc0a83c1129561"></span>bool <code class="sig-name descname">is_one</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble6is_oneEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble12is_minus_oneEv">
+<span id="_CPPv3NK9SymEngine10RealDouble12is_minus_oneEv"></span><span id="_CPPv2NK9SymEngine10RealDouble12is_minus_oneEv"></span><span id="SymEngine::RealDouble::is_minus_oneC"></span><span class="target" id="class_sym_engine_1_1_real_double_1aa15899b44eb93d34445719e4d99c837b"></span>bool <code class="sig-name descname">is_minus_one</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble12is_minus_oneEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble10is_complexEv">
+<span id="_CPPv3NK9SymEngine10RealDouble10is_complexEv"></span><span id="_CPPv2NK9SymEngine10RealDouble10is_complexEv"></span><span id="SymEngine::RealDouble::is_complexC"></span><span class="target" id="class_sym_engine_1_1_real_double_1ae1f78772abe0d6bb9d9eb1ea726c18eb"></span>bool <code class="sig-name descname">is_complex</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble10is_complexEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7addrealERK7Integer">
+<span id="_CPPv3NK9SymEngine10RealDouble7addrealERK7Integer"></span><span id="_CPPv2NK9SymEngine10RealDouble7addrealERK7Integer"></span><span id="SymEngine::RealDouble::addreal__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a7cc03ee939ea7f9132a1ef244c658f31"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7addrealERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7addrealERK8Rational">
+<span id="_CPPv3NK9SymEngine10RealDouble7addrealERK8Rational"></span><span id="_CPPv2NK9SymEngine10RealDouble7addrealERK8Rational"></span><span id="SymEngine::RealDouble::addreal__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1ab3f60845c39ac6f33b03c9d6923ae98c"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7addrealERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7addrealERK7Complex">
+<span id="_CPPv3NK9SymEngine10RealDouble7addrealERK7Complex"></span><span id="_CPPv2NK9SymEngine10RealDouble7addrealERK7Complex"></span><span id="SymEngine::RealDouble::addreal__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a7dcca2e1e01901bea83d66af36ad0fa1"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7addrealERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7addrealERK10RealDouble">
+<span id="_CPPv3NK9SymEngine10RealDouble7addrealERK10RealDouble"></span><span id="_CPPv2NK9SymEngine10RealDouble7addrealERK10RealDouble"></span><span id="SymEngine::RealDouble::addreal__RealDoubleCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a04c1f663763c7e56b70ac9231f15b71a"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine10RealDoubleE" title="SymEngine::RealDouble">RealDouble</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7addrealERK10RealDouble" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble3addERK6Number">
+<span id="_CPPv3NK9SymEngine10RealDouble3addERK6Number"></span><span id="_CPPv2NK9SymEngine10RealDouble3addERK6Number"></span><span id="SymEngine::RealDouble::add__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a01d405888bd8fb1126fb5b2565c61abb"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble3addERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">addreal</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7subrealERK7Integer">
+<span id="_CPPv3NK9SymEngine10RealDouble7subrealERK7Integer"></span><span id="_CPPv2NK9SymEngine10RealDouble7subrealERK7Integer"></span><span id="SymEngine::RealDouble::subreal__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a6379022080b67faa9fcb84196d0b5caa"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7subrealERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7subrealERK8Rational">
+<span id="_CPPv3NK9SymEngine10RealDouble7subrealERK8Rational"></span><span id="_CPPv2NK9SymEngine10RealDouble7subrealERK8Rational"></span><span id="SymEngine::RealDouble::subreal__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1ae15f882cb5ed440cab9907947d87cfa2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7subrealERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7subrealERK7Complex">
+<span id="_CPPv3NK9SymEngine10RealDouble7subrealERK7Complex"></span><span id="_CPPv2NK9SymEngine10RealDouble7subrealERK7Complex"></span><span id="SymEngine::RealDouble::subreal__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a73835673fae3d83ebebc0078168fcbe9"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7subrealERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7subrealERK10RealDouble">
+<span id="_CPPv3NK9SymEngine10RealDouble7subrealERK10RealDouble"></span><span id="_CPPv2NK9SymEngine10RealDouble7subrealERK10RealDouble"></span><span id="SymEngine::RealDouble::subreal__RealDoubleCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1ad0ddca9a32678124831c288739d44af2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine10RealDoubleE" title="SymEngine::RealDouble">RealDouble</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7subrealERK10RealDouble" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble3subERK6Number">
+<span id="_CPPv3NK9SymEngine10RealDouble3subERK6Number"></span><span id="_CPPv2NK9SymEngine10RealDouble3subERK6Number"></span><span id="SymEngine::RealDouble::sub__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a04a58de7a562564f75e04076d3e45e57"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">sub</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble3subERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">subreal</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rsubrealERK7Integer">
+<span id="_CPPv3NK9SymEngine10RealDouble8rsubrealERK7Integer"></span><span id="_CPPv2NK9SymEngine10RealDouble8rsubrealERK7Integer"></span><span id="SymEngine::RealDouble::rsubreal__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1adf4769dc095bd1783532f85de8a30137"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsubreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rsubrealERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rsubrealERK8Rational">
+<span id="_CPPv3NK9SymEngine10RealDouble8rsubrealERK8Rational"></span><span id="_CPPv2NK9SymEngine10RealDouble8rsubrealERK8Rational"></span><span id="SymEngine::RealDouble::rsubreal__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a7859513afd9290a8007f1ad88b4b089b"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsubreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rsubrealERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rsubrealERK7Complex">
+<span id="_CPPv3NK9SymEngine10RealDouble8rsubrealERK7Complex"></span><span id="_CPPv2NK9SymEngine10RealDouble8rsubrealERK7Complex"></span><span id="SymEngine::RealDouble::rsubreal__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1ab4e77cb97a4896de2649bd894dbfa9a3"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsubreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rsubrealERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble4rsubERK6Number">
+<span id="_CPPv3NK9SymEngine10RealDouble4rsubERK6Number"></span><span id="_CPPv2NK9SymEngine10RealDouble4rsubERK6Number"></span><span id="SymEngine::RealDouble::rsub__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a951271a955a9300eaa26ce99b4f47ccb"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsub</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble4rsubERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">subreal</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7mulrealERK7Integer">
+<span id="_CPPv3NK9SymEngine10RealDouble7mulrealERK7Integer"></span><span id="_CPPv2NK9SymEngine10RealDouble7mulrealERK7Integer"></span><span id="SymEngine::RealDouble::mulreal__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a1acb4dec1b61110285434ad006057dc9"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7mulrealERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7mulrealERK8Rational">
+<span id="_CPPv3NK9SymEngine10RealDouble7mulrealERK8Rational"></span><span id="_CPPv2NK9SymEngine10RealDouble7mulrealERK8Rational"></span><span id="SymEngine::RealDouble::mulreal__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a485b047b6450ac97ea10b2421fcf5aa0"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7mulrealERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7mulrealERK7Complex">
+<span id="_CPPv3NK9SymEngine10RealDouble7mulrealERK7Complex"></span><span id="_CPPv2NK9SymEngine10RealDouble7mulrealERK7Complex"></span><span id="SymEngine::RealDouble::mulreal__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a18fe87fa8101fe53869511e8a74ec9bc"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7mulrealERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7mulrealERK10RealDouble">
+<span id="_CPPv3NK9SymEngine10RealDouble7mulrealERK10RealDouble"></span><span id="_CPPv2NK9SymEngine10RealDouble7mulrealERK10RealDouble"></span><span id="SymEngine::RealDouble::mulreal__RealDoubleCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a9914fe142c3165618cd24cde4d01214d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine10RealDoubleE" title="SymEngine::RealDouble">RealDouble</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7mulrealERK10RealDouble" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble3mulERK6Number">
+<span id="_CPPv3NK9SymEngine10RealDouble3mulERK6Number"></span><span id="_CPPv2NK9SymEngine10RealDouble3mulERK6Number"></span><span id="SymEngine::RealDouble::mul__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a3743ee8e1c7d7883b8ceba25e6d5e760"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mul</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble3mulERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">mulreal</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7divrealERK7Integer">
+<span id="_CPPv3NK9SymEngine10RealDouble7divrealERK7Integer"></span><span id="_CPPv2NK9SymEngine10RealDouble7divrealERK7Integer"></span><span id="SymEngine::RealDouble::divreal__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a535e3d60ab19d53e670d713a0d36eb6e"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7divrealERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7divrealERK8Rational">
+<span id="_CPPv3NK9SymEngine10RealDouble7divrealERK8Rational"></span><span id="_CPPv2NK9SymEngine10RealDouble7divrealERK8Rational"></span><span id="SymEngine::RealDouble::divreal__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1af04fbbffb15400a2183fee7b5867b8cc"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7divrealERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7divrealERK7Complex">
+<span id="_CPPv3NK9SymEngine10RealDouble7divrealERK7Complex"></span><span id="_CPPv2NK9SymEngine10RealDouble7divrealERK7Complex"></span><span id="SymEngine::RealDouble::divreal__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a12446157a312f33b537b1d705bf028f2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7divrealERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7divrealERK10RealDouble">
+<span id="_CPPv3NK9SymEngine10RealDouble7divrealERK10RealDouble"></span><span id="_CPPv2NK9SymEngine10RealDouble7divrealERK10RealDouble"></span><span id="SymEngine::RealDouble::divreal__RealDoubleCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1aa10d1a3ced252834108ef1f4cffc2926"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine10RealDoubleE" title="SymEngine::RealDouble">RealDouble</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7divrealERK10RealDouble" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble3divERK6Number">
+<span id="_CPPv3NK9SymEngine10RealDouble3divERK6Number"></span><span id="_CPPv2NK9SymEngine10RealDouble3divERK6Number"></span><span id="SymEngine::RealDouble::div__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a05eeecdddb5119c3b94584d6c83894b8"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">div</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble3divERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">divreal</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rdivrealERK7Integer">
+<span id="_CPPv3NK9SymEngine10RealDouble8rdivrealERK7Integer"></span><span id="_CPPv2NK9SymEngine10RealDouble8rdivrealERK7Integer"></span><span id="SymEngine::RealDouble::rdivreal__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1acea1346054190457a847f3c455b23640"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rdivreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rdivrealERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rdivrealERK8Rational">
+<span id="_CPPv3NK9SymEngine10RealDouble8rdivrealERK8Rational"></span><span id="_CPPv2NK9SymEngine10RealDouble8rdivrealERK8Rational"></span><span id="SymEngine::RealDouble::rdivreal__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a8e857f0a9b1a472414475945966c7ad2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rdivreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rdivrealERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rdivrealERK7Complex">
+<span id="_CPPv3NK9SymEngine10RealDouble8rdivrealERK7Complex"></span><span id="_CPPv2NK9SymEngine10RealDouble8rdivrealERK7Complex"></span><span id="SymEngine::RealDouble::rdivreal__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1abbed67bca2b1615bdc70d77d8073a235"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rdivreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rdivrealERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide RealDoubles <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble4rdivERK6Number">
+<span id="_CPPv3NK9SymEngine10RealDouble4rdivERK6Number"></span><span id="_CPPv2NK9SymEngine10RealDouble4rdivERK6Number"></span><span id="SymEngine::RealDouble::rdiv__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a5bd300dffbb475cb1ed84d782b07db18"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rdiv</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble4rdivERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">divreal</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7powrealERK7Integer">
+<span id="_CPPv3NK9SymEngine10RealDouble7powrealERK7Integer"></span><span id="_CPPv2NK9SymEngine10RealDouble7powrealERK7Integer"></span><span id="SymEngine::RealDouble::powreal__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1ac0f674a930663228625e1ccbc007478d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">powreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7powrealERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> to power <code class="docutils literal notranslate"><span class="pre">other</span></code> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7powrealERK8Rational">
+<span id="_CPPv3NK9SymEngine10RealDouble7powrealERK8Rational"></span><span id="_CPPv2NK9SymEngine10RealDouble7powrealERK8Rational"></span><span id="SymEngine::RealDouble::powreal__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a11a67780b9c20232ea342d9ef086e7be"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">powreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7powrealERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> to power <code class="docutils literal notranslate"><span class="pre">other</span></code> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7powrealERK7Complex">
+<span id="_CPPv3NK9SymEngine10RealDouble7powrealERK7Complex"></span><span id="_CPPv2NK9SymEngine10RealDouble7powrealERK7Complex"></span><span id="SymEngine::RealDouble::powreal__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a2729e80d9128793b8e3dfe17f98a57dd"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">powreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7powrealERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> to power <code class="docutils literal notranslate"><span class="pre">other</span></code> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble7powrealERK10RealDouble">
+<span id="_CPPv3NK9SymEngine10RealDouble7powrealERK10RealDouble"></span><span id="_CPPv2NK9SymEngine10RealDouble7powrealERK10RealDouble"></span><span id="SymEngine::RealDouble::powreal__RealDoubleCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1adf0abb1efaba664da5842d89aaca753d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">powreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine10RealDoubleE" title="SymEngine::RealDouble">RealDouble</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble7powrealERK10RealDouble" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> to power <code class="docutils literal notranslate"><span class="pre">other</span></code> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble3powERK6Number">
+<span id="_CPPv3NK9SymEngine10RealDouble3powERK6Number"></span><span id="_CPPv2NK9SymEngine10RealDouble3powERK6Number"></span><span id="SymEngine::RealDouble::pow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a9145dbffb8d17d247d6ffb7e188784e8"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">pow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble3powERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">powreal</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rpowrealERK7Integer">
+<span id="_CPPv3NK9SymEngine10RealDouble8rpowrealERK7Integer"></span><span id="_CPPv2NK9SymEngine10RealDouble8rpowrealERK7Integer"></span><span id="SymEngine::RealDouble::rpowreal__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a81b0caa050bc1078d76e4734702d3919"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rpowreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rpowrealERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise <code class="docutils literal notranslate"><span class="pre">other</span></code> to power <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rpowrealERK8Rational">
+<span id="_CPPv3NK9SymEngine10RealDouble8rpowrealERK8Rational"></span><span id="_CPPv2NK9SymEngine10RealDouble8rpowrealERK8Rational"></span><span id="SymEngine::RealDouble::rpowreal__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a3d0cdedaba863e6e5d3b1f6603c6c292"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rpowreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_rational.html#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rpowrealERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise <code class="docutils literal notranslate"><span class="pre">other</span></code> to power <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_rational.html#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble8rpowrealERK7Complex">
+<span id="_CPPv3NK9SymEngine10RealDouble8rpowrealERK7Complex"></span><span id="_CPPv2NK9SymEngine10RealDouble8rpowrealERK7Complex"></span><span id="SymEngine::RealDouble::rpowreal__ComplexCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a67b559afd0896f0c60258a17714059e9"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rpowreal</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_complex.html#_CPPv4N9SymEngine7ComplexE" title="SymEngine::Complex">Complex</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble8rpowrealERK7Complex" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise <code class="docutils literal notranslate"><span class="pre">other</span></code> to power <a class="reference internal" href="#class_sym_engine_1_1_real_double"><span class="std std-ref">RealDouble</span></a> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_complex.html#class_sym_engine_1_1_complex"><span class="std std-ref">Complex</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine10RealDouble4rpowERK6Number">
+<span id="_CPPv3NK9SymEngine10RealDouble4rpowERK6Number"></span><span id="_CPPv2NK9SymEngine10RealDouble4rpowERK6Number"></span><span id="SymEngine::RealDouble::rpow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_real_double_1a4ca1b4517944c8a9622bbaa3f8960c8b"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rpow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine10RealDouble4rpowERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">powreal</span></code> </p>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="cpp var">
+<dt id="_CPPv4N9SymEngine10RealDouble1iE">
+<span id="_CPPv3N9SymEngine10RealDouble1iE"></span><span id="_CPPv2N9SymEngine10RealDouble1iE"></span><span id="SymEngine::RealDouble::i__double"></span><span class="target" id="class_sym_engine_1_1_real_double_1af33535da7ca0d8888ef0292c2c7f12de"></span>double <code class="sig-name descname">i</code><a class="headerlink" href="#_CPPv4N9SymEngine10RealDouble1iE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class RealDouble</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_rational.html"
+                        title="previous chapter">Class Rational</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_real_imag_visitor.html"
+                        title="next chapter">Class RealImagVisitor</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_real_double.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_real_imag_visitor.html" title="Class RealImagVisitor"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_rational.html" title="Class Rational"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class RealDouble</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a02c4b0b27a323a9a0ea4ab59b43cdbec:
+
+Function dense_matrix_row_del(CDenseMatrix \*, unsigned)
+========================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_row_del(CDenseMatrix *, unsigned)

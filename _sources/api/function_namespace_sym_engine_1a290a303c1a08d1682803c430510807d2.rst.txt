@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a290a303c1a08d1682803c430510807d2:
+
+Function SymEngine::_mulnum
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expand.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::_mulnum(const RCP<const Number>&, const RCP<const Number>&)

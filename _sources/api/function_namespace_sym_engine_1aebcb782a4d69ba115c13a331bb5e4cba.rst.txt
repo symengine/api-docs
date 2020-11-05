@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aebcb782a4d69ba115c13a331bb5e4cba:
+
+Function SymEngine::acot
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::acot(const RCP<const Basic>&)

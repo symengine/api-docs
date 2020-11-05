@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ac1ca4e052e1ed84f11dd83c9b32f547e:
+
+Function SymEngine::powermod_list
+=================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::powermod_list(std::vector<RCP<const Integer>>&, const RCP<const Integer>&, const RCP<const Number>&, const RCP<const Integer>&)

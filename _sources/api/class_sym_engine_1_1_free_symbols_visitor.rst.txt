@@ -1,0 +1,25 @@
+.. _exhale_class_class_sym_engine_1_1_free_symbols_visitor:
+
+Class FreeSymbolsVisitor
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::BaseVisitor< FreeSymbolsVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::FreeSymbolsVisitor
+   :members:
+   :protected-members:
+   :undoc-members:

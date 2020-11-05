@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1a3baebfbdf61c81dbe8472bab483c0018:
+
+Variable SymEngine::mC5
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::mC5

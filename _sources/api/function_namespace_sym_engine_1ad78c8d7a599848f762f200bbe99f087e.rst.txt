@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ad78c8d7a599848f762f200bbe99f087e:
+
+Function SymEngine::legendre
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::legendre(const Integer&, const Integer&)

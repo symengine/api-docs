@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a9b828cb692f763f05e2ee78d7cde30f0:
+
+Function SymEngine::is_a_Atom
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::is_a_Atom(const Basic&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8c43565c1985b2a399bd107bf8715c9f:
+
+Function SymEngine::column_exchange_dense
+=========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::column_exchange_dense(DenseMatrix&, unsigned, unsigned)

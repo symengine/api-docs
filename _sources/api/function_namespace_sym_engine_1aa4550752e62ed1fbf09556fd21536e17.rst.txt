@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa4550752e62ed1fbf09556fd21536e17:
+
+Function SymEngine::truncate
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::truncate(const RCP<const Basic>&)

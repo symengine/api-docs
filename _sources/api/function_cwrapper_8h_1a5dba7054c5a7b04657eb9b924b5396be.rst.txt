@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a5dba7054c5a7b04657eb9b924b5396be:
+
+Function setbasic_free(CSetBasic \*)
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: setbasic_free(CSetBasic *)

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a922f5c7ed357467864a3cee3e9d6a59b:
+
+Function vectorint_placement_free(CVectorInt \*)
+================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: vectorint_placement_free(CVectorInt *)

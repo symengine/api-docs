@@ -1,0 +1,37 @@
+.. _exhale_class_class_sym_engine_1_1_two_arg_basic:
+
+Template Class TwoArgBasic
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public BaseClass``
+
+
+Derived Types
+*************
+
+- ``public SymEngine::ATan2`` (:ref:`exhale_class_class_sym_engine_1_1_a_tan2`)
+- ``public SymEngine::Beta`` (:ref:`exhale_class_class_sym_engine_1_1_beta`)
+- ``public SymEngine::KroneckerDelta`` (:ref:`exhale_class_class_sym_engine_1_1_kronecker_delta`)
+- ``public SymEngine::LowerGamma`` (:ref:`exhale_class_class_sym_engine_1_1_lower_gamma`)
+- ``public SymEngine::PolyGamma`` (:ref:`exhale_class_class_sym_engine_1_1_poly_gamma`)
+- ``public SymEngine::UpperGamma`` (:ref:`exhale_class_class_sym_engine_1_1_upper_gamma`)
+- ``public SymEngine::Zeta`` (:ref:`exhale_class_class_sym_engine_1_1_zeta`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::TwoArgBasic
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,13 @@
+.. _exhale_define_cwrapper_8cpp_1ab788096748b054da6dca459f8f5601cd:
+
+Define CWRAPPER_BEGIN
+=====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: CWRAPPER_BEGIN

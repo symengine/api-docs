@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a04faeda4d8d3c07dc122cb8a586a617b:
+
+Function SymEngine::get_mp_t(const rational_class&)
+===================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::get_mp_t(const rational_class&)

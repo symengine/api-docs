@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a6c2555b6e55b9c3f7a831cb4cab57b77:
+
+Function SymEngine::ccode
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::ccode(const Basic&)

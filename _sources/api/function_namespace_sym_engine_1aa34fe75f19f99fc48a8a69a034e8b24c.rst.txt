@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa34fe75f19f99fc48a8a69a034e8b24c:
+
+Function SymEngine::mp_legendre
+===============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_legendre(const integer_class&, const integer_class&)

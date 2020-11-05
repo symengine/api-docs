@@ -1,0 +1,131 @@
+.. _dir__home_travis_build_symengine_api-docs_projects_symengine_symengine:
+
+
+Directory symengine
+===================
+
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+*Directory path:* ``/home/travis/build/symengine/api-docs/projects/symengine/symengine``
+
+
+Files
+-----
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_as_real_imag.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic-inl.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic-methods.inc`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_CMakeLists.txt`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_double.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_double.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_mpc.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_mpc.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cse.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_derivative.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_derivative.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_diophantine.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_diophantine.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_arb.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_arb.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_double.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_double.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpc.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpc.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpfr.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpfr.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expand.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expression.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expression.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_finitediff.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_finitediff.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_flint_wrapper.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_infinity.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_infinity.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_lambda_double.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_monomials.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_monomials.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_nan.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_nan.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_numer_denom.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_parser.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_double.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_double.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_mpfr.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_mpfr.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rewrite.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_flint.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_flint.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_generic.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_generic.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_piranha.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_piranha.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_visitor.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sparse_matrix.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_subs.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symbol.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symbol.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_assert.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_casts.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_rcp.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_rcp.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_test_visitors.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_test_visitors.h`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_type_codes.inc`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp`
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+

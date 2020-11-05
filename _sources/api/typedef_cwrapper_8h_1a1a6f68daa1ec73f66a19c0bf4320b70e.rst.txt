@@ -1,0 +1,13 @@
+.. _exhale_typedef_cwrapper_8h_1a1a6f68daa1ec73f66a19c0bf4320b70e:
+
+Typedef CSparseMatrix
+=====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: CSparseMatrix

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a690281de28708c8cef39f5ae73611872:
+
+Function SymEngine::asin
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::asin(const RCP<const Basic>&)

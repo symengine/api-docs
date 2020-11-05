@@ -1,0 +1,50 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.cpp:
+
+File rational.cpp
+=================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/rational.cpp``)
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/pow.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`)
+
+- ``symengine/rational.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1a099fdf0478ebd3ed479f40ddb04f0315`
+

@@ -1,0 +1,16 @@
+.. _exhale_struct_struct_sym_engine_1_1_r_c_p_integer_key_less:
+
+Struct RCPIntegerKeyLess
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: SymEngine::RCPIntegerKeyLess
+   :members:
+   :protected-members:
+   :undoc-members:

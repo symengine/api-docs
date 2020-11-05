@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8a6d05bb97e9647eea7ae3c304a8a391:
+
+Function SymEngine::atanh
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::atanh(const RCP<const Basic>&)

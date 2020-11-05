@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a31f0222f71de0732e33afce35a65dc1d:
+
+Function dense_matrix_new_rows_cols(unsigned, unsigned)
+=======================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_new_rows_cols(unsigned, unsigned)

@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a704a9fc835d6ab08cf35d5aa6de184bf:
+
+Function basic_solve_poly(CSetBasic \*, const basic, const basic)
+=================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_solve_poly(CSetBasic *, const basic, const basic)

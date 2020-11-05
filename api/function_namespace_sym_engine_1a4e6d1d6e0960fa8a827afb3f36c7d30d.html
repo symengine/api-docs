@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Function SymEngine::hash_combine &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Template Function SymEngine::hash_combine_impl(hash_t&amp;, const T&amp;, typename std::enable_if&lt;std::is_base_of&lt;Basic, T&gt;::value&gt;::type *)" href="function_namespace_sym_engine_1abb24605f1aae71927876f7237e221544.html" />
+    <link rel="prev" title="Function SymEngine::has_symbol" href="function_namespace_sym_engine_1ae5b0bdd4cc645dd135e7efc9265b2361.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="function_namespace_sym_engine_1abb24605f1aae71927876f7237e221544.html" title="Template Function SymEngine::hash_combine_impl(hash_t&amp;, const T&amp;, typename std::enable_if&lt;std::is_base_of&lt;Basic, T&gt;::value&gt;::type *)"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="function_namespace_sym_engine_1ae5b0bdd4cc645dd135e7efc9265b2361.html" title="Function SymEngine::has_symbol"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Template Function SymEngine::hash_combine</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="template-function-symengine-hash-combine">
+<span id="exhale-function-namespace-sym-engine-1a4e6d1d6e0960fa8a827afb3f36c7d30d"></span><h1>Template Function SymEngine::hash_combine<a class="headerlink" href="#template-function-symengine-hash-combine" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic-inl.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-basic-inl-h"><span class="std std-ref">File basic-inl.h</span></a></p></li>
+</ul>
+<div class="section" id="function-documentation">
+<h2>Function Documentation<a class="headerlink" href="#function-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp function">
+<dt id="_CPPv4I0EN9SymEngine12hash_combineEvR6hash_tRK1T">
+<span id="_CPPv3I0EN9SymEngine12hash_combineER6hash_tRK1T"></span><span id="_CPPv2I0EN9SymEngine12hash_combineER6hash_tRK1T"></span>template&lt;class <code class="sig-name descname">T</code>&gt;<br /><span class="target" id="namespace_sym_engine_1a4e6d1d6e0960fa8a827afb3f36c7d30d"></span>void <code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">hash_combine</code><span class="sig-paren">(</span><a class="reference internal" href="typedef_namespace_sym_engine_1a455620f815334592057d7966d62d5de6.html#_CPPv4N9SymEngine6hash_tE" title="SymEngine::hash_t">hash_t</a> &amp;<em>seed</em>, <em class="property">const</em> <a class="reference internal" href="#_CPPv4I0EN9SymEngine12hash_combineEvR6hash_tRK1T" title="SymEngine::hash_combine::T">T</a> &amp;<em>v</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN9SymEngine12hash_combineEvR6hash_tRK1T" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Standard <code class="docutils literal notranslate"><a class="reference internal" href="#namespace_sym_engine_1a4e6d1d6e0960fa8a827afb3f36c7d30d"><span class="std std-ref"><span class="pre">hash_combine()</span></span></a></code> function. Example of usage: <div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">hash_t</span> <span class="n">seed1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="n">hash_combine</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;</span><span class="p">(</span><span class="n">seed1</span><span class="p">,</span> <span class="s">&quot;x&quot;</span><span class="p">);</span>
+<span class="n">hash_combine</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;</span><span class="p">(</span><span class="n">seed1</span><span class="p">,</span> <span class="s">&quot;y&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</p>
+<p>You can use it with any SymEngine class:</p>
+<p><div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Symbol</span><span class="o">&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">symbol</span><span class="p">(</span><span class="s">&quot;x&quot;</span><span class="p">);</span>
+<span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Symbol</span><span class="o">&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="n">symbol</span><span class="p">(</span><span class="s">&quot;y&quot;</span><span class="p">);</span>
+<span class="n">hash_t</span> <span class="n">seed2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="n">hash_combine</span><span class="o">&lt;</span><span class="n">Basic</span><span class="o">&gt;</span><span class="p">(</span><span class="n">seed2</span><span class="p">,</span> <span class="o">*</span><span class="n">x</span><span class="p">);</span>
+<span class="n">hash_combine</span><span class="o">&lt;</span><span class="n">Basic</span><span class="o">&gt;</span><span class="p">(</span><span class="n">seed2</span><span class="p">,</span> <span class="o">*</span><span class="n">y</span><span class="p">);</span>
+</pre></div>
+</div>
+ </p>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Template Function SymEngine::hash_combine</a><ul>
+<li><a class="reference internal" href="#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="function_namespace_sym_engine_1ae5b0bdd4cc645dd135e7efc9265b2361.html"
+                        title="previous chapter">Function SymEngine::has_symbol</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="function_namespace_sym_engine_1abb24605f1aae71927876f7237e221544.html"
+                        title="next chapter">Template Function SymEngine::hash_combine_impl(hash_t&amp;, const T&amp;, typename std::enable_if&lt;std::is_base_of&lt;Basic, T&gt;::value&gt;::type *)</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/function_namespace_sym_engine_1a4e6d1d6e0960fa8a827afb3f36c7d30d.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="function_namespace_sym_engine_1abb24605f1aae71927876f7237e221544.html" title="Template Function SymEngine::hash_combine_impl(hash_t&amp;, const T&amp;, typename std::enable_if&lt;std::is_base_of&lt;Basic, T&gt;::value&gt;::type *)"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="function_namespace_sym_engine_1ae5b0bdd4cc645dd135e7efc9265b2361.html" title="Function SymEngine::has_symbol"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Template Function SymEngine::hash_combine</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.. _exhale_define_llvm__double_8cpp_1abcb8998cdda132f7c8bc21d20483bca6:
+
+Define _SYMENGINE_MACRO_EXTERNAL_FUNCTION
+=========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.cpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: _SYMENGINE_MACRO_EXTERNAL_FUNCTION

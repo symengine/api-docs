@@ -1,0 +1,13 @@
+.. _exhale_define_mp__wrapper_8h_1a46cc0b1211e93934bc8aab1632ecedc3:
+
+Define SYMENGINE_MPZ_WRAPPER_IMPLEMENT_RELATIONAL
+=================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: SYMENGINE_MPZ_WRAPPER_IMPLEMENT_RELATIONAL

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a5427bd85fc080a17d0718a7d97353a49:
+
+Function SymEngine::gamma
+=========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::gamma(const RCP<const Basic>&)

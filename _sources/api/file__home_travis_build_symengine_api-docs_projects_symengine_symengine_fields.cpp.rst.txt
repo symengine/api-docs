@@ -1,0 +1,49 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.cpp:
+
+File fields.cpp
+===============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/fields.cpp``)
+----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h`)
+
+- ``symengine/constants.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.h`)
+
+- ``symengine/fields.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.h`)
+
+- ``symengine/mul.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.h`)
+
+- ``symengine/pow.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

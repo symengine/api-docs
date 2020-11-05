@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a6079112c36b3646e3a7f3cad0d31bc0b:
+
+Function SymEngine::prime_factors
+=================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::prime_factors(std::vector<RCP<const Integer>>&, const Integer&)

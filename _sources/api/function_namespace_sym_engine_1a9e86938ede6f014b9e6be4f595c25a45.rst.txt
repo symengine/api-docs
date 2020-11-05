@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a9e86938ede6f014b9e6be4f595c25a45:
+
+Function SymEngine::real_double
+===============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_double.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::real_double(double)

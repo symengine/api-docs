@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1ac186d04b290ed046a76181ff5f35fe68:
+
+Variable SymEngine::inverse_tct
+===============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::inverse_tct

@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a7b5fa751fc652b4e8a3b0e1cf1d7d9d1:
+
+Typedef SymEngine::vec_basic
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::vec_basic

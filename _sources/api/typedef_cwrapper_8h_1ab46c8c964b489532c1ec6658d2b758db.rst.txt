@@ -1,0 +1,13 @@
+.. _exhale_typedef_cwrapper_8h_1ab46c8c964b489532c1ec6658d2b758db:
+
+Typedef CWRAPPER_OUTPUT_TYPE
+============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: CWRAPPER_OUTPUT_TYPE

@@ -1,0 +1,531 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Rational &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class RealDouble" href="class_sym_engine_1_1_real_double.html" />
+    <link rel="prev" title="Class Pow" href="class_sym_engine_1_1_pow.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_real_double.html" title="Class RealDouble"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_pow.html" title="Class Pow"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class Rational</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-rational">
+<span id="exhale-class-class-sym-engine-1-1-rational"></span><h1>Class Rational<a class="headerlink" href="#class-rational" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-rational-h"><span class="std std-ref">File rational.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::Number</span></code> (<a class="reference internal" href="class_sym_engine_1_1_number.html#exhale-class-class-sym-engine-1-1-number"><span class="std std-ref">Class Number</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine8RationalE">
+<span id="_CPPv3N9SymEngine8RationalE"></span><span id="_CPPv2N9SymEngine8RationalE"></span><span id="SymEngine::Rational"></span><span class="target" id="class_sym_engine_1_1_rational"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">Rational</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a><a class="headerlink" href="#_CPPv4N9SymEngine8RationalE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> Class. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine8Rational8RationalERR14rational_class">
+<span id="_CPPv3N9SymEngine8Rational8RationalERR14rational_class"></span><span id="_CPPv2N9SymEngine8Rational8RationalERR14rational_class"></span><span id="SymEngine::Rational::Rational__rational_classRR"></span><span class="target" id="class_sym_engine_1_1_rational_1aa535352a89c4cc3a07663f4fbec06944"></span><code class="sig-name descname">Rational</code><span class="sig-paren">(</span><a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> &amp;&amp;<em>_i</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine8Rational8RationalERR14rational_class" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Constructor of <a class="reference internal" href="#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> class. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational8__hash__Ev">
+<span id="_CPPv3NK9SymEngine8Rational8__hash__Ev"></span><span id="_CPPv2NK9SymEngine8Rational8__hash__Ev"></span><span id="SymEngine::Rational::__hash__C"></span><span class="target" id="class_sym_engine_1_1_rational_1ae10c60f9b2f0de7be5cf3ba294b0a707"></span><a class="reference internal" href="typedef_namespace_sym_engine_1a455620f815334592057d7966d62d5de6.html#_CPPv4N9SymEngine6hash_tE" title="SymEngine::hash_t">hash_t</a> <code class="sig-name descname">__hash__</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational8__hash__Ev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>size of the hash </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6__eq__ERK5Basic">
+<span id="_CPPv3NK9SymEngine8Rational6__eq__ERK5Basic"></span><span id="_CPPv2NK9SymEngine8Rational6__eq__ERK5Basic"></span><span id="SymEngine::Rational::__eq____BasicCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a8b52c59000d8c5b7dcfc1575b5b4f692"></span>bool <code class="sig-name descname">__eq__</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6__eq__ERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_equality.html#class_sym_engine_1_1_equality"><span class="std std-ref">Equality</span></a> comparator <dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>whether the 2 objects are equal </p>
+</dd>
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">o</span></code>: - Object to be compared with </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational7compareERK5Basic">
+<span id="_CPPv3NK9SymEngine8Rational7compareERK5Basic"></span><span id="_CPPv2NK9SymEngine8Rational7compareERK5Basic"></span><span id="SymEngine::Rational::compare__BasicCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a18efcae5032d89e94d062a7579fabcd2"></span>int <code class="sig-name descname">compare</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>o</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational7compareERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Returns -1, 0, 1 for <code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">&lt;</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">==</span> <span class="pre">o,</span> <span class="pre">this</span> <span class="pre">&gt;</span> <span class="pre">o</span></code>. This method is used when you want to sort things like <code class="docutils literal notranslate"><span class="pre">x+y+z</span></code> into canonical order. This function assumes that <code class="docutils literal notranslate"><span class="pre">o</span></code> is the same type as <code class="docutils literal notranslate"><span class="pre">this</span></code>. Use <code class="docutils literal notranslate"><span class="pre">__cmp__</span></code> if you want general comparison. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational12is_canonicalERK14rational_class">
+<span id="_CPPv3NK9SymEngine8Rational12is_canonicalERK14rational_class"></span><span id="_CPPv2NK9SymEngine8Rational12is_canonicalERK14rational_class"></span><span id="SymEngine::Rational::is_canonical__rational_classCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1ac0a68cdeded571331be595d4353d5cb1"></span>bool <code class="sig-name descname">is_canonical</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> &amp;<em>i</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational12is_canonicalERK14rational_class" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>true if canonical </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational17as_rational_classEv">
+<span id="_CPPv3NK9SymEngine8Rational17as_rational_classEv"></span><span id="_CPPv2NK9SymEngine8Rational17as_rational_classEv"></span><span id="SymEngine::Rational::as_rational_classC"></span><span class="target" id="class_sym_engine_1_1_rational_1a15bf869a37ed050af67cd083906684a7"></span><em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> &amp;<code class="sig-name descname">as_rational_class</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational17as_rational_classEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Convert to <code class="docutils literal notranslate"><span class="pre">rational_class</span></code>. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational7is_zeroEv">
+<span id="_CPPv3NK9SymEngine8Rational7is_zeroEv"></span><span id="_CPPv2NK9SymEngine8Rational7is_zeroEv"></span><span id="SymEngine::Rational::is_zeroC"></span><span class="target" id="class_sym_engine_1_1_rational_1afc4380fa39fe9500170adfc9bc121b74"></span>bool <code class="sig-name descname">is_zero</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational7is_zeroEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if <code class="docutils literal notranslate"><span class="pre">0</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6is_oneEv">
+<span id="_CPPv3NK9SymEngine8Rational6is_oneEv"></span><span id="_CPPv2NK9SymEngine8Rational6is_oneEv"></span><span id="SymEngine::Rational::is_oneC"></span><span class="target" id="class_sym_engine_1_1_rational_1a619371f0316eeb66f0640f830994c8c8"></span>bool <code class="sig-name descname">is_one</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6is_oneEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if <code class="docutils literal notranslate"><span class="pre">1</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational12is_minus_oneEv">
+<span id="_CPPv3NK9SymEngine8Rational12is_minus_oneEv"></span><span id="_CPPv2NK9SymEngine8Rational12is_minus_oneEv"></span><span id="SymEngine::Rational::is_minus_oneC"></span><span class="target" id="class_sym_engine_1_1_rational_1aa2365264cd950a08b61cfc6584505e78"></span>bool <code class="sig-name descname">is_minus_one</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational12is_minus_oneEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if <code class="docutils literal notranslate"><span class="pre">-1</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6is_intEv">
+<span id="_CPPv3NK9SymEngine8Rational6is_intEv"></span><span id="_CPPv2NK9SymEngine8Rational6is_intEv"></span><span id="SymEngine::Rational::is_intC"></span><span class="target" id="class_sym_engine_1_1_rational_1a1fd35dcd087d2425955c9f2d5808b992"></span>bool <code class="sig-name descname">is_int</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6is_intEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if denominator is <code class="docutils literal notranslate"><span class="pre">1</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational11is_positiveEv">
+<span id="_CPPv3NK9SymEngine8Rational11is_positiveEv"></span><span id="_CPPv2NK9SymEngine8Rational11is_positiveEv"></span><span id="SymEngine::Rational::is_positiveC"></span><span class="target" id="class_sym_engine_1_1_rational_1aa12a8c15a455cf20bbad236df3cf0844"></span>bool <code class="sig-name descname">is_positive</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational11is_positiveEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if positive </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational11is_negativeEv">
+<span id="_CPPv3NK9SymEngine8Rational11is_negativeEv"></span><span id="_CPPv2NK9SymEngine8Rational11is_negativeEv"></span><span id="SymEngine::Rational::is_negativeC"></span><span class="target" id="class_sym_engine_1_1_rational_1ac97563f89533207b1669a2c5670aaa22"></span>bool <code class="sig-name descname">is_negative</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational11is_negativeEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if negative </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational10is_complexEv">
+<span id="_CPPv3NK9SymEngine8Rational10is_complexEv"></span><span id="_CPPv2NK9SymEngine8Rational10is_complexEv"></span><span id="SymEngine::Rational::is_complexC"></span><span class="target" id="class_sym_engine_1_1_rational_1a30411e1f0d72affee4e2a36a722f5cf7"></span>bool <code class="sig-name descname">is_complex</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational10is_complexEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><code class="docutils literal notranslate"><span class="pre">false</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational3negEv">
+<span id="_CPPv3NK9SymEngine8Rational3negEv"></span><span id="_CPPv2NK9SymEngine8Rational3negEv"></span><span id="SymEngine::Rational::negC"></span><span class="target" id="class_sym_engine_1_1_rational_1ac6c74ccf6f661a23e238ca9c7ace1cd2"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a>&gt; <code class="sig-name descname">neg</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational3negEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p>negative of <code class="docutils literal notranslate"><span class="pre">this</span></code> </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational16is_perfect_powerEb">
+<span id="_CPPv3NK9SymEngine8Rational16is_perfect_powerEb"></span><span id="_CPPv2NK9SymEngine8Rational16is_perfect_powerEb"></span><span id="SymEngine::Rational::is_perfect_power__bC"></span><span class="target" id="class_sym_engine_1_1_rational_1ad12813fdcc6197041a6a57a8a4d91a32"></span>bool <code class="sig-name descname">is_perfect_power</code><span class="sig-paren">(</span>bool <em>is_expected</em> = false<span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational16is_perfect_powerEb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational8nth_rootERK3PtrI3RCPIK6NumberEEm">
+<span id="_CPPv3NK9SymEngine8Rational8nth_rootERK3PtrI3RCPIK6NumberEEm"></span><span id="_CPPv2NK9SymEngine8Rational8nth_rootERK3PtrI3RCPIK6NumberEEm"></span><span id="SymEngine::Rational::nth_root__Ptr:RCP:NumberC::CR.unsigned-lC"></span><span class="target" id="class_sym_engine_1_1_rational_1aaee4b0955ea994bf81e7a91ad2f95614"></span>bool <code class="sig-name descname">nth_root</code><span class="sig-paren">(</span><em class="property">const</em> Ptr&lt;RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt;&gt;&amp;, unsigned long <em>n</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational8nth_rootERK3PtrI3RCPIK6NumberEEm" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6addratERK8Rational">
+<span id="_CPPv3NK9SymEngine8Rational6addratERK8Rational"></span><span id="_CPPv2NK9SymEngine8Rational6addratERK8Rational"></span><span id="SymEngine::Rational::addrat__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a46666838870f345f450ec2356d1da3ae"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6addratERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> Rationals <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6addratERK7Integer">
+<span id="_CPPv3NK9SymEngine8Rational6addratERK7Integer"></span><span id="_CPPv2NK9SymEngine8Rational6addratERK7Integer"></span><span id="SymEngine::Rational::addrat__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1af3b335c95933047d0b9ae3a0bd7aa7bf"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">addrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6addratERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><a class="reference internal" href="class_sym_engine_1_1_add.html#class_sym_engine_1_1_add"><span class="std std-ref">Add</span></a> Rationals <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6subratERK8Rational">
+<span id="_CPPv3NK9SymEngine8Rational6subratERK8Rational"></span><span id="_CPPv2NK9SymEngine8Rational6subratERK8Rational"></span><span id="SymEngine::Rational::subrat__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1ab7c86a8f0bd0b564b58171fca4ea87ab"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6subratERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract Rationals <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6subratERK7Integer">
+<span id="_CPPv3NK9SymEngine8Rational6subratERK7Integer"></span><span id="_CPPv2NK9SymEngine8Rational6subratERK7Integer"></span><span id="SymEngine::Rational::subrat__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1ade84a7d3b4443b56e6250a28cc493154"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">subrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6subratERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subtract Rationals <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational7rsubratERK7Integer">
+<span id="_CPPv3NK9SymEngine8Rational7rsubratERK7Integer"></span><span id="_CPPv2NK9SymEngine8Rational7rsubratERK7Integer"></span><span id="SymEngine::Rational::rsubrat__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a997ee8ab5d24a66dc28f00f886effd67"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsubrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational7rsubratERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6mulratERK8Rational">
+<span id="_CPPv3NK9SymEngine8Rational6mulratERK8Rational"></span><span id="_CPPv2NK9SymEngine8Rational6mulratERK8Rational"></span><span id="SymEngine::Rational::mulrat__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1ae7e71e402d17c2836d07215c15ef24c8"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6mulratERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply Rationals <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6mulratERK7Integer">
+<span id="_CPPv3NK9SymEngine8Rational6mulratERK7Integer"></span><span id="_CPPv2NK9SymEngine8Rational6mulratERK7Integer"></span><span id="SymEngine::Rational::mulrat__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a28f9e6afba35067f9ee36302d3371407"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mulrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6mulratERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Multiply Rationals <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6divratERK8Rational">
+<span id="_CPPv3NK9SymEngine8Rational6divratERK8Rational"></span><span id="_CPPv2NK9SymEngine8Rational6divratERK8Rational"></span><span id="SymEngine::Rational::divrat__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a620b0732a23e7a58b64c121c6ce7397e"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6divratERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide Rationals <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6divratERK7Integer">
+<span id="_CPPv3NK9SymEngine8Rational6divratERK7Integer"></span><span id="_CPPv2NK9SymEngine8Rational6divratERK7Integer"></span><span id="SymEngine::Rational::divrat__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a7772aae4ecee5b38ee18ccf7f9167c27"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">divrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6divratERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Divide Rationals <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: of type <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational7rdivratERK7Integer">
+<span id="_CPPv3NK9SymEngine8Rational7rdivratERK7Integer"></span><span id="_CPPv2NK9SymEngine8Rational7rdivratERK7Integer"></span><span id="SymEngine::Rational::rdivrat__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1add0595adc065babb60bba3486a048d10"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rdivrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational7rdivratERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6powratERK7Integer">
+<span id="_CPPv3NK9SymEngine8Rational6powratERK7Integer"></span><span id="_CPPv2NK9SymEngine8Rational6powratERK7Integer"></span><span id="SymEngine::Rational::powrat__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1ad93e4420fd76ca956f0ebe6decc7d5a6"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">powrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6powratERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise Rationals to power <code class="docutils literal notranslate"><span class="pre">other</span></code> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: power to be raised </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational6powratERK8Rational">
+<span id="_CPPv3NK9SymEngine8Rational6powratERK8Rational"></span><span id="_CPPv2NK9SymEngine8Rational6powratERK8Rational"></span><span id="SymEngine::Rational::powrat__RationalCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a8914c9ad6caabdda6e3081306d2eecb7"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">powrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv4N9SymEngine8RationalE" title="SymEngine::Rational">Rational</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational6powratERK8Rational" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Raise *this to power <code class="docutils literal notranslate"><span class="pre">other</span></code> <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: exponent </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational7rpowratERK7Integer">
+<span id="_CPPv3NK9SymEngine8Rational7rpowratERK7Integer"></span><span id="_CPPv2NK9SymEngine8Rational7rpowratERK7Integer"></span><span id="SymEngine::Rational::rpowrat__IntegerCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a0960bc2ba001cf59c26698f3636ec3e4"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a>&gt; <code class="sig-name descname">rpowrat</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational7rpowratERK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Reverse powrat Raise ‘other’ to power *this <dl class="simple">
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">other</span></code>: base </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational3addERK6Number">
+<span id="_CPPv3NK9SymEngine8Rational3addERK6Number"></span><span id="_CPPv2NK9SymEngine8Rational3addERK6Number"></span><span id="SymEngine::Rational::add__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1aaac3212cad6b1ac32400165642bd5d1a"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational3addERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">addrat</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational3subERK6Number">
+<span id="_CPPv3NK9SymEngine8Rational3subERK6Number"></span><span id="_CPPv2NK9SymEngine8Rational3subERK6Number"></span><span id="SymEngine::Rational::sub__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a72c9c8b89c59cd63d824dc9e671eebdd"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">sub</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational3subERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">subrat</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational4rsubERK6Number">
+<span id="_CPPv3NK9SymEngine8Rational4rsubERK6Number"></span><span id="_CPPv2NK9SymEngine8Rational4rsubERK6Number"></span><span id="SymEngine::Rational::rsub__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a6e12914377a7cc4f1e01297d28f181d9"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rsub</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational4rsubERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">rsubrat</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational3mulERK6Number">
+<span id="_CPPv3NK9SymEngine8Rational3mulERK6Number"></span><span id="_CPPv2NK9SymEngine8Rational3mulERK6Number"></span><span id="SymEngine::Rational::mul__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a8dcf8dd1162eb916ffd08ec05e41bcd9"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">mul</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational3mulERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">mulrat</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational3divERK6Number">
+<span id="_CPPv3NK9SymEngine8Rational3divERK6Number"></span><span id="_CPPv2NK9SymEngine8Rational3divERK6Number"></span><span id="SymEngine::Rational::div__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1ac46d63efab21ee85799aa0d75b2a553a"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">div</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational3divERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">divrat</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational4rdivERK6Number">
+<span id="_CPPv3NK9SymEngine8Rational4rdivERK6Number"></span><span id="_CPPv2NK9SymEngine8Rational4rdivERK6Number"></span><span id="SymEngine::Rational::rdiv__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a9b65e4f028788a3ff11d9edf3f516559"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rdiv</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational4rdivERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">rdivrat</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational3powERK6Number">
+<span id="_CPPv3NK9SymEngine8Rational3powERK6Number"></span><span id="_CPPv2NK9SymEngine8Rational3powERK6Number"></span><span id="SymEngine::Rational::pow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a06fa7a7b1df5e3e7058cccd534f6eaf9"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">pow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational3powERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Converts the param <code class="docutils literal notranslate"><span class="pre">other</span></code> appropriately and then calls <code class="docutils literal notranslate"><span class="pre">powrat</span></code> </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational4rpowERK6Number">
+<span id="_CPPv3NK9SymEngine8Rational4rpowERK6Number"></span><span id="_CPPv2NK9SymEngine8Rational4rpowERK6Number"></span><span id="SymEngine::Rational::rpow__NumberCRC"></span><span class="target" id="class_sym_engine_1_1_rational_1a66153a4fc40899d13ba7fe264457f94d"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">rpow</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a> &amp;<em>other</em><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational4rpowERK6Number" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational7get_numEv">
+<span id="_CPPv3NK9SymEngine8Rational7get_numEv"></span><span id="_CPPv2NK9SymEngine8Rational7get_numEv"></span><span id="SymEngine::Rational::get_numC"></span><span class="target" id="class_sym_engine_1_1_rational_1a472e48d393c96e1155d617a16014b146"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a>&gt; <code class="sig-name descname">get_num</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational7get_numEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4NK9SymEngine8Rational7get_denEv">
+<span id="_CPPv3NK9SymEngine8Rational7get_denEv"></span><span id="_CPPv2NK9SymEngine8Rational7get_denEv"></span><span id="SymEngine::Rational::get_denC"></span><span class="target" id="class_sym_engine_1_1_rational_1abdbbf016279a726b33fa78c00d30c372"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a>&gt; <code class="sig-name descname">get_den</code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property">const</em><a class="headerlink" href="#_CPPv4NK9SymEngine8Rational7get_denEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Static Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine8Rational8from_mpqERK14rational_class">
+<span id="_CPPv3N9SymEngine8Rational8from_mpqERK14rational_class"></span><span id="_CPPv2N9SymEngine8Rational8from_mpqERK14rational_class"></span><span id="SymEngine::Rational::from_mpq__rational_classCR"></span><span class="target" id="class_sym_engine_1_1_rational_1a0bbb6880b55f4db457f8183b5db400ff"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">from_mpq</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> &amp;<em>i</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine8Rational8from_mpqERK14rational_class" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Return</strong></dt><dd><p><a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> or <a class="reference internal" href="#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> depending on denumerator. </p>
+</dd>
+<dt><strong>Parameters</strong></dt><dd><ul class="breatheparameterlist simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;tt&gt;i&lt;/tt&gt;</span></code>: must already be in rational_class canonical form </p></li>
+</ul>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine8Rational8from_mpqERR14rational_class">
+<span id="_CPPv3N9SymEngine8Rational8from_mpqERR14rational_class"></span><span id="_CPPv2N9SymEngine8Rational8from_mpqERR14rational_class"></span><span id="SymEngine::Rational::from_mpq__rational_classRR"></span><span class="target" id="class_sym_engine_1_1_rational_1a640b2c75aff34ad30ebc63b5fb42013e"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">from_mpq</code><span class="sig-paren">(</span><a class="reference internal" href="typedef_namespace_sym_engine_1adf9ea33194708619514d4a54d5fb1614.html#_CPPv4N9SymEngine14rational_classE" title="SymEngine::rational_class">rational_class</a> &amp;&amp;<em>i</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine8Rational8from_mpqERR14rational_class" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine8Rational13from_two_intsERK7IntegerRK7Integer">
+<span id="_CPPv3N9SymEngine8Rational13from_two_intsERK7IntegerRK7Integer"></span><span id="_CPPv2N9SymEngine8Rational13from_two_intsERK7IntegerRK7Integer"></span><span id="SymEngine::Rational::from_two_ints__IntegerCR.IntegerCR"></span><span class="target" id="class_sym_engine_1_1_rational_1aa5f340d84d7cefa1a90c66b1c24eec2e"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">from_two_ints</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>n</em>, <em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_integer.html#_CPPv4N9SymEngine7IntegerE" title="SymEngine::Integer">Integer</a> &amp;<em>d</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine8Rational13from_two_intsERK7IntegerRK7Integer" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Constructs <a class="reference internal" href="#class_sym_engine_1_1_rational"><span class="std std-ref">Rational</span></a> as n/d, where n, d can be any <a class="reference internal" href="class_sym_engine_1_1_integers.html#class_sym_engine_1_1_integers"><span class="std std-ref">Integers</span></a>. If n/d is an <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a>, it will return an <a class="reference internal" href="class_sym_engine_1_1_integer.html#class_sym_engine_1_1_integer"><span class="std std-ref">Integer</span></a> instead. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine8Rational13from_two_intsEKlKl">
+<span id="_CPPv3N9SymEngine8Rational13from_two_intsEKlKl"></span><span id="_CPPv2N9SymEngine8Rational13from_two_intsEKlKl"></span><span id="SymEngine::Rational::from_two_ints__lC.lC"></span><span class="target" id="class_sym_engine_1_1_rational_1afa2033d24861d27e2fb68b718e195b4a"></span>RCP&lt;<em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_number.html#_CPPv4N9SymEngine6NumberE" title="SymEngine::Number">Number</a>&gt; <code class="sig-name descname">from_two_ints</code><span class="sig-paren">(</span><em class="property">const</em> long <em>n</em>, <em class="property">const</em> long <em>d</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine8Rational13from_two_intsEKlKl" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class Rational</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_pow.html"
+                        title="previous chapter">Class Pow</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_real_double.html"
+                        title="next chapter">Class RealDouble</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_rational.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_real_double.html" title="Class RealDouble"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_pow.html" title="Class Pow"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class Rational</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

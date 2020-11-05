@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a0db6194c085654eec369223849c26777:
+
+Function SymEngine::pivoted_gaussian_elimination
+================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::pivoted_gaussian_elimination(const DenseMatrix&, DenseMatrix&, permutelist&)

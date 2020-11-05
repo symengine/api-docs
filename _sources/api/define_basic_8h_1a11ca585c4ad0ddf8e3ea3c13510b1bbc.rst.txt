@@ -1,0 +1,13 @@
+.. _exhale_define_basic_8h_1a11ca585c4ad0ddf8e3ea3c13510b1bbc:
+
+Define SYMENGINE_ASSIGN_TYPEID
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: SYMENGINE_ASSIGN_TYPEID

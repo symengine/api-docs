@@ -1,0 +1,50 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.cpp:
+
+File basic.cpp
+==============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/basic.cpp``)
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/printers.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h`)
+
+- ``symengine/subs.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_subs.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_namespace_sym_engine_1a77367965f68641f67109c39a1b6751cb`
+
+- :ref:`exhale_function_namespace_sym_engine_1a9b828cb692f763f05e2ee78d7cde30f0`
+

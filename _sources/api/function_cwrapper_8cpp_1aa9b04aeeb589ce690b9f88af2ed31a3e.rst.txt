@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1aa9b04aeeb589ce690b9f88af2ed31a3e:
+
+Function is_a_Rational(const basic)
+===================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: is_a_Rational(const basic)

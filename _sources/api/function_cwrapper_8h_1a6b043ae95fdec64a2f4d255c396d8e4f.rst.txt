@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a6b043ae95fdec64a2f4d255c396d8e4f:
+
+Function lambda_real_double_visitor_init(CLambdaRealDoubleVisitor \*, const CVecBasic \*, const CVecBasic \*, int)
+==================================================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: lambda_real_double_visitor_init(CLambdaRealDoubleVisitor *, const CVecBasic *, const CVecBasic *, int)

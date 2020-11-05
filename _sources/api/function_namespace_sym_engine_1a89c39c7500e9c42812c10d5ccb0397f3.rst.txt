@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a89c39c7500e9c42812c10d5ccb0397f3:
+
+Function SymEngine::is_a_LinearArgTrigEquation
+==============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::is_a_LinearArgTrigEquation(const Basic&, const Symbol&)

@@ -1,0 +1,13 @@
+.. _exhale_define_basic_8h_1a945f4a70c3ac1d14cb0637ef01a81b69:
+
+Define IMPLEMENT_TYPEID
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: IMPLEMENT_TYPEID

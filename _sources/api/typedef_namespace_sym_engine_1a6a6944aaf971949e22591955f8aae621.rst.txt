@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a6a6944aaf971949e22591955f8aae621:
+
+Typedef SymEngine::vec_integer_class
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::vec_integer_class

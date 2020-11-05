@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ae256c31b33e601a3c0b163437a85ad75:
+
+Function SymEngine::kronecker_delta
+===================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::kronecker_delta(const RCP<const Basic>&, const RCP<const Basic>&)

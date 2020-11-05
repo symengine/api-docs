@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a1f382b48b9cb214e1017d0e11fd3e6d6:
+
+Function SymEngine::symbol
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symbol.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::symbol(const std::string&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8d97ac56bb12921f3ce968f16f13079a:
+
+Function SymEngine::mul_dense_scalar
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mul_dense_scalar(const DenseMatrix&, const RCP<const Basic>&, DenseMatrix&)

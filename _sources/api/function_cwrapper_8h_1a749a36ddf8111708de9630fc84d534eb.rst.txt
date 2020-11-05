@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a749a36ddf8111708de9630fc84d534eb:
+
+Function basic_evalf(basic, const basic, unsigned long, int)
+============================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_evalf(basic, const basic, unsigned long, int)

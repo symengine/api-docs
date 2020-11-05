@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a1a35d45982072e8755a2b415bab129ba:
+
+Function SymEngine::sec
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::sec(const RCP<const Basic>&)

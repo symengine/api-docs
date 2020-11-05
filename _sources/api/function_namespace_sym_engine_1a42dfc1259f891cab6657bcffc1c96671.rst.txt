@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a42dfc1259f891cab6657bcffc1c96671:
+
+Function SymEngine::transpose_dense
+===================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::transpose_dense(const DenseMatrix&, DenseMatrix&)

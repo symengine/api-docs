@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a545265fb9636fec22762f1b6dbecc90f:
+
+Typedef SymEngine::permutelist
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::permutelist

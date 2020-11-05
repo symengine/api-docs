@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a505923f9f1371da644b6e819290d6d82:
+
+Function SymEngine::conjugate_dense
+===================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::conjugate_dense(const DenseMatrix&, DenseMatrix&)

@@ -1,0 +1,46 @@
+.. _exhale_class_class_sym_engine_1_1_visitor:
+
+Class Visitor
+=============
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Types
+*************
+
+- ``public SymEngine::BaseVisitor< AtomsVisitor< Args... > >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< C >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< CountOpsVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< DiffVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< EvalComplexDoubleVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< EvalRealDoubleVisitorFinal >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< EvalRealDoubleVisitorPattern >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< ExpandVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< FreeSymbolsVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< InvertComplexVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< LambdaDoubleVisitor< double > >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< LambdaDoubleVisitor< std::complex< double > > >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< LambdaDoubleVisitor< T > >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< NumerDenomVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< OptsCSEVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< RealImagVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< SeriesVisitor< Poly, Coeff, Series > >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< TransformVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< XReplaceVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< ZeroVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< Derived, Base >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::StopVisitor`` (:ref:`exhale_class_class_sym_engine_1_1_stop_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Visitor
+   :members:
+   :protected-members:
+   :undoc-members:

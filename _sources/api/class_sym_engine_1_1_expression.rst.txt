@@ -1,0 +1,16 @@
+.. _exhale_class_class_sym_engine_1_1_expression:
+
+Class Expression
+================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expression.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Expression
+   :members:
+   :protected-members:
+   :undoc-members:

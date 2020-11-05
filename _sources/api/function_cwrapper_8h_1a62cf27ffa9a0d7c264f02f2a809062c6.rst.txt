@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a62cf27ffa9a0d7c264f02f2a809062c6:
+
+Function dense_matrix_inv(CDenseMatrix \*, const CDenseMatrix \*)
+=================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_inv(CDenseMatrix *, const CDenseMatrix *)

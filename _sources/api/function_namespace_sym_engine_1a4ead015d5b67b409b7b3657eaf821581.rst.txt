@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4ead015d5b67b409b7b3657eaf821581:
+
+Function SymEngine::pow_expand
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::pow_expand(const RCP<const Pow>&)

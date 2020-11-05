@@ -1,0 +1,13 @@
+.. _exhale_define_cwrapper_8cpp_1a6c483be031339c2123bd45f58870b013:
+
+Define IMPLEMENT_ONE_ARG_FUNC
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: IMPLEMENT_ONE_ARG_FUNC

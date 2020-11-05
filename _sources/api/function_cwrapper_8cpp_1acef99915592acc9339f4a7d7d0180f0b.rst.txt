@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1acef99915592acc9339f4a7d7d0180f0b:
+
+Function basic_free_stack(basic)
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_free_stack(basic)

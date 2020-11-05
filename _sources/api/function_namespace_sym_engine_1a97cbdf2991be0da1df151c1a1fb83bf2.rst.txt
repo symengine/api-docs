@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a97cbdf2991be0da1df151c1a1fb83bf2:
+
+Function SymEngine::mp_demote
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_demote(integer_class&)

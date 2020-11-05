@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1aff49667c1d7a42c4735bf6b9ff96a2db:
+
+Function basic_str_free(char \*)
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_str_free(char *)

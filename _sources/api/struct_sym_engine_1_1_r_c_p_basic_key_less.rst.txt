@@ -1,0 +1,16 @@
+.. _exhale_struct_struct_sym_engine_1_1_r_c_p_basic_key_less:
+
+Struct RCPBasicKeyLess
+======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: SymEngine::RCPBasicKeyLess
+   :members:
+   :protected-members:
+   :undoc-members:

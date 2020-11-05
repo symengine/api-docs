@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1abb1e1420e8a4fc541391fe3a2a548f9b:
+
+Function SymEngine::jscode
+==========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::jscode(const Basic&)

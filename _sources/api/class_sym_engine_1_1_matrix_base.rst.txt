@@ -1,0 +1,26 @@
+.. _exhale_class_class_sym_engine_1_1_matrix_base:
+
+Class MatrixBase
+================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Types
+*************
+
+- ``public SymEngine::CSRMatrix`` (:ref:`exhale_class_class_sym_engine_1_1_c_s_r_matrix`)
+- ``public SymEngine::DenseMatrix`` (:ref:`exhale_class_class_sym_engine_1_1_dense_matrix`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::MatrixBase
+   :members:
+   :protected-members:
+   :undoc-members:

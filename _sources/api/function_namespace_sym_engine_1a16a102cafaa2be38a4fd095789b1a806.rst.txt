@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a16a102cafaa2be38a4fd095789b1a806:
+
+Function SymEngine::div
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::div(const RCP<const Basic>&, const RCP<const Basic>&)

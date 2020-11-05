@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a3c4a2ad948a929bd7cf30df1c5109023:
+
+Template Function SymEngine::unified_compare(const std::set<T, U>&, const std::set<T, U>&)
+==========================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::unified_compare(const std::set<T, U>&, const std::set<T, U>&)

@@ -1,0 +1,34 @@
+.. _exhale_class_class_sym_engine_1_1_stop_visitor:
+
+Class StopVisitor
+=================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public SymEngine::Visitor`` (:ref:`exhale_class_class_sym_engine_1_1_visitor`)
+
+
+Derived Types
+*************
+
+- ``public SymEngine::BaseVisitor< CoeffVisitor, StopVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< HasSymbolVisitor, StopVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::BaseVisitor< NeedsSymbolicExpansionVisitor, StopVisitor >`` (:ref:`exhale_class_class_sym_engine_1_1_base_visitor`)
+- ``public SymEngine::LocalStopVisitor`` (:ref:`exhale_class_class_sym_engine_1_1_local_stop_visitor`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::StopVisitor
+   :members:
+   :protected-members:
+   :undoc-members:

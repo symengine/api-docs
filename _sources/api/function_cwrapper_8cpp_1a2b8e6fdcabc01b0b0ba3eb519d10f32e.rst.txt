@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a2b8e6fdcabc01b0b0ba3eb519d10f32e:
+
+Function mapbasicbasic_size(CMapBasicBasic \*)
+==============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: mapbasicbasic_size(CMapBasicBasic *)

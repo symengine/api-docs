@@ -1,0 +1,60 @@
+
+.. _file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_mpc.h:
+
+File complex_mpc.h
+==================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects_symengine_symengine>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/complex_mpc.h``)
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/real_mpfr.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_mpfr.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_mpc.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_infinity.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_mpfr.cpp`
+
+- :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_complex_m_p_c`
+

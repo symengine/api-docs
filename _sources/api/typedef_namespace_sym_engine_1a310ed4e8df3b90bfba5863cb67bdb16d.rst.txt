@@ -1,0 +1,13 @@
+.. _exhale_typedef_namespace_sym_engine_1a310ed4e8df3b90bfba5863cb67bdb16d:
+
+Typedef SymEngine::TwoArgFunction
+=================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: SymEngine::TwoArgFunction

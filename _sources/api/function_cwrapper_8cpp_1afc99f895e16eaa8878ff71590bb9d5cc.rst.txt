@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1afc99f895e16eaa8878ff71590bb9d5cc:
+
+Function vecbasic_free(CVecBasic \*)
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: vecbasic_free(CVecBasic *)

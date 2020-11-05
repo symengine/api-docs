@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aeff620e19b3e65b6328fbc21459ed3f5:
+
+Function SymEngine::univariate_series
+=====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_generic.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::univariate_series(RCP<const Symbol>, unsigned int, const UExprDict&)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aae87dcafe8240b524ff43fa6ad1556cc:
+
+Function SymEngine::is_true
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::is_true(tribool)

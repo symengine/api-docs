@@ -1,0 +1,16 @@
+.. _exhale_struct_struct_c_map_basic_basic:
+
+Struct CMapBasicBasic
+=====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: CMapBasicBasic
+   :members:
+   :protected-members:
+   :undoc-members:

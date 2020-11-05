@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a35ee9ecb0d78b6e6b32940a18d677f15:
+
+Function SymEngine::mp_fdiv_r
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_fdiv_r(integer_class&, const integer_class&, const integer_class&)

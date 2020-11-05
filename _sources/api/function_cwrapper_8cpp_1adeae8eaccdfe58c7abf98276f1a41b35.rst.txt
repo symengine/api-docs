@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1adeae8eaccdfe58c7abf98276f1a41b35:
+
+Function complex_set_rat(basic, const basic, const basic)
+=========================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: complex_set_rat(basic, const basic, const basic)

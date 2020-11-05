@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2ba26d818e22549b8174372ffc615617:
+
+Template Function SymEngine::unified_eq(const std::unordered_map<K, V, H, E>&, const std::unordered_map<K, V, H, E>&)
+=====================================================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::unified_eq(const std::unordered_map<K, V, H, E>&, const std::unordered_map<K, V, H, E>&)

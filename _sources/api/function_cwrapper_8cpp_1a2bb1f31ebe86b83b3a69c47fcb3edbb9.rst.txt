@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a2bb1f31ebe86b83b3a69c47fcb3edbb9:
+
+Function lambda_real_double_visitor_new()
+=========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: lambda_real_double_visitor_new()

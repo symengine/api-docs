@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a2586dc7e8e62544f230928bd693d3f01:
+
+Function SymEngine::nthroot_mod
+===============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::nthroot_mod(const Ptr<RCP<const Integer>>&, const RCP<const Integer>&, const RCP<const Integer>&, const RCP<const Integer>&)

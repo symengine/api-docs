@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a1f01fdf2148f7b5c4aad7b0e2b7c9bdb:
+
+Function setbasic_new()
+=======================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: setbasic_new()

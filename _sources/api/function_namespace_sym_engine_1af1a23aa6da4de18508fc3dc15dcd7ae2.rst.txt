@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1af1a23aa6da4de18508fc3dc15dcd7ae2:
+
+Template Function SymEngine::extract_coeffs
+===========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::extract_coeffs(const RCP<const Poly>&)

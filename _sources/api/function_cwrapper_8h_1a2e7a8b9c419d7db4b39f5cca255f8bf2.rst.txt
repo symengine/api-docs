@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a2e7a8b9c419d7db4b39f5cca255f8bf2:
+
+Function function_symbol_set(basic, const char \*, const CVecBasic \*)
+======================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: function_symbol_set(basic, const char *, const CVecBasic *)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa2074c084c5e4ecbbf0b8a1d05f2270b:
+
+Function SymEngine::mp_nextprime
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mp_nextprime(integer_class&, const integer_class&)

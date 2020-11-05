@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a00de5da94ee215b42892e85b847fdfdd:
+
+Function dense_matrix_set_basic(CDenseMatrix \*, unsigned long int, unsigned long int, basic)
+=============================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: dense_matrix_set_basic(CDenseMatrix *, unsigned long int, unsigned long int, basic)

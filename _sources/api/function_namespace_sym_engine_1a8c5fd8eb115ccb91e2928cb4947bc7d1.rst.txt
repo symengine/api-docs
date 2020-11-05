@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a8c5fd8eb115ccb91e2928cb4947bc7d1:
+
+Function SymEngine::linsolve(const vec_basic&, const vec_sym&)
+==============================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::linsolve(const vec_basic&, const vec_sym&)

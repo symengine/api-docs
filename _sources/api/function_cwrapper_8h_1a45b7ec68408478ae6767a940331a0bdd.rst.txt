@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a45b7ec68408478ae6767a940331a0bdd:
+
+Function basic_assign(basic, const basic)
+=========================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_assign(basic, const basic)

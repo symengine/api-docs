@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a560a60c9d3b2a3dad243fc56f335a452:
+
+Function basic_const_complex_infinity(basic)
+============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_const_complex_infinity(basic)

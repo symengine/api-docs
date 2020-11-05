@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1ad6c76a0b2aec2d5c532ca7ecd98f5a92:
+
+Function basic_abs
+==================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_abs(basic, const basic)

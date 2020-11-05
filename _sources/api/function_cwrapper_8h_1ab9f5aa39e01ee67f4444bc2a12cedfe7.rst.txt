@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1ab9f5aa39e01ee67f4444bc2a12cedfe7:
+
+Function rational_set_ui(basic, unsigned long, unsigned long)
+=============================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: rational_set_ui(basic, unsigned long, unsigned long)

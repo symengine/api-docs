@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a4579d5ea86a33db578a1458e101a12f1:
+
+Function SymEngine::parse_old
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_parser.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::parse_old(const std::string&, bool)

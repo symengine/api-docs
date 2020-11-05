@@ -1,0 +1,13 @@
+.. _exhale_typedef_cwrapper_8h_1acdcec76b58302e8957cecfccde1126ab:
+
+Typedef basic
+=============
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: basic

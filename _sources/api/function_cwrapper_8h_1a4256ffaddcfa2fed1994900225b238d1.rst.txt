@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8h_1a4256ffaddcfa2fed1994900225b238d1:
+
+Function setbasic_size(CSetBasic \*)
+====================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: setbasic_size(CSetBasic *)

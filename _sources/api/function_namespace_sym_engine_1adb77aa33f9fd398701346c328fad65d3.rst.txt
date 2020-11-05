@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1adb77aa33f9fd398701346c328fad65d3:
+
+Template Function SymEngine::unified_eq(const std::set<T, U>&, const std::set<T, U>&)
+=====================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::unified_eq(const std::set<T, U>&, const std::set<T, U>&)

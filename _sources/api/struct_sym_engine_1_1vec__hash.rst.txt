@@ -1,0 +1,16 @@
+.. _exhale_struct_struct_sym_engine_1_1vec__hash:
+
+Template Struct vec_hash
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: SymEngine::vec_hash
+   :members:
+   :protected-members:
+   :undoc-members:

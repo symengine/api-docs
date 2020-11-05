@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1af8efc963e44c3c75be338da4bae8fe6d:
+
+Variable SymEngine::ComplexInf
+==============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::ComplexInf

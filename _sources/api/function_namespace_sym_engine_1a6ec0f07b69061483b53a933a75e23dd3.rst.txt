@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a6ec0f07b69061483b53a933a75e23dd3:
+
+Function SymEngine::_str
+========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::_str(const Basic&)

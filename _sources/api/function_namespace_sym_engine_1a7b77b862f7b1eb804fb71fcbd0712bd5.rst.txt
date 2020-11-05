@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a7b77b862f7b1eb804fb71fcbd0712bd5:
+
+Function SymEngine::csr_diagonal
+================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sparse_matrix.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::csr_diagonal(const CSRMatrix&, DenseMatrix&)

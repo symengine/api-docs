@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a896396e3101c37df65e7a2b46fc7cadd:
+
+Function SymEngine::mul(const RCP<const Basic>&, const RCP<const Basic>&)
+=========================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::mul(const RCP<const Basic>&, const RCP<const Basic>&)

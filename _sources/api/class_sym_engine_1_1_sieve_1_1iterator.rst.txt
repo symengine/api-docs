@@ -1,0 +1,22 @@
+.. _exhale_class_class_sym_engine_1_1_sieve_1_1iterator:
+
+Class Sieve::iterator
+=====================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.h`
+
+
+Nested Relationships
+--------------------
+
+This class is a nested type of :ref:`exhale_class_class_sym_engine_1_1_sieve`.
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: SymEngine::Sieve::iterator
+   :members:
+   :protected-members:
+   :undoc-members:

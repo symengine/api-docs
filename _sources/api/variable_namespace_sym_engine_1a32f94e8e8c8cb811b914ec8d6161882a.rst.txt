@@ -1,0 +1,13 @@
+.. _exhale_variable_namespace_sym_engine_1a32f94e8e8c8cb811b914ec8d6161882a:
+
+Variable SymEngine::boolFalse
+=============================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SymEngine::boolFalse

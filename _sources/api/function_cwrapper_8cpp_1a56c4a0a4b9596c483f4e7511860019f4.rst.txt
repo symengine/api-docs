@@ -1,0 +1,13 @@
+.. _exhale_function_cwrapper_8cpp_1a56c4a0a4b9596c483f4e7511860019f4:
+
+Function basic_const_neginfinity(basic)
+=======================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: basic_const_neginfinity(basic)

@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1acabe1420a50b1ae71d8caca07ca1a54d:
+
+Function SymEngine::number(std::complex<double>)
+================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_double.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::number(std::complex<double>)

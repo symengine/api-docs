@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1a27d08ebdbf0bb28eaadc7b2a9c061da6:
+
+Function SymEngine::function_symbol(std::string, const RCP<const Basic>&)
+=========================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::function_symbol(std::string, const RCP<const Basic>&)

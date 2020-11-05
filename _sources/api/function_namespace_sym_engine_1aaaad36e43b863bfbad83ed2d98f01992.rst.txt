@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aaaad36e43b863bfbad83ed2d98f01992:
+
+Function SymEngine::totient
+===========================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::totient(const RCP<const Integer>&)

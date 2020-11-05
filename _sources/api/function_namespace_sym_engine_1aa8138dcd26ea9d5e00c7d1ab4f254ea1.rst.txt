@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1aa8138dcd26ea9d5e00c7d1ab4f254ea1:
+
+Function SymEngine::get_den(rational_class&)
+============================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::get_den(rational_class&)

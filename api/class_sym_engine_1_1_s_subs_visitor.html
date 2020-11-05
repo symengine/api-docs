@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class SSubsVisitor &#8212; Symengine API  documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+    <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Class StopVisitor" href="class_sym_engine_1_1_stop_visitor.html" />
+    <link rel="prev" title="Class Sinh" href="class_sym_engine_1_1_sinh.html" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_stop_visitor.html" title="Class StopVisitor"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_sinh.html" title="Class Sinh"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" accesskey="U">Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class SSubsVisitor</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="class-ssubsvisitor">
+<span id="exhale-class-class-sym-engine-1-1-s-subs-visitor"></span><h1>Class SSubsVisitor<a class="headerlink" href="#class-ssubsvisitor" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Defined in <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_subs.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-subs-h"><span class="std std-ref">File subs.h</span></a></p></li>
+</ul>
+<div class="section" id="inheritance-relationships">
+<h2>Inheritance Relationships<a class="headerlink" href="#inheritance-relationships" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="base-type">
+<h3>Base Type<a class="headerlink" href="#base-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">public</span> <span class="pre">SymEngine::BaseVisitor&lt;</span> <span class="pre">SSubsVisitor,</span> <span class="pre">SubsVisitor</span> <span class="pre">&gt;</span></code> (<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#exhale-class-class-sym-engine-1-1-base-visitor"><span class="std std-ref">Template Class BaseVisitor</span></a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="class-documentation">
+<h2>Class Documentation<a class="headerlink" href="#class-documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="cpp class">
+<dt id="_CPPv4N9SymEngine12SSubsVisitorE">
+<span id="_CPPv3N9SymEngine12SSubsVisitorE"></span><span id="_CPPv2N9SymEngine12SSubsVisitorE"></span><span id="SymEngine::SSubsVisitor"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor"></span><em class="property">class </em><code class="sig-prename descclassname">SymEngine<code class="sig-prename descclassname">::</code></code><code class="sig-name descname">SSubsVisitor</code> : <em class="property">public</em> SymEngine::<a class="reference internal" href="class_sym_engine_1_1_base_visitor.html#_CPPv4I00EN9SymEngine11BaseVisitorE" title="SymEngine::BaseVisitor">BaseVisitor</a>&lt;<a class="reference internal" href="#_CPPv4N9SymEngine12SSubsVisitorE" title="SymEngine::SSubsVisitor">SSubsVisitor</a>, <a class="reference internal" href="class_sym_engine_1_1_subs_visitor.html#_CPPv4N9SymEngine11SubsVisitorE" title="SymEngine::SubsVisitor">SubsVisitor</a>&gt;<a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor12SSubsVisitorERK15map_basic_basicb">
+<span id="_CPPv3N9SymEngine12SSubsVisitor12SSubsVisitorERK15map_basic_basicb"></span><span id="_CPPv2N9SymEngine12SSubsVisitor12SSubsVisitorERK15map_basic_basicb"></span><span id="SymEngine::SSubsVisitor::SSubsVisitor__map_basic_basicCR.b"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1afc5951a72868eabdf12534f35eb11ab7"></span><code class="sig-name descname">SSubsVisitor</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="typedef_namespace_sym_engine_1abd5a60ffdc356a9901e6cfbf118daf53.html#_CPPv4N9SymEngine15map_basic_basicE" title="SymEngine::map_basic_basic">map_basic_basic</a> &amp;<em>d</em>, bool <em>cache</em> = true<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor12SSubsVisitorERK15map_basic_basicb" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK10Derivative">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK10Derivative"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK10Derivative"></span><span id="SymEngine::SSubsVisitor::bvisit__DerivativeCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a62d4097af505528eaa4184d8a6dd8b00"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_derivative.html#_CPPv4N9SymEngine10DerivativeE" title="SymEngine::Derivative">Derivative</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK10Derivative" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK4Subs">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK4Subs"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK4Subs"></span><span id="SymEngine::SSubsVisitor::bvisit__SubsCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a2a232e8fc0e1c07fc116def93a84ab0b"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_subs.html#_CPPv4N9SymEngine4SubsE" title="SymEngine::Subs">Subs</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK4Subs" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK5Basic">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK5Basic"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK5Basic"></span><span id="SymEngine::SSubsVisitor::bvisit__BasicCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1aca4b295c565806b9d6c2f22cd00ccd8a"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_basic.html#_CPPv4N9SymEngine5BasicE" title="SymEngine::Basic">Basic</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK5Basic" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK3Add">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK3Add"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK3Add"></span><span id="SymEngine::SSubsVisitor::bvisit__AddCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a664c3a6c93eab230380047cb2034cd89"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_add.html#_CPPv4N9SymEngine3AddE" title="SymEngine::Add">Add</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK3Add" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK3Mul">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK3Mul"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK3Mul"></span><span id="SymEngine::SSubsVisitor::bvisit__MulCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1ac135397e405238c285cb6404d3ee7825"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_mul.html#_CPPv4N9SymEngine3MulE" title="SymEngine::Mul">Mul</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK3Mul" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK3Pow">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK3Pow"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK3Pow"></span><span id="SymEngine::SSubsVisitor::bvisit__PowCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1af7c39e0c1563f940f967fc1d90ec1a65"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_pow.html#_CPPv4N9SymEngine3PowE" title="SymEngine::Pow">Pow</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK3Pow" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK14OneArgFunction">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK14OneArgFunction"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK14OneArgFunction"></span><span id="SymEngine::SSubsVisitor::bvisit__OneArgFunctionCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1aa9950033978d08fcf3d02e216738c383"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_one_arg_function.html#_CPPv4N9SymEngine14OneArgFunctionE" title="SymEngine::OneArgFunction">OneArgFunction</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK14OneArgFunction" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4I0EN9SymEngine12SSubsVisitor6bvisitEvRK11TwoArgBasicI1TE">
+<span id="_CPPv3I0EN9SymEngine12SSubsVisitor6bvisitERK11TwoArgBasicI1TE"></span><span id="_CPPv2I0EN9SymEngine12SSubsVisitor6bvisitERK11TwoArgBasicI1TE"></span>template&lt;class <code class="sig-name descname">T</code>&gt;<br /><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1ae6bd77407d320eed9a06c97d7cf5e356"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_two_arg_basic.html#_CPPv4I0EN9SymEngine11TwoArgBasicE" title="SymEngine::TwoArgBasic">TwoArgBasic</a>&lt;<a class="reference internal" href="#_CPPv4I0EN9SymEngine12SSubsVisitor6bvisitEvRK11TwoArgBasicI1TE" title="SymEngine::SSubsVisitor::bvisit::T">T</a>&gt; &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN9SymEngine12SSubsVisitor6bvisitEvRK11TwoArgBasicI1TE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK16MultiArgFunction">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK16MultiArgFunction"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK16MultiArgFunction"></span><span id="SymEngine::SSubsVisitor::bvisit__MultiArgFunctionCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a29ed20753cb27d563a9ff93371be422e"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_multi_arg_function.html#_CPPv4N9SymEngine16MultiArgFunctionE" title="SymEngine::MultiArgFunction">MultiArgFunction</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK16MultiArgFunction" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK14FunctionSymbol">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK14FunctionSymbol"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK14FunctionSymbol"></span><span id="SymEngine::SSubsVisitor::bvisit__FunctionSymbolCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a3634907c4f2d9876a1db2b294c8d1e3d"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_function_symbol.html#_CPPv4N9SymEngine14FunctionSymbolE" title="SymEngine::FunctionSymbol">FunctionSymbol</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK14FunctionSymbol" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK8Contains">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK8Contains"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK8Contains"></span><span id="SymEngine::SSubsVisitor::bvisit__ContainsCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1aeb34a98dc1972a0efd78b8e608ec1c7f"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_contains.html#_CPPv4N9SymEngine8ContainsE" title="SymEngine::Contains">Contains</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK8Contains" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK3And">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK3And"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK3And"></span><span id="SymEngine::SSubsVisitor::bvisit__AndCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a57ede5dab825ba6c19ba499ec8dd1df8"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_and.html#_CPPv4N9SymEngine3AndE" title="SymEngine::And">And</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK3And" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK9FiniteSet">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK9FiniteSet"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK9FiniteSet"></span><span id="SymEngine::SSubsVisitor::bvisit__FiniteSetCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1aa86d66b55fcd1edd43aba9303199f4e9"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_finite_set.html#_CPPv4N9SymEngine9FiniteSetE" title="SymEngine::FiniteSet">FiniteSet</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK9FiniteSet" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK8ImageSet">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK8ImageSet"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK8ImageSet"></span><span id="SymEngine::SSubsVisitor::bvisit__ImageSetCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a1cc1f2c7775fc62e735ca1da1d3bc2c4"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_image_set.html#_CPPv4N9SymEngine8ImageSetE" title="SymEngine::ImageSet">ImageSet</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK8ImageSet" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK5Union">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK5Union"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK5Union"></span><span id="SymEngine::SSubsVisitor::bvisit__UnionCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a6add30c4baa9d84f6bb8834f1bb8e82c"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_union.html#_CPPv4N9SymEngine5UnionE" title="SymEngine::Union">Union</a> &amp;<em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK5Union" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N9SymEngine12SSubsVisitor6bvisitERK9Piecewise">
+<span id="_CPPv3N9SymEngine12SSubsVisitor6bvisitERK9Piecewise"></span><span id="_CPPv2N9SymEngine12SSubsVisitor6bvisitERK9Piecewise"></span><span id="SymEngine::SSubsVisitor::bvisit__PiecewiseCR"></span><span class="target" id="class_sym_engine_1_1_s_subs_visitor_1a5010bb3c01e1e759d8254eadab558bee"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_piecewise.html#_CPPv4N9SymEngine9PiecewiseE" title="SymEngine::Piecewise">Piecewise</a> &amp;<em>pw</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N9SymEngine12SSubsVisitor6bvisitERK9Piecewise" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt>
+<span class="target" id="class_sym_engine_1_1_s_subs_visitor_1ae854fe3f3363f052c1fbd98a44257917"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_derivative.html#_CPPv4N9SymEngine10DerivativeE" title="SymEngine::Derivative">Derivative</a> &amp;<em>x</em><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt>
+<span class="target" id="class_sym_engine_1_1_s_subs_visitor_1af4d9a83171a53e3a4138d26b2b57d205"></span>void <code class="sig-name descname">bvisit</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="class_sym_engine_1_1_subs.html#_CPPv4N9SymEngine4SubsE" title="SymEngine::Subs">Subs</a> &amp;<em>x</em><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Class SSubsVisitor</a><ul>
+<li><a class="reference internal" href="#inheritance-relationships">Inheritance Relationships</a><ul>
+<li><a class="reference internal" href="#base-type">Base Type</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#class-documentation">Class Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_sinh.html"
+                        title="previous chapter">Class Sinh</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="class_sym_engine_1_1_stop_visitor.html"
+                        title="next chapter">Class StopVisitor</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/class_sym_engine_1_1_s_subs_visitor.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_stop_visitor.html" title="Class StopVisitor"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="class_sym_engine_1_1_sinh.html" title="Class Sinh"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Symengine API  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="library_root.html" >Library API</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Class SSubsVisitor</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, SymEngine Development Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.0.
+    </div>
+  </body>
+</html>

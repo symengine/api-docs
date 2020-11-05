@@ -1,0 +1,13 @@
+.. _exhale_function_namespace_sym_engine_1ae3bd323c5446c9a522aa1f2b32d1a3c3:
+
+Template Function SymEngine::numeric_cast(From, typename std::enable_if<(std::is_unsigned<From>::value&&std::is_signed<To>::value)>::type \*)
+=============================================================================================================================================
+
+- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_casts.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: SymEngine::numeric_cast(From, typename std::enable_if<(std::is_unsigned<From>::value&&std::is_signed<To>::value)>::type *)
