@@ -14,14 +14,14 @@ import os
 import sys
 
 # -- Python Bindings
-sys.path.insert(0, os.path.abspath('../../../projects/bindings/python/build'))
+sys.path.insert(0, os.path.abspath("../../../projects/bindings/python/build"))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'Symengine API'
-copyright = '2020, SymEngine Development Team'
-author = 'SymEngine Development Team'
+project = "Symengine API"
+copyright = "2020, SymEngine Development Team"
+author = "SymEngine Development Team"
 master_doc = "index"
 
 
@@ -31,9 +31,9 @@ master_doc = "index"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'breathe',
-    'exhale',
-    'myst_nb',
+    "breathe",
+    "exhale",
+    "myst_nb",
     "sphinx_copybutton",
     "sphinx_togglebutton",
     "sphinxcontrib.bibtex",
@@ -43,7 +43,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -63,8 +63,8 @@ nitpick_ignore = [
 numfig = True
 
 mathjax_config = {
-    'extensions': ['tex2jax.js'],
-    'jax': ['input/TeX', 'output/HTML-CSS'],
+    "extensions": ["tex2jax.js"],
+    "jax": ["input/TeX", "output/HTML-CSS"],
 }
 
 # MyST and MyST-NB configuration ---------------------------------------------------
@@ -85,29 +85,27 @@ jupyter_execute_notebooks = "cache"
 
 # -- Exhale configuration ---------------------------------------------------
 # Setup the breathe extension
-breathe_projects = {
-    "Symengine XML": "./../Doxygen/gen_docs/xml"
-}
+breathe_projects = {"Symengine XML": "./../Doxygen/gen_docs/xml"}
 breathe_default_project = "Symengine XML"
 
 #  # Setup the exhale extension
 exhale_args = {
     # These arguments are required
-    "containmentFolder":     "./api",
-    "rootFileName":          "library_root.rst",
-    "rootFileTitle":         "Library API",
-    "doxygenStripFromPath":  "..",
+    "containmentFolder": "./api",
+    "rootFileName": "library_root.rst",
+    "rootFileTitle": "Library API",
+    "doxygenStripFromPath": "..",
     # Suggested optional arguments
-    "createTreeView":        True,
+    "createTreeView": True,
     # TIP: if using the sphinx-bootstrap-theme, you need
     # "treeViewIsBootstrap": True,
 }
 
 # Tell sphinx what the primary language being documented is.
-primary_domain = 'cpp'
+primary_domain = "cpp"
 
 # Tell sphinx what the pygments highlight language should be.
-highlight_language = 'cpp'
+highlight_language = "cpp"
 
 # -- Doxyrest Settings -------------------------------------------------
 # sys.path.insert(1, os.path.abspath('../doxyrest/sphinx'))
@@ -119,10 +117,9 @@ highlight_language = 'cpp'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# html_theme = 'nervproject'
+html_theme = "nervproject"
 # html_theme = 'pyramid'
 # html_theme = 'pydata_sphinx_theme'
-html_theme = 'furo'
 # -- Sphinx Book Theme Settings
 html_theme_options = {
     "repository_url": "https://github.com/symengine/api-docs",
@@ -132,5 +129,4 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-
+html_static_path = ["_static"]
