@@ -85,9 +85,9 @@ Functions
 
 - :ref:`exhale_function_namespace_sym_engine_1afb01d26ef4318eb02328f31e7fdf4a4d`
 
-- :ref:`exhale_function_namespace_sym_engine_1a61a3583f55ed82dda95cb51d010e21ac`
+- :ref:`exhale_function_namespace_sym_engine_1ae3bd323c5446c9a522aa1f2b32d1a3c3`
 
 - :ref:`exhale_function_namespace_sym_engine_1ac7efc430a53c52eb6dd010765c963f2f`
 
-- :ref:`exhale_function_namespace_sym_engine_1ae3bd323c5446c9a522aa1f2b32d1a3c3`
+- :ref:`exhale_function_namespace_sym_engine_1a61a3583f55ed82dda95cb51d010e21ac`
 
