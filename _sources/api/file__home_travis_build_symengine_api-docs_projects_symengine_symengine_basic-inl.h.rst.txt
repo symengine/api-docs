@@ -55,13 +55,13 @@ Functions
 
 - :ref:`exhale_function_namespace_sym_engine_1a4e6d1d6e0960fa8a827afb3f36c7d30d`
 
-- :ref:`exhale_function_namespace_sym_engine_1abb24605f1aae71927876f7237e221544`
-
 - :ref:`exhale_function_namespace_sym_engine_1aeda7b5ecf69bb33c4b2aea5304647bd8`
 
 - :ref:`exhale_function_namespace_sym_engine_1ae266231eee2ca48673601df20ba0bccc`
 
 - :ref:`exhale_function_namespace_sym_engine_1a7a7e1e7b48621c265ab453b64425df7e`
+
+- :ref:`exhale_function_namespace_sym_engine_1abb24605f1aae71927876f7237e221544`
 
 - :ref:`exhale_function_namespace_sym_engine_1a69193ed0d011c3b3f44db8a4f66792a4`
 
