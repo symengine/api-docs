@@ -106,6 +106,7 @@ primary_domain = "cpp"
 
 # Tell sphinx what the pygments highlight language should be.
 highlight_language = "cpp"
+pygments_style = "monokai"
 
 # -- Doxyrest Settings -------------------------------------------------
 # sys.path.insert(1, os.path.abspath('../doxyrest/sphinx'))
