@@ -93,9 +93,9 @@ Functions
 
 - :ref:`exhale_function_namespace_sym_engine_1_1literals_1a618f35c7b256be9b4e0109a60bf80f4c`
 
-- :ref:`exhale_function_namespace_sym_engine_1a04a2422ce35edea89026b68069cecc40`
-
 - :ref:`exhale_function_namespace_sym_engine_1ab13e97a95218de531ad8c30a4bc93598`
+
+- :ref:`exhale_function_namespace_sym_engine_1a04a2422ce35edea89026b68069cecc40`
 
 - :ref:`exhale_function_namespace_sym_engine_1a84aacea04bc1c6bbe57b85396e8f8792`
 
@@ -121,9 +121,9 @@ Functions
 
 - :ref:`exhale_function_namespace_sym_engine_1a3005d9f3c376d4055632f7c4d971e488`
 
-- :ref:`exhale_function_namespace_sym_engine_1ae12f00a2de473c1b388089ec6c94f30e`
-
 - :ref:`exhale_function_namespace_sym_engine_1ac1a85ab865046e14f64abd78dcefabab`
+
+- :ref:`exhale_function_namespace_sym_engine_1ae12f00a2de473c1b388089ec6c94f30e`
 
 - :ref:`exhale_function_namespace_sym_engine_1ab0f708595280bc21d797a24904ea4b98`
 
@@ -135,9 +135,9 @@ Functions
 
 - :ref:`exhale_function_namespace_sym_engine_1aa8c97493508ca2353f854f822ea62275`
 
-- :ref:`exhale_function_namespace_sym_engine_1a2b6057ce27960ab2ffd017c279ef7f52`
-
 - :ref:`exhale_function_namespace_sym_engine_1a810e4c772c6b0395b05d95d6f84fa5d0`
+
+- :ref:`exhale_function_namespace_sym_engine_1a2b6057ce27960ab2ffd017c279ef7f52`
 
 - :ref:`exhale_function_namespace_sym_engine_1ae747f4d5392562d92d31f169ee87bbee`
 
