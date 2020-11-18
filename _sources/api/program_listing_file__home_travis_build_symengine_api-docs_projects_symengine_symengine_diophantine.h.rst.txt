@@ -1,0 +1,26 @@
+
+.. _program_listing_file__home_travis_build_symengine_api-docs_projects_symengine_symengine_diophantine.h:
+
+Program Listing for File diophantine.h
+======================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file__home_travis_build_symengine_api-docs_projects_symengine_symengine_diophantine.h>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/diophantine.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #ifndef SYMENGINE_DIOPHANTINE_H
+   #define SYMENGINE_DIOPHANTINE_H
+   
+   #include <symengine/matrix.h>
+   
+   namespace SymEngine
+   {
+   
+   // Solve the diophantine system Ax = 0 and return a basis set for solutions
+   void homogeneous_lde(std::vector<DenseMatrix> &basis, const DenseMatrix &A);
+   }
+   
+   #endif

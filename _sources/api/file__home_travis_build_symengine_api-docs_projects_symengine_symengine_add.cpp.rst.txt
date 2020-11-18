@@ -16,6 +16,11 @@ Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine
 -------------------------------------------------------------------------------------------
 
 
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.cpp.rst
+
 
 
 
@@ -46,9 +51,9 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_namespace_sym_engine_1ab7ffb6840e5963dbdcff5d457068c42b`
-
 - :ref:`exhale_function_namespace_sym_engine_1a3ceef3b30efccd900ff91d78026f66f6`
+
+- :ref:`exhale_function_namespace_sym_engine_1ab7ffb6840e5963dbdcff5d457068c42b`
 
 - :ref:`exhale_function_namespace_sym_engine_1a92cd0098b66cad6a0cddcd895430bd65`
 

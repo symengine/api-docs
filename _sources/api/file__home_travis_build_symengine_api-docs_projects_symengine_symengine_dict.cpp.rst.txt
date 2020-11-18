@@ -16,6 +16,11 @@ Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine
 --------------------------------------------------------------------------------------------
 
 
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.cpp.rst
+
 
 
 
@@ -42,21 +47,21 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_namespace_sym_engine_1a77686ca34a7fa8292ac3b0ec1f2e8ed8`
-
-- :ref:`exhale_function_namespace_sym_engine_1ad299fcc197e29be01d9e9a76df6924c3`
-
-- :ref:`exhale_function_namespace_sym_engine_1a55a3b1949bb7c8a09ec8a4b083e2953f`
-
-- :ref:`exhale_function_namespace_sym_engine_1a8ab53478d2f96ff6c9dcdbcc2d216595`
-
-- :ref:`exhale_function_namespace_sym_engine_1a97e24bb0d9f4435f8d800c8644fec51d`
-
 - :ref:`exhale_function_namespace_sym_engine_1a128a7d10c9765ba1ff8aad6047c3fcb6`
 
 - :ref:`exhale_function_namespace_sym_engine_1ad1a96103f814f3932e9c627283d3ffa0`
 
 - :ref:`exhale_function_namespace_sym_engine_1ab25c87c978fbf8f361ea604194178e51`
+
+- :ref:`exhale_function_namespace_sym_engine_1a55a3b1949bb7c8a09ec8a4b083e2953f`
+
+- :ref:`exhale_function_namespace_sym_engine_1ad299fcc197e29be01d9e9a76df6924c3`
+
+- :ref:`exhale_function_namespace_sym_engine_1a8ab53478d2f96ff6c9dcdbcc2d216595`
+
+- :ref:`exhale_function_namespace_sym_engine_1a77686ca34a7fa8292ac3b0ec1f2e8ed8`
+
+- :ref:`exhale_function_namespace_sym_engine_1a97e24bb0d9f4435f8d800c8644fec51d`
 
 - :ref:`exhale_function_namespace_sym_engine_1a9abe8e75a54bd930425a94584942b8e5`
 

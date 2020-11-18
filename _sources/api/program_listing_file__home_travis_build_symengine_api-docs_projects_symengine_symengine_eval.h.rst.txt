@@ -1,0 +1,48 @@
+
+.. _program_listing_file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.h:
+
+Program Listing for File eval.h
+===============================
+
+|exhale_lsh| :ref:`Return to documentation for file <file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.h>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/eval.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #ifndef SYMENGINE_EVAL_H
+   #define SYMENGINE_EVAL_H
+   
+   #include <symengine/basic.h>
+   #include <symengine/dict.h>
+   #include <symengine/symengine_rcp.h>
+   
+   #ifdef HAVE_SYMENGINE_MPFR
+   #include <mpfr.h>
+   #endif // HAVE_SYMENGINE_MPFR
+   
+   #ifdef SYMENGINE_HAVE_MPC
+   #include <mpc.h>
+   #endif // HAVE_SYMENGINE_MPC
+   
+   namespace SymEngine
+   {
+   
+   /*
+    * Evaluates basic b, according to the number of significant bits
+    * in the given domain
+    */
+   
+   enum class EvalfDomain {
+       Complex = 0,
+       Real = 1,
+       Symbolic = 2,
+   };
+   
+   RCP<const Basic> evalf(const Basic &b, unsigned long bits,
+                          EvalfDomain domain = EvalfDomain::Symbolic);
+   
+   } // SymEngine
+   
+   #endif // SYMENGINE_EVAL_H

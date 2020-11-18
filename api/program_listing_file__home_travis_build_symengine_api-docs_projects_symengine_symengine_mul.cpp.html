@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Program Listing for File mul.cpp</title>
+    
+      <link rel="stylesheet" href="../_static/pygments.css"/>
+      <link rel="stylesheet" href="../_static/theme-light.css"/>
+      <link rel="stylesheet" media="(prefers-contrast: high)" href="../_static/theme-light-hc.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="../_static/theme-dark.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: high)" href="../_static/theme-dark-hc.css"/>
+      
+        <link rel="stylesheet" media="print" href="../_static/theme-print.css"/>
+      
+      
+          <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+      
+        
+        <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        
+
+        <!-- sphinx script_files -->
+          <script src="../_static/jquery.js"></script>
+          <script src="../_static/underscore.js"></script>
+          <script src="../_static/doctools.js"></script>
+          <script src="../_static/language_data.js"></script>
+          <script src="../_static/togglebutton.js"></script>
+          <script src="../_static/clipboard.min.js"></script>
+          <script src="../_static/copybutton.js"></script>
+          <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+          <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+          <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+
+        <script src="../_static/sphinx_nervproject_theme.js" defer></script>
+      
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+   
+  
+
+  </head>
+
+  <body>
+    <div id="app" class="theme-container"><header class="navbar">
+    <div id="header-identity" class="print-only">
+        <img id="navbar_logo" src="../_static/"/>
+        <div id="navbar_title">Symengine API</div>
+    </div>
+
+  
+  <button class="sidebar-button">
+      <svg id="sidebar-button-svg" role="img" aria-labelledby="sidebar-button_label" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="sidebar-button_label">
+              Toggle sidebar
+          </title>
+          <use xlink:href="../_static/fa/solid.svg#bars"></use>
+      </svg>
+  </button>
+
+  <a href="../index.html" class="home-link">
+      <span class="site-name">Symengine API</span>
+  </a>
+
+  <div class="links">
+    <div class="nav-links can-hide">
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           typedefs
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
+                Typedef SymEngine::vec_uint
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+    </div>
+  </div>
+  
+</header>
+
+      
+      <table role="none" id="main_layout_table">
+        <thead>
+          <tr><th><div id="layout_header">
+          </div></th></tr>
+        </thead>
+        <tbody><tr><td>
+          <div id="appflex">
+            
+              <div class="sidebar" id="sidebar">
+                
+                <nav class="nav-links can-hide">
+                  
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           typedefs
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
+                Typedef SymEngine::vec_uint
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+                  
+                </nav><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><nav class="sidebar-links">
+  
+    
+  
+</nav>
+              </div>
+            
+
+            <div class="page">
+                <nav class="body-header">
+  
+  
+  
+
+  <ul class="page-nav no-print">
+</ul>
+  
+</nav>
+                <main class="content">
+                  
+  <div class="section" id="program-listing-for-file-mul-cpp">
+<span id="program-listing-file-home-travis-build-symengine-api-docs-projects-symengine-symengine-mul-cpp"></span><h1>Program Listing for File mul.cpp<a class="headerlink" href="#program-listing-for-file-mul-cpp" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.cpp.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-mul-cpp"><span class="std std-ref">Return to documentation for file</span></a> (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/mul.cpp</span></code>)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;symengine/add.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/pow.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/complex.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/symengine_exception.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/test_visitors.h&gt;</span><span class="cp"></span>
+
+<span class="k">namespace</span> <span class="n">SymEngine</span>
+<span class="p">{</span>
+
+<span class="n">Mul</span><span class="o">::</span><span class="n">Mul</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">coef</span><span class="p">,</span> <span class="n">map_basic_basic</span> <span class="o">&amp;&amp;</span><span class="n">dict</span><span class="p">)</span>
+    <span class="o">:</span> <span class="n">coef_</span><span class="p">{</span><span class="n">coef</span><span class="p">},</span> <span class="n">dict_</span><span class="p">{</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">dict</span><span class="p">)}</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSIGN_TYPEID</span><span class="p">()</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">is_canonical</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">dict_</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="n">Mul</span><span class="o">::</span><span class="n">is_canonical</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">coef</span><span class="p">,</span>
+                       <span class="k">const</span> <span class="n">map_basic_basic</span> <span class="o">&amp;</span><span class="n">dict</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">coef</span> <span class="o">==</span> <span class="n">null</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="c1">// e.g. 0*x*y</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">coef</span><span class="o">-&gt;</span><span class="n">is_zero</span><span class="p">())</span>
+        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">dict</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">dict</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// e.g. 1*x, 1*x**2</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">coef</span><span class="o">-&gt;</span><span class="n">is_one</span><span class="p">())</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Check that each term in &#39;dict&#39; is in canonical form</span>
+    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">p</span> <span class="p">:</span> <span class="n">dict</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">==</span> <span class="n">null</span><span class="p">)</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">==</span> <span class="n">null</span><span class="p">)</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="c1">// e.g. 2**3, (2/3)**4</span>
+        <span class="c1">// However for Complex no simplification is done</span>
+        <span class="k">if</span> <span class="p">((</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">)</span> <span class="n">or</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Rational</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">))</span>
+            <span class="n">and</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">))</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="c1">// e.g. 0**x</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">)</span>
+            <span class="n">and</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">).</span><span class="n">is_zero</span><span class="p">())</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="c1">// e.g. 1**x</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">)</span>
+            <span class="n">and</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">).</span><span class="n">is_one</span><span class="p">())</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="c1">// e.g. x**0</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">)</span>
+            <span class="n">and</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">).</span><span class="n">is_zero</span><span class="p">())</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="c1">// e.g. (x*y)**2 (={xy:2}), which should be represented as x**2*y**2</span>
+        <span class="c1">//     (={x:2, y:2})</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">))</span>
+                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">)</span>
+                <span class="n">and</span> <span class="n">neq</span><span class="p">(</span><span class="o">*</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">).</span><span class="n">coef_</span><span class="p">,</span> <span class="o">*</span><span class="n">one</span><span class="p">)</span>
+                <span class="n">and</span> <span class="n">neq</span><span class="p">(</span><span class="o">*</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">).</span><span class="n">coef_</span><span class="p">,</span> <span class="o">*</span><span class="n">minus_one</span><span class="p">))</span>
+                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="c1">// e.g. x**2**y (={x**2:y}), which should be represented as x**(2y)</span>
+        <span class="c1">//     (={x:2y})</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Pow</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">))</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="c1">// e.g. 0.5^2.0 should be represented as 0.25</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">)</span>
+            <span class="n">and</span> <span class="n">not</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">).</span><span class="n">is_exact</span><span class="p">()</span>
+            <span class="n">and</span> <span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">)</span>
+            <span class="n">and</span> <span class="n">not</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">).</span><span class="n">is_exact</span><span class="p">())</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">hash_t</span> <span class="n">Mul</span><span class="o">::</span><span class="n">__hash__</span><span class="p">()</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="n">hash_t</span> <span class="n">seed</span> <span class="o">=</span> <span class="n">SYMENGINE_MUL</span><span class="p">;</span>
+    <span class="n">hash_combine</span><span class="o">&lt;</span><span class="n">Basic</span><span class="o">&gt;</span><span class="p">(</span><span class="n">seed</span><span class="p">,</span> <span class="o">*</span><span class="n">coef_</span><span class="p">);</span>
+    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">p</span> <span class="p">:</span> <span class="n">dict_</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">hash_combine</span><span class="o">&lt;</span><span class="n">Basic</span><span class="o">&gt;</span><span class="p">(</span><span class="n">seed</span><span class="p">,</span> <span class="o">*</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">));</span>
+        <span class="n">hash_combine</span><span class="o">&lt;</span><span class="n">Basic</span><span class="o">&gt;</span><span class="p">(</span><span class="n">seed</span><span class="p">,</span> <span class="o">*</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">));</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">seed</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="n">Mul</span><span class="o">::</span><span class="n">__eq__</span><span class="p">(</span><span class="k">const</span> <span class="n">Basic</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">o</span><span class="p">)</span> <span class="n">and</span> <span class="n">eq</span><span class="p">(</span><span class="o">*</span><span class="n">coef_</span><span class="p">,</span> <span class="o">*</span><span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">o</span><span class="p">).</span><span class="n">coef_</span><span class="p">))</span>
+        <span class="n">and</span> <span class="n">unified_eq</span><span class="p">(</span><span class="n">dict_</span><span class="p">,</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">o</span><span class="p">).</span><span class="n">dict_</span><span class="p">))</span>
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">Mul</span><span class="o">::</span><span class="n">compare</span><span class="p">(</span><span class="k">const</span> <span class="n">Basic</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">o</span><span class="p">))</span>
+    <span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;</span><span class="n">s</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">o</span><span class="p">);</span>
+    <span class="c1">// # of elements</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">dict_</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">!=</span> <span class="n">s</span><span class="p">.</span><span class="n">dict_</span><span class="p">.</span><span class="n">size</span><span class="p">())</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">dict_</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">&lt;</span> <span class="n">s</span><span class="p">.</span><span class="n">dict_</span><span class="p">.</span><span class="n">size</span><span class="p">())</span> <span class="o">?</span> <span class="mi">-1</span> <span class="o">:</span> <span class="mi">1</span><span class="p">;</span>
+
+    <span class="c1">// coef</span>
+    <span class="kt">int</span> <span class="n">cmp</span> <span class="o">=</span> <span class="n">coef_</span><span class="o">-&gt;</span><span class="n">__cmp__</span><span class="p">(</span><span class="o">*</span><span class="n">s</span><span class="p">.</span><span class="n">coef_</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">cmp</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">cmp</span><span class="p">;</span>
+
+    <span class="c1">// Compare dictionaries:</span>
+    <span class="k">return</span> <span class="nf">unified_compare</span><span class="p">(</span><span class="n">dict_</span><span class="p">,</span> <span class="n">s</span><span class="p">.</span><span class="n">dict_</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">SymEngine</span><span class="o">::</span><span class="n">Basic</span><span class="o">&gt;</span> <span class="n">Mul</span><span class="o">::</span><span class="n">from_dict</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">coef</span><span class="p">,</span>
+                                           <span class="n">map_basic_basic</span> <span class="o">&amp;&amp;</span><span class="n">d</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">coef</span><span class="o">-&gt;</span><span class="n">is_zero</span><span class="p">())</span>
+        <span class="k">return</span> <span class="n">coef</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">d</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">coef</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">d</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">auto</span> <span class="n">p</span> <span class="o">=</span> <span class="n">d</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">)))</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">coef</span><span class="o">-&gt;</span><span class="n">is_one</span><span class="p">())</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">((</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">))).</span><span class="n">is_one</span><span class="p">())</span> <span class="p">{</span>
+                    <span class="c1">// For x**1 we simply return &quot;x&quot;:</span>
+                    <span class="k">return</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">first</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="c1">// For coef*x or coef*x**3 we simply return Mul:</span>
+                <span class="k">return</span> <span class="n">make_rcp</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">d</span><span class="p">));</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">coef</span><span class="o">-&gt;</span><span class="n">is_one</span><span class="p">())</span> <span class="p">{</span>
+            <span class="c1">// Create a Pow() here:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">eq</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">,</span> <span class="o">*</span><span class="n">one</span><span class="p">))</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">first</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">return</span> <span class="n">make_rcp</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Pow</span><span class="o">&gt;</span><span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">first</span><span class="p">,</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">);</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="n">make_rcp</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">d</span><span class="p">));</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">make_rcp</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">d</span><span class="p">));</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Mul (t**exp) to the dict &quot;d&quot;</span>
+<span class="kt">void</span> <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term</span><span class="p">(</span><span class="n">map_basic_basic</span> <span class="o">&amp;</span><span class="n">d</span><span class="p">,</span> <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">exp</span><span class="p">,</span>
+                        <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">t</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">auto</span> <span class="n">it</span> <span class="o">=</span> <span class="n">d</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">t</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">it</span> <span class="o">==</span> <span class="n">d</span><span class="p">.</span><span class="n">end</span><span class="p">())</span> <span class="p">{</span>
+        <span class="n">insert</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="c1">// Very common case, needs to be fast:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">)</span> <span class="n">and</span> <span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">);</span>
+            <span class="n">iaddnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">tmp</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">exp</span><span class="p">));</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">tmp</span><span class="o">-&gt;</span><span class="n">is_zero</span><span class="p">())</span> <span class="p">{</span>
+                <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="c1">// General case:</span>
+            <span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span> <span class="o">=</span> <span class="n">add</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">is_number_and_zero</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">))</span> <span class="p">{</span>
+                <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Mul (t**exp) to the dict &quot;d&quot;</span>
+<span class="kt">void</span> <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="k">const</span> <span class="n">Ptr</span><span class="o">&lt;</span><span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;&gt;</span> <span class="o">&amp;</span><span class="n">coef</span><span class="p">,</span>
+                            <span class="n">map_basic_basic</span> <span class="o">&amp;</span><span class="n">d</span><span class="p">,</span> <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">exp</span><span class="p">,</span>
+                            <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">t</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">auto</span> <span class="n">it</span> <span class="o">=</span> <span class="n">d</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">t</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">it</span> <span class="o">==</span> <span class="n">d</span><span class="p">.</span><span class="n">end</span><span class="p">())</span> <span class="p">{</span>
+        <span class="c1">// Don&#39;t check for `exp = 0` here</span>
+        <span class="c1">// `pow` for Complex is not expanded by default</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">)</span> <span class="n">or</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Rational</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">))</span> <span class="p">{</span>
+                <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span>
+                        <span class="n">pownum</span><span class="p">(</span><span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">t</span><span class="p">),</span>
+                               <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">exp</span><span class="p">)));</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Rational</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">))</span> <span class="p">{</span>
+                <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">res</span><span class="p">;</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">))</span> <span class="p">{</span>
+                    <span class="n">res</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Rational</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">).</span><span class="n">rpowrat</span><span class="p">(</span>
+                        <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">));</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                    <span class="n">res</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Rational</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">).</span><span class="n">powrat</span><span class="p">(</span>
+                        <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Rational</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">));</span>
+                <span class="p">}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">res</span><span class="p">))</span> <span class="p">{</span>
+                    <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">res</span><span class="p">));</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">res</span><span class="p">))</span> <span class="p">{</span>
+                    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span> <span class="n">m</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">res</span><span class="p">);</span>
+                    <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">m</span><span class="o">-&gt;</span><span class="n">coef_</span><span class="p">);</span>
+                    <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="o">&amp;</span><span class="nl">p</span> <span class="p">:</span> <span class="n">m</span><span class="o">-&gt;</span><span class="n">dict_</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">);</span>
+                    <span class="p">}</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                    <span class="n">insert</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+                <span class="p">}</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="n">insert</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">)</span> <span class="n">and</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Complex</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">).</span><span class="n">is_one</span><span class="p">())</span> <span class="p">{</span>
+                <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">).</span><span class="n">is_minus_one</span><span class="p">())</span> <span class="p">{</span>
+                <span class="n">idivnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="n">insert</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">insert</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="c1">// Very common case, needs to be fast:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">)</span> <span class="n">and</span> <span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">);</span>
+            <span class="n">iaddnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">tmp</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">exp</span><span class="p">));</span>
+            <span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span> <span class="o">=</span> <span class="n">tmp</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span>
+            <span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span> <span class="o">=</span> <span class="n">add</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">))</span> <span class="p">{</span>
+            <span class="c1">// `pow` for Complex is not expanded by default</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">)</span> <span class="n">or</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Rational</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">))</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">not</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">)).</span><span class="n">is_zero</span><span class="p">())</span> <span class="p">{</span>
+                    <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span>
+                            <span class="n">pownum</span><span class="p">(</span><span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">t</span><span class="p">),</span>
+                                   <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">)));</span>
+                <span class="p">}</span>
+                <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+                <span class="k">return</span><span class="p">;</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">)).</span><span class="n">is_zero</span><span class="p">())</span> <span class="p">{</span>
+                <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+                <span class="k">return</span><span class="p">;</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Complex</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">))</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">)).</span><span class="n">is_one</span><span class="p">())</span> <span class="p">{</span>
+                    <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+                    <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">))</span>
+                               <span class="p">.</span><span class="n">is_minus_one</span><span class="p">())</span> <span class="p">{</span>
+                    <span class="n">idivnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+                    <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+                <span class="p">}</span>
+                <span class="k">return</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Rational</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">)</span> <span class="n">or</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Rational</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">))</span> <span class="p">{</span>
+                <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">res</span><span class="p">;</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">))</span> <span class="p">{</span>
+                    <span class="n">res</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Rational</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">)</span>
+                              <span class="p">.</span><span class="n">rpowrat</span><span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Integer</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">));</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                    <span class="n">res</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Rational</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">t</span><span class="p">).</span><span class="n">powrat</span><span class="p">(</span>
+                        <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Rational</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">));</span>
+                <span class="p">}</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">res</span><span class="p">))</span> <span class="p">{</span>
+                    <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+                    <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">res</span><span class="p">));</span>
+                    <span class="k">return</span><span class="p">;</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">res</span><span class="p">))</span> <span class="p">{</span>
+                    <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+                    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span> <span class="n">m</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">res</span><span class="p">);</span>
+                    <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">m</span><span class="o">-&gt;</span><span class="n">coef_</span><span class="p">);</span>
+                    <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="o">&amp;</span><span class="nl">p</span> <span class="p">:</span> <span class="n">m</span><span class="o">-&gt;</span><span class="n">dict_</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">);</span>
+                    <span class="p">}</span>
+                    <span class="k">return</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">).</span><span class="n">is_zero</span><span class="p">())</span> <span class="p">{</span>
+                <span class="c1">// In 1*x**0.0, result should be 1.0</span>
+                <span class="n">imulnum</span><span class="p">(</span>
+                    <span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span>
+                    <span class="n">pownum</span><span class="p">(</span><span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">),</span> <span class="n">zero</span><span class="p">));</span>
+                <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">first</span><span class="p">))</span> <span class="p">{</span>
+                <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span> <span class="n">m</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">first</span><span class="p">);</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">)</span>
+                    <span class="n">or</span> <span class="p">(</span><span class="n">neq</span><span class="p">(</span><span class="o">*</span><span class="n">m</span><span class="o">-&gt;</span><span class="n">coef_</span><span class="p">,</span> <span class="o">*</span><span class="n">one</span><span class="p">)</span> <span class="n">and</span> <span class="n">neq</span><span class="p">(</span><span class="o">*</span><span class="n">m</span><span class="o">-&gt;</span><span class="n">coef_</span><span class="p">,</span> <span class="o">*</span><span class="n">minus_one</span><span class="p">)))</span> <span class="p">{</span>
+                    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="n">exp_</span>
+                        <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">);</span>
+                    <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">it</span><span class="p">);</span>
+                    <span class="n">m</span><span class="o">-&gt;</span><span class="n">power_num</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="o">*</span><span class="n">coef</span><span class="p">),</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp_</span><span class="p">);</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">Mul</span><span class="o">::</span><span class="n">as_two_terms</span><span class="p">(</span><span class="k">const</span> <span class="n">Ptr</span><span class="o">&lt;</span><span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;&gt;</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                       <span class="k">const</span> <span class="n">Ptr</span><span class="o">&lt;</span><span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;&gt;</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="c1">// Example: if this=3*x**2*y**2*z**2, then a=x**2 and b=3*y**2*z**2</span>
+    <span class="k">auto</span> <span class="n">p</span> <span class="o">=</span> <span class="n">dict_</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span>
+    <span class="o">*</span><span class="n">a</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">first</span><span class="p">,</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">second</span><span class="p">);</span>
+    <span class="n">map_basic_basic</span> <span class="n">d</span> <span class="o">=</span> <span class="n">dict_</span><span class="p">;</span>
+    <span class="n">d</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">first</span><span class="p">);</span>
+    <span class="o">*</span><span class="n">b</span> <span class="o">=</span> <span class="n">Mul</span><span class="o">::</span><span class="n">from_dict</span><span class="p">(</span><span class="n">coef_</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">d</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">Mul</span><span class="o">::</span><span class="n">as_base_exp</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">self</span><span class="p">,</span>
+                      <span class="k">const</span> <span class="n">Ptr</span><span class="o">&lt;</span><span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;&gt;</span> <span class="o">&amp;</span><span class="n">exp</span><span class="p">,</span>
+                      <span class="k">const</span> <span class="n">Ptr</span><span class="o">&lt;</span><span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;&gt;</span> <span class="o">&amp;</span><span class="n">base</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">self</span><span class="p">))</span> <span class="p">{</span>
+        <span class="c1">// Always ensure it is of form |num| &gt; |den|</span>
+        <span class="c1">// in case of Integers den = 1</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Rational</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">self</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Rational</span><span class="o">&gt;</span> <span class="n">self_new</span>
+                <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Rational</span><span class="o">&gt;</span><span class="p">(</span><span class="n">self</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">mp_abs</span><span class="p">(</span><span class="n">get_num</span><span class="p">(</span><span class="n">self_new</span><span class="o">-&gt;</span><span class="n">as_rational_class</span><span class="p">()))</span>
+                <span class="o">&lt;</span> <span class="n">mp_abs</span><span class="p">(</span><span class="n">get_den</span><span class="p">(</span><span class="n">self_new</span><span class="o">-&gt;</span><span class="n">as_rational_class</span><span class="p">())))</span> <span class="p">{</span>
+                <span class="o">*</span><span class="n">exp</span> <span class="o">=</span> <span class="n">minus_one</span><span class="p">;</span>
+                <span class="o">*</span><span class="n">base</span> <span class="o">=</span> <span class="n">self_new</span><span class="o">-&gt;</span><span class="n">rdiv</span><span class="p">(</span><span class="o">*</span><span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">one</span><span class="p">));</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="o">*</span><span class="n">exp</span> <span class="o">=</span> <span class="n">one</span><span class="p">;</span>
+                <span class="o">*</span><span class="n">base</span> <span class="o">=</span> <span class="n">self</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="o">*</span><span class="n">exp</span> <span class="o">=</span> <span class="n">one</span><span class="p">;</span>
+            <span class="o">*</span><span class="n">base</span> <span class="o">=</span> <span class="n">self</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Pow</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">self</span><span class="p">))</span> <span class="p">{</span>
+        <span class="o">*</span><span class="n">exp</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Pow</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">self</span><span class="p">).</span><span class="n">get_exp</span><span class="p">();</span>
+        <span class="o">*</span><span class="n">base</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Pow</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">self</span><span class="p">).</span><span class="n">get_base</span><span class="p">();</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">not</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">self</span><span class="p">));</span>
+        <span class="o">*</span><span class="n">exp</span> <span class="o">=</span> <span class="n">one</span><span class="p">;</span>
+        <span class="o">*</span><span class="n">base</span> <span class="o">=</span> <span class="n">self</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">mul</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SymEngine</span><span class="o">::</span><span class="n">map_basic_basic</span> <span class="n">d</span><span class="p">;</span>
+    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="n">coef</span> <span class="o">=</span> <span class="n">one</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">)</span> <span class="n">and</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">b</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span> <span class="n">A</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span> <span class="n">B</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">b</span><span class="p">);</span>
+        <span class="c1">// This is important optimization, as coef=1 if Mul is inside an Add.</span>
+        <span class="c1">// To further speed this up, the upper level code could tell us that we</span>
+        <span class="c1">// are inside an Add, then we don&#39;t even have can simply skip the</span>
+        <span class="c1">// following two lines.</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">not</span><span class="p">(</span><span class="n">A</span><span class="o">-&gt;</span><span class="n">get_coef</span><span class="p">()</span><span class="o">-&gt;</span><span class="n">is_one</span><span class="p">())</span> <span class="n">or</span> <span class="n">not</span><span class="p">(</span><span class="n">B</span><span class="o">-&gt;</span><span class="n">get_coef</span><span class="p">()</span><span class="o">-&gt;</span><span class="n">is_one</span><span class="p">()))</span>
+            <span class="n">coef</span> <span class="o">=</span> <span class="n">mulnum</span><span class="p">(</span><span class="n">A</span><span class="o">-&gt;</span><span class="n">get_coef</span><span class="p">(),</span> <span class="n">B</span><span class="o">-&gt;</span><span class="n">get_coef</span><span class="p">());</span>
+        <span class="n">d</span> <span class="o">=</span> <span class="n">A</span><span class="o">-&gt;</span><span class="n">get_dict</span><span class="p">();</span>
+        <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">p</span> <span class="p">:</span> <span class="n">B</span><span class="o">-&gt;</span><span class="n">get_dict</span><span class="p">())</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">d</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">exp</span><span class="p">;</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">t</span><span class="p">;</span>
+        <span class="n">coef</span> <span class="o">=</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">)).</span><span class="n">get_coef</span><span class="p">();</span>
+        <span class="n">d</span> <span class="o">=</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">)).</span><span class="n">get_dict</span><span class="p">();</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">b</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">b</span><span class="p">));</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">as_base_exp</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">outArg</span><span class="p">(</span><span class="n">exp</span><span class="p">),</span> <span class="n">outArg</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span> <span class="n">t</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">b</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">exp</span><span class="p">;</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">t</span><span class="p">;</span>
+        <span class="n">coef</span> <span class="o">=</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">b</span><span class="p">)).</span><span class="n">get_coef</span><span class="p">();</span>
+        <span class="n">d</span> <span class="o">=</span> <span class="p">(</span><span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">b</span><span class="p">)).</span><span class="n">get_dict</span><span class="p">();</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">a</span><span class="p">));</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">as_base_exp</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">outArg</span><span class="p">(</span><span class="n">exp</span><span class="p">),</span> <span class="n">outArg</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span> <span class="n">t</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">exp</span><span class="p">;</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">t</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">a</span><span class="p">));</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">as_base_exp</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">outArg</span><span class="p">(</span><span class="n">exp</span><span class="p">),</span> <span class="n">outArg</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span> <span class="n">t</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">b</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">b</span><span class="p">));</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">as_base_exp</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">outArg</span><span class="p">(</span><span class="n">exp</span><span class="p">),</span> <span class="n">outArg</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span> <span class="n">t</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">Mul</span><span class="o">::</span><span class="n">from_dict</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">d</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">mul</span><span class="p">(</span><span class="k">const</span> <span class="n">vec_basic</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SymEngine</span><span class="o">::</span><span class="n">map_basic_basic</span> <span class="n">d</span><span class="p">;</span>
+    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="n">coef</span> <span class="o">=</span> <span class="n">one</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">i</span> <span class="p">:</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">i</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span> <span class="n">A</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+            <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">A</span><span class="o">-&gt;</span><span class="n">get_coef</span><span class="p">());</span>
+            <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">p</span> <span class="p">:</span> <span class="n">A</span><span class="o">-&gt;</span><span class="n">get_dict</span><span class="p">())</span>
+                <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">d</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">);</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">i</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">imulnum</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">i</span><span class="p">));</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">exp</span><span class="p">;</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">t</span><span class="p">;</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">as_base_exp</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">outArg</span><span class="p">(</span><span class="n">exp</span><span class="p">),</span> <span class="n">outArg</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">outArg</span><span class="p">(</span><span class="n">coef</span><span class="p">),</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span> <span class="n">t</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">Mul</span><span class="o">::</span><span class="n">from_dict</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">d</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">div</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_number_and_zero</span><span class="p">(</span><span class="o">*</span><span class="n">b</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_number_and_zero</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="n">Nan</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="n">ComplexInf</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">mul</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">pow</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">minus_one</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">neg</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">return</span> <span class="nf">mul</span><span class="p">(</span><span class="n">minus_one</span><span class="p">,</span> <span class="n">a</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">Mul</span><span class="o">::</span><span class="n">power_num</span><span class="p">(</span><span class="k">const</span> <span class="n">Ptr</span><span class="o">&lt;</span><span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;&gt;</span> <span class="o">&amp;</span><span class="n">coef</span><span class="p">,</span> <span class="n">map_basic_basic</span> <span class="o">&amp;</span><span class="n">d</span><span class="p">,</span>
+                    <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">exp</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">exp</span><span class="o">-&gt;</span><span class="n">is_zero</span><span class="p">())</span> <span class="p">{</span>
+        <span class="c1">// (x*y)**(0.0) should return 1.0</span>
+        <span class="n">imulnum</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">pownum</span><span class="p">(</span><span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">exp</span><span class="p">),</span> <span class="n">zero</span><span class="p">));</span>
+        <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">new_coef</span><span class="p">;</span>
+    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">new_exp</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">exp</span><span class="p">))</span> <span class="p">{</span>
+        <span class="c1">// For eg. (3*y*(x**(1/2))**2 should be expanded to 9*x*y**2</span>
+        <span class="n">new_coef</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="n">coef_</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+        <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">p</span> <span class="p">:</span> <span class="n">dict_</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">new_exp</span> <span class="o">=</span> <span class="n">mul</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">new_exp</span><span class="p">)</span> <span class="n">and</span> <span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">))</span> <span class="p">{</span>
+                <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">).</span><span class="n">power_num</span><span class="p">(</span>
+                    <span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">new_exp</span><span class="p">));</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="c1">// No need for additional dict checks here.</span>
+                <span class="c1">// The dict should be of standard form before this is</span>
+                <span class="c1">// called.</span>
+                <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">new_exp</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">coef_</span><span class="o">-&gt;</span><span class="n">is_negative</span><span class="p">())</span> <span class="p">{</span>
+            <span class="c1">// (-3*x*y)**(1/2) -&gt; 3**(1/2)*(-x*y)**(1/2)</span>
+            <span class="n">new_coef</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="n">coef_</span><span class="o">-&gt;</span><span class="n">mul</span><span class="p">(</span><span class="o">*</span><span class="n">minus_one</span><span class="p">),</span> <span class="n">exp</span><span class="p">);</span>
+            <span class="n">map_basic_basic</span> <span class="n">d1</span> <span class="o">=</span> <span class="n">dict_</span><span class="p">;</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span>
+                                   <span class="n">Mul</span><span class="o">::</span><span class="n">from_dict</span><span class="p">(</span><span class="n">minus_one</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">d1</span><span class="p">)));</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">coef_</span><span class="o">-&gt;</span><span class="n">is_positive</span><span class="p">()</span> <span class="n">and</span> <span class="n">not</span> <span class="n">coef_</span><span class="o">-&gt;</span><span class="n">is_one</span><span class="p">())</span> <span class="p">{</span>
+            <span class="c1">// (3*x*y)**(1/2) -&gt; 3**(1/2)*(x*y)**(1/2)</span>
+            <span class="n">new_coef</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="n">coef_</span><span class="p">,</span> <span class="n">exp</span><span class="p">);</span>
+            <span class="n">map_basic_basic</span> <span class="n">d1</span> <span class="o">=</span> <span class="n">dict_</span><span class="p">;</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span>
+                                   <span class="n">Mul</span><span class="o">::</span><span class="n">from_dict</span><span class="p">(</span><span class="n">one</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">d1</span><span class="p">)));</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="c1">// ((1+2*I)*x*y)**(1/2) is kept as it is</span>
+            <span class="n">new_coef</span> <span class="o">=</span> <span class="n">one</span><span class="p">;</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">rcp_from_this</span><span class="p">());</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a_Number</span><span class="p">(</span><span class="o">*</span><span class="n">new_coef</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">imulnum</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Number</span><span class="o">&gt;</span><span class="p">(</span><span class="n">new_coef</span><span class="p">));</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">new_coef</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Mul</span><span class="o">&gt;</span><span class="p">(</span><span class="n">new_coef</span><span class="p">);</span>
+        <span class="n">imulnum</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">tmp</span><span class="o">-&gt;</span><span class="n">coef_</span><span class="p">);</span>
+        <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">q</span> <span class="p">:</span> <span class="n">tmp</span><span class="o">-&gt;</span><span class="n">dict_</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">q</span><span class="p">.</span><span class="n">second</span><span class="p">,</span> <span class="n">q</span><span class="p">.</span><span class="n">first</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">_exp</span><span class="p">,</span> <span class="n">t</span><span class="p">;</span>
+        <span class="n">Mul</span><span class="o">::</span><span class="n">as_base_exp</span><span class="p">(</span><span class="n">new_coef</span><span class="p">,</span> <span class="n">outArg</span><span class="p">(</span><span class="n">_exp</span><span class="p">),</span> <span class="n">outArg</span><span class="p">(</span><span class="n">t</span><span class="p">));</span>
+        <span class="n">Mul</span><span class="o">::</span><span class="n">dict_add_term_new</span><span class="p">(</span><span class="n">coef</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">_exp</span><span class="p">,</span> <span class="n">t</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">vec_basic</span> <span class="n">Mul</span><span class="o">::</span><span class="n">get_args</span><span class="p">()</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="n">vec_basic</span> <span class="n">args</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">not</span> <span class="n">coef_</span><span class="o">-&gt;</span><span class="n">is_one</span><span class="p">())</span> <span class="p">{</span>
+        <span class="n">args</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">dict_</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+        <span class="n">args</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">coef_</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">args</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">dict_</span><span class="p">.</span><span class="n">size</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">p</span> <span class="p">:</span> <span class="n">dict_</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">eq</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">,</span> <span class="o">*</span><span class="n">one</span><span class="p">))</span> <span class="p">{</span>
+            <span class="n">args</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">);</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">args</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">make_rcp</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Pow</span><span class="o">&gt;</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">first</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span><span class="p">));</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">args</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">}</span> <span class="c1">// SymEngine</span>
+</pre></div>
+</div>
+</div>
+
+  
+    <div class="section no-print">
+    
+      
+    
+    
+    
+    </div>
+  
+
+                </main><ul class="page-nav no-print">
+</ul>
+            </div>
+          </div>
+        </td></tr></tbody>
+        <tfoot>
+          <tr><th><div id="layout_footer">
+          </div></th></tr>
+        </tfoot>
+      </table><footer class="footer" role="contentinfo">
+  
+    <p>
+    
+      &#169; Copyright 2020, SymEngine Development Team.
+    
+    </p>
+  
+  
+    <p>
+    
+    
+      Licensed under .
+    
+    
+    </p>
+  
+  
+    <p>
+  
+  
+  
+    Created using <a
+        href="http://sphinx-doc.org/">Sphinx</a> 3.3.1 with
+    <a href="https://www.nerv-project.eu">Nerv Project theme</a>
+    based on <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>
+    and <a href="https://ablog.readthedocs.io/">ABlog</a>.</p>
+  
+  <div class="pagecount"></div>
+</footer>
+    </div>
+    
+    
+  </body>
+</html>

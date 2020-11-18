@@ -1,0 +1,38 @@
+
+.. _program_listing_file__home_travis_build_symengine_api-docs_projects_symengine_symengine_test_visitors.cpp:
+
+Program Listing for File test_visitors.cpp
+==========================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file__home_travis_build_symengine_api-docs_projects_symengine_symengine_test_visitors.cpp>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/test_visitors.cpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   #include <symengine/test_visitors.h>
+   
+   namespace SymEngine
+   {
+   
+   void ZeroVisitor::bvisit(const Number &x)
+   {
+       if (bool(x.is_zero())) {
+           is_zero_ = tribool::tritrue;
+       } else {
+           is_zero_ = tribool::trifalse;
+       }
+   }
+   
+   tribool ZeroVisitor::apply(const Basic &b)
+   {
+       b.accept(*this);
+       return is_zero_;
+   }
+   
+   tribool is_zero(const Basic &b)
+   {
+       ZeroVisitor visitor;
+       return visitor.apply(b);
+   }
+   }

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Program Listing for File mp_boost.cpp</title>
+    
+      <link rel="stylesheet" href="../_static/pygments.css"/>
+      <link rel="stylesheet" href="../_static/theme-light.css"/>
+      <link rel="stylesheet" media="(prefers-contrast: high)" href="../_static/theme-light-hc.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="../_static/theme-dark.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: high)" href="../_static/theme-dark-hc.css"/>
+      
+        <link rel="stylesheet" media="print" href="../_static/theme-print.css"/>
+      
+      
+          <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+      
+        
+        <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        
+
+        <!-- sphinx script_files -->
+          <script src="../_static/jquery.js"></script>
+          <script src="../_static/underscore.js"></script>
+          <script src="../_static/doctools.js"></script>
+          <script src="../_static/language_data.js"></script>
+          <script src="../_static/togglebutton.js"></script>
+          <script src="../_static/clipboard.min.js"></script>
+          <script src="../_static/copybutton.js"></script>
+          <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+          <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+          <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+
+        <script src="../_static/sphinx_nervproject_theme.js" defer></script>
+      
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+   
+  
+
+  </head>
+
+  <body>
+    <div id="app" class="theme-container"><header class="navbar">
+    <div id="header-identity" class="print-only">
+        <img id="navbar_logo" src="../_static/"/>
+        <div id="navbar_title">Symengine API</div>
+    </div>
+
+  
+  <button class="sidebar-button">
+      <svg id="sidebar-button-svg" role="img" aria-labelledby="sidebar-button_label" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="sidebar-button_label">
+              Toggle sidebar
+          </title>
+          <use xlink:href="../_static/fa/solid.svg#bars"></use>
+      </svg>
+  </button>
+
+  <a href="../index.html" class="home-link">
+      <span class="site-name">Symengine API</span>
+  </a>
+
+  <div class="links">
+    <div class="nav-links can-hide">
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           typedefs
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
+                Typedef SymEngine::vec_uint
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+    </div>
+  </div>
+  
+</header>
+
+      
+      <table role="none" id="main_layout_table">
+        <thead>
+          <tr><th><div id="layout_header">
+          </div></th></tr>
+        </thead>
+        <tbody><tr><td>
+          <div id="appflex">
+            
+              <div class="sidebar" id="sidebar">
+                
+                <nav class="nav-links can-hide">
+                  
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           typedefs
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
+                Typedef SymEngine::vec_uint
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+                  
+                </nav><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><nav class="sidebar-links">
+  
+    
+  
+</nav>
+              </div>
+            
+
+            <div class="page">
+                <nav class="body-header">
+  
+  
+  
+
+  <ul class="page-nav no-print">
+</ul>
+  
+</nav>
+                <main class="content">
+                  
+  <div class="section" id="program-listing-for-file-mp-boost-cpp">
+<span id="program-listing-file-home-travis-build-symengine-api-docs-projects-symengine-symengine-mp-boost-cpp"></span><h1>Program Listing for File mp_boost.cpp<a class="headerlink" href="#program-listing-for-file-mp-boost-cpp" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-mp-boost-cpp"><span class="std std-ref">Return to documentation for file</span></a> (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/mp_boost.cpp</span></code>)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&quot;mp_class.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;boost/multiprecision/miller_rabin.hpp&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;boost/mpl/int.hpp&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;utility&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;cmath&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/symengine_assert.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/symengine_exception.h&gt;</span><span class="cp"></span>
+
+<span class="k">using</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">numerator</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">denominator</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">miller_rabin_test</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">detail</span><span class="o">::</span><span class="n">find_lsb</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">boost</span><span class="o">::</span><span class="n">mpl</span><span class="o">::</span><span class="n">int_</span><span class="p">;</span>
+
+<span class="cp">#if SYMENGINE_INTEGER_CLASS == SYMENGINE_BOOSTMP</span>
+
+<span class="k">namespace</span> <span class="n">SymEngine</span>
+<span class="p">{</span>
+
+<span class="n">integer_class</span> <span class="nf">pow</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">return</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">pow</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">numeric_cast</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">(</span><span class="n">b</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">mp_fdiv_qr</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">q</span><span class="p">,</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="cm">/*boost::multiprecision doesn&#39;t have a built-in fdiv_qr (floored division).</span>
+<span class="cm">      Its divide_qr uses truncated division, as does its</span>
+<span class="cm">      modulus operator. Thus, using boost::multiprecision::divide_qr we get:</span>
+<span class="cm">      divide_qr(-5, 3, quo, rem) //quo == -1, rem == -2</span>
+<span class="cm">      divide_qr(5, -3, quo, rem) //quo == -1, rem == 2</span>
+<span class="cm">      but we want:</span>
+<span class="cm">      mp_fdiv_r(quo, rem, -5, 3) //quo == -2, rem == 1</span>
+<span class="cm">      mp_fdiv_r(quo, rem, 5, -3) //rem == -2, rem == -1</span>
+<span class="cm">      The problem arises only when the quotient is negative.  To convert</span>
+<span class="cm">      a truncated result into a floored result in this case, simply subtract</span>
+<span class="cm">      one from the truncated quotient and add the divisor to the truncated</span>
+<span class="cm">      remainder.</span>
+<span class="cm">      */</span>
+
+    <span class="c1">// must copy a and b before calling divide_qr because a or b may refer to</span>
+    <span class="c1">// the same</span>
+    <span class="c1">// object as q or r, causing incorrect results</span>
+    <span class="n">integer_class</span> <span class="n">a_cpy</span> <span class="o">=</span> <span class="n">a</span><span class="p">,</span> <span class="n">b_cpy</span> <span class="o">=</span> <span class="n">b</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="n">neg_quotient</span> <span class="o">=</span> <span class="p">((</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">(</span><span class="n">a</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">))</span> <span class="o">?</span> <span class="nb">true</span> <span class="o">:</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">divide_qr</span><span class="p">(</span><span class="n">a_cpy</span><span class="p">,</span> <span class="n">b_cpy</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+    <span class="c1">// floor the quotient if necessary</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">neg_quotient</span> <span class="o">&amp;&amp;</span> <span class="n">r</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">q</span> <span class="o">-=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// remainder should have same sign as divisor</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">b_cpy</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">(</span><span class="n">b_cpy</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">r</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">r</span> <span class="o">+=</span> <span class="n">b_cpy</span><span class="p">;</span>
+        <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">mp_cdiv_qr</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">q</span><span class="p">,</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">integer_class</span> <span class="n">a_cpy</span> <span class="o">=</span> <span class="n">a</span><span class="p">,</span> <span class="n">b_cpy</span> <span class="o">=</span> <span class="n">b</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="n">pos_quotient</span> <span class="o">=</span> <span class="p">((</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">(</span><span class="n">a</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">))</span> <span class="o">?</span> <span class="nb">true</span> <span class="o">:</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">divide_qr</span><span class="p">(</span><span class="n">a_cpy</span><span class="p">,</span> <span class="n">b_cpy</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+    <span class="c1">// ceil the quotient if necessary</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">pos_quotient</span> <span class="o">&amp;&amp;</span> <span class="n">r</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">q</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// remainder should have opposite sign as divisor</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">b_cpy</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">r</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">(</span><span class="n">b_cpy</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">r</span> <span class="o">-=</span> <span class="n">b_cpy</span><span class="p">;</span>
+        <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">mp_gcdext</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">gcd</span><span class="p">,</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">s</span><span class="p">,</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">t</span><span class="p">,</span>
+               <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+
+    <span class="n">integer_class</span> <span class="n">this_s</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="n">integer_class</span> <span class="n">this_t</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+    <span class="n">integer_class</span> <span class="n">next_s</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+    <span class="n">integer_class</span> <span class="n">next_t</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+    <span class="n">integer_class</span> <span class="n">this_r</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
+    <span class="n">integer_class</span> <span class="n">next_r</span><span class="p">(</span><span class="n">b</span><span class="p">);</span>
+    <span class="n">integer_class</span> <span class="n">q</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">next_r</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// should use truncated division, so use</span>
+        <span class="c1">// boost::multiprecision::divide_qr</span>
+        <span class="c1">// beware of overwriting this_r during internal operations of divide_qr</span>
+        <span class="c1">// copy it first</span>
+        <span class="n">integer_class</span> <span class="n">this_r_cpy</span> <span class="o">=</span> <span class="n">this_r</span><span class="p">;</span>
+        <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">divide_qr</span><span class="p">(</span><span class="n">this_r_cpy</span><span class="p">,</span> <span class="n">next_r</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">this_r</span><span class="p">);</span>
+        <span class="n">this_s</span> <span class="o">-=</span> <span class="n">q</span> <span class="o">*</span> <span class="n">next_s</span><span class="p">;</span>
+        <span class="n">this_t</span> <span class="o">-=</span> <span class="n">q</span> <span class="o">*</span> <span class="n">next_t</span><span class="p">;</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">this_s</span><span class="p">,</span> <span class="n">next_s</span><span class="p">);</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">this_t</span><span class="p">,</span> <span class="n">next_t</span><span class="p">);</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">this_r</span><span class="p">,</span> <span class="n">next_r</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="c1">// normalize the gcd, s and t</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">this_r</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">this_r</span> <span class="o">*=</span> <span class="mi">-1</span><span class="p">;</span>
+        <span class="n">this_s</span> <span class="o">*=</span> <span class="mi">-1</span><span class="p">;</span>
+        <span class="n">this_t</span> <span class="o">*=</span> <span class="mi">-1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">gcd</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">this_r</span><span class="p">);</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">this_s</span><span class="p">);</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">this_t</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="nf">mp_invert</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+               <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">m</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">integer_class</span> <span class="n">gcd</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">t</span><span class="p">;</span>
+    <span class="n">mp_gcdext</span><span class="p">(</span><span class="n">gcd</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">gcd</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">mp_fdiv_r</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span> <span class="c1">// reduce s modulo m.  undefined behavior when m ==</span>
+                            <span class="c1">// 0, so don&#39;t need to check</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">s</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">s</span> <span class="o">+=</span> <span class="n">mp_abs</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+        <span class="p">}</span> <span class="c1">// give the canonical representative of s</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">s</span><span class="p">;</span>
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// floored modulus</span>
+<span class="n">integer_class</span> <span class="nf">fmod</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">mod</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">integer_class</span> <span class="n">res</span> <span class="o">=</span> <span class="n">a</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">res</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">+=</span> <span class="n">mod</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">mp_pow_ui</span><span class="p">(</span><span class="n">rational_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="k">const</span> <span class="n">rational_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">integer_class</span> <span class="n">num</span> <span class="o">=</span> <span class="n">numerator</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>   <span class="c1">// copy</span>
+    <span class="n">integer_class</span> <span class="n">den</span> <span class="o">=</span> <span class="n">denominator</span><span class="p">(</span><span class="n">i</span><span class="p">);</span> <span class="c1">// copy</span>
+    <span class="n">num</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="n">den</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="n">den</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">rational_class</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">num</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">den</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">mp_powm</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">base</span><span class="p">,</span>
+             <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">exp</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">m</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// if exp is negative, interpret as follows</span>
+    <span class="c1">// base**(exp) mod m    == (base**(-1))**abs(exp) mod m</span>
+    <span class="c1">//                      == (base**(-1) mod m) ** abs(exp) mod m</span>
+    <span class="c1">// where base**(-1) mod m is the modular inverse</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">exp</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">integer_class</span> <span class="n">base_inverse</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">mp_invert</span><span class="p">(</span><span class="n">base_inverse</span><span class="p">,</span> <span class="n">base</span><span class="p">,</span> <span class="n">m</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">throw</span> <span class="n">SymEngine</span><span class="o">::</span><span class="n">SymEngineException</span><span class="p">(</span><span class="s">&quot;negative exponent undefined &quot;</span>
+                                                <span class="s">&quot;in powm if base is not &quot;</span>
+                                                <span class="s">&quot;invertible mod m&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">powm</span><span class="p">(</span><span class="n">base_inverse</span><span class="p">,</span> <span class="n">mp_abs</span><span class="p">(</span><span class="n">exp</span><span class="p">),</span> <span class="n">m</span><span class="p">);</span>
+        <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">powm</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="n">exp</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+        <span class="c1">// boost&#39;s powm calculates base**exp % m, but uses truncated</span>
+        <span class="c1">// modulus, e.g. powm(-2,3,5) == -3.  We want powm(-2,3,5) == 2</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">res</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">res</span> <span class="o">+=</span> <span class="n">m</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">integer_class</span> <span class="nf">step</span><span class="p">(</span><span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">,</span>
+                   <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">n</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">m</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="n">integer_class</span> <span class="o">&amp;&amp;</span><span class="n">x_m</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">integer_class</span><span class="p">((</span><span class="n">integer_class</span><span class="p">(</span><span class="n">m</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">integer_class</span><span class="p">(</span><span class="n">i</span> <span class="o">/</span> <span class="n">x_m</span><span class="p">))</span> <span class="o">/</span> <span class="n">n</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="nf">positive_root</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">,</span>
+                   <span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">integer_class</span> <span class="n">x</span>
+        <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// TODO: make a better starting guess based on (number of bits)/n</span>
+    <span class="n">integer_class</span> <span class="n">y</span> <span class="o">=</span> <span class="n">step</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span><span class="p">);</span>
+    <span class="k">do</span> <span class="p">{</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">y</span><span class="p">;</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="n">step</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">y</span> <span class="o">&lt;</span> <span class="n">x</span><span class="p">);</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span> <span class="o">==</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// return true if i is a perfect nth power, i.e. res**i == n</span>
+<span class="kt">bool</span> <span class="nf">mp_root</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">,</span> <span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;0th root is undefined&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">positive_root</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;even root of a negative is non-real&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="n">b</span> <span class="o">=</span> <span class="n">positive_root</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="o">-</span><span class="n">i</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="n">res</span> <span class="o">*=</span> <span class="mi">-1</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">b</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">integer_class</span> <span class="nf">mp_sqrt</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// as of 11/1/2016, boost::multiprecision::sqrt() is buggy:</span>
+    <span class="c1">// https://svn.boost.org/trac/boost/ticket/12559</span>
+    <span class="c1">// implement with mp_root for now</span>
+    <span class="n">integer_class</span> <span class="n">res</span><span class="p">;</span>
+    <span class="n">mp_root</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">mp_rootrem</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">,</span>
+                <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">mp_root</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="n">integer_class</span> <span class="n">p</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="p">;</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="n">p</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">mp_sqrtrem</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">mp_sqrt</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">pow</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// return nonzero if i is probably prime.</span>
+<span class="kt">int</span> <span class="nf">mp_probab_prime_p</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">retries</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">2</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">miller_rabin_test</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">retries</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">mp_nextprime</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// simple implementation:  just check all odds bigger than i for primality</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="k">return</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">integer_class</span> <span class="n">candidate</span><span class="p">;</span>
+    <span class="n">candidate</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="o">?</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">:</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="c1">// Knuth recommends 25 trials for a pretty strong likelihood that candidate</span>
+    <span class="c1">// is prime</span>
+    <span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">mp_probab_prime_p</span><span class="p">(</span><span class="n">candidate</span><span class="p">,</span> <span class="mi">25</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">candidate</span> <span class="o">+=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">candidate</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">mp_scan1</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">ULONG_MAX</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">find_lsb</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">int_</span><span class="o">&lt;</span><span class="mi">0</span><span class="o">&gt;</span><span class="p">());</span>
+<span class="p">}</span>
+
+<span class="c1">// define simple 2x2 matrix with exponentiation by repeated squaring</span>
+<span class="c1">// to use in logarithmic-time fibonacci calculation</span>
+
+<span class="k">struct</span> <span class="nc">two_by_two_matrix</span> <span class="p">{</span>
+    <span class="n">integer_class</span> <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">2</span><span class="p">];</span> <span class="c1">// data[1][0] is row 1, column 0 entry of matrix</span>
+
+    <span class="n">two_by_two_matrix</span><span class="p">(</span><span class="n">integer_class</span> <span class="n">a</span><span class="p">,</span> <span class="n">integer_class</span> <span class="n">b</span><span class="p">,</span> <span class="n">integer_class</span> <span class="n">c</span><span class="p">,</span>
+                      <span class="n">integer_class</span> <span class="n">d</span><span class="p">)</span>
+        <span class="o">:</span> <span class="n">data</span><span class="p">{{</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">},</span> <span class="p">{</span><span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">}}</span>
+    <span class="p">{</span>
+    <span class="p">}</span>
+    <span class="n">two_by_two_matrix</span><span class="p">()</span> <span class="o">:</span> <span class="n">data</span><span class="p">{{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">}}</span>
+    <span class="p">{</span>
+    <span class="p">}</span>
+    <span class="n">two_by_two_matrix</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="k">const</span> <span class="n">two_by_two_matrix</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">];</span>
+        <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">];</span>
+        <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">];</span>
+        <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">];</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">two_by_two_matrix</span> <span class="k">operator</span><span class="o">*</span><span class="p">(</span><span class="k">const</span> <span class="n">two_by_two_matrix</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">two_by_two_matrix</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">res</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+                         <span class="o">+</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">];</span>
+        <span class="n">res</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+                         <span class="o">+</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">];</span>
+        <span class="n">res</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+                         <span class="o">+</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">];</span>
+        <span class="n">res</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+                         <span class="o">+</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">other</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">];</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// recursive repeated squaring</span>
+    <span class="n">two_by_two_matrix</span> <span class="n">pow</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="n">two_by_two_matrix</span><span class="o">::</span><span class="n">identity</span><span class="p">();</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">pow</span><span class="p">(</span><span class="n">n</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)).</span><span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="p">((</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">pow</span><span class="p">((</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)).</span><span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="o">*</span> <span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">static</span> <span class="n">two_by_two_matrix</span> <span class="n">identity</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">two_by_two_matrix</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="kr">inline</span> <span class="n">two_by_two_matrix</span> <span class="n">fib_matrix</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">two_by_two_matrix</span> <span class="nf">x</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">x</span><span class="p">.</span><span class="n">pow</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">mp_fib_ui</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// reference: https://www.nayuki.io/page/fast-fibonacci-algorithms</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">fib_matrix</span><span class="p">(</span><span class="n">n</span><span class="p">).</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="c1">// sets a = Fibonacci(n) and b = Fibonacci(n-1)</span>
+<span class="kt">void</span> <span class="n">mp_fib2_ui</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// reference: https://www.nayuki.io/page/fast-fibonacci-algorithms</span>
+    <span class="n">two_by_two_matrix</span> <span class="n">result_matrix</span> <span class="o">=</span> <span class="n">fib_matrix</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">result_matrix</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">];</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">result_matrix</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="kr">inline</span> <span class="n">two_by_two_matrix</span> <span class="n">luc_matrix</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">two_by_two_matrix</span> <span class="nf">multiplier</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="n">two_by_two_matrix</span> <span class="nf">start</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">multiplier</span><span class="p">.</span><span class="n">pow</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">*</span> <span class="n">start</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">mp_lucnum_ui</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// implementation based on the following fact:</span>
+    <span class="c1">// [[1,1],[1,0]]^(n-1)*[2,0,1,0] = [[L(n+1),0][L(n),0]]</span>
+    <span class="c1">// where L(n) is the nth Lucas number</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">luc_matrix</span><span class="p">(</span><span class="n">n</span><span class="p">).</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">mp_lucnum2_ui</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;index of lucas number cannot be negative&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">two_by_two_matrix</span> <span class="n">result_matrix</span> <span class="o">=</span> <span class="n">luc_matrix</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">result_matrix</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">];</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">result_matrix</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">mp_fac_ui</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// couldn&#39;t make boost&#39;s template version of factorial work,</span>
+    <span class="c1">// so implement slow, naive version for now</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">*=</span> <span class="n">i</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">mp_bin_ui</span><span class="p">(</span><span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">res</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">r</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// slow, naive implementation</span>
+    <span class="n">integer_class</span> <span class="n">x</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="n">r</span><span class="p">;</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">res</span> <span class="o">*=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">i</span><span class="p">;</span>
+        <span class="n">res</span> <span class="o">/=</span> <span class="n">i</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// this is extremely slow!</span>
+<span class="kt">bool</span> <span class="n">mp_perfect_power_p</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">-1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// if i == a**k, with k == pq for some integers p,q</span>
+    <span class="c1">// then i == a**(pq) == (a**p)**q == (a**q)**p</span>
+    <span class="c1">// hence i is a pth power and a qth power</span>
+    <span class="c1">// Hence if i == p**k, then i is a pth power for any p</span>
+    <span class="c1">// in the prime factorization of k, and it suffices</span>
+    <span class="c1">// to check whether i is a prime power.</span>
+
+    <span class="c1">// the largest possible prime p would arise from the</span>
+    <span class="c1">// case where i is a prime power of two</span>
+    <span class="c1">// so check all prime roots up to log(i) base 2.</span>
+
+    <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">max</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">ilogb</span><span class="p">(</span><span class="n">i</span><span class="p">.</span><span class="n">convert_to</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="p">());</span>
+
+    <span class="c1">// treat case p=2 separately b/c mp_root throws exception</span>
+    <span class="c1">// with an even root of a negative</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">mp_perfect_square_p</span><span class="p">(</span><span class="n">i</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">integer_class</span> <span class="n">p</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+    <span class="n">integer_class</span> <span class="nf">root</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+    <span class="k">while</span> <span class="p">(</span><span class="nb">true</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">mp_nextprime</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">p</span><span class="p">);</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">&gt;</span> <span class="n">max</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">mp_root</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">p</span><span class="p">.</span><span class="n">convert_to</span><span class="o">&lt;</span><span class="kt">unsigned</span> <span class="kt">long</span><span class="o">&gt;</span><span class="p">()))</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="n">mp_perfect_square_p</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">integer_class</span> <span class="n">root</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nf">mp_root</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// according to the gmp documentation, the behavior of the</span>
+<span class="c1">// corresponding function mpz_legendre is</span>
+<span class="c1">// undefined if n is not a positive odd prime.</span>
+<span class="c1">// hence we treat n as though it were a positive odd prime</span>
+<span class="c1">// but it is up to the caller to very this.</span>
+<span class="kt">int</span> <span class="n">mp_legendre</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">integer_class</span> <span class="n">res</span><span class="p">;</span>
+    <span class="n">mp_powm</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">integer_class</span><span class="p">((</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">),</span> <span class="n">n</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">res</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="o">?</span> <span class="n">res</span><span class="p">.</span><span class="n">convert_to</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">()</span> <span class="o">:</span> <span class="mi">-1</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// private function that computes jacobi symbols</span>
+<span class="c1">// without checking that arguments satisfy a &gt;= 0</span>
+<span class="c1">// and n is odd.</span>
+<span class="kt">int</span> <span class="n">unchecked_jacobi</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// https://en.wikipedia.org/wiki/Jacobi_symbol#Calculating_the_Jacobi_symbol</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">integer_class</span> <span class="n">num</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+    <span class="n">integer_class</span> <span class="n">den</span> <span class="o">=</span> <span class="n">n</span><span class="p">;</span>
+    <span class="c1">// (1) Reduce the &quot;numerator&quot; modulo the &quot;denominator&quot;</span>
+    <span class="n">num</span> <span class="o">=</span> <span class="n">fmod</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">den</span><span class="p">);</span>
+
+    <span class="c1">// (2) Extract any factors of 2 from the &quot;numerator&quot;</span>
+    <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">factors_of_two</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">num</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">num</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">num</span> <span class="o">/=</span> <span class="mi">2</span><span class="p">;</span> <span class="c1">// use a shift instead of division here? faster?</span>
+        <span class="o">++</span><span class="n">factors_of_two</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">int</span> <span class="n">product_of_twos</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// (2 | den)**factors_of_two</span>
+
+    <span class="c1">// (2 | den) is -1 iff den % 8 = 3 or den % 8 = 5.</span>
+    <span class="c1">// If factors_of_two is odd and (2 | den) is -1,</span>
+    <span class="c1">// then (2 | den)**factors_of_two is -1.</span>
+    <span class="c1">// Otherwise, (2 | den)**factors_of_two is 1.</span>
+    <span class="kt">int</span> <span class="n">den_mod_8</span> <span class="o">=</span> <span class="n">fmod</span><span class="p">(</span><span class="n">den</span><span class="p">,</span> <span class="mi">8</span><span class="p">).</span><span class="n">convert_to</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">factors_of_two</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">den_mod_8</span> <span class="o">==</span> <span class="mi">3</span> <span class="o">||</span> <span class="n">den_mod_8</span> <span class="o">==</span> <span class="mi">5</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">product_of_twos</span> <span class="o">=</span> <span class="mi">-1</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// (3) If the remaining &quot;numerator&quot; (after extraction of twos) is 1,</span>
+    <span class="c1">// then the remaining jacobi symbol is 1.</span>
+    <span class="c1">// If the &quot;numerator&quot; and &quot;denominator&quot; are not coprime, result is 0.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">num</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">product_of_twos</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">gcd</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">den</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// (4) Otherwise, the &quot;numerator&quot; and &quot;denominator&quot; are now odd</span>
+    <span class="c1">// positive coprime integers, so we can flip the symbol</span>
+    <span class="c1">// with quadratic reciprocity, then return to step (1)</span>
+
+    <span class="c1">// (num | den) == (den | num), unless num % 4 and den %4 are both</span>
+    <span class="c1">// 3, in which case (num | den) == (-1) * (den | num)</span>
+    <span class="kt">int</span> <span class="n">quadratic_reciprocity_factor</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">fmod</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">fmod</span><span class="p">(</span><span class="n">den</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">quadratic_reciprocity_factor</span> <span class="o">=</span> <span class="mi">-1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">product_of_twos</span> <span class="o">*</span> <span class="n">quadratic_reciprocity_factor</span>
+           <span class="o">*</span> <span class="n">unchecked_jacobi</span><span class="p">(</span><span class="n">den</span><span class="p">,</span> <span class="n">num</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// public interface for computing jacobi symbols.  performs checking.</span>
+<span class="kt">int</span> <span class="n">mp_jacobi</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;jacobi denominator must be positive&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;jacobi denominator must be odd&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">unchecked_jacobi</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">mp_kronecker</span><span class="p">(</span><span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">integer_class</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="cm">/*</span>
+<span class="cm">    https://en.wikipedia.org/wiki/Kronecker_symbol</span>
+<span class="cm">    We compute the Kronecker symbol in terms of the Jacobi symbol.</span>
+<span class="cm">    For an integer n!=0, let n = u * PRODUCT (p_i**e_i), where u = -1 or 1 and</span>
+<span class="cm">    the p_i&#39;s and e_i&#39;s are the primes and corresponding powers</span>
+<span class="cm">    in the prime factorization of |n|.</span>
+<span class="cm">    Then for an integer a, the Kronecker symbol is given by</span>
+<span class="cm">    (a | n) = (a | u) * PRODUCT [(a | p_i)**e_i]</span>
+<span class="cm">    where</span>
+<span class="cm">    (a | u) is -1 if u is -1 and a &lt; 0. Otherwise it is 1.</span>
+<span class="cm">    (a | 2) is 0 if a is even, 1 if (a mod 8) == 1 or 7, and -1 if (a mod 8) ==</span>
+<span class="cm">    3 or 5.</span>
+<span class="cm">    (a | p) is the Legendre symbol if p is an odd prime.</span>
+
+<span class="cm">    Let j be the power of the prime 2 in n&#39;s prime factorization, and let</span>
+<span class="cm">    m = |n|/(2**j) -- that is, m is |n| with all factors of 2 extracted.</span>
+
+<span class="cm">    Notice that, if p_1 is 2, then</span>
+<span class="cm">    PRODUCT [(a | p_i)**e_i]</span>
+<span class="cm">    == (a | 2)**j * PRODUCT [(a | p_i)**e_i]    here the p_i&#39;s are the remaining</span>
+<span class="cm">    (odd) prime factors</span>
+<span class="cm">    == (a | 2)**j * (a | m),                    here (a | m) is the Jacobi</span>
+<span class="cm">    symbol, because m&gt;0 is odd</span>
+
+<span class="cm">    Thus,</span>
+<span class="cm">    (a | n) == (a | u) * (a | 2)**j * (a | m)   if n is even</span>
+<span class="cm">    (a | n) == (a | u) * (a | m)                if n is odd</span>
+<span class="cm">    */</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span><span class="s">&quot;second arg of Kronecker cannot be zero&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Compute (a | u)</span>
+    <span class="kt">int</span> <span class="n">kr_a_u</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span><span class="p">.</span><span class="n">sign</span><span class="p">()</span> <span class="o">==</span> <span class="mi">-1</span> <span class="o">&amp;&amp;</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">kr_a_u</span> <span class="o">=</span> <span class="mi">-1</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Compute m, j</span>
+    <span class="n">integer_class</span> <span class="n">m</span> <span class="o">=</span> <span class="n">boost</span><span class="o">::</span><span class="n">multiprecision</span><span class="o">::</span><span class="n">abs</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+    <span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">m</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">m</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// while m is even</span>
+        <span class="n">m</span> <span class="o">/=</span> <span class="mi">2</span><span class="p">;</span>                    <span class="c1">// implement with shift?  faster?</span>
+        <span class="o">++</span><span class="n">j</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// if n is even, compute (a | 2)**j</span>
+    <span class="kt">int</span> <span class="n">kr_a_2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">kr_a_2_to_j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">a_mod_8</span> <span class="o">=</span> <span class="n">fmod</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="mi">8</span><span class="p">).</span><span class="n">convert_to</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">();</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">kr_a_2</span> <span class="o">=</span> <span class="p">(</span><span class="n">a_mod_8</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">a_mod_8</span> <span class="o">==</span> <span class="mi">7</span><span class="p">)</span> <span class="o">?</span> <span class="mi">1</span> <span class="o">:</span> <span class="mi">-1</span><span class="p">;</span>
+        <span class="n">kr_a_2_to_j</span> <span class="o">=</span> <span class="p">(</span><span class="n">kr_a_2</span> <span class="o">==</span> <span class="mi">-1</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">j</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">))</span>
+                          <span class="o">?</span> <span class="mi">-1</span>
+                          <span class="o">:</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">//(-1)**odd == -1; (-1)**even=(1)**integer=1</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">kr_a_u</span> <span class="o">*</span> <span class="n">kr_a_2_to_j</span> <span class="o">*</span> <span class="n">unchecked_jacobi</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">kr_a_u</span> <span class="o">*</span> <span class="n">unchecked_jacobi</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="p">}</span> <span class="c1">// SymEngine</span>
+
+<span class="cp">#endif </span><span class="c1">// SYMENGINE_INTEGER_CLASS == SYMENGINE_BOOSTMP</span>
+</pre></div>
+</div>
+</div>
+
+  
+    <div class="section no-print">
+    
+      
+    
+    
+    
+    </div>
+  
+
+                </main><ul class="page-nav no-print">
+</ul>
+            </div>
+          </div>
+        </td></tr></tbody>
+        <tfoot>
+          <tr><th><div id="layout_footer">
+          </div></th></tr>
+        </tfoot>
+      </table><footer class="footer" role="contentinfo">
+  
+    <p>
+    
+      &#169; Copyright 2020, SymEngine Development Team.
+    
+    </p>
+  
+  
+    <p>
+    
+    
+      Licensed under .
+    
+    
+    </p>
+  
+  
+    <p>
+  
+  
+  
+    Created using <a
+        href="http://sphinx-doc.org/">Sphinx</a> 3.3.1 with
+    <a href="https://www.nerv-project.eu">Nerv Project theme</a>
+    based on <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>
+    and <a href="https://ablog.readthedocs.io/">ABlog</a>.</p>
+  
+  <div class="pagecount"></div>
+</footer>
+    </div>
+    
+    
+  </body>
+</html>

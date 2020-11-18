@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Program Listing for File flint_wrapper.h</title>
+    
+      <link rel="stylesheet" href="../_static/pygments.css"/>
+      <link rel="stylesheet" href="../_static/theme-light.css"/>
+      <link rel="stylesheet" media="(prefers-contrast: high)" href="../_static/theme-light-hc.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="../_static/theme-dark.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: high)" href="../_static/theme-dark-hc.css"/>
+      
+        <link rel="stylesheet" media="print" href="../_static/theme-print.css"/>
+      
+      
+          <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+      
+        
+        <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        
+
+        <!-- sphinx script_files -->
+          <script src="../_static/jquery.js"></script>
+          <script src="../_static/underscore.js"></script>
+          <script src="../_static/doctools.js"></script>
+          <script src="../_static/language_data.js"></script>
+          <script src="../_static/togglebutton.js"></script>
+          <script src="../_static/clipboard.min.js"></script>
+          <script src="../_static/copybutton.js"></script>
+          <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+          <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+          <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+
+        <script src="../_static/sphinx_nervproject_theme.js" defer></script>
+      
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+   
+  
+
+  </head>
+
+  <body>
+    <div id="app" class="theme-container"><header class="navbar">
+    <div id="header-identity" class="print-only">
+        <img id="navbar_logo" src="../_static/"/>
+        <div id="navbar_title">Symengine API</div>
+    </div>
+
+  
+  <button class="sidebar-button">
+      <svg id="sidebar-button-svg" role="img" aria-labelledby="sidebar-button_label" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="sidebar-button_label">
+              Toggle sidebar
+          </title>
+          <use xlink:href="../_static/fa/solid.svg#bars"></use>
+      </svg>
+  </button>
+
+  <a href="../index.html" class="home-link">
+      <span class="site-name">Symengine API</span>
+  </a>
+
+  <div class="links">
+    <div class="nav-links can-hide">
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           typedefs
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
+                Typedef SymEngine::vec_uint
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+    </div>
+  </div>
+  
+</header>
+
+      
+      <table role="none" id="main_layout_table">
+        <thead>
+          <tr><th><div id="layout_header">
+          </div></th></tr>
+        </thead>
+        <tbody><tr><td>
+          <div id="appflex">
+            
+              <div class="sidebar" id="sidebar">
+                
+                <nav class="nav-links can-hide">
+                  
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           typedefs
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
+                Typedef SymEngine::vec_uint
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+                  
+                </nav><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><nav class="sidebar-links">
+  
+    
+  
+</nav>
+              </div>
+            
+
+            <div class="page">
+                <nav class="body-header">
+  
+  
+  
+
+  <ul class="page-nav no-print">
+</ul>
+  
+</nav>
+                <main class="content">
+                  
+  <div class="section" id="program-listing-for-file-flint-wrapper-h">
+<span id="program-listing-file-home-travis-build-symengine-api-docs-projects-symengine-symengine-flint-wrapper-h"></span><h1>Program Listing for File flint_wrapper.h<a class="headerlink" href="#program-listing-for-file-flint-wrapper-h" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="file__home_travis_build_symengine_api-docs_projects_symengine_symengine_flint_wrapper.h.html#file-home-travis-build-symengine-api-docs-projects-symengine-symengine-flint-wrapper-h"><span class="std std-ref">Return to documentation for file</span></a> (<code class="docutils literal notranslate"><span class="pre">/home/travis/build/symengine/api-docs/projects/symengine/symengine/flint_wrapper.h</span></code>)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#ifndef SYMENGINE_FLINT_WRAPPER_H</span>
+<span class="cp">#define SYMENGINE_FLINT_WRAPPER_H</span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/symengine_rcp.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;gmp.h&gt;</span><span class="cp"></span>
+
+<span class="cp">#include</span> <span class="cpf">&lt;flint/fmpz.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;flint/fmpq.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;flint/fmpq_poly.h&gt;</span><span class="cp"></span>
+
+<span class="k">namespace</span> <span class="n">SymEngine</span>
+<span class="p">{</span>
+
+<span class="k">class</span> <span class="nc">fmpz_wrapper</span>
+<span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">fmpz_t</span> <span class="n">mp</span><span class="p">;</span>
+
+<span class="k">public</span><span class="o">:</span>
+    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="nc">T</span><span class="p">,</span>
+              <span class="k">typename</span> <span class="nc">std</span><span class="o">::</span><span class="n">enable_if</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">is_integral</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span>
+                                          <span class="o">&amp;&amp;</span> <span class="n">std</span><span class="o">::</span><span class="n">is_unsigned</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span><span class="p">,</span>
+                                      <span class="kt">int</span><span class="o">&gt;::</span><span class="n">type</span>
+              <span class="o">=</span> <span class="mi">0</span><span class="o">&gt;</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">T</span> <span class="n">i</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set_ui</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="nc">T</span><span class="p">,</span>
+              <span class="k">typename</span> <span class="nc">std</span><span class="o">::</span><span class="n">enable_if</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">is_integral</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span>
+                                          <span class="o">&amp;&amp;</span> <span class="n">std</span><span class="o">::</span><span class="n">is_signed</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span><span class="p">,</span>
+                                      <span class="kt">int</span><span class="o">&gt;::</span><span class="n">type</span>
+              <span class="o">=</span> <span class="mi">0</span><span class="o">&gt;</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">T</span> <span class="n">i</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set_si</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">mpz_t</span> <span class="n">m</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set_mpz</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_t</span> <span class="n">m</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">s</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">base</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set_str</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">s</span><span class="p">.</span><span class="n">c_str</span><span class="p">(),</span> <span class="n">base</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span><span class="p">(</span><span class="n">fmpz_wrapper</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span> <span class="n">SYMENGINE_NOEXCEPT</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_swap</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_set</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="n">fmpz_wrapper</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span> <span class="n">SYMENGINE_NOEXCEPT</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_swap</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="o">~</span><span class="n">fmpz_wrapper</span><span class="p">()</span> <span class="n">SYMENGINE_NOEXCEPT</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_clear</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz</span> <span class="o">*</span><span class="n">get_fmpz_t</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">mp</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">const</span> <span class="n">fmpz</span> <span class="o">*</span><span class="n">get_fmpz_t</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">mp</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">+</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                         <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_add</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">+=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_add</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">-</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                         <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_sub</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">-=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_sub</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">-</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_neg</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">mp</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">*</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                         <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_mul</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">*=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_mul</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">/</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                         <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_tdiv_q</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">/=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_tdiv_q</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">%</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                         <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">,</span> <span class="n">tmp</span><span class="p">;</span>
+        <span class="n">fmpz_tdiv_qr</span><span class="p">(</span><span class="n">tmp</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span>
+                     <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">%=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">tmp</span><span class="p">;</span>
+        <span class="n">fmpz_tdiv_qr</span><span class="p">(</span><span class="n">tmp</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">++</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_add_ui</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">++</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">orig</span> <span class="o">=</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+        <span class="o">++</span><span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">orig</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">--</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_sub_ui</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">--</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">orig</span> <span class="o">=</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+        <span class="o">--</span><span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">orig</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="kt">bool</span> <span class="k">operator</span><span class="o">==</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_equal</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">())</span> <span class="o">==</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="kt">bool</span> <span class="k">operator</span><span class="o">!=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_equal</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">())</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="kt">bool</span> <span class="k">operator</span><span class="o">&lt;</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_cmp</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">())</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="kt">bool</span> <span class="k">operator</span><span class="o">&lt;=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_cmp</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">())</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="kt">bool</span> <span class="k">operator</span><span class="o">&gt;</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_cmp</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">())</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="k">friend</span> <span class="kt">bool</span> <span class="k">operator</span><span class="o">&gt;=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_cmp</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">())</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">&lt;&lt;=</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">u</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_mul_2exp</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">u</span><span class="p">);</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">&lt;&lt;</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">u</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_mul_2exp</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">mp</span><span class="p">,</span> <span class="n">u</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">&gt;&gt;=</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">u</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_tdiv_q_2exp</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">u</span><span class="p">);</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="k">operator</span><span class="o">&gt;&gt;</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">u</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_tdiv_q_2exp</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">mp</span><span class="p">,</span> <span class="n">u</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kr">inline</span> <span class="n">fmpz_wrapper</span> <span class="n">root</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_root</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">mp</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">mpz_view_flint</span>
+<span class="p">{</span>
+
+<span class="k">public</span><span class="o">:</span>
+    <span class="n">mpz_view_flint</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">COEFF_IS_MPZ</span><span class="p">(</span><span class="o">*</span><span class="n">i</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">()))</span> <span class="p">{</span>
+            <span class="n">mpz_init_set_si</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="o">*</span><span class="n">i</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">ptr</span> <span class="o">=</span> <span class="n">COEFF_TO_PTR</span><span class="p">(</span><span class="o">*</span><span class="n">i</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">operator</span> <span class="n">mpz_srcptr</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">ptr</span> <span class="o">==</span> <span class="k">nullptr</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">m</span><span class="p">;</span>
+        <span class="k">return</span> <span class="n">ptr</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="o">~</span><span class="n">mpz_view_flint</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">ptr</span> <span class="o">==</span> <span class="k">nullptr</span><span class="p">)</span>
+            <span class="n">mpz_clear</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">mpz_srcptr</span> <span class="n">ptr</span> <span class="o">=</span> <span class="k">nullptr</span><span class="p">;</span>
+    <span class="n">mpz_t</span> <span class="n">m</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">fmpq_wrapper</span>
+<span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">fmpq_t</span> <span class="n">mp</span><span class="p">;</span>
+
+<span class="k">public</span><span class="o">:</span>
+    <span class="n">fmpq</span> <span class="o">*</span><span class="n">get_fmpq_t</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">mp</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">const</span> <span class="n">fmpq</span> <span class="o">*</span><span class="n">get_fmpq_t</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">mp</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">mpz_t</span> <span class="n">m</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set_mpz</span><span class="p">(</span><span class="n">fmpq_numref</span><span class="p">(</span><span class="n">mp</span><span class="p">),</span> <span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_t</span> <span class="n">m</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set</span><span class="p">(</span><span class="n">fmpq_numref</span><span class="p">(</span><span class="n">mp</span><span class="p">),</span> <span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">mpq_t</span> <span class="n">m</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpq_set_mpq</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_t</span> <span class="n">m</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpq_set</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="nc">T</span><span class="p">,</span>
+              <span class="k">typename</span> <span class="nc">std</span><span class="o">::</span><span class="n">enable_if</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">is_integral</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span>
+                                          <span class="o">&amp;&amp;</span> <span class="n">std</span><span class="o">::</span><span class="n">is_unsigned</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span><span class="p">,</span>
+                                      <span class="kt">int</span><span class="o">&gt;::</span><span class="n">type</span>
+              <span class="o">=</span> <span class="mi">0</span><span class="o">&gt;</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">T</span> <span class="n">i</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set_ui</span><span class="p">(</span><span class="n">fmpq_numref</span><span class="p">(</span><span class="n">mp</span><span class="p">),</span> <span class="n">i</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="nc">T</span><span class="p">,</span>
+              <span class="k">typename</span> <span class="nc">std</span><span class="o">::</span><span class="n">enable_if</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">is_integral</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span>
+                                          <span class="o">&amp;&amp;</span> <span class="n">std</span><span class="o">::</span><span class="n">is_signed</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">value</span><span class="p">,</span>
+                                      <span class="kt">int</span><span class="o">&gt;::</span><span class="n">type</span>
+              <span class="o">=</span> <span class="mi">0</span><span class="o">&gt;</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">T</span> <span class="n">i</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set_si</span><span class="p">(</span><span class="n">fmpq_numref</span><span class="p">(</span><span class="n">mp</span><span class="p">),</span> <span class="n">i</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">d</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpz_set</span><span class="p">(</span><span class="n">fmpq_numref</span><span class="p">(</span><span class="n">mp</span><span class="p">),</span> <span class="n">n</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="n">fmpz_set</span><span class="p">(</span><span class="n">fmpq_denref</span><span class="p">(</span><span class="n">mp</span><span class="p">),</span> <span class="n">d</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="n">fmpq_canonicalise</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpq_set</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span><span class="p">(</span><span class="n">fmpq_wrapper</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span> <span class="n">SYMENGINE_NOEXCEPT</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_init</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+        <span class="n">fmpq_swap</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_set</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="n">fmpq_wrapper</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span> <span class="n">SYMENGINE_NOEXCEPT</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_swap</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="o">~</span><span class="n">fmpq_wrapper</span><span class="p">()</span> <span class="n">SYMENGINE_NOEXCEPT</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_clear</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">canonicalise</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_canonicalise</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">get_den</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">fmpq_denref</span><span class="p">(</span><span class="n">mp</span><span class="p">));</span>
+    <span class="p">}</span>
+    <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">get_num</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">fmpq_numref</span><span class="p">(</span><span class="n">mp</span><span class="p">));</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">get_den</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="n">fmpz_wrapper</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">fmpq_denref</span><span class="p">(</span><span class="n">mp</span><span class="p">));</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">get_num</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="n">fmpz_wrapper</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">fmpq_numref</span><span class="p">(</span><span class="n">mp</span><span class="p">));</span>
+    <span class="p">}</span>
+    <span class="k">friend</span> <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">+</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpq_add</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">+=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_add</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">friend</span> <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">-</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpq_sub</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">-=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_sub</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">-</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpq_neg</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">mp</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">friend</span> <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">*</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpq_mul</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">*=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_mul</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">friend</span> <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">/</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpq_div</span><span class="p">(</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">b</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="k">operator</span><span class="o">/=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_div</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">mp</span><span class="p">,</span> <span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">==</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_equal</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">!=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">not</span><span class="p">(</span><span class="o">*</span><span class="k">this</span> <span class="o">==</span> <span class="n">other</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">&lt;</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_cmp</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">())</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">&lt;=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_cmp</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">())</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">&gt;</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_cmp</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">())</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">&gt;=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_cmp</span><span class="p">(</span><span class="n">mp</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">())</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="n">is_zero</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_is_zero</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="n">is_one</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_is_one</span><span class="p">(</span><span class="n">mp</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">mpq_view_flint</span>
+<span class="p">{</span>
+
+<span class="k">public</span><span class="o">:</span>
+    <span class="n">mpq_view_flint</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">mpq_init</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+        <span class="n">fmpq_get_mpq</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">i</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="k">operator</span> <span class="n">mpq_srcptr</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">m</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="o">~</span><span class="n">mpq_view_flint</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">mpq_clear</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+    <span class="p">}</span>
+
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">mpq_t</span> <span class="n">m</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">fmpz_poly_factor_wrapper</span>
+<span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">fmpz_poly_factor_t</span> <span class="n">fac</span><span class="p">;</span>
+
+<span class="k">public</span><span class="o">:</span>
+    <span class="k">typedef</span> <span class="n">fmpz_wrapper</span> <span class="n">internal_coef_type</span><span class="p">;</span>
+
+    <span class="n">fmpz_poly_factor_wrapper</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_factor_init</span><span class="p">(</span><span class="n">fac</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_factor_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_factor_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_factor_init</span><span class="p">(</span><span class="n">fac</span><span class="p">);</span>
+        <span class="n">fmpz_poly_factor_set</span><span class="p">(</span><span class="n">fac</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_factor_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_factor_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_factor_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_factor_set</span><span class="p">(</span><span class="n">fac</span><span class="p">,</span> <span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_factor_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="o">~</span><span class="n">fmpz_poly_factor_wrapper</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_factor_clear</span><span class="p">(</span><span class="n">fac</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">const</span> <span class="n">fmpz_poly_factor_t</span> <span class="o">&amp;</span><span class="n">get_fmpz_poly_factor_t</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">fac</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_factor_t</span> <span class="o">&amp;</span><span class="n">get_fmpz_poly_factor_t</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="n">fac</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">fmpz_poly_wrapper</span>
+<span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">fmpz_poly_t</span> <span class="n">poly</span><span class="p">;</span>
+
+<span class="k">public</span><span class="o">:</span>
+    <span class="k">typedef</span> <span class="n">fmpz_wrapper</span> <span class="n">internal_coef_type</span><span class="p">;</span>
+
+    <span class="n">fmpz_poly_wrapper</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpz_poly_set_si</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">cp</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpz_poly_set_str</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">cp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">z</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpz_poly_set_fmpz</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">z</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpz_poly_set</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span><span class="p">(</span><span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpz_poly_swap</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_set</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_swap</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">swap_fmpz_poly_t</span><span class="p">(</span><span class="n">fmpz_poly_struct</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_swap</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="o">~</span><span class="n">fmpz_poly_wrapper</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_clear</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">const</span> <span class="n">fmpz_poly_t</span> <span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="o">&amp;</span><span class="n">poly</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_t</span> <span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="o">&amp;</span><span class="n">poly</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">==</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_poly_equal</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">())</span> <span class="o">==</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">long</span> <span class="n">degree</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_poly_degree</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">long</span> <span class="n">length</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_poly_length</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">to_string</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_poly_get_str</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_wrapper</span> <span class="n">get_coeff</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">z</span><span class="p">;</span>
+        <span class="n">fmpz_poly_get_coeff_fmpz</span><span class="p">(</span><span class="n">z</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">z</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">set_coeff</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">z</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_set_coeff_fmpz</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">z</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_wrapper</span> <span class="n">eval</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_wrapper</span> <span class="o">&amp;</span><span class="n">z</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpz_poly_evaluate_fmpz</span><span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">z</span><span class="p">.</span><span class="n">get_fmpz_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">eval_vec</span><span class="p">(</span><span class="n">fmpz</span> <span class="o">*</span><span class="n">ovec</span><span class="p">,</span> <span class="n">fmpz</span> <span class="o">*</span><span class="n">ivec</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_evaluate_fmpz_vec</span><span class="p">(</span><span class="n">ovec</span><span class="p">,</span> <span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="n">ivec</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span> <span class="k">operator</span><span class="o">-</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpz_poly_neg</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="k">operator</span><span class="o">+=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_add</span><span class="p">(</span><span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span>
+                      <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="k">operator</span><span class="o">-=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_sub</span><span class="p">(</span><span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span>
+                      <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="k">operator</span><span class="o">*=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_mul</span><span class="p">(</span><span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span>
+                      <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+
+    <span class="k">friend</span> <span class="n">fmpz_poly_wrapper</span> <span class="k">operator</span><span class="o">*</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                       <span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_wrapper</span> <span class="n">res</span><span class="p">;</span>
+        <span class="n">fmpz_poly_mul</span><span class="p">(</span><span class="o">*</span><span class="n">res</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span>
+                      <span class="o">*</span><span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="n">fmpz_poly_wrapper</span> <span class="n">gcd</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpz_poly_gcd</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span> <span class="n">lcm</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpz_poly_lcm</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span> <span class="n">pow</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpz_poly_pow</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">divrem</span><span class="p">(</span><span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">q</span><span class="p">,</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">,</span>
+                <span class="k">const</span> <span class="n">fmpz_poly_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpz_poly_divrem</span><span class="p">(</span><span class="o">*</span><span class="n">q</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span>
+                                <span class="o">*</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">b</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_factor_wrapper</span> <span class="n">factors</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_factor_wrapper</span> <span class="n">r</span><span class="p">;</span>
+<span class="cp">#if __FLINT_RELEASE &gt; 20502</span>
+        <span class="n">fmpz_poly_factor</span><span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpz_poly_factor_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">);</span>
+<span class="cp">#else</span>
+        <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">runtime_error</span><span class="p">(</span>
+            <span class="s">&quot;FLINT&#39;s Version must be higher than 2.5.2 to obtain factors&quot;</span><span class="p">);</span>
+<span class="cp">#endif</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpz_poly_wrapper</span> <span class="n">derivative</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpz_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpz_poly_derivative</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpz_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">fmpq_poly_wrapper</span>
+<span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+    <span class="n">fmpq_poly_t</span> <span class="n">poly</span><span class="p">;</span>
+
+<span class="k">public</span><span class="o">:</span>
+    <span class="k">typedef</span> <span class="n">fmpq_wrapper</span> <span class="n">internal_coef_type</span><span class="p">;</span>
+
+    <span class="n">fmpq_poly_wrapper</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpq_poly_set_si</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">cp</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpq_poly_set_str</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">cp</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">mpz_t</span> <span class="n">z</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpq_poly_set_mpz</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">z</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">mpq_t</span> <span class="n">q</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpq_poly_set_mpq</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">q</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">q</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpq_poly_set_fmpq</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">q</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpq_poly_set</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span><span class="p">(</span><span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_init</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+        <span class="n">fmpq_poly_swap</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_set</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_swap</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="o">~</span><span class="n">fmpq_poly_wrapper</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_clear</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">const</span> <span class="n">fmpq_poly_t</span> <span class="o">*</span><span class="n">get_fmpq_poly_t</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="o">&amp;</span><span class="n">poly</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_t</span> <span class="o">*</span><span class="n">get_fmpq_poly_t</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="o">&amp;</span><span class="n">poly</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">to_string</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_poly_get_str</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">long</span> <span class="n">degree</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_poly_degree</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">long</span> <span class="n">length</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_poly_length</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">set_coeff</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">z</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_set_coeff_fmpq</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">z</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="n">eval</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">z</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_evaluate_fmpq</span><span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">z</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_wrapper</span> <span class="n">get_coeff</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">deg</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_wrapper</span> <span class="n">q</span><span class="p">;</span>
+        <span class="n">fmpq_poly_get_coeff_fmpq</span><span class="p">(</span><span class="n">q</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">deg</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">q</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">mullow</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">,</span>
+                             <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_mullow</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span>
+                         <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">pow</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_pow</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">derivative</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_derivative</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">integral</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_integral</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">inv_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_inv_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">revert_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_revert_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">log_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_log_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">exp_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_exp_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">sin_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_sin_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">cos_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_cos_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">tan_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_tan_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">asin_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_asin_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">atan_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_atan_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">sinh_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_sinh_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">cosh_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_cosh_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">tanh_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_tanh_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">asinh_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_asinh_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">atanh_series</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_atanh_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">subs</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">prec</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_compose_series</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span>
+                                 <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">prec</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">set_zero</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_zero</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">set_one</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_one</span><span class="p">(</span><span class="n">poly</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">==</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_poly_equal</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">())</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">bool</span> <span class="k">operator</span><span class="o">&lt;</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_poly_cmp</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">())</span> <span class="o">==</span> <span class="mi">-1</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">friend</span> <span class="n">fmpq_poly_wrapper</span> <span class="k">operator</span><span class="o">+</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                       <span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_add</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span>
+                      <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">friend</span> <span class="n">fmpq_poly_wrapper</span> <span class="k">operator</span><span class="o">-</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                       <span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_sub</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span>
+                      <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="k">operator</span><span class="o">-</span><span class="p">()</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_neg</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">friend</span> <span class="n">fmpq_poly_wrapper</span> <span class="k">operator</span><span class="o">*</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                       <span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">q</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_scalar_mul_fmpq</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span>
+                                  <span class="n">q</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">friend</span> <span class="n">fmpq_poly_wrapper</span> <span class="k">operator</span><span class="o">*</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                       <span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_mul</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span>
+                      <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">friend</span> <span class="n">fmpq_poly_wrapper</span> <span class="k">operator</span><span class="o">/</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span>
+                                       <span class="k">const</span> <span class="n">fmpq_wrapper</span> <span class="o">&amp;</span><span class="n">q</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_scalar_div_fmpq</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">a</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span>
+                                  <span class="n">q</span><span class="p">.</span><span class="n">get_fmpq_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="n">divrem</span><span class="p">(</span><span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">q</span><span class="p">,</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">,</span>
+                <span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="k">return</span> <span class="nf">fmpq_poly_divrem</span><span class="p">(</span><span class="o">*</span><span class="n">q</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span>
+                                <span class="o">*</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="o">*</span><span class="n">b</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">gcd</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_gcd</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">fmpq_poly_wrapper</span> <span class="n">lcm</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_wrapper</span> <span class="n">r</span><span class="p">;</span>
+        <span class="n">fmpq_poly_lcm</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">(),</span> <span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="k">operator</span><span class="o">+=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_add</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="k">operator</span><span class="o">-=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_sub</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+    <span class="kt">void</span> <span class="k">operator</span><span class="o">*=</span><span class="p">(</span><span class="k">const</span> <span class="n">fmpq_poly_wrapper</span> <span class="o">&amp;</span><span class="n">o</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">fmpq_poly_mul</span><span class="p">(</span><span class="n">poly</span><span class="p">,</span> <span class="n">poly</span><span class="p">,</span> <span class="o">*</span><span class="n">o</span><span class="p">.</span><span class="n">get_fmpq_poly_t</span><span class="p">());</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="p">}</span> <span class="c1">// SymEngine</span>
+
+<span class="cp">#endif </span><span class="c1">// SYMENGINE_FLINT_WRAPPER_H</span>
+</pre></div>
+</div>
+</div>
+
+  
+    <div class="section no-print">
+    
+      
+    
+    
+    
+    </div>
+  
+
+                </main><ul class="page-nav no-print">
+</ul>
+            </div>
+          </div>
+        </td></tr></tbody>
+        <tfoot>
+          <tr><th><div id="layout_footer">
+          </div></th></tr>
+        </tfoot>
+      </table><footer class="footer" role="contentinfo">
+  
+    <p>
+    
+      &#169; Copyright 2020, SymEngine Development Team.
+    
+    </p>
+  
+  
+    <p>
+    
+    
+      Licensed under .
+    
+    
+    </p>
+  
+  
+    <p>
+  
+  
+  
+    Created using <a
+        href="http://sphinx-doc.org/">Sphinx</a> 3.3.1 with
+    <a href="https://www.nerv-project.eu">Nerv Project theme</a>
+    based on <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>
+    and <a href="https://ablog.readthedocs.io/">ABlog</a>.</p>
+  
+  <div class="pagecount"></div>
+</footer>
+    </div>
+    
+    
+  </body>
+</html>

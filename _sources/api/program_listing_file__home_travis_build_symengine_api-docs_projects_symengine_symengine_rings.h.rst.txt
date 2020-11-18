@@ -1,0 +1,29 @@
+
+.. _program_listing_file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.h:
+
+Program Listing for File rings.h
+================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.h>` (``/home/travis/build/symengine/api-docs/projects/symengine/symengine/rings.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #ifndef SYMENGINE_RINGS_H
+   #define SYMENGINE_RINGS_H
+   
+   #include <symengine/basic.h>
+   
+   namespace SymEngine
+   {
+   
+   void expr2poly(const RCP<const Basic> &p, umap_basic_num &syms,
+                  umap_vec_mpz &P);
+   
+   void poly_mul(const umap_vec_mpz &A, const umap_vec_mpz &B, umap_vec_mpz &C);
+   
+   } // SymEngine
+   
+   #endif

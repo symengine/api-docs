@@ -16,6 +16,11 @@ Definition (``/home/travis/build/symengine/api-docs/projects/symengine/symengine
 ---------------------------------------------------------------------------------------------
 
 
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.h.rst
+
 
 
 Detailed Description
@@ -73,7 +78,7 @@ Functions
 ---------
 
 
-- :ref:`exhale_function_namespace_sym_engine_1a54ff575a351c8a2b58feb7b4f8cb0d39`
-
 - :ref:`exhale_function_namespace_sym_engine_1a17c4fb234fb676cbdcd3e5b19a559356`
+
+- :ref:`exhale_function_namespace_sym_engine_1a54ff575a351c8a2b58feb7b4f8cb0d39`
 
