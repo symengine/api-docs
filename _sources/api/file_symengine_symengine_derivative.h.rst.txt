@@ -1,0 +1,68 @@
+
+.. _file_symengine_symengine_derivative.h:
+
+File derivative.h
+=================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/derivative.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_derivative.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Includes differentation functions 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+- ``symengine/visitor.h`` (:ref:`file_symengine_symengine_visitor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_derivative.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_diff_visitor`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_derivative_8h_1acf0f99c55e3d3e379af34769948758dd`
+

@@ -1,0 +1,57 @@
+
+.. _program_listing_file_symengine_symengine_test_visitors.h:
+
+Program Listing for File test_visitors.h
+========================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_symengine_symengine_test_visitors.h>` (``symengine/symengine/test_visitors.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   #ifndef SYMENGINE_TEST_VISITORS_H
+   #define SYMENGINE_TEST_VISITORS_H
+   
+   #include <symengine/visitor.h>
+   
+   namespace SymEngine
+   {
+   
+   class ZeroVisitor : public BaseVisitor<ZeroVisitor>
+   {
+   private:
+       tribool is_zero_;
+   
+   public:
+       void bvisit(const Basic &x)
+       {
+           is_zero_ = tribool::indeterminate;
+       };
+       void bvisit(const Symbol &x)
+       {
+           is_zero_ = tribool::indeterminate;
+       };
+       void bvisit(const Number &x);
+       void bvisit(const Set &x)
+       {
+           is_zero_ = tribool::trifalse;
+       };
+       void bvisit(const Relational &x)
+       {
+           is_zero_ = tribool::trifalse;
+       };
+       void bvisit(const Boolean &x)
+       {
+           is_zero_ = tribool::trifalse;
+       };
+       void bvisit(const Constant &x)
+       {
+           is_zero_ = tribool::trifalse;
+       };
+   
+       tribool apply(const Basic &b);
+   };
+   }
+   
+   #endif // SYMENGINE_TEST_VISITORS_H

@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Program Listing for File sparse_matrix.cpp</title>
+    
+      <link rel="stylesheet" href="../_static/pygments.css"/>
+      <link rel="stylesheet" href="../_static/theme-light.css"/>
+      <link rel="stylesheet" media="(prefers-contrast: high)" href="../_static/theme-light-hc.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="../_static/theme-dark.css"/>
+      <link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: high)" href="../_static/theme-dark-hc.css"/>
+      
+        <link rel="stylesheet" media="print" href="../_static/theme-print.css"/>
+      
+      
+          <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/collapsible-lists/css/tree_view.css" type="text/css" />
+      
+        
+        <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        
+
+        <!-- sphinx script_files -->
+          <script src="../_static/jquery.js"></script>
+          <script src="../_static/underscore.js"></script>
+          <script src="../_static/doctools.js"></script>
+          <script src="../_static/language_data.js"></script>
+          <script src="../_static/togglebutton.js"></script>
+          <script src="../_static/clipboard.min.js"></script>
+          <script src="../_static/copybutton.js"></script>
+          <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js"></script>
+          <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js"></script>
+          <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+
+        <script src="../_static/sphinx_nervproject_theme.js" defer></script>
+      
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+   
+  
+
+  </head>
+
+  <body>
+    <div id="app" class="theme-container"><header class="navbar">
+    <div id="header-identity" class="print-only">
+        <img id="navbar_logo" src="../_static/"/>
+        <div id="navbar_title">Symengine API</div>
+    </div>
+
+  
+  <button class="sidebar-button">
+      <svg id="sidebar-button-svg" role="img" aria-labelledby="sidebar-button_label" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="sidebar-button_label">
+              Toggle sidebar
+          </title>
+          <use xlink:href="../_static/fa/solid.svg#bars"></use>
+      </svg>
+  </button>
+
+  <a href="../index.html" class="home-link">
+      <span class="site-name">Symengine API</span>
+  </a>
+
+  <div class="links">
+    <div class="nav-links can-hide">
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           typedefs
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
+                Typedef SymEngine::vec_uint
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+    </div>
+  </div>
+  
+</header>
+
+      
+      <table role="none" id="main_layout_table">
+        <thead>
+          <tr><th><div id="layout_header">
+          </div></th></tr>
+        </thead>
+        <tbody><tr><td>
+          <div id="appflex">
+            
+              <div class="sidebar" id="sidebar">
+                
+                <nav class="nav-links can-hide">
+                  
+
+  <div class="nav-item nav-dropdown-menu">
+    <details>
+      <summary>
+        <span
+           class="nav-link ">
+           typedefs
+        </span>
+      </summary>
+      <ul>
+        
+          <li class="nav-link">
+            <a href="typedef_namespace_sym_engine_1aecd7425c31e3e29f207040601e0a7276.html">
+                Typedef SymEngine::vec_uint
+            </a>
+          </li>
+        
+      </ul>
+    </details>
+  </div>
+
+
+
+                  
+                </nav><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><nav class="sidebar-links">
+  
+    
+  
+</nav>
+              </div>
+            
+
+            <div class="page">
+                <nav class="body-header">
+  
+  
+  
+
+  <ul class="page-nav no-print">
+</ul>
+  
+</nav>
+                <main class="content">
+                  
+  <div class="section" id="program-listing-for-file-sparse-matrix-cpp">
+<span id="program-listing-file-symengine-symengine-sparse-matrix-cpp"></span><h1>Program Listing for File sparse_matrix.cpp<a class="headerlink" href="#program-listing-for-file-sparse-matrix-cpp" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="file_symengine_symengine_sparse_matrix.cpp.html#file-symengine-symengine-sparse-matrix-cpp"><span class="std std-ref">Return to documentation for file</span></a> (<code class="docutils literal notranslate"><span class="pre">symengine/symengine/sparse_matrix.cpp</span></code>)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;numeric&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/matrix.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/add.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/functions.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/mul.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/constants.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/symengine_exception.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/visitor.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;symengine/test_visitors.h&gt;</span><span class="cp"></span>
+
+<span class="k">namespace</span> <span class="n">SymEngine</span>
+<span class="p">{</span>
+<span class="c1">// ----------------------------- CSRMatrix ------------------------------------</span>
+<span class="n">CSRMatrix</span><span class="o">::</span><span class="n">CSRMatrix</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="p">}</span>
+
+<span class="n">CSRMatrix</span><span class="o">::</span><span class="n">CSRMatrix</span><span class="p">(</span><span class="kt">unsigned</span> <span class="n">row</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">col</span><span class="p">)</span> <span class="o">:</span> <span class="n">row_</span><span class="p">(</span><span class="n">row</span><span class="p">),</span> <span class="n">col_</span><span class="p">(</span><span class="n">col</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">p_</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">(</span><span class="n">row</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">is_canonical</span><span class="p">());</span>
+<span class="p">}</span>
+
+<span class="n">CSRMatrix</span><span class="o">::</span><span class="n">CSRMatrix</span><span class="p">(</span><span class="kt">unsigned</span> <span class="n">row</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">col</span><span class="p">,</span> <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">p</span><span class="p">,</span>
+                     <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">j</span><span class="p">,</span> <span class="k">const</span> <span class="n">vec_basic</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">)</span>
+    <span class="o">:</span> <span class="n">p_</span><span class="p">{</span><span class="n">p</span><span class="p">},</span> <span class="n">j_</span><span class="p">{</span><span class="n">j</span><span class="p">},</span> <span class="n">x_</span><span class="p">{</span><span class="n">x</span><span class="p">},</span> <span class="n">row_</span><span class="p">(</span><span class="n">row</span><span class="p">),</span> <span class="n">col_</span><span class="p">(</span><span class="n">col</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">is_canonical</span><span class="p">());</span>
+<span class="p">}</span>
+
+<span class="n">CSRMatrix</span><span class="o">::</span><span class="n">CSRMatrix</span><span class="p">(</span><span class="kt">unsigned</span> <span class="n">row</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">col</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;&amp;</span><span class="n">p</span><span class="p">,</span>
+                     <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;&amp;</span><span class="n">j</span><span class="p">,</span> <span class="n">vec_basic</span> <span class="o">&amp;&amp;</span><span class="n">x</span><span class="p">)</span>
+    <span class="o">:</span> <span class="n">p_</span><span class="p">{</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">p</span><span class="p">)},</span> <span class="n">j_</span><span class="p">{</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">j</span><span class="p">)},</span> <span class="n">x_</span><span class="p">{</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">x</span><span class="p">)},</span> <span class="n">row_</span><span class="p">(</span><span class="n">row</span><span class="p">),</span> <span class="n">col_</span><span class="p">(</span><span class="n">col</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">is_canonical</span><span class="p">());</span>
+<span class="p">}</span>
+
+<span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">CSRMatrix</span><span class="o">::</span><span class="k">operator</span><span class="o">=</span><span class="p">(</span><span class="n">CSRMatrix</span> <span class="o">&amp;&amp;</span><span class="n">other</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">col_</span> <span class="o">=</span> <span class="n">other</span><span class="p">.</span><span class="n">col_</span><span class="p">;</span>
+    <span class="n">row_</span> <span class="o">=</span> <span class="n">other</span><span class="p">.</span><span class="n">row_</span><span class="p">;</span>
+    <span class="n">p_</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">p_</span><span class="p">);</span>
+    <span class="n">j_</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">j_</span><span class="p">);</span>
+    <span class="n">x_</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">x_</span><span class="p">);</span>
+    <span class="k">return</span> <span class="o">*</span><span class="k">this</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">std</span><span class="o">::</span><span class="n">tuple</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">vec_basic</span><span class="o">&gt;</span>
+<span class="n">CSRMatrix</span><span class="o">::</span><span class="n">as_vectors</span><span class="p">()</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">auto</span> <span class="n">p</span> <span class="o">=</span> <span class="n">p_</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">j_</span><span class="p">;</span>
+    <span class="k">auto</span> <span class="n">x</span> <span class="o">=</span> <span class="n">x_</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">std</span><span class="o">::</span><span class="n">make_tuple</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">p</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">j</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">x</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">eq</span><span class="p">(</span><span class="k">const</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="n">row</span> <span class="o">=</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">nrows</span><span class="p">();</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">row</span> <span class="o">!=</span> <span class="n">other</span><span class="p">.</span><span class="n">nrows</span><span class="p">()</span> <span class="n">or</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">ncols</span><span class="p">()</span> <span class="o">!=</span> <span class="n">other</span><span class="p">.</span><span class="n">ncols</span><span class="p">())</span>
+        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">CSRMatrix</span><span class="o">&gt;</span><span class="p">(</span><span class="n">other</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">o</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">other</span><span class="p">);</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">row</span><span class="p">]</span> <span class="o">!=</span> <span class="n">o</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">row</span><span class="p">])</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">row</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+            <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="n">o</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">p_</span><span class="p">[</span><span class="n">row</span><span class="p">];</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+            <span class="k">if</span> <span class="p">((</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">j_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="n">o</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="n">or</span> <span class="n">neq</span><span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">x_</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="o">*</span><span class="p">(</span><span class="n">o</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">i</span><span class="p">])))</span>
+                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">MatrixBase</span><span class="o">::</span><span class="n">eq</span><span class="p">(</span><span class="n">other</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">is_canonical</span><span class="p">()</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">p_</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">!=</span> <span class="n">row_</span> <span class="o">+</span> <span class="mi">1</span> <span class="n">or</span> <span class="n">j_</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">!=</span> <span class="n">p_</span><span class="p">[</span><span class="n">row_</span><span class="p">]</span> <span class="n">or</span> <span class="n">x_</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">!=</span> <span class="n">p_</span><span class="p">[</span><span class="n">row_</span><span class="p">])</span>
+        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">p_</span><span class="p">[</span><span class="n">row_</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="c1">// Zero matrix is in canonical format</span>
+        <span class="k">return</span> <span class="n">csr_has_canonical_format</span><span class="p">(</span><span class="n">p_</span><span class="p">,</span> <span class="n">j_</span><span class="p">,</span> <span class="n">row_</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// Get and set elements</span>
+<span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">get</span><span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">j</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">row_</span> <span class="n">and</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">col_</span><span class="p">);</span>
+
+    <span class="kt">unsigned</span> <span class="n">row_start</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+    <span class="kt">unsigned</span> <span class="n">row_end</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+    <span class="kt">unsigned</span> <span class="n">k</span><span class="p">;</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">row_start</span> <span class="o">==</span> <span class="n">row_end</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">zero</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="n">row_start</span> <span class="o">&lt;</span> <span class="n">row_end</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">k</span> <span class="o">=</span> <span class="p">(</span><span class="n">row_start</span> <span class="o">+</span> <span class="n">row_end</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">j_</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">==</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="n">x_</span><span class="p">[</span><span class="n">k</span><span class="p">];</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">j_</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">row_start</span> <span class="o">=</span> <span class="n">k</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">row_end</span> <span class="o">=</span> <span class="n">k</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">zero</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">set</span><span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">j</span><span class="p">,</span> <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">e</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">row_</span> <span class="n">and</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">col_</span><span class="p">);</span>
+
+    <span class="kt">unsigned</span> <span class="n">k</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+    <span class="kt">unsigned</span> <span class="n">row_end</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+    <span class="kt">unsigned</span> <span class="n">end</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+    <span class="kt">unsigned</span> <span class="n">mid</span><span class="p">;</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="n">k</span> <span class="o">&lt;</span> <span class="n">end</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">k</span> <span class="o">+</span> <span class="n">end</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">mid</span> <span class="o">==</span> <span class="n">k</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">j_</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">k</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">j_</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">j</span> <span class="n">and</span> <span class="n">j_</span><span class="p">[</span><span class="n">mid</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">k</span> <span class="o">=</span> <span class="n">mid</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">j_</span><span class="p">[</span><span class="n">mid</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="n">k</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">e</span><span class="p">)))</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">k</span> <span class="o">&lt;</span> <span class="n">row_end</span> <span class="n">and</span> <span class="n">j_</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">==</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">x_</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">e</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> <span class="c1">// j_[k] &gt; j or k is the last non-zero element</span>
+            <span class="n">x_</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">x_</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span> <span class="o">+</span> <span class="n">k</span><span class="p">,</span> <span class="n">e</span><span class="p">);</span>
+            <span class="n">j_</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">j_</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span> <span class="o">+</span> <span class="n">k</span><span class="p">,</span> <span class="n">j</span><span class="p">);</span>
+            <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">l</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="n">l</span> <span class="o">&lt;=</span> <span class="n">row_</span><span class="p">;</span> <span class="n">l</span><span class="o">++</span><span class="p">)</span>
+                <span class="n">p_</span><span class="p">[</span><span class="n">l</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>                              <span class="c1">// e is zero</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">k</span> <span class="o">&lt;</span> <span class="n">row_end</span> <span class="n">and</span> <span class="n">j_</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">==</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// remove existing non-zero element</span>
+            <span class="n">x_</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">x_</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span> <span class="o">+</span> <span class="n">k</span><span class="p">);</span>
+            <span class="n">j_</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">j_</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span> <span class="o">+</span> <span class="n">k</span><span class="p">);</span>
+            <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">l</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="n">l</span> <span class="o">&lt;=</span> <span class="n">row_</span><span class="p">;</span> <span class="n">l</span><span class="o">++</span><span class="p">)</span>
+                <span class="n">p_</span><span class="p">[</span><span class="n">l</span><span class="p">]</span><span class="o">--</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">unsigned</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">rank</span><span class="p">()</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">det</span><span class="p">()</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">inv</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">add_matrix</span><span class="p">(</span><span class="k">const</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">mul_matrix</span><span class="p">(</span><span class="k">const</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">elementwise_mul_matrix</span><span class="p">(</span><span class="k">const</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">other</span><span class="p">,</span>
+                                       <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">CSRMatrix</span><span class="o">&gt;</span><span class="p">(</span><span class="n">result</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">auto</span> <span class="o">&amp;</span><span class="n">o</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">other</span><span class="p">);</span>
+        <span class="k">auto</span> <span class="o">&amp;</span><span class="n">r</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="n">CSRMatrix</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+        <span class="n">csr_binop_csr_canonical</span><span class="p">(</span><span class="o">*</span><span class="k">this</span><span class="p">,</span> <span class="n">o</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">mul</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Add a scalar</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">add_scalar</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">k</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Multiply by a scalar</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">mul_scalar</span><span class="p">(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">k</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Matrix conjugate</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">conjugate</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">CSRMatrix</span><span class="o">&gt;</span><span class="p">(</span><span class="n">result</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">auto</span> <span class="o">&amp;</span><span class="n">r</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="n">CSRMatrix</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="n">p</span><span class="p">(</span><span class="n">p_</span><span class="p">),</span> <span class="n">j</span><span class="p">(</span><span class="n">j_</span><span class="p">);</span>
+        <span class="n">vec_basic</span> <span class="nf">x</span><span class="p">(</span><span class="n">x_</span><span class="p">.</span><span class="n">size</span><span class="p">());</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">x_</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">SymEngine</span><span class="o">::</span><span class="n">conjugate</span><span class="p">(</span><span class="n">x_</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+        <span class="p">}</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">CSRMatrix</span><span class="p">(</span><span class="n">col_</span><span class="p">,</span> <span class="n">row_</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">p</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">j</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">x</span><span class="p">));</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Matrix transpose</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">transpose</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">CSRMatrix</span><span class="o">&gt;</span><span class="p">(</span><span class="n">result</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">auto</span> <span class="o">&amp;</span><span class="n">r</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="n">CSRMatrix</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">transpose</span><span class="p">();</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">CSRMatrix</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">transpose</span><span class="p">(</span><span class="kt">bool</span> <span class="n">conjugate</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">const</span> <span class="k">auto</span> <span class="n">nnz</span> <span class="o">=</span> <span class="n">j_</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="n">p</span><span class="p">(</span><span class="n">col_</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">j</span><span class="p">(</span><span class="n">nnz</span><span class="p">),</span> <span class="n">tmp</span><span class="p">(</span><span class="n">col_</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="n">vec_basic</span> <span class="nf">x</span><span class="p">(</span><span class="n">nnz</span><span class="p">);</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">nnz</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span>
+        <span class="n">p</span><span class="p">[</span><span class="n">j_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">partial_sum</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">p</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">p</span><span class="p">.</span><span class="n">begin</span><span class="p">());</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">ri</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">ri</span> <span class="o">&lt;</span> <span class="n">row_</span><span class="p">;</span> <span class="o">++</span><span class="n">ri</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">ri</span><span class="p">];</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">p_</span><span class="p">[</span><span class="n">ri</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">const</span> <span class="k">auto</span> <span class="n">ci</span> <span class="o">=</span> <span class="n">j_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+            <span class="k">const</span> <span class="kt">unsigned</span> <span class="n">k</span> <span class="o">=</span> <span class="n">p</span><span class="p">[</span><span class="n">ci</span><span class="p">]</span> <span class="o">+</span> <span class="n">tmp</span><span class="p">[</span><span class="n">ci</span><span class="p">];</span>
+            <span class="n">j</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">ri</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">conjugate</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">x</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">SymEngine</span><span class="o">::</span><span class="n">conjugate</span><span class="p">(</span><span class="n">x_</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="n">x</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">x_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+            <span class="p">}</span>
+            <span class="n">tmp</span><span class="p">[</span><span class="n">ci</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">CSRMatrix</span><span class="p">(</span><span class="n">col_</span><span class="p">,</span> <span class="n">row_</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">p</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">j</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">x</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="c1">// Matrix conjugate transpose</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">conjugate_transpose</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">CSRMatrix</span><span class="o">&gt;</span><span class="p">(</span><span class="n">result</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">auto</span> <span class="o">&amp;</span><span class="n">r</span> <span class="o">=</span> <span class="n">down_cast</span><span class="o">&lt;</span><span class="n">CSRMatrix</span> <span class="o">&amp;&gt;</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="k">this</span><span class="o">-&gt;</span><span class="n">transpose</span><span class="p">(</span><span class="nb">true</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Extract out a submatrix</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">submatrix</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">result</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">row_start</span><span class="p">,</span>
+                          <span class="kt">unsigned</span> <span class="n">col_start</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">row_end</span><span class="p">,</span>
+                          <span class="kt">unsigned</span> <span class="n">col_end</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">row_step</span><span class="p">,</span>
+                          <span class="kt">unsigned</span> <span class="n">col_step</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// LU factorization</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">LU</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">L</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">U</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// LDL factorization</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">LDL</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">L</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">D</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Solve Ax = b using LU factorization</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">LU_solve</span><span class="p">(</span><span class="k">const</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Fraction free LU factorization</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">FFLU</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">LU</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Fraction free LDU factorization</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">FFLDU</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">L</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">D</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">U</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// QR factorization</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">QR</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">Q</span><span class="p">,</span> <span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">R</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Cholesky decomposition</span>
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">cholesky</span><span class="p">(</span><span class="n">MatrixBase</span> <span class="o">&amp;</span><span class="n">L</span><span class="p">)</span> <span class="k">const</span>
+<span class="p">{</span>
+    <span class="k">throw</span> <span class="nf">NotImplementedError</span><span class="p">(</span><span class="s">&quot;Not Implemented&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">csr_sum_duplicates</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">p_</span><span class="p">,</span>
+                                   <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">j_</span><span class="p">,</span> <span class="n">vec_basic</span> <span class="o">&amp;</span><span class="n">x_</span><span class="p">,</span>
+                                   <span class="kt">unsigned</span> <span class="n">row_</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="n">nnz</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="n">row_end</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="n">jj</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">zero</span><span class="p">;</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">jj</span> <span class="o">=</span> <span class="n">row_end</span><span class="p">;</span>
+        <span class="n">row_end</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+
+        <span class="k">while</span> <span class="p">(</span><span class="n">jj</span> <span class="o">&lt;</span> <span class="n">row_end</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">j</span> <span class="o">=</span> <span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">];</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">x_</span><span class="p">[</span><span class="n">jj</span><span class="p">];</span>
+            <span class="n">jj</span><span class="o">++</span><span class="p">;</span>
+
+            <span class="k">while</span> <span class="p">(</span><span class="n">jj</span> <span class="o">&lt;</span> <span class="n">row_end</span> <span class="n">and</span> <span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="o">==</span> <span class="n">j</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">x</span> <span class="o">=</span> <span class="n">add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">x_</span><span class="p">[</span><span class="n">jj</span><span class="p">]);</span>
+                <span class="n">jj</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span>
+
+            <span class="n">j_</span><span class="p">[</span><span class="n">nnz</span><span class="p">]</span> <span class="o">=</span> <span class="n">j</span><span class="p">;</span>
+            <span class="n">x_</span><span class="p">[</span><span class="n">nnz</span><span class="p">]</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+            <span class="n">nnz</span><span class="o">++</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">nnz</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Resize to discard unnecessary elements</span>
+    <span class="n">j_</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="n">nnz</span><span class="p">);</span>
+    <span class="n">x_</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="n">nnz</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">csr_sort_indices</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">p_</span><span class="p">,</span>
+                                 <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">j_</span><span class="p">,</span> <span class="n">vec_basic</span> <span class="o">&amp;</span><span class="n">x_</span><span class="p">,</span>
+                                 <span class="kt">unsigned</span> <span class="n">row_</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="p">,</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;&gt;&gt;</span> <span class="n">temp</span><span class="p">;</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">unsigned</span> <span class="n">row_start</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="kt">unsigned</span> <span class="n">row_end</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+
+        <span class="n">temp</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span>
+
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">jj</span> <span class="o">=</span> <span class="n">row_start</span><span class="p">;</span> <span class="n">jj</span> <span class="o">&lt;</span> <span class="n">row_end</span><span class="p">;</span> <span class="n">jj</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">temp</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_pair</span><span class="p">(</span><span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">],</span> <span class="n">x_</span><span class="p">[</span><span class="n">jj</span><span class="p">]));</span>
+        <span class="p">}</span>
+
+        <span class="n">std</span><span class="o">::</span><span class="n">sort</span><span class="p">(</span><span class="n">temp</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">temp</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span>
+                  <span class="p">[](</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="p">,</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;&gt;</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">,</span>
+                     <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="p">,</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;&gt;</span> <span class="o">&amp;</span><span class="n">y</span><span class="p">)</span> <span class="p">{</span>
+                      <span class="k">return</span> <span class="n">x</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;</span> <span class="n">y</span><span class="p">.</span><span class="n">first</span><span class="p">;</span>
+                  <span class="p">});</span>
+
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">jj</span> <span class="o">=</span> <span class="n">row_start</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">jj</span> <span class="o">&lt;</span> <span class="n">row_end</span><span class="p">;</span> <span class="n">jj</span><span class="o">++</span><span class="p">,</span> <span class="n">n</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="o">=</span> <span class="n">temp</span><span class="p">[</span><span class="n">n</span><span class="p">].</span><span class="n">first</span><span class="p">;</span>
+            <span class="n">x_</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="o">=</span> <span class="n">temp</span><span class="p">[</span><span class="n">n</span><span class="p">].</span><span class="n">second</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Assumes that the indices are sorted</span>
+<span class="kt">bool</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">csr_has_duplicates</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">p_</span><span class="p">,</span>
+                                   <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">j_</span><span class="p">,</span>
+                                   <span class="kt">unsigned</span> <span class="n">row_</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">j</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">j_</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="n">j_</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+                <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">csr_has_sorted_indices</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">p_</span><span class="p">,</span>
+                                       <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">j_</span><span class="p">,</span>
+                                       <span class="kt">unsigned</span> <span class="n">row_</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">jj</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span> <span class="n">jj</span> <span class="o">&lt;</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">jj</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">j_</span><span class="p">[</span><span class="n">jj</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+                <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">csr_has_canonical_format</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">p_</span><span class="p">,</span>
+                                         <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">j_</span><span class="p">,</span>
+                                         <span class="kt">unsigned</span> <span class="n">row_</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+            <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">csr_has_sorted_indices</span><span class="p">(</span><span class="n">p_</span><span class="p">,</span> <span class="n">j_</span><span class="p">,</span> <span class="n">row_</span><span class="p">)</span>
+           <span class="n">and</span> <span class="n">not</span> <span class="n">csr_has_duplicates</span><span class="p">(</span><span class="n">p_</span><span class="p">,</span> <span class="n">j_</span><span class="p">,</span> <span class="n">row_</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">CSRMatrix</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">from_coo</span><span class="p">(</span><span class="kt">unsigned</span> <span class="n">row</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="n">col</span><span class="p">,</span>
+                              <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">i</span><span class="p">,</span>
+                              <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">j</span><span class="p">,</span>
+                              <span class="k">const</span> <span class="n">vec_basic</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// cast is okay, because CSRMatrix indices are unsigned.</span>
+    <span class="kt">unsigned</span> <span class="n">nnz</span> <span class="o">=</span> <span class="n">numeric_cast</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">size</span><span class="p">());</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="n">p_</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">(</span><span class="n">row</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="n">j_</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">(</span><span class="n">nnz</span><span class="p">);</span>
+    <span class="n">vec_basic</span> <span class="n">x_</span> <span class="o">=</span> <span class="n">vec_basic</span><span class="p">(</span><span class="n">nnz</span><span class="p">);</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="n">nnz</span><span class="p">;</span> <span class="n">n</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">[</span><span class="n">n</span><span class="p">]]</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// cumsum the nnz per row to get p</span>
+    <span class="kt">unsigned</span> <span class="n">temp</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">cumsum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">row</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">temp</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">cumsum</span><span class="p">;</span>
+        <span class="n">cumsum</span> <span class="o">+=</span> <span class="n">temp</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">p_</span><span class="p">[</span><span class="n">row</span><span class="p">]</span> <span class="o">=</span> <span class="n">nnz</span><span class="p">;</span>
+
+    <span class="c1">// write j, x into j_, x_</span>
+    <span class="kt">unsigned</span> <span class="n">row_</span><span class="p">,</span> <span class="n">dest_</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="n">nnz</span><span class="p">;</span> <span class="n">n</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">row_</span> <span class="o">=</span> <span class="n">i</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+        <span class="n">dest_</span> <span class="o">=</span> <span class="n">p_</span><span class="p">[</span><span class="n">row_</span><span class="p">];</span>
+
+        <span class="n">j_</span><span class="p">[</span><span class="n">dest_</span><span class="p">]</span> <span class="o">=</span> <span class="n">j</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+        <span class="n">x_</span><span class="p">[</span><span class="n">dest_</span><span class="p">]</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+
+        <span class="n">p_</span><span class="p">[</span><span class="n">row_</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">last</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">row</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">swap</span><span class="p">(</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">last</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="c1">// sort indices</span>
+    <span class="n">csr_sort_indices</span><span class="p">(</span><span class="n">p_</span><span class="p">,</span> <span class="n">j_</span><span class="p">,</span> <span class="n">x_</span><span class="p">,</span> <span class="n">row</span><span class="p">);</span>
+    <span class="c1">// Remove duplicates</span>
+    <span class="n">csr_sum_duplicates</span><span class="p">(</span><span class="n">p_</span><span class="p">,</span> <span class="n">j_</span><span class="p">,</span> <span class="n">x_</span><span class="p">,</span> <span class="n">row</span><span class="p">);</span>
+
+    <span class="n">CSRMatrix</span> <span class="n">B</span>
+        <span class="o">=</span> <span class="n">CSRMatrix</span><span class="p">(</span><span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">p_</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">j_</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">x_</span><span class="p">));</span>
+    <span class="k">return</span> <span class="n">B</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">CSRMatrix</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">jacobian</span><span class="p">(</span><span class="k">const</span> <span class="n">vec_basic</span> <span class="o">&amp;</span><span class="n">exprs</span><span class="p">,</span> <span class="k">const</span> <span class="n">vec_sym</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">,</span>
+                              <span class="kt">bool</span> <span class="n">diff_cache</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">const</span> <span class="kt">unsigned</span> <span class="n">nrows</span> <span class="o">=</span> <span class="k">static_cast</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">(</span><span class="n">exprs</span><span class="p">.</span><span class="n">size</span><span class="p">());</span>
+    <span class="k">const</span> <span class="kt">unsigned</span> <span class="n">ncols</span> <span class="o">=</span> <span class="k">static_cast</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">size</span><span class="p">());</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="n">p</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">j</span><span class="p">;</span>
+    <span class="n">vec_basic</span> <span class="n">elems</span><span class="p">;</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">nrows</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="n">j</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">nrows</span><span class="p">);</span>
+    <span class="n">elems</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">nrows</span><span class="p">);</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">ri</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">ri</span> <span class="o">&lt;</span> <span class="n">nrows</span><span class="p">;</span> <span class="o">++</span><span class="n">ri</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">p</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">back</span><span class="p">());</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">ci</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">ci</span> <span class="o">&lt;</span> <span class="n">ncols</span><span class="p">;</span> <span class="o">++</span><span class="n">ci</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">auto</span> <span class="n">elem</span> <span class="o">=</span> <span class="n">exprs</span><span class="p">[</span><span class="n">ri</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">diff</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">ci</span><span class="p">],</span> <span class="n">diff_cache</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">elem</span><span class="p">)))</span> <span class="p">{</span>
+                <span class="n">p</span><span class="p">.</span><span class="n">back</span><span class="p">()</span><span class="o">++</span><span class="p">;</span>
+                <span class="n">j</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">ci</span><span class="p">);</span>
+                <span class="n">elems</span><span class="p">.</span><span class="n">emplace_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">elem</span><span class="p">));</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">CSRMatrix</span><span class="p">(</span><span class="n">nrows</span><span class="p">,</span> <span class="n">ncols</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">p</span><span class="p">),</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">j</span><span class="p">),</span>
+                     <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">elems</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="n">CSRMatrix</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">jacobian</span><span class="p">(</span><span class="k">const</span> <span class="n">DenseMatrix</span> <span class="o">&amp;</span><span class="n">A</span><span class="p">,</span> <span class="k">const</span> <span class="n">DenseMatrix</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">,</span>
+                              <span class="kt">bool</span> <span class="n">diff_cache</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">col_</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">col_</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="n">vec_sym</span> <span class="n">syms</span><span class="p">;</span>
+    <span class="n">syms</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">row_</span><span class="p">);</span>
+    <span class="k">for</span> <span class="p">(</span><span class="k">const</span> <span class="k">auto</span> <span class="o">&amp;</span><span class="nl">dx</span> <span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">m_</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_a</span><span class="o">&lt;</span><span class="n">Symbol</span><span class="o">&gt;</span><span class="p">(</span><span class="o">*</span><span class="n">dx</span><span class="p">))</span> <span class="p">{</span>
+            <span class="k">throw</span> <span class="nf">SymEngineException</span><span class="p">(</span><span class="s">&quot;&#39;x&#39; must contain Symbols only&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="n">syms</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">rcp_static_cast</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Symbol</span><span class="o">&gt;</span><span class="p">(</span><span class="n">dx</span><span class="p">));</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">jacobian</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">m_</span><span class="p">,</span> <span class="n">syms</span><span class="p">,</span> <span class="n">diff_cache</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="n">csr_matmat_pass1</span><span class="p">(</span><span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">A</span><span class="p">,</span> <span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">B</span><span class="p">,</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">C</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// method that uses O(n) temp storage</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">unsigned</span><span class="o">&gt;</span> <span class="n">mask</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">col_</span><span class="p">,</span> <span class="mi">-1</span><span class="p">);</span>
+    <span class="n">C</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="kt">unsigned</span> <span class="n">nnz</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">A</span><span class="p">.</span><span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// npy_intp row_nnz = 0;</span>
+        <span class="kt">unsigned</span> <span class="n">row_nnz</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">jj</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span> <span class="n">jj</span> <span class="o">&lt;</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span> <span class="n">jj</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kt">unsigned</span> <span class="n">j</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">];</span>
+            <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">kk</span> <span class="o">=</span> <span class="n">B</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">j</span><span class="p">];</span> <span class="n">kk</span> <span class="o">&lt;</span> <span class="n">B</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span> <span class="n">kk</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                <span class="kt">unsigned</span> <span class="n">k</span> <span class="o">=</span> <span class="n">B</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">kk</span><span class="p">];</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">mask</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">!=</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="n">mask</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+                    <span class="n">row_nnz</span><span class="o">++</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="kt">unsigned</span> <span class="n">next_nnz</span> <span class="o">=</span> <span class="n">nnz</span> <span class="o">+</span> <span class="n">row_nnz</span><span class="p">;</span>
+
+        <span class="c1">// Addition overflow: http://www.cplusplus.com/articles/DE18T05o/</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">next_nnz</span> <span class="o">&lt;</span> <span class="n">nnz</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">throw</span> <span class="n">std</span><span class="o">::</span><span class="n">overflow_error</span><span class="p">(</span><span class="s">&quot;nnz of the result is too large&quot;</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="n">nnz</span> <span class="o">=</span> <span class="n">next_nnz</span><span class="p">;</span>
+        <span class="n">C</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">nnz</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Pass 2 computes CSR entries for matrix C = A*B using the</span>
+<span class="c1">// row pointer Cp[] computed in Pass 1.</span>
+<span class="kt">void</span> <span class="n">csr_matmat_pass2</span><span class="p">(</span><span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">A</span><span class="p">,</span> <span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">B</span><span class="p">,</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">C</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">next</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">col_</span><span class="p">,</span> <span class="mi">-1</span><span class="p">);</span>
+    <span class="n">vec_basic</span> <span class="nf">sums</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">col_</span><span class="p">,</span> <span class="n">zero</span><span class="p">);</span>
+
+    <span class="kt">unsigned</span> <span class="n">nnz</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="n">C</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">A</span><span class="p">.</span><span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">head</span> <span class="o">=</span> <span class="mi">-2</span><span class="p">;</span>
+        <span class="kt">unsigned</span> <span class="n">length</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+        <span class="kt">unsigned</span> <span class="n">jj_start</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="kt">unsigned</span> <span class="n">jj_end</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">jj</span> <span class="o">=</span> <span class="n">jj_start</span><span class="p">;</span> <span class="n">jj</span> <span class="o">&lt;</span> <span class="n">jj_end</span><span class="p">;</span> <span class="n">jj</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kt">unsigned</span> <span class="n">j</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">];</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">v</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">jj</span><span class="p">];</span>
+
+            <span class="kt">unsigned</span> <span class="n">kk_start</span> <span class="o">=</span> <span class="n">B</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">j</span><span class="p">];</span>
+            <span class="kt">unsigned</span> <span class="n">kk_end</span> <span class="o">=</span> <span class="n">B</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+            <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">kk</span> <span class="o">=</span> <span class="n">kk_start</span><span class="p">;</span> <span class="n">kk</span> <span class="o">&lt;</span> <span class="n">kk_end</span><span class="p">;</span> <span class="n">kk</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                <span class="kt">unsigned</span> <span class="n">k</span> <span class="o">=</span> <span class="n">B</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">kk</span><span class="p">];</span>
+
+                <span class="n">sums</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">add</span><span class="p">(</span><span class="n">sums</span><span class="p">[</span><span class="n">k</span><span class="p">],</span> <span class="n">mul</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">B</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">kk</span><span class="p">]));</span>
+
+                <span class="k">if</span> <span class="p">(</span><span class="n">next</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">==</span> <span class="mi">-1</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="n">next</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">head</span><span class="p">;</span>
+                    <span class="n">head</span> <span class="o">=</span> <span class="n">k</span><span class="p">;</span>
+                    <span class="n">length</span><span class="o">++</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">jj</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">jj</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="n">jj</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">sums</span><span class="p">[</span><span class="n">head</span><span class="p">])))</span> <span class="p">{</span>
+                <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">nnz</span><span class="p">]</span> <span class="o">=</span> <span class="n">head</span><span class="p">;</span>
+                <span class="n">C</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">nnz</span><span class="p">]</span> <span class="o">=</span> <span class="n">sums</span><span class="p">[</span><span class="n">head</span><span class="p">];</span>
+                <span class="n">nnz</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span>
+
+            <span class="kt">unsigned</span> <span class="n">temp</span> <span class="o">=</span> <span class="n">head</span><span class="p">;</span>
+            <span class="n">head</span> <span class="o">=</span> <span class="n">next</span><span class="p">[</span><span class="n">head</span><span class="p">];</span>
+
+            <span class="n">next</span><span class="p">[</span><span class="n">temp</span><span class="p">]</span> <span class="o">=</span> <span class="mi">-1</span><span class="p">;</span> <span class="c1">// clear arrays</span>
+            <span class="n">sums</span><span class="p">[</span><span class="n">temp</span><span class="p">]</span> <span class="o">=</span> <span class="n">zero</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="n">C</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">nnz</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Extract main diagonal of CSR matrix A</span>
+<span class="kt">void</span> <span class="n">csr_diagonal</span><span class="p">(</span><span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">A</span><span class="p">,</span> <span class="n">DenseMatrix</span> <span class="o">&amp;</span><span class="n">D</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">unsigned</span> <span class="n">N</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">min</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">row_</span><span class="p">,</span> <span class="n">A</span><span class="p">.</span><span class="n">col_</span><span class="p">);</span>
+
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">D</span><span class="p">.</span><span class="n">nrows</span><span class="p">()</span> <span class="o">==</span> <span class="n">N</span> <span class="n">and</span> <span class="n">D</span><span class="p">.</span><span class="n">ncols</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>
+
+    <span class="kt">unsigned</span> <span class="n">row_start</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="n">row_end</span><span class="p">;</span>
+    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">diag</span><span class="p">;</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">N</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">row_start</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="n">row_end</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+        <span class="n">diag</span> <span class="o">=</span> <span class="n">zero</span><span class="p">;</span>
+        <span class="kt">unsigned</span> <span class="n">jj</span><span class="p">;</span>
+
+        <span class="k">while</span> <span class="p">(</span><span class="n">row_start</span> <span class="o">&lt;=</span> <span class="n">row_end</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">jj</span> <span class="o">=</span> <span class="p">(</span><span class="n">row_start</span> <span class="o">+</span> <span class="n">row_end</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="o">==</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">diag</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">jj</span><span class="p">];</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">row_start</span> <span class="o">=</span> <span class="n">jj</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="n">row_end</span> <span class="o">=</span> <span class="n">jj</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="n">D</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">diag</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Scale the rows of a CSR matrix *in place*</span>
+<span class="c1">// A[i, :] *= X[i]</span>
+<span class="kt">void</span> <span class="n">csr_scale_rows</span><span class="p">(</span><span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">A</span><span class="p">,</span> <span class="k">const</span> <span class="n">DenseMatrix</span> <span class="o">&amp;</span><span class="n">X</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">row_</span> <span class="o">==</span> <span class="n">X</span><span class="p">.</span><span class="n">nrows</span><span class="p">()</span> <span class="n">and</span> <span class="n">X</span><span class="p">.</span><span class="n">ncols</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">A</span><span class="p">.</span><span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">X</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">0</span><span class="p">))))</span>
+            <span class="k">throw</span> <span class="n">SymEngineException</span><span class="p">(</span><span class="s">&quot;Scaling factor can&#39;t be zero&quot;</span><span class="p">);</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">jj</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span> <span class="n">jj</span> <span class="o">&lt;</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span> <span class="n">jj</span><span class="o">++</span><span class="p">)</span>
+            <span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="o">=</span> <span class="n">mul</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">jj</span><span class="p">],</span> <span class="n">X</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">0</span><span class="p">));</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// Scale the columns of a CSR matrix *in place*</span>
+<span class="c1">// A[:, i] *= X[i]</span>
+<span class="kt">void</span> <span class="n">csr_scale_columns</span><span class="p">(</span><span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">A</span><span class="p">,</span> <span class="k">const</span> <span class="n">DenseMatrix</span> <span class="o">&amp;</span><span class="n">X</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">col_</span> <span class="o">==</span> <span class="n">X</span><span class="p">.</span><span class="n">nrows</span><span class="p">()</span> <span class="n">and</span> <span class="n">X</span><span class="p">.</span><span class="n">ncols</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">);</span>
+
+    <span class="k">const</span> <span class="kt">unsigned</span> <span class="n">nnz</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">A</span><span class="p">.</span><span class="n">row_</span><span class="p">];</span>
+    <span class="kt">unsigned</span> <span class="n">i</span><span class="p">;</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">A</span><span class="p">.</span><span class="n">col_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">X</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">0</span><span class="p">))))</span>
+            <span class="k">throw</span> <span class="n">SymEngineException</span><span class="p">(</span><span class="s">&quot;Scaling factor can&#39;t be zero&quot;</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">nnz</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+        <span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">mul</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">X</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="mi">0</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="c1">// Compute C = A (binary_op) B for CSR matrices that are in the</span>
+<span class="c1">// canonical CSR format. Matrix dimensions of A and B should be the</span>
+<span class="c1">// same. C will be in canonical format as well.</span>
+<span class="kt">void</span> <span class="n">csr_binop_csr_canonical</span><span class="p">(</span>
+    <span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">A</span><span class="p">,</span> <span class="k">const</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">B</span><span class="p">,</span> <span class="n">CSRMatrix</span> <span class="o">&amp;</span><span class="n">C</span><span class="p">,</span>
+    <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="p">(</span><span class="o">&amp;</span><span class="n">bin_op</span><span class="p">)(</span><span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="p">,</span>
+                               <span class="k">const</span> <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="p">))</span>
+<span class="p">{</span>
+    <span class="n">SYMENGINE_ASSERT</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">row_</span> <span class="o">==</span> <span class="n">B</span><span class="p">.</span><span class="n">row_</span> <span class="n">and</span> <span class="n">A</span><span class="p">.</span><span class="n">col_</span> <span class="o">==</span> <span class="n">B</span><span class="p">.</span><span class="n">col_</span> <span class="n">and</span> <span class="n">C</span><span class="p">.</span><span class="n">row_</span> <span class="o">==</span> <span class="n">A</span><span class="p">.</span><span class="n">row_</span>
+                     <span class="n">and</span> <span class="n">C</span><span class="p">.</span><span class="n">col_</span> <span class="o">==</span> <span class="n">A</span><span class="p">.</span><span class="n">col_</span><span class="p">);</span>
+
+    <span class="c1">// Method that works for canonical CSR matrices</span>
+    <span class="n">C</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span>
+    <span class="n">C</span><span class="p">.</span><span class="n">x_</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span>
+    <span class="kt">unsigned</span> <span class="n">nnz</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="n">A_pos</span><span class="p">,</span> <span class="n">B_pos</span><span class="p">,</span> <span class="n">A_end</span><span class="p">,</span> <span class="n">B_end</span><span class="p">;</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">A</span><span class="p">.</span><span class="n">row_</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">A_pos</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="n">B_pos</span> <span class="o">=</span> <span class="n">B</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="n">A_end</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+        <span class="n">B_end</span> <span class="o">=</span> <span class="n">B</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+
+        <span class="c1">// while not finished with either row</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">A_pos</span> <span class="o">&lt;</span> <span class="n">A_end</span> <span class="n">and</span> <span class="n">B_pos</span> <span class="o">&lt;</span> <span class="n">B_end</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kt">unsigned</span> <span class="n">A_j</span> <span class="o">=</span> <span class="n">A</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">A_pos</span><span class="p">];</span>
+            <span class="kt">unsigned</span> <span class="n">B_j</span> <span class="o">=</span> <span class="n">B</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">B_pos</span><span class="p">];</span>
+
+            <span class="k">if</span> <span class="p">(</span><span class="n">A_j</span> <span class="o">==</span> <span class="n">B_j</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">result</span> <span class="o">=</span> <span class="n">bin_op</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">A_pos</span><span class="p">],</span> <span class="n">B</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">B_pos</span><span class="p">]);</span>
+                <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">result</span><span class="p">)))</span> <span class="p">{</span>
+                    <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">A_j</span><span class="p">);</span>
+                    <span class="n">C</span><span class="p">.</span><span class="n">x_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+                    <span class="n">nnz</span><span class="o">++</span><span class="p">;</span>
+                <span class="p">}</span>
+                <span class="n">A_pos</span><span class="o">++</span><span class="p">;</span>
+                <span class="n">B_pos</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">A_j</span> <span class="o">&lt;</span> <span class="n">B_j</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">result</span> <span class="o">=</span> <span class="n">bin_op</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">A_pos</span><span class="p">],</span> <span class="n">zero</span><span class="p">);</span>
+                <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">result</span><span class="p">)))</span> <span class="p">{</span>
+                    <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">A_j</span><span class="p">);</span>
+                    <span class="n">C</span><span class="p">.</span><span class="n">x_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+                    <span class="n">nnz</span><span class="o">++</span><span class="p">;</span>
+                <span class="p">}</span>
+                <span class="n">A_pos</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="c1">// B_j &lt; A_j</span>
+                <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">result</span> <span class="o">=</span> <span class="n">bin_op</span><span class="p">(</span><span class="n">zero</span><span class="p">,</span> <span class="n">B</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">B_pos</span><span class="p">]);</span>
+                <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">result</span><span class="p">)))</span> <span class="p">{</span>
+                    <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">B_j</span><span class="p">);</span>
+                    <span class="n">C</span><span class="p">.</span><span class="n">x_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+                    <span class="n">nnz</span><span class="o">++</span><span class="p">;</span>
+                <span class="p">}</span>
+                <span class="n">B_pos</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="c1">// tail</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">A_pos</span> <span class="o">&lt;</span> <span class="n">A_end</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">result</span> <span class="o">=</span> <span class="n">bin_op</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">A_pos</span><span class="p">],</span> <span class="n">zero</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">result</span><span class="p">)))</span> <span class="p">{</span>
+                <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">A</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">A_pos</span><span class="p">]);</span>
+                <span class="n">C</span><span class="p">.</span><span class="n">x_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+                <span class="n">nnz</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="n">A_pos</span><span class="o">++</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">B_pos</span> <span class="o">&lt;</span> <span class="n">B_end</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">RCP</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">Basic</span><span class="o">&gt;</span> <span class="n">result</span> <span class="o">=</span> <span class="n">bin_op</span><span class="p">(</span><span class="n">zero</span><span class="p">,</span> <span class="n">B</span><span class="p">.</span><span class="n">x_</span><span class="p">[</span><span class="n">B_pos</span><span class="p">]);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">is_true</span><span class="p">(</span><span class="n">is_zero</span><span class="p">(</span><span class="o">*</span><span class="n">result</span><span class="p">)))</span> <span class="p">{</span>
+                <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">B</span><span class="p">.</span><span class="n">j_</span><span class="p">[</span><span class="n">B_pos</span><span class="p">]);</span>
+                <span class="n">C</span><span class="p">.</span><span class="n">x_</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+                <span class="n">nnz</span><span class="o">++</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="n">B_pos</span><span class="o">++</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="n">C</span><span class="p">.</span><span class="n">p_</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">nnz</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// It&#39;s enough to check for duplicates as the column indices</span>
+    <span class="c1">// remain sorted after the above operations</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">CSRMatrix</span><span class="o">::</span><span class="n">csr_has_duplicates</span><span class="p">(</span><span class="n">C</span><span class="p">.</span><span class="n">p_</span><span class="p">,</span> <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">,</span> <span class="n">A</span><span class="p">.</span><span class="n">row_</span><span class="p">))</span>
+        <span class="n">CSRMatrix</span><span class="o">::</span><span class="n">csr_sum_duplicates</span><span class="p">(</span><span class="n">C</span><span class="p">.</span><span class="n">p_</span><span class="p">,</span> <span class="n">C</span><span class="p">.</span><span class="n">j_</span><span class="p">,</span> <span class="n">C</span><span class="p">.</span><span class="n">x_</span><span class="p">,</span> <span class="n">A</span><span class="p">.</span><span class="n">row_</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="p">}</span> <span class="c1">// SymEngine</span>
+</pre></div>
+</div>
+</div>
+
+  
+    <div class="section no-print">
+    
+      
+    
+    
+    
+    </div>
+  
+
+                </main><ul class="page-nav no-print">
+</ul>
+            </div>
+          </div>
+        </td></tr></tbody>
+        <tfoot>
+          <tr><th><div id="layout_footer">
+          </div></th></tr>
+        </tfoot>
+      </table><footer class="footer" role="contentinfo">
+  
+    <p>
+    
+      &#169; Copyright 2020, SymEngine Development Team.
+    
+    </p>
+  
+  
+    <p>
+    
+    
+      Licensed under .
+    
+    
+    </p>
+  
+  
+    <p>
+  
+  
+  
+    Created using <a
+        href="http://sphinx-doc.org/">Sphinx</a> 3.3.1 with
+    <a href="https://www.nerv-project.eu">Nerv Project theme</a>
+    based on <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>
+    and <a href="https://ablog.readthedocs.io/">ABlog</a>.</p>
+  
+  <div class="pagecount"></div>
+</footer>
+    </div>
+    
+    
+  </body>
+</html>

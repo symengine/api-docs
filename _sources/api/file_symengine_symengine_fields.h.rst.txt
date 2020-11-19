@@ -1,0 +1,65 @@
+
+.. _file_symengine_symengine_fields.h:
+
+File fields.h
+=============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/fields.h``)
+---------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_fields.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+- ``symengine/dict.h`` (:ref:`file_symengine_symengine_dict.h`)
+
+- ``symengine/polys/uintpoly.h``
+
+- ``symengine/polys/upolybase.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_fields.cpp`
+
+- :ref:`file_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_struct_sym_engine_1_1_galois_field_dict_1_1_dict_less`
+
+- :ref:`exhale_class_class_sym_engine_1_1_galois_field`
+
+- :ref:`exhale_class_class_sym_engine_1_1_galois_field_dict`
+

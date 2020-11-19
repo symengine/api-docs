@@ -3,7 +3,7 @@
 Function SymEngine::univariate_series
 =====================================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_generic.h`
+- Defined in :ref:`file_symengine_symengine_series_generic.h`
 
 
 Function Documentation

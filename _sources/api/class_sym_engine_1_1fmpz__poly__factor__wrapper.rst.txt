@@ -3,7 +3,7 @@
 Class fmpz_poly_factor_wrapper
 ==============================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_flint_wrapper.h`
+- Defined in :ref:`file_symengine_symengine_flint_wrapper.h`
 
 
 Class Documentation

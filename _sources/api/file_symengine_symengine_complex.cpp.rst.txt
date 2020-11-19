@@ -1,0 +1,42 @@
+
+.. _file_symengine_symengine_complex.cpp:
+
+File complex.cpp
+================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/complex.cpp``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_complex.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/complex.h`` (:ref:`file_symengine_symengine_complex.h`)
+
+- ``symengine/ntheory.h`` (:ref:`file_symengine_symengine_ntheory.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

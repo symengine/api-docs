@@ -1,0 +1,65 @@
+
+.. _file_symengine_symengine_ntheory.h:
+
+File ntheory.h
+==============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/ntheory.h``)
+----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_ntheory.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Basic number theory functions 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/integer.h`` (:ref:`file_symengine_symengine_integer.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_complex.cpp`
+
+- :ref:`file_symengine_symengine_ntheory.cpp`
+
+- :ref:`file_symengine_symengine_pow.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_sieve`
+
+- :ref:`exhale_class_class_sym_engine_1_1_sieve_1_1iterator`
+

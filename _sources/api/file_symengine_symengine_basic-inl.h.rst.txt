@@ -1,0 +1,49 @@
+
+.. _file_symengine_symengine_basic-inl.h:
+
+File basic-inl.h
+================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/basic-inl.h``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_basic-inl.h.rst
+
+
+
+
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_basic.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_std`
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structstd_1_1hash_3_01_sym_engine_1_1_basic_01_4`
+

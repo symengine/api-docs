@@ -1,0 +1,96 @@
+
+.. _file_symengine_symengine_symengine_exception.h:
+
+File symengine_exception.h
+==========================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/symengine_exception.h``)
+----------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_symengine_exception.h.rst
+
+
+
+
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_basic.h`
+
+- :ref:`file_symengine_symengine_complex.h`
+
+- :ref:`file_symengine_symengine_complex_double.h`
+
+- :ref:`file_symengine_symengine_complex_mpc.cpp`
+
+- :ref:`file_symengine_symengine_complex_mpc.h`
+
+- :ref:`file_symengine_symengine_cwrapper.h`
+
+- :ref:`file_symengine_symengine_dense_matrix.cpp`
+
+- :ref:`file_symengine_symengine_eval_arb.cpp`
+
+- :ref:`file_symengine_symengine_eval_double.cpp`
+
+- :ref:`file_symengine_symengine_eval_mpc.cpp`
+
+- :ref:`file_symengine_symengine_eval_mpfr.cpp`
+
+- :ref:`file_symengine_symengine_fields.cpp`
+
+- :ref:`file_symengine_symengine_functions.cpp`
+
+- :ref:`file_symengine_symengine_infinity.cpp`
+
+- :ref:`file_symengine_symengine_integer.cpp`
+
+- :ref:`file_symengine_symengine_integer.h`
+
+- :ref:`file_symengine_symengine_lambda_double.h`
+
+- :ref:`file_symengine_symengine_mp_boost.cpp`
+
+- :ref:`file_symengine_symengine_mul.cpp`
+
+- :ref:`file_symengine_symengine_pow.cpp`
+
+- :ref:`file_symengine_symengine_rational.cpp`
+
+- :ref:`file_symengine_symengine_rational.h`
+
+- :ref:`file_symengine_symengine_real_double.h`
+
+- :ref:`file_symengine_symengine_real_mpfr.h`
+
+- :ref:`file_symengine_symengine_rings.cpp`
+
+- :ref:`file_symengine_symengine_series.h`
+
+- :ref:`file_symengine_symengine_series_flint.h`
+
+- :ref:`file_symengine_symengine_series_generic.cpp`
+
+- :ref:`file_symengine_symengine_sparse_matrix.cpp`
+
+
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_symengine__exception_8h_1acde0fa05dcab0a731a82a0ffadf00dee`
+

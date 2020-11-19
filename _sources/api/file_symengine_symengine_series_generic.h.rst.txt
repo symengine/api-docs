@@ -1,0 +1,63 @@
+
+.. _file_symengine_symengine_series_generic.h:
+
+File series_generic.h
+=====================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/series_generic.h``)
+-----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_series_generic.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Class for univariate series. 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/polys/uexprpoly.h``
+
+- ``symengine/polys/uintpoly.h``
+
+- ``symengine/series.h`` (:ref:`file_symengine_symengine_series.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_univariate_series`
+

@@ -1,0 +1,56 @@
+
+.. _file_symengine_symengine_eval_double.h:
+
+File eval_double.h
+==================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/eval_double.h``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_eval_double.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_eval.cpp`
+
+- :ref:`file_symengine_symengine_eval_double.cpp`
+
+- :ref:`file_symengine_symengine_expression.h`
+
+- :ref:`file_symengine_symengine_lambda_double.h`
+
+- :ref:`file_symengine_symengine_llvm_double.cpp`
+
+- :ref:`file_symengine_symengine_real_double.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

@@ -11,7 +11,7 @@ Directories
 .. toctree::
    :maxdepth: 5
 
-   dir__home_travis_build_symengine_api-docs_projects.rst
+   dir_..rst
 
 .. toctree::
    :maxdepth: 5
@@ -30,559 +30,559 @@ Files
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.cpp.rst
+   file_symengine_symengine_add.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_add.h.rst
+   file_symengine_symengine_add.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_as_real_imag.cpp.rst
+   file_symengine_symengine_as_real_imag.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic-inl.h.rst
+   file_symengine_symengine_basic-inl.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic-methods.inc.rst
+   file_symengine_symengine_basic-methods.inc.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.cpp.rst
+   file_symengine_symengine_basic.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h.rst
+   file_symengine_symengine_basic.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_CMakeLists.txt.rst
+   file_symengine_symengine_CMakeLists.txt.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex.cpp.rst
+   file_symengine_symengine_complex.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex.h.rst
+   file_symengine_symengine_complex.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_double.cpp.rst
+   file_symengine_symengine_complex_double.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_double.h.rst
+   file_symengine_symengine_complex_double.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_mpc.cpp.rst
+   file_symengine_symengine_complex_mpc.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_complex_mpc.h.rst
+   file_symengine_symengine_complex_mpc.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.cpp.rst
+   file_symengine_symengine_constants.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_constants.h.rst
+   file_symengine_symengine_constants.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cse.cpp.rst
+   file_symengine_symengine_cse.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp.rst
+   file_symengine_symengine_cwrapper.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.h.rst
+   file_symengine_symengine_cwrapper.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dense_matrix.cpp.rst
+   file_symengine_symengine_dense_matrix.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_derivative.cpp.rst
+   file_symengine_symengine_derivative.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_derivative.h.rst
+   file_symengine_symengine_derivative.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.cpp.rst
+   file_symengine_symengine_dict.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h.rst
+   file_symengine_symengine_dict.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_diophantine.cpp.rst
+   file_symengine_symengine_diophantine.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_diophantine.h.rst
+   file_symengine_symengine_diophantine.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.cpp.rst
+   file_symengine_symengine_eval.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval.h.rst
+   file_symengine_symengine_eval.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_arb.cpp.rst
+   file_symengine_symengine_eval_arb.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_arb.h.rst
+   file_symengine_symengine_eval_arb.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_double.cpp.rst
+   file_symengine_symengine_eval_double.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_double.h.rst
+   file_symengine_symengine_eval_double.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpc.cpp.rst
+   file_symengine_symengine_eval_mpc.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpc.h.rst
+   file_symengine_symengine_eval_mpc.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpfr.cpp.rst
+   file_symengine_symengine_eval_mpfr.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_eval_mpfr.h.rst
+   file_symengine_symengine_eval_mpfr.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expand.cpp.rst
+   file_symengine_symengine_expand.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expression.cpp.rst
+   file_symengine_symengine_expression.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_expression.h.rst
+   file_symengine_symengine_expression.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.cpp.rst
+   file_symengine_symengine_fields.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_fields.h.rst
+   file_symengine_symengine_fields.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_finitediff.cpp.rst
+   file_symengine_symengine_finitediff.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_finitediff.h.rst
+   file_symengine_symengine_finitediff.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_flint_wrapper.h.rst
+   file_symengine_symengine_flint_wrapper.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.cpp.rst
+   file_symengine_symengine_functions.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h.rst
+   file_symengine_symengine_functions.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_infinity.cpp.rst
+   file_symengine_symengine_infinity.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_infinity.h.rst
+   file_symengine_symengine_infinity.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.cpp.rst
+   file_symengine_symengine_integer.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_integer.h.rst
+   file_symengine_symengine_integer.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_lambda_double.h.rst
+   file_symengine_symengine_lambda_double.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.cpp.rst
+   file_symengine_symengine_llvm_double.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_llvm_double.h.rst
+   file_symengine_symengine_llvm_double.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.cpp.rst
+   file_symengine_symengine_logic.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_logic.h.rst
+   file_symengine_symengine_logic.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.cpp.rst
+   file_symengine_symengine_matrix.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h.rst
+   file_symengine_symengine_matrix.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_monomials.cpp.rst
+   file_symengine_symengine_monomials.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_monomials.h.rst
+   file_symengine_symengine_monomials.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_boost.cpp.rst
+   file_symengine_symengine_mp_boost.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_class.h.rst
+   file_symengine_symengine_mp_class.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.cpp.rst
+   file_symengine_symengine_mp_wrapper.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mp_wrapper.h.rst
+   file_symengine_symengine_mp_wrapper.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.cpp.rst
+   file_symengine_symengine_mul.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_mul.h.rst
+   file_symengine_symengine_mul.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_nan.cpp.rst
+   file_symengine_symengine_nan.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_nan.h.rst
+   file_symengine_symengine_nan.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.cpp.rst
+   file_symengine_symengine_ntheory.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_ntheory.h.rst
+   file_symengine_symengine_ntheory.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.cpp.rst
+   file_symengine_symengine_number.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_number.h.rst
+   file_symengine_symengine_number.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_numer_denom.cpp.rst
+   file_symengine_symengine_numer_denom.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_parser.h.rst
+   file_symengine_symengine_parser.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.cpp.rst
+   file_symengine_symengine_pow.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_pow.h.rst
+   file_symengine_symengine_pow.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_printers.h.rst
+   file_symengine_symengine_printers.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.cpp.rst
+   file_symengine_symengine_rational.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rational.h.rst
+   file_symengine_symengine_rational.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_double.cpp.rst
+   file_symengine_symengine_real_double.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_double.h.rst
+   file_symengine_symengine_real_double.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_mpfr.cpp.rst
+   file_symengine_symengine_real_mpfr.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_real_mpfr.h.rst
+   file_symengine_symengine_real_mpfr.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rewrite.cpp.rst
+   file_symengine_symengine_rewrite.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.cpp.rst
+   file_symengine_symengine_rings.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_rings.h.rst
+   file_symengine_symengine_rings.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series.cpp.rst
+   file_symengine_symengine_series.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series.h.rst
+   file_symengine_symengine_series.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_flint.cpp.rst
+   file_symengine_symengine_series_flint.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_flint.h.rst
+   file_symengine_symengine_series_flint.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_generic.cpp.rst
+   file_symengine_symengine_series_generic.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_generic.h.rst
+   file_symengine_symengine_series_generic.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_piranha.cpp.rst
+   file_symengine_symengine_series_piranha.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_piranha.h.rst
+   file_symengine_symengine_series_piranha.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_series_visitor.h.rst
+   file_symengine_symengine_series_visitor.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.cpp.rst
+   file_symengine_symengine_sets.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.h.rst
+   file_symengine_symengine_sets.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.cpp.rst
+   file_symengine_symengine_solve.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_solve.h.rst
+   file_symengine_symengine_solve.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sparse_matrix.cpp.rst
+   file_symengine_symengine_sparse_matrix.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_subs.h.rst
+   file_symengine_symengine_subs.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symbol.cpp.rst
+   file_symengine_symengine_symbol.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symbol.h.rst
+   file_symengine_symengine_symbol.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_assert.h.rst
+   file_symengine_symengine_symengine_assert.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_casts.h.rst
+   file_symengine_symengine_symengine_casts.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h.rst
+   file_symengine_symengine_symengine_exception.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_rcp.cpp.rst
+   file_symengine_symengine_symengine_rcp.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_rcp.h.rst
+   file_symengine_symengine_symengine_rcp.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_test_visitors.cpp.rst
+   file_symengine_symengine_test_visitors.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_test_visitors.h.rst
+   file_symengine_symengine_test_visitors.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_type_codes.inc.rst
+   file_symengine_symengine_type_codes.inc.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.cpp.rst
+   file_symengine_symengine_visitor.cpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h.rst
+   file_symengine_symengine_visitor.h.rst

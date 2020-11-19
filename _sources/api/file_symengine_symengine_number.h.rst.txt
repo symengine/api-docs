@@ -1,0 +1,67 @@
+
+.. _file_symengine_symengine_number.h:
+
+File number.h
+=============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/number.h``)
+---------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_number.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Basic Number class. 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_infinity.h`
+
+- :ref:`file_symengine_symengine_integer.h`
+
+- :ref:`file_symengine_symengine_nan.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_evaluate`
+
+- :ref:`exhale_class_class_sym_engine_1_1_number`
+
+- :ref:`exhale_class_class_sym_engine_1_1_number_wrapper`
+

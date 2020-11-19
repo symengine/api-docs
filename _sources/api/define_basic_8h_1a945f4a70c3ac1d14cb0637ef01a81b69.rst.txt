@@ -3,7 +3,7 @@
 Define IMPLEMENT_TYPEID
 =======================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic.h`
+- Defined in :ref:`file_symengine_symengine_basic.h`
 
 
 Define Documentation

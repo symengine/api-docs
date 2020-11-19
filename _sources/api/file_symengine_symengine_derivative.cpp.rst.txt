@@ -1,0 +1,46 @@
+
+.. _file_symengine_symengine_derivative.cpp:
+
+File derivative.cpp
+===================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/derivative.cpp``)
+---------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_derivative.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/derivative.h`` (:ref:`file_symengine_symengine_derivative.h`)
+
+- ``symengine/subs.h`` (:ref:`file_symengine_symengine_subs.h`)
+
+- ``symengine/symengine_casts.h`` (:ref:`file_symengine_symengine_symengine_casts.h`)
+
+- ``symengine/visitor.h`` (:ref:`file_symengine_symengine_visitor.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

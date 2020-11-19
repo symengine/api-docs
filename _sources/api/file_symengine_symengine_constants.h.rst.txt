@@ -1,0 +1,83 @@
+
+.. _file_symengine_symengine_constants.h:
+
+File constants.h
+================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/constants.h``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_constants.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Declare all the special constants in this file 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/infinity.h`` (:ref:`file_symengine_symengine_infinity.h`)
+
+- ``symengine/integer.h`` (:ref:`file_symengine_symengine_integer.h`)
+
+- ``symengine/nan.h`` (:ref:`file_symengine_symengine_nan.h`)
+
+- ``symengine/symbol.h`` (:ref:`file_symengine_symengine_symbol.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_diophantine.cpp`
+
+- :ref:`file_symengine_symengine_fields.cpp`
+
+- :ref:`file_symengine_symengine_finitediff.cpp`
+
+- :ref:`file_symengine_symengine_functions.h`
+
+- :ref:`file_symengine_symengine_infinity.cpp`
+
+- :ref:`file_symengine_symengine_nan.cpp`
+
+- :ref:`file_symengine_symengine_pow.h`
+
+- :ref:`file_symengine_symengine_rational.h`
+
+- :ref:`file_symengine_symengine_sparse_matrix.cpp`
+
+- :ref:`file_symengine_symengine_symbol.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_constant`
+

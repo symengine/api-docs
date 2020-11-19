@@ -1,0 +1,77 @@
+
+.. _file_symengine_symengine_dict.h:
+
+File dict.h
+===========
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/dict.h``)
+-------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_dict.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Dictionary implementation 
+
+
+
+
+Includes
+--------
+
+
+- ``algorithm``
+
+- ``cstdint``
+
+- ``map``
+
+- ``set`` (:ref:`file_symengine_symengine_sets.cpp`)
+
+- ``symengine/mp_class.h`` (:ref:`file_symengine_symengine_mp_class.h`)
+
+- ``unordered_map``
+
+- ``unordered_set``
+
+- ``vector``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_basic.h`
+
+- :ref:`file_symengine_symengine_eval.h`
+
+- :ref:`file_symengine_symengine_fields.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_struct_sym_engine_1_1vec__hash`
+

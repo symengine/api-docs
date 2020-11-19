@@ -1,0 +1,79 @@
+
+.. _file_symengine_symengine_symengine_rcp.h:
+
+File symengine_rcp.h
+====================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/symengine_rcp.h``)
+----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_symengine_rcp.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``ciso646``
+
+- ``cstddef``
+
+- ``iostream``
+
+- ``stdexcept``
+
+- ``string``
+
+- ``symengine/symengine_assert.h`` (:ref:`file_symengine_symengine_symengine_assert.h`)
+
+- ``symengine/symengine_config.h``
+
+- ``symengine/utilities/teuchos/Teuchos_RCP.hpp``
+
+- ``symengine/utilities/teuchos/Teuchos_TypeNameTraits.hpp``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_eval.cpp`
+
+- :ref:`file_symengine_symengine_eval.h`
+
+- :ref:`file_symengine_symengine_flint_wrapper.h`
+
+- :ref:`file_symengine_symengine_mp_class.h`
+
+- :ref:`file_symengine_symengine_mp_wrapper.h`
+
+- :ref:`file_symengine_symengine_symengine_rcp.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_enable_r_c_p_from_this`
+

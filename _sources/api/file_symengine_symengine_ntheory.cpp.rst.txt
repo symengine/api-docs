@@ -1,0 +1,54 @@
+
+.. _file_symengine_symengine_ntheory.cpp:
+
+File ntheory.cpp
+================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/ntheory.cpp``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_ntheory.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``boost/random.hpp``
+
+- ``boost/random/mersenne_twister.hpp``
+
+- ``boost/random/uniform_int.hpp``
+
+- ``iterator``
+
+- ``symengine/mul.h`` (:ref:`file_symengine_symengine_mul.h`)
+
+- ``symengine/ntheory.h`` (:ref:`file_symengine_symengine_ntheory.h`)
+
+- ``symengine/rational.h`` (:ref:`file_symengine_symengine_rational.h`)
+
+- ``valarray``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

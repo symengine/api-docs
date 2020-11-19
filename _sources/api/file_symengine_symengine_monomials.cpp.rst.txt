@@ -1,0 +1,40 @@
+
+.. _file_symengine_symengine_monomials.cpp:
+
+File monomials.cpp
+==================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/monomials.cpp``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_monomials.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/monomials.h`` (:ref:`file_symengine_symengine_monomials.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

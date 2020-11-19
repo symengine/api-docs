@@ -1,0 +1,67 @@
+
+.. _file_symengine_symengine_mp_class.h:
+
+File mp_class.h
+===============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/mp_class.h``)
+-----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_mp_class.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``boost/multiprecision/cpp_int.hpp``
+
+- ``boost/random/mersenne_twister.hpp``
+
+- ``boost/random/uniform_int.hpp``
+
+- ``symengine/symengine_casts.h`` (:ref:`file_symengine_symengine_symengine_casts.h`)
+
+- ``symengine/symengine_config.h``
+
+- ``symengine/symengine_rcp.h`` (:ref:`file_symengine_symengine_symengine_rcp.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_dict.h`
+
+- :ref:`file_symengine_symengine_mp_boost.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+- :ref:`namespace_SymEngine__literals`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1mp__randstate`
+

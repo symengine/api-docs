@@ -1,0 +1,16 @@
+
+.. _program_listing_file_symengine_symengine_basic-methods.inc:
+
+Program Listing for File basic-methods.inc
+==========================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_symengine_symengine_basic-methods.inc>` (``symengine/symengine/basic-methods.inc``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: php
+
+   class EvalRealDoubleVisitorFinal;
+   #define SYMENGINE_INCLUDE_METHODS(SUFFIX) \
+   virtual void accept(Visitor &v) const SUFFIX \
+   virtual void accept(EvalRealDoubleVisitorFinal &v) const SUFFIX

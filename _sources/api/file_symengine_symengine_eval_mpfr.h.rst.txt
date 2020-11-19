@@ -1,0 +1,47 @@
+
+.. _file_symengine_symengine_eval_mpfr.h:
+
+File eval_mpfr.h
+================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/eval_mpfr.h``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_eval_mpfr.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Evaluation of numeric expressions using MPFR 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/symengine_config.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_eval_mpfr.cpp`
+
+- :ref:`file_symengine_symengine_real_mpfr.cpp`
+
+
+

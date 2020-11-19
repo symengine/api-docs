@@ -3,7 +3,7 @@
 Template Function SymEngine::ordered_compare
 ============================================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+- Defined in :ref:`file_symengine_symengine_dict.h`
 
 
 Function Documentation

@@ -1,0 +1,48 @@
+
+.. _file_symengine_symengine_rings.cpp:
+
+File rings.cpp
+==============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/rings.cpp``)
+----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_rings.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file_symengine_symengine_add.h`)
+
+- ``symengine/monomials.h`` (:ref:`file_symengine_symengine_monomials.h`)
+
+- ``symengine/pow.h`` (:ref:`file_symengine_symengine_pow.h`)
+
+- ``symengine/rings.h`` (:ref:`file_symengine_symengine_rings.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

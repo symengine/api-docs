@@ -1,0 +1,33 @@
+
+.. _file_symengine_symengine_basic-methods.inc:
+
+File basic-methods.inc
+======================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/basic-methods.inc``)
+------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_basic-methods.inc.rst
+
+
+
+
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_basic.h`
+
+
+

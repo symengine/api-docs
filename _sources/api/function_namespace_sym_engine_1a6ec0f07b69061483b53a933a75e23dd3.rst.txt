@@ -3,7 +3,7 @@
 Function SymEngine::_str
 ========================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_cwrapper.cpp`
+.. did not find file this was defined in
 
 
 Function Documentation

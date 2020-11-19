@@ -1,0 +1,43 @@
+
+.. _file_symengine_symengine_type_codes.inc:
+
+File type_codes.inc
+===================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/type_codes.inc``)
+---------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_type_codes.inc.rst
+
+
+
+
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_basic.h`
+
+- :ref:`file_symengine_symengine_cwrapper.cpp`
+
+- :ref:`file_symengine_symengine_cwrapper.h`
+
+- :ref:`file_symengine_symengine_eval_double.cpp`
+
+- :ref:`file_symengine_symengine_visitor.cpp`
+
+- :ref:`file_symengine_symengine_visitor.h`
+
+
+

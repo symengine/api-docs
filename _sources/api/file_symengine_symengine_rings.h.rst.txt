@@ -1,0 +1,52 @@
+
+.. _file_symengine_symengine_rings.h:
+
+File rings.h
+============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/rings.h``)
+--------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_rings.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Polynomial Manipulation 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_rings.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

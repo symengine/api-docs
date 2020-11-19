@@ -1,0 +1,71 @@
+
+.. _file_symengine_symengine_integer.h:
+
+File integer.h
+==============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/integer.h``)
+----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_integer.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Class to implement Integers 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/number.h`` (:ref:`file_symengine_symengine_number.h`)
+
+- ``symengine/symengine_casts.h`` (:ref:`file_symengine_symengine_symengine_casts.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_constants.h`
+
+- :ref:`file_symengine_symengine_infinity.h`
+
+- :ref:`file_symengine_symengine_ntheory.h`
+
+- :ref:`file_symengine_symengine_series.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_struct_sym_engine_1_1_r_c_p_integer_key_less`
+
+- :ref:`exhale_class_class_sym_engine_1_1_integer`
+

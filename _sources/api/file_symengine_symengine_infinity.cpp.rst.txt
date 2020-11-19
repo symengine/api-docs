@@ -1,0 +1,59 @@
+
+.. _file_symengine_symengine_infinity.cpp:
+
+File infinity.cpp
+=================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/infinity.cpp``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_infinity.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/complex.h`` (:ref:`file_symengine_symengine_complex.h`)
+
+- ``symengine/complex_double.h`` (:ref:`file_symengine_symengine_complex_double.h`)
+
+- ``symengine/complex_mpc.h`` (:ref:`file_symengine_symengine_complex_mpc.h`)
+
+- ``symengine/constants.h`` (:ref:`file_symengine_symengine_constants.h`)
+
+- ``symengine/functions.h`` (:ref:`file_symengine_symengine_functions.h`)
+
+- ``symengine/infinity.h`` (:ref:`file_symengine_symengine_infinity.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_evaluate_infty`
+

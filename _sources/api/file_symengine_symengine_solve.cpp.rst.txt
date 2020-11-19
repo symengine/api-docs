@@ -1,0 +1,57 @@
+
+.. _file_symengine_symengine_solve.cpp:
+
+File solve.cpp
+==============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/solve.cpp``)
+----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_solve.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/as_real_imag.cpp`` (:ref:`file_symengine_symengine_as_real_imag.cpp`)
+
+- ``symengine/logic.h`` (:ref:`file_symengine_symengine_logic.h`)
+
+- ``symengine/mul.h`` (:ref:`file_symengine_symengine_mul.h`)
+
+- ``symengine/polys/basic_conversions.h``
+
+- ``symengine/solve.h`` (:ref:`file_symengine_symengine_solve.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_invert_complex_visitor`
+
+- :ref:`exhale_class_class_sym_engine_1_1_is_a_linear_arg_trig_visitor`
+

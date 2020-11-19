@@ -1,0 +1,43 @@
+
+.. _file_symengine_symengine_llvm_double.h:
+
+File llvm_double.h
+==================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/llvm_double.h``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_llvm_double.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``float.h``
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+- ``symengine/visitor.h`` (:ref:`file_symengine_symengine_visitor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_llvm_double.cpp`
+
+
+

@@ -1,0 +1,75 @@
+
+.. _file_symengine_symengine_expression.h:
+
+File expression.h
+=================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/expression.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_expression.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Includes the Expression class 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file_symengine_symengine_add.h`)
+
+- ``symengine/complex_double.h`` (:ref:`file_symengine_symengine_complex_double.h`)
+
+- ``symengine/eval_double.h`` (:ref:`file_symengine_symengine_eval_double.h`)
+
+- ``symengine/pow.h`` (:ref:`file_symengine_symengine_pow.h`)
+
+- ``symengine/printers.h`` (:ref:`file_symengine_symengine_printers.h`)
+
+- ``symengine/symbol.h`` (:ref:`file_symengine_symengine_symbol.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_dict.cpp`
+
+- :ref:`file_symengine_symengine_series_flint.h`
+
+- :ref:`file_symengine_symengine_series_piranha.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+- :ref:`namespace_SymEngine__detail`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_expression`
+

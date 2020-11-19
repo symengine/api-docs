@@ -1,0 +1,69 @@
+
+.. _file_symengine_symengine_rational.h:
+
+File rational.h
+===============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/rational.h``)
+-----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_rational.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Class for Rationals built on top of Number class 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/constants.h`` (:ref:`file_symengine_symengine_constants.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_complex.h`
+
+- :ref:`file_symengine_symengine_integer.cpp`
+
+- :ref:`file_symengine_symengine_ntheory.cpp`
+
+- :ref:`file_symengine_symengine_number.cpp`
+
+- :ref:`file_symengine_symengine_rational.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_rational`
+

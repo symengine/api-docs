@@ -1,0 +1,27 @@
+
+.. _program_listing_file_symengine_symengine_finitediff.h:
+
+Program Listing for File finitediff.h
+=====================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_symengine_symengine_finitediff.h>` (``symengine/symengine/finitediff.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #ifndef SYMENGINE_FINITEDIFF_H
+   #define SYMENGINE_FINITEDIFF_H
+   
+   #include <symengine/basic.h>
+   
+   namespace SymEngine
+   {
+   
+   vec_basic generate_fdiff_weights_vector(const vec_basic &grid,
+                                           const unsigned max_deriv,
+                                           const RCP<const Basic> around);
+   }
+   
+   #endif

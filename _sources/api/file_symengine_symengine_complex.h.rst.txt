@@ -1,0 +1,77 @@
+
+.. _file_symengine_symengine_complex.h:
+
+File complex.h
+==============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/complex.h``)
+----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_complex.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Class for Complex built on top of Number class 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/rational.h`` (:ref:`file_symengine_symengine_rational.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_add.cpp`
+
+- :ref:`file_symengine_symengine_complex.cpp`
+
+- :ref:`file_symengine_symengine_constants.cpp`
+
+- :ref:`file_symengine_symengine_infinity.cpp`
+
+- :ref:`file_symengine_symengine_mul.cpp`
+
+- :ref:`file_symengine_symengine_pow.cpp`
+
+- :ref:`file_symengine_symengine_real_double.h`
+
+- :ref:`file_symengine_symengine_sets.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_complex`
+
+- :ref:`exhale_class_class_sym_engine_1_1_complex_base`
+

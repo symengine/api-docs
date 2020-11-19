@@ -3,7 +3,7 @@
 Class DenseMatrix
 =================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h`
+- Defined in :ref:`file_symengine_symengine_matrix.h`
 
 
 Inheritance Relationships

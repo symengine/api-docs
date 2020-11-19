@@ -1,0 +1,62 @@
+
+.. _file_symengine_symengine_visitor.cpp:
+
+File visitor.cpp
+================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/visitor.cpp``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_visitor.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/polys/basic_conversions.h``
+
+- ``symengine/sets.h`` (:ref:`file_symengine_symengine_sets.h`)
+
+- ``symengine/type_codes.inc`` (:ref:`file_symengine_symengine_type_codes.inc`)
+
+- ``symengine/visitor.h`` (:ref:`file_symengine_symengine_visitor.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_free_symbols_visitor`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_visitor_8cpp_1a1ebe684b3cafcf65359fc64596f9787b`
+
+- :ref:`exhale_define_visitor_8cpp_1a4806471ed102e83b9d860be0f80fdc07`
+

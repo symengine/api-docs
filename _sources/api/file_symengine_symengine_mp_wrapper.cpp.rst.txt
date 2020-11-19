@@ -1,0 +1,42 @@
+
+.. _file_symengine_symengine_mp_wrapper.cpp:
+
+File mp_wrapper.cpp
+===================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/mp_wrapper.cpp``)
+---------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_mp_wrapper.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``stdlib.h``
+
+- ``symengine/mp_wrapper.h`` (:ref:`file_symengine_symengine_mp_wrapper.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

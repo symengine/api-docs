@@ -1,0 +1,44 @@
+
+.. _file_symengine_symengine_number.cpp:
+
+File number.cpp
+===============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/number.cpp``)
+-----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_number.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file_symengine_symengine_add.h`)
+
+- ``symengine/pow.h`` (:ref:`file_symengine_symengine_pow.h`)
+
+- ``symengine/rational.h`` (:ref:`file_symengine_symengine_rational.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

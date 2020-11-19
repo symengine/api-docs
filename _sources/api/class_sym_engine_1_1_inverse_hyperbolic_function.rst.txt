@@ -3,7 +3,7 @@
 Class InverseHyperbolicFunction
 ===============================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_functions.h`
+- Defined in :ref:`file_symengine_symengine_functions.h`
 
 
 Inheritance Relationships

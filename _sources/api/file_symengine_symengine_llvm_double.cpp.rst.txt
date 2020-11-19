@@ -1,0 +1,134 @@
+
+.. _file_symengine_symengine_llvm_double.cpp:
+
+File llvm_double.cpp
+====================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/llvm_double.cpp``)
+----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_llvm_double.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``algorithm``
+
+- ``cassert``
+
+- ``fstream``
+
+- ``llvm/ADT/APFloat.h``
+
+- ``llvm/ADT/STLExtras.h``
+
+- ``llvm/Analysis/Passes.h``
+
+- ``llvm/ExecutionEngine/ExecutionEngine.h``
+
+- ``llvm/ExecutionEngine/GenericValue.h``
+
+- ``llvm/ExecutionEngine/MCJIT.h``
+
+- ``llvm/ExecutionEngine/ObjectCache.h``
+
+- ``llvm/IR/Argument.h``
+
+- ``llvm/IR/Attributes.h``
+
+- ``llvm/IR/BasicBlock.h``
+
+- ``llvm/IR/Constants.h``
+
+- ``llvm/IR/DerivedTypes.h``
+
+- ``llvm/IR/Function.h``
+
+- ``llvm/IR/IRBuilder.h``
+
+- ``llvm/IR/Instructions.h``
+
+- ``llvm/IR/Intrinsics.h``
+
+- ``llvm/IR/LLVMContext.h``
+
+- ``llvm/IR/LegacyPassManager.h``
+
+- ``llvm/IR/Module.h``
+
+- ``llvm/IR/Type.h``
+
+- ``llvm/IR/Verifier.h``
+
+- ``llvm/Support/Casting.h``
+
+- ``llvm/Support/FileSystem.h``
+
+- ``llvm/Support/ManagedStatic.h``
+
+- ``llvm/Support/Path.h``
+
+- ``llvm/Support/TargetSelect.h``
+
+- ``llvm/Support/raw_ostream.h``
+
+- ``llvm/Target/TargetMachine.h``
+
+- ``llvm/Transforms/Scalar.h``
+
+- ``llvm/Transforms/Vectorize.h``
+
+- ``memory``
+
+- ``symengine/eval.h`` (:ref:`file_symengine_symengine_eval.h`)
+
+- ``symengine/eval_double.h`` (:ref:`file_symengine_symengine_eval_double.h`)
+
+- ``symengine/llvm_double.h`` (:ref:`file_symengine_symengine_llvm_double.h`)
+
+- ``vector``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_i_r_builder`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_llvm__double_8cpp_1abcb8998cdda132f7c8bc21d20483bca6`
+
+- :ref:`exhale_define_llvm__double_8cpp_1a5f328ecd803c42e6271af4005248f646`
+
+- :ref:`exhale_define_llvm__double_8cpp_1a6982893cb61b7fd42f6a7600c96deb87`
+
+- :ref:`exhale_define_llvm__double_8cpp_1a884df4aa94bab1bc504bbe7ed2cc42d5`
+

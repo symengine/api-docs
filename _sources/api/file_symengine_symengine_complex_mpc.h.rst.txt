@@ -1,0 +1,61 @@
+
+.. _file_symengine_symengine_complex_mpc.h:
+
+File complex_mpc.h
+==================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/complex_mpc.h``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_complex_mpc.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/real_mpfr.h`` (:ref:`file_symengine_symengine_real_mpfr.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_complex_mpc.cpp`
+
+- :ref:`file_symengine_symengine_infinity.cpp`
+
+- :ref:`file_symengine_symengine_real_mpfr.cpp`
+
+- :ref:`file_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_complex_m_p_c`
+

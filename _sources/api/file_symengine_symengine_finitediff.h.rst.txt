@@ -1,0 +1,46 @@
+
+.. _file_symengine_symengine_finitediff.h:
+
+File finitediff.h
+=================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/finitediff.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_finitediff.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Includes function to generate finitedifference weights 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

@@ -3,7 +3,7 @@
 Typedef SymEngine::permutelist
 ==============================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_matrix.h`
+.. did not find file this was defined in
 
 
 Typedef Documentation

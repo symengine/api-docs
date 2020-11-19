@@ -3,7 +3,7 @@
 Template Function SymEngine::numeric_cast(From, typename std::enable_if<(std::is_unsigned<From>::value&&std::is_signed<To>::value)>::type \*)
 =============================================================================================================================================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_casts.h`
+.. did not find file this was defined in
 
 
 Function Documentation

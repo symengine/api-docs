@@ -3,7 +3,7 @@
 Enum symengine_exceptions_t
 ===========================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_symengine_exception.h`
+- Defined in :ref:`file_symengine_symengine_symengine_exception.h`
 
 
 Enum Documentation

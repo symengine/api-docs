@@ -1,0 +1,55 @@
+
+.. _file_symengine_symengine_real_mpfr.h:
+
+File real_mpfr.h
+================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/real_mpfr.h``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_real_mpfr.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/complex_double.h`` (:ref:`file_symengine_symengine_complex_double.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_complex_mpc.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_real_m_p_f_r`
+

@@ -5,7 +5,7 @@ Directory symengine
 ===================
 
 
-|exhale_lsh| :ref:`Parent directory <dir__home_travis_build_symengine_api-docs_projects>` (``/home/travis/build/symengine/api-docs/projects``)
+|exhale_lsh| :ref:`Parent directory <dir_.>` (``.``)
 
 .. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
 

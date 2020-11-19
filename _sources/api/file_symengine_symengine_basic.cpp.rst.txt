@@ -1,0 +1,42 @@
+
+.. _file_symengine_symengine_basic.cpp:
+
+File basic.cpp
+==============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/basic.cpp``)
+----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_basic.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/printers.h`` (:ref:`file_symengine_symengine_printers.h`)
+
+- ``symengine/subs.h`` (:ref:`file_symengine_symengine_subs.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

@@ -1,0 +1,32 @@
+
+.. _program_listing_file_symengine_symengine_eval_mpfr.h:
+
+Program Listing for File eval_mpfr.h
+====================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_symengine_symengine_eval_mpfr.h>` (``symengine/symengine/eval_mpfr.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #ifndef SYMENGINE_EVAL_MPFR_H
+   #define SYMENGINE_EVAL_MPFR_H
+   
+   #include <symengine/symengine_config.h>
+   
+   #ifdef HAVE_SYMENGINE_MPFR
+   #include <symengine/basic.h>
+   #include <mpfr.h>
+   
+   namespace SymEngine
+   {
+   
+   void eval_mpfr(mpfr_ptr result, const Basic &b, mpfr_rnd_t rnd);
+   
+   } // SymEngine
+   
+   #endif // HAVE_SYMENGINE_MPFR
+   
+   #endif

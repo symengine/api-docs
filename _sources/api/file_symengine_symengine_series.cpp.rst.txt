@@ -1,0 +1,40 @@
+
+.. _file_symengine_symengine_series.cpp:
+
+File series.cpp
+===============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/series.cpp``)
+-----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_series.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/series_visitor.h`` (:ref:`file_symengine_symengine_series_visitor.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

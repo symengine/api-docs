@@ -3,7 +3,7 @@
 Template Function SymEngine::unified_compare(const std::pair<T, U>&, const std::pair<T, U>&)
 ============================================================================================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_dict.h`
+.. did not find file this was defined in
 
 
 Function Documentation

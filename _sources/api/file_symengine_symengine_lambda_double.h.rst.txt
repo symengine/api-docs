@@ -1,0 +1,65 @@
+
+.. _file_symengine_symengine_lambda_double.h:
+
+File lambda_double.h
+====================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/lambda_double.h``)
+----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_lambda_double.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cmath``
+
+- ``limits``
+
+- ``symengine/eval_double.h`` (:ref:`file_symengine_symengine_eval_double.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+- ``symengine/visitor.h`` (:ref:`file_symengine_symengine_visitor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_cwrapper.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_lambda_complex_double_visitor`
+
+- :ref:`exhale_class_class_sym_engine_1_1_lambda_double_visitor`
+
+- :ref:`exhale_class_class_sym_engine_1_1_lambda_real_double_visitor`
+

@@ -1,0 +1,37 @@
+
+.. _program_listing_file_symengine_symengine_eval_double.h:
+
+Program Listing for File eval_double.h
+======================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_symengine_symengine_eval_double.h>` (``symengine/symengine/eval_double.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #ifndef SYMENGINE_EVAL_DOUBLE_H
+   #define SYMENGINE_EVAL_DOUBLE_H
+   
+   #include <symengine/basic.h>
+   
+   namespace SymEngine
+   {
+   
+   /*
+    * We have two implementations, the visitor pattern (eval_double) and
+    * single dispatch (eval_double_single_dispatch).
+    */
+   
+   double eval_double(const Basic &b);
+   
+   double eval_double_single_dispatch(const Basic &b);
+   
+   double eval_double_visitor_pattern(const Basic &b);
+   
+   std::complex<double> eval_complex_double(const Basic &b);
+   
+   } // SymEngine
+   
+   #endif

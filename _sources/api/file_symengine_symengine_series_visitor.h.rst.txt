@@ -1,0 +1,61 @@
+
+.. _file_symengine_symengine_series_visitor.h:
+
+File series_visitor.h
+=====================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/series_visitor.h``)
+-----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_series_visitor.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/visitor.h`` (:ref:`file_symengine_symengine_visitor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_series.cpp`
+
+- :ref:`file_symengine_symengine_series_flint.cpp`
+
+- :ref:`file_symengine_symengine_series_generic.cpp`
+
+- :ref:`file_symengine_symengine_series_piranha.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_needs_symbolic_expansion_visitor`
+
+- :ref:`exhale_class_class_sym_engine_1_1_series_visitor`
+

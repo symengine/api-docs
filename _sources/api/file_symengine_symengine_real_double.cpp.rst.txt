@@ -1,0 +1,53 @@
+
+.. _file_symengine_symengine_real_double.cpp:
+
+File real_double.cpp
+====================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/real_double.cpp``)
+----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_real_double.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/complex_double.h`` (:ref:`file_symengine_symengine_complex_double.h`)
+
+- ``symengine/eval_double.h`` (:ref:`file_symengine_symengine_eval_double.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_evaluate_complex_double`
+
+- :ref:`exhale_class_class_sym_engine_1_1_evaluate_double`
+
+- :ref:`exhale_class_class_sym_engine_1_1_evaluate_real_double`
+

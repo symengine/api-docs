@@ -1,0 +1,48 @@
+
+.. _file_symengine_symengine_parser.h:
+
+File parser.h
+=============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/parser.h``)
+---------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_parser.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_cwrapper.cpp`
+
+- :ref:`file_symengine_symengine_expression.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

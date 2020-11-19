@@ -3,7 +3,7 @@
 Template Function SymEngine::hash_combine_impl(hash_t&, const T&, typename std::enable_if<std::is_integral<T>::value>::type \*)
 ===============================================================================================================================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_basic-inl.h`
+.. did not find file this was defined in
 
 
 Function Documentation

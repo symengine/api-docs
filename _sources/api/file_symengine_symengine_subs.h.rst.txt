@@ -1,0 +1,65 @@
+
+.. _file_symengine_symengine_subs.h:
+
+File subs.h
+===========
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/subs.h``)
+-------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_subs.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/logic.h`` (:ref:`file_symengine_symengine_logic.h`)
+
+- ``symengine/visitor.h`` (:ref:`file_symengine_symengine_visitor.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_basic.cpp`
+
+- :ref:`file_symengine_symengine_dense_matrix.cpp`
+
+- :ref:`file_symengine_symengine_derivative.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_m_subs_visitor`
+
+- :ref:`exhale_class_class_sym_engine_1_1_s_subs_visitor`
+
+- :ref:`exhale_class_class_sym_engine_1_1_subs_visitor`
+
+- :ref:`exhale_class_class_sym_engine_1_1_x_replace_visitor`
+

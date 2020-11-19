@@ -3,7 +3,7 @@
 Template Function SymEngine::atoms
 ==================================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_visitor.h`
+- Defined in :ref:`file_symengine_symengine_visitor.h`
 
 
 Function Documentation

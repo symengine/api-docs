@@ -1,0 +1,89 @@
+
+.. _file_symengine_symengine_sets.h:
+
+File sets.h
+===========
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/sets.h``)
+-------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_sets.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``iterator``
+
+- ``symengine/complex.h`` (:ref:`file_symengine_symengine_complex.h`)
+
+- ``symengine/functions.h`` (:ref:`file_symengine_symengine_functions.h`)
+
+- ``symengine/logic.h`` (:ref:`file_symengine_symengine_logic.h`)
+
+- ``symengine/symengine_casts.h`` (:ref:`file_symengine_symengine_symengine_casts.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_logic.h`
+
+- :ref:`file_symengine_symengine_matrix.h`
+
+- :ref:`file_symengine_symengine_solve.h`
+
+- :ref:`file_symengine_symengine_visitor.cpp`
+
+- :ref:`file_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_complement`
+
+- :ref:`exhale_class_class_sym_engine_1_1_condition_set`
+
+- :ref:`exhale_class_class_sym_engine_1_1_empty_set`
+
+- :ref:`exhale_class_class_sym_engine_1_1_finite_set`
+
+- :ref:`exhale_class_class_sym_engine_1_1_image_set`
+
+- :ref:`exhale_class_class_sym_engine_1_1_integers`
+
+- :ref:`exhale_class_class_sym_engine_1_1_interval`
+
+- :ref:`exhale_class_class_sym_engine_1_1_reals`
+
+- :ref:`exhale_class_class_sym_engine_1_1_set`
+
+- :ref:`exhale_class_class_sym_engine_1_1_union`
+
+- :ref:`exhale_class_class_sym_engine_1_1_universal_set`
+

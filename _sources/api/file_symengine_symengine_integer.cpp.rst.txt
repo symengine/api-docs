@@ -1,0 +1,46 @@
+
+.. _file_symengine_symengine_integer.cpp:
+
+File integer.cpp
+================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/integer.cpp``)
+------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_integer.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/pow.h`` (:ref:`file_symengine_symengine_pow.h`)
+
+- ``symengine/rational.h`` (:ref:`file_symengine_symengine_rational.h`)
+
+- ``symengine/symengine_casts.h`` (:ref:`file_symengine_symengine_symengine_casts.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

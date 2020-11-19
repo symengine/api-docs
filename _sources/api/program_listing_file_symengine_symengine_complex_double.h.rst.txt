@@ -1,0 +1,432 @@
+
+.. _program_listing_file_symengine_symengine_complex_double.h:
+
+Program Listing for File complex_double.h
+=========================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_symengine_symengine_complex_double.h>` (``symengine/symengine/complex_double.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #ifndef SYMENGINE_COMPLEX_DOUBLE_H
+   #define SYMENGINE_COMPLEX_DOUBLE_H
+   
+   #include <symengine/real_double.h>
+   #include <symengine/symengine_exception.h>
+   
+   namespace SymEngine
+   {
+   class ComplexDouble : public ComplexBase
+   {
+   public:
+       std::complex<double> i;
+   
+   public:
+       IMPLEMENT_TYPEID(SYMENGINE_COMPLEX_DOUBLE)
+       explicit ComplexDouble(std::complex<double> i);
+       virtual hash_t __hash__() const;
+       virtual bool __eq__(const Basic &o) const;
+       virtual int compare(const Basic &o) const;
+       virtual RCP<const Number> real_part() const;
+       virtual RCP<const Number> imaginary_part() const;
+       virtual RCP<const Basic> conjugate() const;
+       // False is returned because complex cannot be compared with zero
+       inline virtual bool is_positive() const
+       {
+           return false;
+       }
+       // False is returned because complex cannot be compared with zero
+       inline virtual bool is_negative() const
+       {
+           return false;
+       }
+       inline virtual bool is_complex() const
+       {
+           return true;
+       }
+       inline std::complex<double> as_complex_double() const
+       {
+           return i;
+       }
+       // False is returned because std::complex<double> is not exact
+       inline virtual bool is_exact() const
+       {
+           return false;
+       }
+       virtual Evaluate &get_eval() const;
+   
+       virtual bool is_zero() const
+       {
+           return i == 0.0;
+       }
+       // A std::complex<double> is not exactly equal to `1`
+       virtual bool is_one() const
+       {
+           return false;
+       }
+       // A std::complex<double> is not exactly equal to `-1`
+       virtual bool is_minus_one() const
+       {
+           return false;
+       }
+   
+       RCP<const Number> addcomp(const Integer &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i + mp_get_d(other.as_integer_class()));
+       }
+   
+       RCP<const Number> addcomp(const Rational &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i + mp_get_d(other.as_rational_class()));
+       }
+   
+       RCP<const Number> addcomp(const Complex &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i + std::complex<double>(mp_get_d(other.real_),
+                                        mp_get_d(other.imaginary_)));
+       }
+   
+       RCP<const Number> addcomp(const RealDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(i + other.i);
+       }
+   
+       RCP<const Number> addcomp(const ComplexDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(i + other.i);
+       }
+   
+       virtual RCP<const Number> add(const Number &other) const
+       {
+           if (is_a<Rational>(other)) {
+               return addcomp(down_cast<const Rational &>(other));
+           } else if (is_a<Integer>(other)) {
+               return addcomp(down_cast<const Integer &>(other));
+           } else if (is_a<Complex>(other)) {
+               return addcomp(down_cast<const Complex &>(other));
+           } else if (is_a<RealDouble>(other)) {
+               return addcomp(down_cast<const RealDouble &>(other));
+           } else if (is_a<ComplexDouble>(other)) {
+               return addcomp(down_cast<const ComplexDouble &>(other));
+           } else {
+               return other.add(*this);
+           }
+       }
+   
+       RCP<const Number> subcomp(const Integer &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i - mp_get_d(other.as_integer_class()));
+       }
+   
+       RCP<const Number> subcomp(const Rational &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i - mp_get_d(other.as_rational_class()));
+       }
+   
+       RCP<const Number> subcomp(const Complex &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i - std::complex<double>(mp_get_d(other.real_),
+                                        mp_get_d(other.imaginary_)));
+       }
+   
+       RCP<const Number> subcomp(const RealDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(i - other.i);
+       }
+   
+       RCP<const Number> subcomp(const ComplexDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(i - other.i);
+       }
+   
+       virtual RCP<const Number> sub(const Number &other) const
+       {
+           if (is_a<Rational>(other)) {
+               return subcomp(down_cast<const Rational &>(other));
+           } else if (is_a<Integer>(other)) {
+               return subcomp(down_cast<const Integer &>(other));
+           } else if (is_a<Complex>(other)) {
+               return subcomp(down_cast<const Complex &>(other));
+           } else if (is_a<RealDouble>(other)) {
+               return subcomp(down_cast<const RealDouble &>(other));
+           } else if (is_a<ComplexDouble>(other)) {
+               return subcomp(down_cast<const ComplexDouble &>(other));
+           } else {
+               return other.rsub(*this);
+           }
+       }
+   
+       RCP<const Number> rsubcomp(const Integer &other) const
+       {
+           return make_rcp<const ComplexDouble>(mp_get_d(other.as_integer_class())
+                                                - i);
+       }
+   
+       RCP<const Number> rsubcomp(const Rational &other) const
+       {
+           return make_rcp<const ComplexDouble>(mp_get_d(other.as_rational_class())
+                                                - i);
+       }
+   
+       RCP<const Number> rsubcomp(const Complex &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               -i + std::complex<double>(mp_get_d(other.real_),
+                                         mp_get_d(other.imaginary_)));
+       }
+   
+       RCP<const Number> rsubcomp(const RealDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(other.i - i);
+       }
+   
+       virtual RCP<const Number> rsub(const Number &other) const
+       {
+           if (is_a<Rational>(other)) {
+               return rsubcomp(down_cast<const Rational &>(other));
+           } else if (is_a<Integer>(other)) {
+               return rsubcomp(down_cast<const Integer &>(other));
+           } else if (is_a<Complex>(other)) {
+               return rsubcomp(down_cast<const Complex &>(other));
+           } else if (is_a<RealDouble>(other)) {
+               return rsubcomp(down_cast<const RealDouble &>(other));
+           } else {
+               throw NotImplementedError("Not Implemented");
+           }
+       }
+   
+       RCP<const Number> mulcomp(const Integer &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i * mp_get_d(other.as_integer_class()));
+       }
+   
+       RCP<const Number> mulcomp(const Rational &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i * mp_get_d(other.as_rational_class()));
+       }
+   
+       RCP<const Number> mulcomp(const Complex &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i * std::complex<double>(mp_get_d(other.real_),
+                                        mp_get_d(other.imaginary_)));
+       }
+   
+       RCP<const Number> mulcomp(const RealDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(i * other.i);
+       }
+   
+       RCP<const Number> mulcomp(const ComplexDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(i * other.i);
+       }
+   
+       virtual RCP<const Number> mul(const Number &other) const
+       {
+           if (is_a<Rational>(other)) {
+               return mulcomp(down_cast<const Rational &>(other));
+           } else if (is_a<Integer>(other)) {
+               return mulcomp(down_cast<const Integer &>(other));
+           } else if (is_a<Complex>(other)) {
+               return mulcomp(down_cast<const Complex &>(other));
+           } else if (is_a<RealDouble>(other)) {
+               return mulcomp(down_cast<const RealDouble &>(other));
+           } else if (is_a<ComplexDouble>(other)) {
+               return mulcomp(down_cast<const ComplexDouble &>(other));
+           } else {
+               return other.mul(*this);
+           }
+       }
+   
+       RCP<const Number> divcomp(const Integer &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i / mp_get_d(other.as_integer_class()));
+       }
+   
+       RCP<const Number> divcomp(const Rational &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i / mp_get_d(other.as_rational_class()));
+       }
+   
+       RCP<const Number> divcomp(const Complex &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               i / std::complex<double>(mp_get_d(other.real_),
+                                        mp_get_d(other.imaginary_)));
+       }
+   
+       RCP<const Number> divcomp(const RealDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(i / other.i);
+       }
+   
+       RCP<const Number> divcomp(const ComplexDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(i / other.i);
+       }
+   
+       virtual RCP<const Number> div(const Number &other) const
+       {
+           if (is_a<Rational>(other)) {
+               return divcomp(down_cast<const Rational &>(other));
+           } else if (is_a<Integer>(other)) {
+               return divcomp(down_cast<const Integer &>(other));
+           } else if (is_a<Complex>(other)) {
+               return divcomp(down_cast<const Complex &>(other));
+           } else if (is_a<RealDouble>(other)) {
+               return divcomp(down_cast<const RealDouble &>(other));
+           } else if (is_a<ComplexDouble>(other)) {
+               return divcomp(down_cast<const ComplexDouble &>(other));
+           } else {
+               return other.rdiv(*this);
+           }
+       }
+   
+       RCP<const Number> rdivcomp(const Integer &other) const
+       {
+           return make_rcp<const ComplexDouble>(mp_get_d(other.as_integer_class())
+                                                / i);
+       }
+   
+       RCP<const Number> rdivcomp(const Rational &other) const
+       {
+           return make_rcp<const ComplexDouble>(mp_get_d(other.as_rational_class())
+                                                / i);
+       }
+   
+       RCP<const Number> rdivcomp(const Complex &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               std::complex<double>(mp_get_d(other.real_),
+                                    mp_get_d(other.imaginary_))
+               / i);
+       }
+   
+       RCP<const Number> rdivcomp(const RealDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(other.i / i);
+       }
+   
+       virtual RCP<const Number> rdiv(const Number &other) const
+       {
+           if (is_a<Rational>(other)) {
+               return rdivcomp(down_cast<const Rational &>(other));
+           } else if (is_a<Integer>(other)) {
+               return rdivcomp(down_cast<const Integer &>(other));
+           } else if (is_a<Complex>(other)) {
+               return rdivcomp(down_cast<const Complex &>(other));
+           } else if (is_a<RealDouble>(other)) {
+               return rdivcomp(down_cast<const RealDouble &>(other));
+           } else {
+               throw NotImplementedError("Not Implemented");
+           }
+       }
+   
+       RCP<const Number> powcomp(const Integer &other) const
+       {
+           return make_rcp<const ComplexDouble>((std::complex<double>)std::pow(
+               i, mp_get_d(other.as_integer_class())));
+       }
+   
+       RCP<const Number> powcomp(const Rational &other) const
+       {
+           return make_rcp<const ComplexDouble>((std::complex<double>)std::pow(
+               i, mp_get_d(other.as_rational_class())));
+       }
+   
+       RCP<const Number> powcomp(const Complex &other) const
+       {
+           return make_rcp<const ComplexDouble>((std::complex<double>)std::pow(
+               i, std::complex<double>(mp_get_d(other.real_),
+                                       mp_get_d(other.imaginary_))));
+       }
+       RCP<const Number> powcomp(const RealDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               (std::complex<double>)std::pow(i, other.i));
+       }
+   
+       RCP<const Number> powcomp(const ComplexDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               (std::complex<double>)std::pow(i, other.i));
+       }
+   
+       virtual RCP<const Number> pow(const Number &other) const
+       {
+           if (is_a<Rational>(other)) {
+               return powcomp(down_cast<const Rational &>(other));
+           } else if (is_a<Integer>(other)) {
+               return powcomp(down_cast<const Integer &>(other));
+           } else if (is_a<Complex>(other)) {
+               return powcomp(down_cast<const Complex &>(other));
+           } else if (is_a<RealDouble>(other)) {
+               return powcomp(down_cast<const RealDouble &>(other));
+           } else if (is_a<ComplexDouble>(other)) {
+               return powcomp(down_cast<const ComplexDouble &>(other));
+           } else {
+               return other.rpow(*this);
+           }
+       }
+   
+       RCP<const Number> rpowcomp(const Integer &other) const
+       {
+           return make_rcp<const ComplexDouble>((std::complex<double>)std::pow(
+               mp_get_d(other.as_integer_class()), i));
+       }
+   
+       RCP<const Number> rpowcomp(const Rational &other) const
+       {
+           return make_rcp<const ComplexDouble>((std::complex<double>)std::pow(
+               mp_get_d(other.as_rational_class()), i));
+       }
+   
+       RCP<const Number> rpowcomp(const Complex &other) const
+       {
+           return make_rcp<const ComplexDouble>((std::complex<double>)std::pow(
+               std::complex<double>(mp_get_d(other.real_),
+                                    mp_get_d(other.imaginary_)),
+               i));
+       }
+   
+       RCP<const Number> rpowcomp(const RealDouble &other) const
+       {
+           return make_rcp<const ComplexDouble>(
+               (std::complex<double>)std::pow(other.i, i));
+       }
+   
+       virtual RCP<const Number> rpow(const Number &other) const
+       {
+           if (is_a<Rational>(other)) {
+               return rpowcomp(down_cast<const Rational &>(other));
+           } else if (is_a<Integer>(other)) {
+               return rpowcomp(down_cast<const Integer &>(other));
+           } else if (is_a<Complex>(other)) {
+               return rpowcomp(down_cast<const Complex &>(other));
+           } else if (is_a<RealDouble>(other)) {
+               return rpowcomp(down_cast<const RealDouble &>(other));
+           } else {
+               throw NotImplementedError("Not Implemented");
+           }
+       }
+   };
+   
+   RCP<const ComplexDouble> complex_double(std::complex<double> x);
+   
+   } // SymEngine
+   
+   #endif

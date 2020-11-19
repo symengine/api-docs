@@ -1,0 +1,78 @@
+
+.. _file_symengine_symengine_matrix.h:
+
+File matrix.h
+=============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/matrix.h``)
+---------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_matrix.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+- ``symengine/sets.h`` (:ref:`file_symengine_symengine_sets.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_cwrapper.cpp`
+
+- :ref:`file_symengine_symengine_dense_matrix.cpp`
+
+- :ref:`file_symengine_symengine_diophantine.h`
+
+- :ref:`file_symengine_symengine_matrix.cpp`
+
+- :ref:`file_symengine_symengine_solve.h`
+
+- :ref:`file_symengine_symengine_sparse_matrix.cpp`
+
+- :ref:`file_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_c_s_r_matrix`
+
+- :ref:`exhale_class_class_sym_engine_1_1_dense_matrix`
+
+- :ref:`exhale_class_class_sym_engine_1_1_matrix_base`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_matrix_8h_1ae979849324e8a4143ccbefc7ceaa28a4`
+

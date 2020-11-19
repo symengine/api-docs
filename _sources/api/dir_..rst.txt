@@ -1,0 +1,16 @@
+.. _dir_.:
+
+
+Directory .
+===========
+
+
+*Directory path:* ``.``
+
+Subdirectories
+--------------
+
+- :ref:`dir__home_travis_build_symengine_api-docs_projects_symengine`
+
+
+

@@ -1,0 +1,89 @@
+
+.. _file_symengine_symengine_logic.h:
+
+File logic.h
+============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/logic.h``)
+--------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_logic.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+- ``symengine/sets.h`` (:ref:`file_symengine_symengine_sets.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_logic.cpp`
+
+- :ref:`file_symengine_symengine_sets.cpp`
+
+- :ref:`file_symengine_symengine_sets.h`
+
+- :ref:`file_symengine_symengine_solve.cpp`
+
+- :ref:`file_symengine_symengine_subs.h`
+
+- :ref:`file_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_and`
+
+- :ref:`exhale_class_class_sym_engine_1_1_boolean`
+
+- :ref:`exhale_class_class_sym_engine_1_1_boolean_atom`
+
+- :ref:`exhale_class_class_sym_engine_1_1_contains`
+
+- :ref:`exhale_class_class_sym_engine_1_1_equality`
+
+- :ref:`exhale_class_class_sym_engine_1_1_less_than`
+
+- :ref:`exhale_class_class_sym_engine_1_1_not`
+
+- :ref:`exhale_class_class_sym_engine_1_1_or`
+
+- :ref:`exhale_class_class_sym_engine_1_1_piecewise`
+
+- :ref:`exhale_class_class_sym_engine_1_1_relational`
+
+- :ref:`exhale_class_class_sym_engine_1_1_strict_less_than`
+
+- :ref:`exhale_class_class_sym_engine_1_1_unequality`
+
+- :ref:`exhale_class_class_sym_engine_1_1_xor`
+

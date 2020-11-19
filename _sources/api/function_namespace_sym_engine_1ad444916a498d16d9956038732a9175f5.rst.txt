@@ -3,7 +3,7 @@
 Template Function SymEngine::diff_mpoly
 =======================================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_derivative.cpp`
+.. did not find file this was defined in
 
 
 Function Documentation

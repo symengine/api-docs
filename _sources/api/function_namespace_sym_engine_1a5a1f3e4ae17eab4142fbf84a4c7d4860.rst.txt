@@ -3,7 +3,7 @@
 Function SymEngine::make_set_union
 ==================================
 
-- Defined in :ref:`file__home_travis_build_symengine_api-docs_projects_symengine_symengine_sets.cpp`
+- Defined in :ref:`file_symengine_symengine_sets.cpp`
 
 
 Function Documentation

@@ -1,0 +1,46 @@
+
+.. _file_symengine_symengine_series_generic.cpp:
+
+File series_generic.cpp
+=======================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/series_generic.cpp``)
+-------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_series_generic.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``exception`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+- ``iterator``
+
+- ``symengine/series_visitor.h`` (:ref:`file_symengine_symengine_series_visitor.h`)
+
+- ``symengine/symengine_exception.h`` (:ref:`file_symengine_symengine_symengine_exception.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

@@ -1,0 +1,75 @@
+
+.. _file_symengine_symengine_mul.h:
+
+File mul.h
+==========
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/mul.h``)
+------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_mul.h.rst
+
+
+
+Detailed Description
+--------------------
+
+Header containing definition of Mul and related functions mul, div, neg 
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_cse.cpp`
+
+- :ref:`file_symengine_symengine_diophantine.cpp`
+
+- :ref:`file_symengine_symengine_fields.cpp`
+
+- :ref:`file_symengine_symengine_finitediff.cpp`
+
+- :ref:`file_symengine_symengine_infinity.h`
+
+- :ref:`file_symengine_symengine_ntheory.cpp`
+
+- :ref:`file_symengine_symengine_pow.h`
+
+- :ref:`file_symengine_symengine_solve.cpp`
+
+- :ref:`file_symengine_symengine_sparse_matrix.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_mul`
+

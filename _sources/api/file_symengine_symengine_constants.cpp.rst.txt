@@ -1,0 +1,48 @@
+
+.. _file_symengine_symengine_constants.cpp:
+
+File constants.cpp
+==================
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/constants.cpp``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_constants.cpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/add.h`` (:ref:`file_symengine_symengine_add.h`)
+
+- ``symengine/complex.h`` (:ref:`file_symengine_symengine_complex.h`)
+
+- ``symengine/infinity.h`` (:ref:`file_symengine_symengine_infinity.h`)
+
+- ``symengine/nan.h`` (:ref:`file_symengine_symengine_nan.h`)
+
+- ``symengine/pow.h`` (:ref:`file_symengine_symengine_pow.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+

@@ -1,0 +1,65 @@
+
+.. _file_symengine_symengine_infinity.h:
+
+File infinity.h
+===============
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``symengine/symengine/infinity.h``)
+-----------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_symengine_symengine_infinity.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``symengine/basic.h`` (:ref:`file_symengine_symengine_basic.h`)
+
+- ``symengine/integer.h`` (:ref:`file_symengine_symengine_integer.h`)
+
+- ``symengine/mul.h`` (:ref:`file_symengine_symengine_mul.h`)
+
+- ``symengine/number.h`` (:ref:`file_symengine_symengine_number.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_symengine_symengine_constants.cpp`
+
+- :ref:`file_symengine_symengine_constants.h`
+
+- :ref:`file_symengine_symengine_infinity.cpp`
+
+- :ref:`file_symengine_symengine_visitor.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_SymEngine`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_class_sym_engine_1_1_infty`
+

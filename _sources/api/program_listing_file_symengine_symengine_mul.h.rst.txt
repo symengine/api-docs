@@ -1,0 +1,75 @@
+
+.. _program_listing_file_symengine_symengine_mul.h:
+
+Program Listing for File mul.h
+==============================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_symengine_symengine_mul.h>` (``symengine/symengine/mul.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #ifndef SYMENGINE_MUL_H
+   #define SYMENGINE_MUL_H
+   
+   #include <symengine/basic.h>
+   
+   namespace SymEngine
+   {
+   
+   class Mul : public Basic
+   {
+   private:
+       RCP<const Number> coef_; 
+       map_basic_basic
+           dict_; 
+   
+   public:
+       IMPLEMENT_TYPEID(SYMENGINE_MUL)
+       Mul(const RCP<const Number> &coef, map_basic_basic &&dict);
+       virtual hash_t __hash__() const;
+       virtual bool __eq__(const Basic &o) const;
+       virtual int compare(const Basic &o) const;
+   
+       // Performs canonicalization first:
+       static RCP<const Basic> from_dict(const RCP<const Number> &coef,
+                                         map_basic_basic &&d);
+       static void dict_add_term(map_basic_basic &d, const RCP<const Basic> &exp,
+                                 const RCP<const Basic> &t);
+       static void dict_add_term_new(const Ptr<RCP<const Number>> &coef,
+                                     map_basic_basic &d,
+                                     const RCP<const Basic> &exp,
+                                     const RCP<const Basic> &t);
+       static void as_base_exp(const RCP<const Basic> &self,
+                               const Ptr<RCP<const Basic>> &exp,
+                               const Ptr<RCP<const Basic>> &base);
+   
+       void as_two_terms(const Ptr<RCP<const Basic>> &a,
+                         const Ptr<RCP<const Basic>> &b) const;
+       void power_num(const Ptr<RCP<const Number>> &coef, map_basic_basic &d,
+                      const RCP<const Number> &exp) const;
+   
+       bool is_canonical(const RCP<const Number> &coef,
+                         const map_basic_basic &dict) const;
+   
+       virtual vec_basic get_args() const;
+   
+       inline const RCP<const Number> &get_coef() const
+       {
+           return coef_;
+       }
+       inline const map_basic_basic &get_dict() const
+       {
+           return dict_;
+       }
+   };
+   RCP<const Basic> mul(const RCP<const Basic> &a, const RCP<const Basic> &b);
+   RCP<const Basic> mul(const vec_basic &a);
+   RCP<const Basic> div(const RCP<const Basic> &a, const RCP<const Basic> &b);
+   RCP<const Basic> neg(const RCP<const Basic> &a);
+   
+   } // SymEngine
+   
+   #endif
